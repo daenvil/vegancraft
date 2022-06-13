@@ -1,0 +1,13 @@
+{
+    "values": [
+        "dnv.core:check_version",
+        {
+            "id": "dnv.vegancraft:food/load",
+            "required": false
+        },
+        {
+            "id": "dnv.vegancraft:installed",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Plant-based Foods",
+        "description": "Daenvil's Plant-based Foods datapack (v1, for MC1.16.2+)",
+        "icon": {
+            "item": "minecraft:pumpkin_pie"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:dnv.vegancraft",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "rewards": {
+        "function": "dnv.vegancraft:food/advancements/food"
+    },
+	"criteria": {
+		"consume_item": {
+			"trigger": "minecraft:consume_item"
+		}
+	}
+}

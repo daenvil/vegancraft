@@ -1,0 +1,17 @@
+{
+	"parent": "dnv.vegancraft:food/seitan",
+	"display": {
+		"icon": {
+			"item": "minecraft:cooked_beef",
+			"nbt": "{CustomModelData:9261003}"
+		},
+		"title": "Animal Lover",
+		"frame": "goal",
+		"description": "Breed two animals using vegan meat."
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

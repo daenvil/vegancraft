@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dnv.vegan_food:milk"
+    ]
+  },
+  "criteria": {
+    "has_the_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "tag": "dnv.vegan_food:milk_producing_plants"
+        }]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dnv.vegan_food:milk"
+      }
+    },
+    "has_the_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "items": [
+            "minecraft:milk_bucket"
+           ]
+        }]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_ingredient",
+      "has_the_recipe",
+      "has_the_item"
+    ]
+  ]
+}

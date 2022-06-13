@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "#  ",
+        "WB "
+    ],
+    "key": {
+        "#": {
+            "tag": "dnv.vegan_food:egg_baking_replacements"
+        },
+        "W": {
+            "item": "minecraft:sugar"
+        },
+        "B": {
+            "item": "minecraft:pumpkin"
+        }
+    },
+    "result": {
+        "item": "minecraft:pumpkin_pie",
+        "count": 1
+    },
+    "group": "dnv.vegancraft.pie"
+}

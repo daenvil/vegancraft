@@ -1,0 +1,15 @@
+{
+    "rewards": {
+        "function": "dnv.core:triggers/bred_wolves"
+    },
+    "criteria": {
+        "bred_animals": {
+			"trigger": "minecraft:bred_animals",
+            "conditions": {
+                "parent": {
+                    "type": "minecraft:wolf"
+                }
+            }
+		}
+    }
+}

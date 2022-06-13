@@ -1,0 +1,16 @@
+{
+	"parent": "dnv.vegancraft:food",
+	"display": {
+		"icon": {
+			"item": "minecraft:egg"
+		},
+		"title": "Vegan Baker",
+		"frame": "task",
+		"description": [{"text":"Use an egg alternative for baking"}]
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

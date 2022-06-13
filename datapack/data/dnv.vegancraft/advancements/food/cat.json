@@ -1,0 +1,16 @@
+{
+	"parent": "dnv.vegancraft:food/fish",
+	"display": {
+		"icon": {
+			"item": "minecraft:cod"
+		},
+		"title": "Some serious gourmet fish",
+		"frame": "task",
+		"description": "Feed a vegan not-fish fillet to a cat"
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

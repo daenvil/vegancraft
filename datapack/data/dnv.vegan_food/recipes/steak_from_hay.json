@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " W ",
+        " M "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:hay_block"
+        },
+        "W": {
+            "item": "minecraft:water_bucket"
+        },
+        "M": {
+            "tag": "dnv.vegan_food:seitan_marinades"
+        }
+    },
+    "result": {
+        "item": "minecraft:cooked_beef",
+        "count": 3
+    },
+    "group": "dnv.vegancraft.steak"
+}

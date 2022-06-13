@@ -1,0 +1,16 @@
+{
+	"parent": "dnv.vegancraft:food",
+	"display": {
+		"icon": {
+			"item": "minecraft:lead"
+		},
+		"title": "Friends, not food",
+		"frame": "goal",
+		"description": "Tame a cat or a wolf using vegan food"
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "WG "
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:flowers"
+        },
+        "W": {
+            "item": "minecraft:water_bucket"
+        },
+        "G": {
+            "item": "minecraft:glass_bottle"
+        }
+    },
+    "result": {
+        "item": "minecraft:honey_bottle",
+        "count": 1
+    },
+    "group": "dnv.vegancraft.honey"
+}

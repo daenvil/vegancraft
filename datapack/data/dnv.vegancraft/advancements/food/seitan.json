@@ -1,0 +1,17 @@
+{
+	"parent": "dnv.vegancraft:food",
+	"display": {
+		"icon": {
+			"item": "minecraft:cooked_beef",
+			"nbt": "{CustomModelData:9261003}"
+		},
+		"title": "Hail Seitan",
+		"frame": "task",
+		"description": [{"text":"Cook a seitan steak"}]
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

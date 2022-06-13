@@ -1,0 +1,87 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dnv.vegan_food:cod"
+    ]
+  },
+  "criteria": {
+    "has_the_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "items": [
+            "minecraft:cooked_beef"
+           ]
+        }]
+      }
+    },
+    "has_the_ingredient2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "items": [
+            "minecraft:kelp"
+           ]
+        }]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dnv.vegan_food:cod"
+      }
+    },
+    "has_the_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "items": [
+            "minecraft:cod"
+           ]
+        }]
+      }
+    },
+    "has_the_item2": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [{
+            "items": [
+              "minecraft:cooked_cod"
+             ]
+          }]
+        }
+    },
+    "has_the_item3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "items": [
+            "minecraft:salmon"
+           ]
+        }]
+      }
+    },
+    "has_the_item4": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [{
+            "items": [
+              "minecraft:cooked_salmon"
+             ]
+          }]
+        }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_ingredient",
+      "has_the_ingredient2",
+      "has_the_recipe",
+      "has_the_item",
+      "has_the_item2",
+      "has_the_item3",
+      "has_the_item4"
+    ]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+	"rewards": {
+		"function": "dnv.vegancraft:food/advancements/milk"
+	},
+	"criteria": {
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+			  "recipe": "dnv.vegan_food:knowledge_book/milk"
+			}
+		}
+	}
+}

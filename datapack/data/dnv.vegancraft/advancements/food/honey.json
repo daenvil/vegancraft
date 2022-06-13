@@ -1,0 +1,17 @@
+{
+	"parent": "dnv.vegancraft:food",
+	"display": {
+		"icon": {
+			"item": "minecraft:honey_bottle",
+			"nbt": "{CustomModelData:9261002}"
+		},
+		"title": "Save the Bees!",
+		"frame": "task",
+		"description": [{"text":"Make vegan honey"}]
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

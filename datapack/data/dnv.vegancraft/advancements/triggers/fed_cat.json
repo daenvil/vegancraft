@@ -1,0 +1,18 @@
+{
+    "rewards": {
+        "function": "dnv.vegancraft:food/fed_cat"
+    },
+    "criteria": {
+        "fed_vegan_fish_to_cat": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": ["minecraft:cod","minecraft:salmon"]
+				},
+				"entity": {
+					"type": "minecraft:cat"
+				}
+			}
+		}
+    }
+}

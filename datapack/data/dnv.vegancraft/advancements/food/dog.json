@@ -1,0 +1,16 @@
+{
+	"parent": "dnv.vegancraft:food/seitan",
+	"display": {
+		"icon": {
+			"item": "minecraft:bone"
+		},
+		"title": "Dog Chef",
+		"frame": "task",
+		"description": "Feed a seitan steak to a wolf"
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

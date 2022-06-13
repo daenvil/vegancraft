@@ -1,0 +1,10 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/milk_bucket"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":9261001}, "model": "dnv.vegan_food:item/plant_milk_bucket"}
+	]
+}

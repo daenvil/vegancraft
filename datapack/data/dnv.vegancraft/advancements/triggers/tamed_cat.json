@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"tamed_cat": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "dnv.vegancraft:food/pets/tamed_cat"
+	}
+}

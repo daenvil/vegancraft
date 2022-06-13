@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:hay_block"
+        },
+        {
+            "tag": "dnv.vegan_food:seitan_marinades"
+        },
+        {
+            "item": "minecraft:water_bucket"
+        }
+    ],
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 3
+    }
+}

@@ -1,0 +1,17 @@
+{
+	"parent": "dnv.vegancraft:food",
+	"display": {
+		"icon": {
+			"item": "minecraft:milk_bucket",
+			"nbt": "{CustomModelData:9261001}"
+		},
+		"title": "Like milk, but made for humans",
+		"frame": "task",
+		"description": [{"text":"Make plant-based milk"}]
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

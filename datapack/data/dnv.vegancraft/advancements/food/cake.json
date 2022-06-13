@@ -1,0 +1,16 @@
+{
+	"parent": "dnv.vegancraft:food/baking",
+	"display": {
+		"icon": {
+			"item": "minecraft:cake"
+		},
+		"title": "The Icing on the Cake",
+		"frame": "goal",
+		"description": "Bake a fully vegan cake"
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "###",
+        " G "
+    ],
+    "key": {
+        "#": {
+            "tag": "dnv.vegan_food:syrup_producing_fruits"
+        },
+        "G": {
+            "item": "minecraft:glass_bottle"
+        }
+    },
+    "result": {
+        "item": "minecraft:honey_bottle",
+        "count": 1
+    },
+    "group": "dnv.vegancraft.honey"
+}

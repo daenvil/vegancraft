@@ -1,0 +1,36 @@
+{
+    "values": [
+        "minecraft:wheat_seeds",
+        "minecraft:pumpkin_seeds",
+        "minecraft:potato",
+        "minecraft:sunflower",
+        {
+            "id": "#forge:crops/corn",
+            "required": false
+        },
+        {
+            "id": "#forge:crops/rice",
+            "required": false
+        },
+        {
+            "id": "#forge:crops/soy",
+            "required": false
+        },
+        {
+            "id": "#forge:crops/oat",
+            "required": false
+        },
+        {
+            "id": "#forge:crops/barley",
+            "required": false
+        },
+        {
+            "id": "#forge:crops/peanut",
+            "required": false
+        },
+        {
+            "id": "#forge:seeds/flax",
+            "required": false
+        }
+    ]
+}

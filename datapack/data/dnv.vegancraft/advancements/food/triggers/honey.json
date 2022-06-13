@@ -1,0 +1,25 @@
+{
+	"rewards": {
+		"function": "dnv.vegancraft:food/advancements/honey"
+	},
+	"criteria": {
+		"has_the_recipe": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dnv.vegan_food:knowledge_book/honey_flower"
+		  }
+		},
+		"has_the_recipe2": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dnv.vegan_food:knowledge_book/honey_fruit"
+		  }
+		}
+	},
+	"requirements": [
+	  [
+		"has_the_recipe",
+		"has_the_recipe2"
+	  ]
+	]
+}

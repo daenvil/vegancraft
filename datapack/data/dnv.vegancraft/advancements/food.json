@@ -1,0 +1,18 @@
+{
+	"parent": "dnv.vegancraft:root",
+	"display": {
+		"icon": {
+			"item": "minecraft:pumpkin_pie"
+		},
+		"title": "Plant-based Cooking",
+		"frame": "goal",
+		"description": "Vegan alternatives for vanilla foods",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

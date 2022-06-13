@@ -1,0 +1,22 @@
+{
+    "values": [
+        "minecraft:wheat",
+        "minecraft:potato",
+        {
+            "id": "enhancedfarming:flour",
+            "required": false
+        },
+        {
+            "id": "#forge:crops/corn",
+            "required": false
+        },
+        {
+            "id": "#forge:fruits/banana",
+            "required": false
+        },
+        {
+            "id": "#forge:seeds/flax",
+            "required": false
+        }
+    ]
+}

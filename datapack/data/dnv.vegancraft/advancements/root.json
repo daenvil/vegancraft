@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:kelp"
+		},
+		"background": "minecraft:textures/block/green_wool.png",
+		"title": "Daenvil's Vegancraft",
+		"frame": "challenge",
+		"description": "Explore the possibilities of a vegan playstyle on Minecraft!",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

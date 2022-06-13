@@ -1,0 +1,25 @@
+{
+	"rewards": {
+		"function": "dnv.vegancraft:food/advancements/seitan"
+	},
+	"criteria": {
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+			  "recipe": "dnv.vegan_food:knowledge_book/steak"
+			}
+		},
+		"has_the_recipe2": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+			  "recipe": "dnv.vegan_food:knowledge_book/steak_from_hay"
+			}
+		}
+	},
+	"requirements": [
+	  [
+		"has_the_recipe",
+		"has_the_recipe2"
+	  ]
+	]
+}

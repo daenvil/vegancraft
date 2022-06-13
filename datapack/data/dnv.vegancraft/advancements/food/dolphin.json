@@ -1,0 +1,16 @@
+{
+	"parent": "dnv.vegancraft:food/fish",
+	"display": {
+		"icon": {
+			"item": "minecraft:cod"
+		},
+		"title": "Not-fishy Business",
+		"frame": "task",
+		"description": "Feed a vegan not-fish fillet to a dolphin"
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

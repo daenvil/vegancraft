@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Vegancraft",
+        "description": "Daenvil's Vegancraft datapacks",
+        "icon": {
+            "item": "minecraft:kelp"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

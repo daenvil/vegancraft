@@ -1,0 +1,8 @@
+{
+    "values": [
+        {
+            "id": "dnv.vegancraft:food/utility/crafting_table_interaction",
+            "required": false
+        }
+    ]
+}

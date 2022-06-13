@@ -1,0 +1,26 @@
+{
+    "rewards": {
+        "function": "dnv.vegancraft:food/fed_vegan_meat_to_wolf"
+    },
+    "criteria": {
+        "fed_vegan_meat_to_wolf": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:chicken","minecraft:cooked_chicken",
+						"minecraft:porkchop","minecraft:cooked_porkchop",
+						"minecraft:beef","minecraft:cooked_beef",
+						"minecraft:rabbit","minecraft:cooked_rabbit",
+						"minecraft:rotten_flesh","minecraft:rabbit_stew",
+						"minecraft:mutton","minecraft:cooked_mutton"
+					],
+					"nbt": "{dnv.Vegan:1b}"
+				},
+				"entity": {
+					"type": "minecraft:wolf"
+				}
+			}
+		}
+    }
+}

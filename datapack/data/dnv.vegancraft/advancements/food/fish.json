@@ -1,0 +1,17 @@
+{
+	"parent": "dnv.vegancraft:food/seitan",
+	"display": {
+		"icon": {
+			"item": "minecraft:cod",
+			"nbt": "{CustomModelData:9261004}"
+		},
+		"title": "Smells Fishy",
+		"frame": "task",
+		"description": [{"text":"Cook a vegan not-fish fillet"}]
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

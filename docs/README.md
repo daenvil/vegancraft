@@ -34,8 +34,6 @@ Vegan alternatives to dairy, eggs, honey, and meat.
 
 More info and individual datapack download: [Plant-based Foods](vegan_food.md)
 
-<img src="./assets/omni_pets.png" alt="logo" align="right"/>
-
 ## Future Features
 Planned datapacks that are still in progress
 

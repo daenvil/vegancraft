@@ -7,8 +7,8 @@ A datapack that adds vegan alternatives to dairy, eggs, honey, and meat.
 ![Minecraft supported versions](https://img.shields.io/badge/supported%20MC%20versions-1.16.2%2B-green?style=flat-square)
 ![Tested versions](https://img.shields.io/badge/tested%20in-1.16.5%2C%201.17.1%2C%201.18.2%2C%201.19-informational?style=flat-square)
 
-- [Latest Release (v1)](https://github.com/daenvil/vegancraft/releases/download/v1a/plant-based_foods_v1.zip)
-- [Required Resourcepack](https://github.com/daenvil/vegancraft/releases/download/v1a/vegancraft-RP_v1a.zip)
+- Latest Release (v1): [PlanetMinecraft](https://www.planetminecraft.com/data-pack/plant-based-foods/) | [Github](https://github.com/daenvil/vegancraft/releases/download/v1a/plant-based_foods_v1.zip)
+- Required Resourcepack: [PlanetMinecraft](https://www.planetminecraft.com/data-pack/plant-based-foods/) | [Github](https://github.com/daenvil/vegancraft/releases/download/v1a/vegancraft-RP_v1a.zip)
 
 ## Features
 

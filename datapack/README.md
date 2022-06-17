@@ -2,6 +2,6 @@
 
 This datapack is a merged version of the following datapacks:
 
-- [Plant-based Foods v1]()
+- [Plant-based Foods v1](https://www.planetminecraft.com/data-pack/plant-based-foods/)
 
-Read more on [the wiki](https://github.com/daenvil/vegancraft).
+Read more on [the wiki](https://github.com/daenvil/vegancraft/tree/1.16.2%2B/docs).

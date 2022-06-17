@@ -1,6 +1,10 @@
-# Vegancraft Resourcepack v1b
+# Vegancraft Resourcepack v1a
 
 This resourcepack contains all the required resources for every Vegancraft datapack by Daenvil.
+
+This version (v1a) contains resources for these datapacks:
+
+- Plant-based Foods v1
 
 ## Languages
 

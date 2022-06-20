@@ -17,7 +17,7 @@ You can either download the full collection in a single datapack or [download th
 
 Both the datapack and the resourcepack are compatible with **any Minecraft version above 1.16.2** (included)[^1]. 
 
-[^1]: The resourcepack will give you a warning if you are not using 1.19, but it will work. Both datapack and resourcepack were tested on 1.16.5, 1.17.1, 1.18.2, and 1.19; and also on multiplayer).
+[^1]: The resourcepack will give you a warning if you are not using 1.19, but it will work. Both datapack and resourcepack were tested on 1.16.5, 1.17.1, 1.18.2, and 1.19; and also on multiplayer.
 
 ### Installation
 - Drop the datapack zip file inside the "datapacks" folder of your world folder (*\<your minecraft folder\>/saves/\<your world\>/datapacks/*).

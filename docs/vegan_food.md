@@ -12,6 +12,8 @@ A datapack that adds vegan alternatives to dairy, eggs, honey, and meat.
 
 ## Features
 
+_- [Link to Youtube video showcasing all the features of this datapack](https://youtu.be/0FibGt2cS10)_
+
 ### New recipes
 
 These recipes will output a knowledge book, the knowledge book will convert automatically into the desired item once you click on it. ***Not compatible with recipe unlockers***.

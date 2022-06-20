@@ -32,7 +32,7 @@ This datapack aims to make any vanilla feature available without hurting or usin
 
 Vegan alternatives to dairy, eggs, honey, and meat.
 
-More info and individual datapack download: [Plant-based Foods](vegan_food.md)
+More info and individual datapack download: [Plant-based Foods](https://github.com/daenvil/vegancraft/wiki/Plant%E2%80%90based-Foods)
 
 ## Future Features
 Planned datapacks that are still in progress

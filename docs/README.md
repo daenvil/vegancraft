@@ -75,3 +75,5 @@ If you wish to translate this datapack to your language(s) (or fix any already e
 Daenvil:
 - **PlanetMinecraft** profile: [daenvil](https://www.planetminecraft.com/member/daenvil/)
 - **Discord**: *Daenvil#9550* (you can find me on the [MC Datapacks server](https://discord.gg/SnJQcfq))
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N0DSNQ5)

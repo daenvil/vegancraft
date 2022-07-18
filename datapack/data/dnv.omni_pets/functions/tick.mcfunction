@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:wolf,tag=!dnv.omni_pets.tamed] at @s unless data entity @s Owner unless data entity @s AngryAt run function dnv.omni_pets:wolf/tick
+execute as @e[type=minecraft:cat,tag=!dnv.omni_pets.tamed] at @s unless data entity @s Owner run function dnv.omni_pets:cat/tick

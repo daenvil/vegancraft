@@ -1,5 +1,5 @@
 {
-    "values":[
-        "dnv.core:player_tick"
+    "values": [
+        "dnv.omni_pets:tick"
     ]
 }

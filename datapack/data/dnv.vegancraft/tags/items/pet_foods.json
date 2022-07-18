@@ -1,0 +1,27 @@
+{
+    "values": [
+        "minecraft:sugar",
+        "minecraft:dried_kelp",
+        {
+            "id": "minecraft:glow_berries",
+            "required": false
+        },
+        "minecraft:sweet_berries",
+        "minecraft:melon_slice",
+        "minecraft:sugar_cane",
+        "minecraft:apple",
+        "minecraft:beetroot",
+        "minecraft:carrot",
+        "minecraft:melon",
+        "minecraft:red_mushroom",
+        "minecraft:brown_mushroom",
+        "minecraft:potato",
+        "minecraft:pumpkin",
+        "minecraft:wheat",
+        "minecraft:baked_potato",
+        "minecraft:bread",
+        "minecraft:beetroot_soup",
+        "minecraft:mushroom_stew",
+        "minecraft:suspicious_stew"
+    ]
+}

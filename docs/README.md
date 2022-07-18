@@ -17,7 +17,7 @@ You can either download the full collection in a single datapack or [download th
 
 ### 1.16.2-1.18.2 version
 ![Minecraft supported versions](https://img.shields.io/badge/supported%20MC%20versions-1.16.2--1.18.2-green?style=flat-square)
-![Tested versions](https://img.shields.io/badge/tested%20in-1.16.5%2C%201.17.1%2C%201.18.2-informational?style=flat-square)
+![Tested versions](https://img.shields.io/badge/tested%20in-1.18.2-informational?style=flat-square)
 
 - [Latest release (TBR)](TBR)[^1]
 - [Required resourcepack](https://github.com/daenvil/vegancraft/releases/download/v1a/vegancraft-RP_v1a.zip)

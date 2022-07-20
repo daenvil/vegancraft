@@ -1,23 +1,28 @@
 <img src="../datapack/pack.png" alt="logo" align="right"/>
 
 # Daenvil's Vegancraft
-A datapack/collection of datapacks\* which makes a vegan gamestyle possible in a vanilla-like way without missing any game features.
+A datapack/collection of datapacks which makes a vegan gamestyle possible in a vanilla-like way without missing any game features.
 
 You can either download the full collection in a single datapack or [download the individual datapacks as desired](#features).
 
-\**At the moment, only one datapack has been released*.
-
 ## Full datapack download
 
-![Minecraft supported versions](https://img.shields.io/badge/supported%20MC%20versions-1.16.2%2B-green?style=flat-square)
-![Tested versions](https://img.shields.io/badge/tested%20in-1.16.5%2C%201.17.1%2C%201.18.1-informational?style=flat-square)
+### 1.19+ version
 
-- [Latest release (v1a)](https://github.com/daenvil/vegancraft/releases/download/v1a/vegancraft-DP_v1a.zip)
+![Minecraft supported versions](https://img.shields.io/badge/supported%20MC%20versions-1.19%2B-green?style=flat-square)
+![Tested versions](https://img.shields.io/badge/tested%20in-1.19-informational?style=flat-square)
+
+- [Latest release (v1b)](https://github.com/daenvil/vegancraft/releases/download/v1b/vegancraft-DP_v1b.zip)
 - [Required resourcepack](https://github.com/daenvil/vegancraft/releases/download/v1a/vegancraft-RP_v1a.zip)
 
-Both the datapack and the resourcepack are compatible with **any Minecraft version above 1.16.2** (included)[^1]. 
+### 1.16.2-1.18.2 version
+![Minecraft supported versions](https://img.shields.io/badge/supported%20MC%20versions-1.16.2--1.18.2-green?style=flat-square)
+![Tested versions](https://img.shields.io/badge/tested%20in-1.18.2-informational?style=flat-square)
 
-[^1]: The resourcepack will give you a warning if you are not using 1.19, but it will work. Both datapack and resourcepack were tested on 1.16.5, 1.17.1, 1.18.2, and 1.19; and also on multiplayer.
+- [Latest release (TBR)](TBR)[^1]
+- [Required resourcepack](https://github.com/daenvil/vegancraft/releases/download/v1a/vegancraft-RP_v1a.zip)
+
+[^1]: The resourcepack will give you a warning if you are not using 1.19, but it will work. Both datapack and resourcepack were tested on the mentioned versions; and also on multiplayer.
 
 ### Installation
 - Drop the datapack zip file inside the "datapacks" folder of your world folder (*\<your minecraft folder\>/saves/\<your world\>/datapacks/*).
@@ -34,12 +39,16 @@ Vegan alternatives to dairy, eggs, honey, and meat.
 
 More info and individual datapack download: [Plant-based Foods](https://github.com/daenvil/vegancraft/wiki/Plant%E2%80%90based-Foods)
 
-## Future Features
-Planned datapacks that are still in progress
+<img src="./assets/omni_pets/pack.png" alt="logo" align="right"/>
 
 ### Omnivorous Pets
 
-Tame cats and wolves using any food.
+Tame cats and wolves using any food. You don't need meat anymore to make animal friends!
+
+More info and individual datapack download: [Omnivorous Pets](https://github.com/daenvil/vegancraft/wiki/Omnivorous-Pets)
+
+## Future Features
+Planned datapacks that are still in progress
 
 ### Acacia Gum
 

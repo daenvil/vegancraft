@@ -1,7 +1,7 @@
 {
     "display": {
         "title": "Omnivorous Pets",
-        "description": "Daenvil's Omnivorous Pets datapack (v1, for MC1.19+)",
+        "description": "Daenvil's Omnivorous Pets datapack (v1, for MC1.16.2-1.18.2)",
         "icon": {
             "item": "minecraft:lead"
         },

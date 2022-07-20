@@ -1,4 +1,4 @@
-# Daenvil's Vegancraft v1a (Full Datapack)
+# Daenvil's Vegancraft v1b (Full Datapack)
 
 This datapack is a merged version of the following datapacks:
 

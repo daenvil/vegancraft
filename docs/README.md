@@ -12,15 +12,15 @@ You can either download the full collection in a single datapack or [download th
 ![Minecraft supported versions](https://img.shields.io/badge/supported%20MC%20versions-1.19%2B-green?style=flat-square)
 ![Tested versions](https://img.shields.io/badge/tested%20in-1.19-informational?style=flat-square)
 
-- [Latest release (v1b)](https://github.com/daenvil/vegancraft/releases/download/v1b/vegancraft-DP_v1b.zip)
-- [Required resourcepack](https://github.com/daenvil/vegancraft/releases/download/v1a/vegancraft-RP_v1a.zip)
+- Latest release (v1b): [Github](https://github.com/daenvil/vegancraft/releases/download/v1b/vegancraft-DP_v1b.zip)
+- Required resourcepack: [Github](https://github.com/daenvil/vegancraft/releases/download/v1b/vegancraft-RP_v1b.zip)
 
 ### 1.16.2-1.18.2 version
 ![Minecraft supported versions](https://img.shields.io/badge/supported%20MC%20versions-1.16.2--1.18.2-green?style=flat-square)
 ![Tested versions](https://img.shields.io/badge/tested%20in-1.18.2-informational?style=flat-square)
 
-- [Latest release (TBR)](TBR)[^1]
-- [Required resourcepack](https://github.com/daenvil/vegancraft/releases/download/v1a/vegancraft-RP_v1a.zip)
+- Latest release (v1b-mc1.16.2-1.18.2): [Github](https://github.com/daenvil/vegancraft/releases/download/v1b-mc1.16.2-1.18.2/vegancraft-DP_v1b-mc1.16.2-1.18.2.zip)
+- Required resourcepack: [Github](https://github.com/daenvil/vegancraft/releases/download/v1b-mc1.16.2-1.18.2/vegancraft-RP_v1b.zip)
 
 [^1]: The resourcepack will give you a warning if you are not using 1.19, but it will work. Both datapack and resourcepack were tested on the mentioned versions; and also on multiplayer.
 

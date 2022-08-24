@@ -1,0 +1,1 @@
+scoreboard objectives add dnv.found_acacia dummy

@@ -1,0 +1,17 @@
+{
+	"parent": "dnv.vegancraft:crafting",
+	"display": {
+		"icon": {
+			"item": "minecraft:slime_ball",
+			"nbt": "{CustomModelData:9261005}"
+		},
+		"title": "This tree is... sticky",
+		"frame": "task",
+		"description": [{"text":"Get gum from an acacia tree"}]
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

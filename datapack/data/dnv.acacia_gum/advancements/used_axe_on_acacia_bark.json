@@ -1,15 +1,18 @@
 {
     "rewards": {
-        "function": "dnv.core:triggers/crafting_table_interaction"
+        "function": "dnv.acacia_gum:used_axe_on_acacia_bark"
     },
     "criteria": {
-        "crafting_table_interaction": {
+        "used_axe_on_acacia_bark": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
                 "location": {
                     "block": {
-                        "blocks": ["minecraft:crafting_table"]
+                        "tag": "dnv.core:acacia_bark"
                     }
+                },
+                "item": {
+                    "tag": "dnv.core:axes"
                 }
             }
         }

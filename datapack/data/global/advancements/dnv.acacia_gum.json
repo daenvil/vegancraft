@@ -1,9 +1,10 @@
 {
     "display": {
-        "title": "Plant-based Foods",
-        "description": "Daenvil's Plant-based Foods datapack (v1.0.1, for MC1.16.2+)",
+        "title": "Acacia Gum",
+        "description": "Daenvil's Acacia Gum datapack (v1, for MC1.17+)",
         "icon": {
-            "item": "minecraft:pumpkin_pie"
+            "item": "minecraft:slime_ball",
+			"nbt": "{CustomModelData:9261005}"
         },
         "announce_to_chat": false,
         "show_toast": false

@@ -3,7 +3,7 @@
         "function": "dnv.core:triggers/crafting_table_interaction"
     },
     "criteria": {
-        "cauldron_interaction": {
+        "crafting_table_interaction": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
                 "location": {

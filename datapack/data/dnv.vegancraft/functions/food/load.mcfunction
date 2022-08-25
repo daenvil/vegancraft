@@ -13,7 +13,3 @@ scoreboard objectives add dnv.ate_veganalt dummy
 scoreboard objectives add dnv.vdiet_time minecraft.custom:play_time
 scoreboard objectives add dnv.vdiet_time_d minecraft.custom:time_since_death
 schedule function dnv.vegancraft:food/diet_score_check 20 replace
-scoreboard objectives add dnv.vxp dummy
-scoreboard objectives add dnv.vxp_int dummy
-scoreboard objectives add dnv.100 dummy
-scoreboard players set dnv.dummy dnv.100 100

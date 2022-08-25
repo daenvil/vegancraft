@@ -9,6 +9,11 @@
             "id": "dnv.vegancraft:installed",
             "required": false
         },
-        "dnv.omni_pets:load"
+        "dnv.omni_pets:load",
+        "dnv.acacia_gum:load",
+        {
+            "id": "dnv.vegancraft:load",
+            "required": false
+        }
     ]
 }

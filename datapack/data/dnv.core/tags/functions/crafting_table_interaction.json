@@ -3,6 +3,10 @@
         {
             "id": "dnv.vegancraft:food/utility/crafting_table_interaction",
             "required": false
+        },
+        {
+            "id": "dnv.vegancraft:utility/crafting_advancement",
+            "required": false
         }
     ]
 }

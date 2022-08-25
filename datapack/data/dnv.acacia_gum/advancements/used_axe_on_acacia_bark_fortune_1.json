@@ -1,0 +1,24 @@
+{
+    "rewards": {
+        "function": "dnv.acacia_gum:used_axe_on_acacia_bark_fortune_1"
+    },
+    "criteria": {
+        "used_axe_on_acacia_bark": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "tag": "dnv.core:acacia_bark"
+                    }
+                },
+                "item": {
+                    "tag": "dnv.core:axes",
+                    "enchantments": [{
+                        "enchantment": "minecraft:fortune",
+                        "levels": 1
+                    }]
+                }
+            }
+        }
+    }
+}

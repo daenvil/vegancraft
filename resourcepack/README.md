@@ -1,10 +1,10 @@
-# Vegancraft Resourcepack v1c
+# Vegancraft Resourcepack v1d
 
 This resourcepack contains all the required resources for every Vegancraft datapack by Daenvil, including:
 
 - [Plant-based Foods v1.0.1](https://github.com/daenvil/vegancraft/wiki/Plant%E2%80%90based-Foods)
-- [Omnivorous Pets v1](https://github.com/daenvil/vegancraft/wiki/Omnivorous-Pets)
 - [Acacia Gum v1](https://github.com/daenvil/vegancraft/wiki/Acacia-Gum)
+- [Ethical Textiles v1](https://github.com/daenvil/vegancraft/wiki/Ethical-Textiles)
 
 Read more on [the wiki](https://github.com/daenvil/vegancraft/wiki).
 

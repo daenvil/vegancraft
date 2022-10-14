@@ -1,0 +1,17 @@
+{
+	"parent": "dnv.vegancraft:crafting",
+	"display": {
+		"icon": {
+			"item": "minecraft:string",
+			"nbt": "{CustomModelData:9261007}"
+		},
+		"title": "Loose Threads",
+		"frame": "task",
+		"description": "Craft string from plants"
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"parent": "dnv.vegancraft:crafting",
+	"display": {
+		"icon": {
+			"item": "minecraft:green_bed"
+		},
+		"title": "Bittersweet Dreams",
+		"frame": "goal",
+		"description": "Craft a rudimentary bed using grass, hay, or jungle leaves."
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

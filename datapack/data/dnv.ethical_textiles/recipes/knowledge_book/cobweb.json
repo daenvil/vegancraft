@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item": "minecraft:slime_ball"},
+        {"item": "minecraft:string"},
+        {"item": "minecraft:string"},
+        {"item": "minecraft:string"},
+        {"item": "minecraft:string"},
+        {"item": "minecraft:string"},
+        {"item": "minecraft:string"},
+        {"item": "minecraft:string"},
+        {"item": "minecraft:string"}
+    ],
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 2
+    }
+}

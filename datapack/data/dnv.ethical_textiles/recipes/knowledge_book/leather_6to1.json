@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {"tag": "dnv.ethical_textiles:leather_producing_plants_6to1"},
+        {"tag": "dnv.ethical_textiles:leather_producing_plants_6to1"},
+        {"tag": "dnv.ethical_textiles:leather_producing_plants_6to1"},
+        {"tag": "dnv.ethical_textiles:leather_producing_plants_6to1"},
+        {"tag": "dnv.ethical_textiles:leather_producing_plants_6to1"},
+        {"tag": "dnv.ethical_textiles:leather_producing_plants_6to1"},
+        {"item": "minecraft:slime_ball"},
+        {"item": "minecraft:slime_ball"},
+        {"item": "minecraft:slime_ball"}
+    ],
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

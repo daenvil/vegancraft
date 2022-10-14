@@ -47,21 +47,29 @@ Tame cats and wolves using any food. You don't need meat anymore to make animal 
 
 More info and individual datapack download: _[Omnivorous Pets](https://github.com/daenvil/vegancraft/wiki/Omnivorous-Pets)_
 
+<img src="./assets/acacia_gum/pack.png" alt="logo" align="right"/>
+
 ### Acacia Gum
 
 Get gum from stripping acacia trees. A vegan alternative for slime.
 
 More info and individual datapack download: _[Acacia Gum](https://github.com/daenvil/vegancraft/wiki/Acacia-Gum)_
 
-## Future Features
-Planned datapacks that are still in progress
+<img src="./assets/ethical_textiles/pack.png" alt="logo" align="right"/>
 
 ### Ethical Textiles
 Alternatives for string, wool, and leather.
 
+## Future Features
+Planned datapacks that are still in progress
+
 ### Plant Wax
 
 Get wax from some plants, like in real life. A vegan alternative for honeycomb.
+
+### Copper horns
+
+Craft horns using copper and wax.
 
 ## Legal terms
 

@@ -1,0 +1,80 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dnv.ethical_textiles:leather_3to1",
+      "dnv.ethical_textiles:leather_6to1"
+    ]
+  },
+  "criteria": {
+    "has_the_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "tag": "dnv.ethical_textiles:leather_producing_plants_3to1"
+        }]
+      }
+    },
+    "has_the_ingredient2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "tag": "dnv.ethical_textiles:leather_producing_plants_6to1"
+        }]
+      }
+    },
+    "has_the_ingredient3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "items": [
+            "minecraft:slime_ball"
+           ]
+        }]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dnv.ethical_textiles:leather_3to1"
+      }
+    },
+    "has_the_recipe2": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dnv.ethical_textiles:leather_6to1"
+      }
+    },
+    "has_the_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "items": [
+            "minecraft:leather"
+           ]
+        }]
+      }
+    },
+    "has_the_item2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "items": [
+            "minecraft:rabbit_hide"
+           ]
+        }]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_ingredient",
+      "has_the_ingredient2",
+      "has_the_ingredient3",
+      "has_the_recipe",
+      "has_the_recipe2",
+      "has_the_item",
+      "has_the_item2"
+    ]
+  ]
+}

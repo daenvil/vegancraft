@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Ethical Textiles",
+        "description": "Daenvil's Ethical Textiles datapack (v1, for MC1.17+)",
+        "icon": {
+            "item": "minecraft:leather_leggings"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:dnv.vegancraft",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

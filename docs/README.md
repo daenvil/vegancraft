@@ -61,6 +61,8 @@ More info and individual datapack download: _[Acacia Gum](https://github.com/dae
 
 Plant-based alternatives for string, leather, and beds. Use together with _Acacia Gum_ to have fully vegan leather.
 
+More info and individual datapack download: _[Acacia Gum](https://github.com/daenvil/vegancraft/wiki/Ethical-Textiles)_
+
 ### Resourcepack
 
 Most of these datapacks contain custom textures and item names. The Vegancraft resourcepack is needed in order to view them properly. For simplicity, this resourcepack is the same for all datapacks, and is available on the [Downloads](#full-datapack-download) section or in the PlanetMinecraft page of any single datapack that uses it.

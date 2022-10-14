@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {"tag": "minecraft:planks"},
+        {"tag": "minecraft:planks"},
+        {"tag": "minecraft:planks"},
+        {"item": "minecraft:jungle_leaves"},
+        {"item": "minecraft:jungle_leaves"},
+        {"item": "minecraft:jungle_leaves"},
+        {"item": "minecraft:jungle_leaves"},
+        {"item": "minecraft:jungle_leaves"},
+        {"item": "minecraft:jungle_leaves"}
+    ],
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

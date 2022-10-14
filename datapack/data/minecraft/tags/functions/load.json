@@ -2,17 +2,21 @@
     "values": [
         "dnv.core:check_version",
         {
-            "id": "dnv.vegancraft:food/load",
+            "id": "dnv.vegancraft:installed",
             "required": false
         },
         {
-            "id": "dnv.vegancraft:installed",
+            "id": "dnv.vegancraft:load",
+            "required": false
+        },
+        {
+            "id": "dnv.vegancraft:food/load",
             "required": false
         },
         "dnv.omni_pets:load",
         "dnv.acacia_gum:load",
         {
-            "id": "dnv.vegancraft:load",
+            "id": "dnv.vegancraft:textiles/load",
             "required": false
         }
     ]

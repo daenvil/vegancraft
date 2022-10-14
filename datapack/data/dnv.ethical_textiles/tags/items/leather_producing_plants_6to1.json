@@ -1,0 +1,15 @@
+{
+    "values": [
+        "minecraft:bamboo",
+        "minecraft:dried_kelp",
+        "minecraft:paper",
+        {
+            "id": "#forge:crops/pineapple",
+            "required": false
+        },
+        {
+            "id": "#forge:fruits/pineapple",
+            "required": false
+        }
+    ]
+}

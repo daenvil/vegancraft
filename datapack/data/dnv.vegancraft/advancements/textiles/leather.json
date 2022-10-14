@@ -1,0 +1,17 @@
+{
+	"parent": "dnv.vegancraft:acacia_gum/slime_ball",
+	"display": {
+		"icon": {
+			"item": "minecraft:leather",
+			"nbt": "{CustomModelData:9261006}"
+		},
+		"title": "As tough as leather",
+		"frame": "task",
+		"description": "Craft vegan leather"
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

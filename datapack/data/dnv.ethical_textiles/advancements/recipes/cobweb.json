@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dnv.ethical_textiles:cobweb"
+    ]
+  },
+  "criteria": {
+    "enters_cobweb": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:cobweb"
+      }
+    },
+    "hurt_by_cave_spider": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:cave_spider"
+          }
+        }
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dnv.ethical_textiles:cobweb"
+      }
+    },
+    "has_the_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "items": [
+            "minecraft:cobweb"
+           ]
+        }]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "enters_cobweb",
+      "hurt_by_cave_spider",
+      "has_the_recipe",
+      "has_the_item"
+    ]
+  ]
+}

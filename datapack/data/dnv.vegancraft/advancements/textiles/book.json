@@ -1,0 +1,16 @@
+{
+	"parent": "dnv.vegancraft:textiles/leather",
+	"display": {
+		"icon": {
+			"item": "minecraft:book"
+		},
+		"title": "Ethical Studies",
+		"frame": "goal",
+		"description": "Craft a vegan book"
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

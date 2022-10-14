@@ -1,0 +1,19 @@
+{
+	"parent": "dnv.vegancraft:textiles/string",
+	"display": {
+		"icon": {
+			"item": "minecraft:cobweb"
+		},
+		"title": "'You can't do that, huh?'",
+		"frame": "challenge",
+		"description": "Craft synthetic vegan spider web"
+	},
+	"rewards": {
+		"experience": 50
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

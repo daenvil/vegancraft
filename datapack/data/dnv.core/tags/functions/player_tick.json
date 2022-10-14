@@ -3,6 +3,10 @@
         {
             "id": "dnv.vegancraft:food/utility/player_tick",
             "required": false
+        },
+        {
+            "id": "dnv.vegancraft:textiles/utility/player_tick",
+            "required": false
         }
     ]
 }

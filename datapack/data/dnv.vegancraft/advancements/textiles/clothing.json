@@ -1,0 +1,19 @@
+{
+	"parent": "dnv.vegancraft:textiles/leather",
+	"display": {
+		"icon": {
+			"item": "minecraft:leather_leggings"
+		},
+		"title": "Vegan Swag",
+		"frame": "challenge",
+		"description": "Craft a piece of vegan leather clothing"
+	},
+	"rewards": {
+		"experience": 50
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

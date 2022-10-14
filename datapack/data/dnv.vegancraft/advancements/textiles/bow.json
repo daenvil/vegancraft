@@ -1,0 +1,16 @@
+{
+	"parent": "dnv.vegancraft:textiles/string",
+	"display": {
+		"icon": {
+			"item": "minecraft:bow"
+		},
+		"title": "Our peaceful ways...",
+		"frame": "goal",
+		"description": "Craft a bow using vegan string"
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

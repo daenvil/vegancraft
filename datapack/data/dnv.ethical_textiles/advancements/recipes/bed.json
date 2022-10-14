@@ -1,0 +1,114 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dnv.ethical_textiles:bed_grass",
+      "dnv.ethical_textiles:bed_hay",
+      "dnv.ethical_textiles:bed_jungle"
+    ]
+  },
+  "criteria": {
+    "has_the_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "items": [
+            "minecraft:grass"
+           ]
+        }]
+      }
+    },
+    "has_the_ingredient2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "items": [
+            "minecraft:hay_block"
+           ]
+        }]
+      }
+    },
+    "has_the_ingredient3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "items": [
+            "minecraft:wheat"
+           ]
+        }]
+      }
+    },
+    "has_the_ingredient4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "items": [
+            "minecraft:jungle_leaves"
+           ]
+        }]
+      }
+    },
+    "has_the_ingredient5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "items": [
+            "minecraft:jungle_log"
+           ]
+        }]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dnv.ethical_textiles:bed_grass"
+      }
+    },
+    "has_the_recipe2": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dnv.ethical_textiles:bed_hay"
+      }
+    },
+    "has_the_recipe3": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dnv.ethical_textiles:bed_jungle"
+      }
+    },
+    "has_the_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "tag": "minecraft:beds"
+        }]
+      }
+    },
+    "has_the_item2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "tag": "minecraft:wool"
+        }]
+      }
+    },
+    "sleep": {
+        "trigger": "minecraft:slept_in_bed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_ingredient",
+      "has_the_ingredient2",
+      "has_the_ingredient3",
+      "has_the_ingredient4",
+      "has_the_ingredient5",
+      "has_the_recipe",
+      "has_the_recipe2",
+      "has_the_recipe3",
+      "has_the_item",
+      "has_the_item2",
+      "sleep"
+    ]
+  ]
+}

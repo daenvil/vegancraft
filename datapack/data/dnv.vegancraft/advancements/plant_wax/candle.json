@@ -1,0 +1,20 @@
+{
+	"parent": "dnv.vegancraft:plant_wax/get",
+	"display": {
+		"icon": {
+			"item": "minecraft:lime_candle"
+		},
+		"title": "Veganiversary",
+		"frame": "challenge",
+		"description": [{"text":"Craft a vegan candle. "},{"text":"Note: only works with a crafting table.","italic":true}],
+		"hidden": true
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+    "rewards": {
+        "experience": 50
+    }
+}

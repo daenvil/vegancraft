@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "dnv.vegancraft:utility/grant_crafting_advancement",
+            "required": false
+        },
+        {
+            "id": "dnv.vegancraft:plant_wax/utility/update_vcount",
+            "required": false
+        }
+    ]
+}

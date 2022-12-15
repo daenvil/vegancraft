@@ -1,0 +1,38 @@
+{
+    "parent": "dnv.vegancraft:crafting",
+    "display": {
+      "announce_to_chat": true,
+      "frame": "task",
+      "hidden": false,
+      "icon": {
+        "item": "minecraft:honeycomb",
+        "nbt": "{CustomModelData:9261008}"
+      },
+      "show_toast": true,
+      "title": {
+        "text": "Waxy Leaves"
+      },
+      "description": {
+        "text": "Get Plant Wax"
+      }
+    },
+    "criteria": {
+      "has_the_item": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [{
+            "items": [
+              "minecraft:honeycomb"
+             ],
+             "nbt": "{dnv.Vegan:1b}"
+          }]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_the_item"
+      ]
+    ]
+  }
+  

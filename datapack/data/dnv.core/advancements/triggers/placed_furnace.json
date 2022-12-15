@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "placed_composter": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:furnace"
+            }
+        }
+    },
+    "rewards": {
+        "function": "dnv.core:triggers/placed_furnace"
+    }
+}

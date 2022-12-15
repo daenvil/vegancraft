@@ -1,0 +1,17 @@
+{
+    "rewards": {
+        "function": "dnv.core:triggers/interacted_with_crafting_table"
+    },
+    "criteria": {
+        "crafting_table_interaction": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": ["minecraft:crafting_table"]
+                    }
+                }
+            }
+        }
+    }
+}

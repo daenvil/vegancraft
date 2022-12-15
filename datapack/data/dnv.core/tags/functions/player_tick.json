@@ -7,6 +7,10 @@
         {
             "id": "dnv.vegancraft:textiles/utility/player_tick",
             "required": false
+        },
+        {
+            "id": "dnv.vegancraft:plant_wax/utility/player_tick",
+            "required": false
         }
     ]
 }

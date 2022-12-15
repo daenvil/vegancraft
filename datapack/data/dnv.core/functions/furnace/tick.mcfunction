@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=dnv.furnace] at @s run function dnv.core:furnace/marker_tick

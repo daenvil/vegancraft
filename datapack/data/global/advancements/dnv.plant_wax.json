@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Plant Wax",
+        "description": "Daenvil's Plant Wax datapack (v1, for MC1.18+)",
+        "icon": {
+            "item": "minecraft:honeycomb",
+			"nbt": "{CustomModelData:9261008}"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:dnv.vegancraft",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

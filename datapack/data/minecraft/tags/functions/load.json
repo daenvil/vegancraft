@@ -1,6 +1,7 @@
 {
     "values": [
         "dnv.core:check_version",
+        "dnv.core:furnace/load",
         {
             "id": "dnv.vegancraft:installed",
             "required": false
@@ -17,6 +18,11 @@
         "dnv.acacia_gum:load",
         {
             "id": "dnv.vegancraft:textiles/load",
+            "required": false
+        },
+        "dnv.plant_wax:load",
+        {
+            "id": "dnv.vegancraft:plant_wax/load",
             "required": false
         }
     ]

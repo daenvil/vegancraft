@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "dnv.plant_wax:item/plant_wax"
+    }
+}

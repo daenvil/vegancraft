@@ -4,9 +4,9 @@
 		"icon": {
 			"item": "minecraft:crafting_table"
 		},
-		"title": "Ethical Crafting",
+		"title": [{"translate":"dnv.vegancraft.advancements.crafting.title","fallback":"Ethical Crafting"}],
 		"frame": "goal",
-		"description": "Craft useful items without harming mobs",
+		"description": [{"translate":"dnv.vegancraft.advancements.crafting.description","fallback":"Craft useful items without harming mobs"}],
 		"show_toast": false,
 		"announce_to_chat": false
 	},

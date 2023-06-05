@@ -9,12 +9,8 @@
         "nbt": "{CustomModelData:9261008}"
       },
       "show_toast": true,
-      "title": {
-        "text": "Waxy Leaves"
-      },
-      "description": {
-        "text": "Get Plant Wax"
-      }
+      "title": [{"translate":"dnv.vegancraft.advancements.plant_wax.get.title","fallback":"Waxy Leaves"}],
+      "description": [{"translate":"dnv.vegancraft.advancements.plant_wax.get.description","fallback":"Make plant wax"}]
     },
     "criteria": {
       "has_the_item": {

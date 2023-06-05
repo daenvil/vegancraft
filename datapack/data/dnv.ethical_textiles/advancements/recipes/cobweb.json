@@ -2,7 +2,8 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "dnv.ethical_textiles:cobweb"
+      "dnv.ethical_textiles:cobweb",
+      "dnv.ethical_textiles:knowledge_book/cobweb"
     ]
   },
   "criteria": {

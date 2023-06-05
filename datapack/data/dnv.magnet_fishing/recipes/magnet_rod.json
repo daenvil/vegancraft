@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "fishing_rod"
+		},
+		{
+			"item": "redstone"
+		},
+		{
+			"item": "iron_ingot"
+		}
+	],
+	"result": {
+		"item": "knowledge_book",
+		"count": 1
+	}
+}

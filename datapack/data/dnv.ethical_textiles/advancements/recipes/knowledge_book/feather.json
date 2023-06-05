@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "recipe_crafted_feather": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "dnv.ethical_textiles:knowledge_book/feather"
+            }
+        }
+    },
+    "rewards": {
+        "function": "dnv.ethical_textiles:recipes/feather"
+    }
+}

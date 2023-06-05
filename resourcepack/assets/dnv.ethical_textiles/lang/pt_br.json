@@ -6,5 +6,25 @@
     "dnv.ethical_textiles.item.hay_bed": "Leito de palha",
     "dnv.ethical_textiles.item.jungle_bed": "Leito de folhas",
     "dnv.ethical_textiles.item.grass_bed": "Leito de erva",
-    "dnv.ethical_textiles.item.cobweb": "Teia de aranha sintética"
+    "dnv.ethical_textiles.item.cobweb": "Teia de aranha sintética",
+    
+    "dnv.vegancraft.contains_animal_products": "(Contém produtos de origem animal)",
+    "dnv.ethical_textiles.item.faux_feather": "Pena sintética",
+    
+    "dnv.vegancraft.advancements.textiles.bed.title": "Sonhos agridoces",
+    "dnv.vegancraft.advancements.textiles.bed.description": "Fabrique uma cama rudimentar usando erva, feno ou folhas de selva",
+	"dnv.vegancraft.advancements.textiles.book.title": "Estudos éticos",
+    "dnv.vegancraft.advancements.textiles.book.description": "Fabrique um livro vegano",
+    "dnv.vegancraft.advancements.textiles.bow.title": "Nossas formas pacíficas...",
+    "dnv.vegancraft.advancements.textiles.bow.description": "Fabrique um arco usando linha vegetal",
+    "dnv.vegancraft.advancements.textiles.clothing.title": "Vegan swag",
+    "dnv.vegancraft.advancements.textiles.clothing.description": "Fabrique uma peça de roupa de couro vegano",
+    "dnv.vegancraft.advancements.textiles.cobweb.title": "'Você não pode fazer isso, hein?'",
+    "dnv.vegancraft.advancements.textiles.cobweb.description": "Fabrique uma teia de aranha vegana sintética",
+    "dnv.vegancraft.advancements.textiles.feather.title": "Simples e elegante",
+    "dnv.vegancraft.advancements.textiles.feather.description": "Fabrique uma pena sintética vegana",
+    "dnv.vegancraft.advancements.textiles.leather.title": "Tão resistente quanto couro",
+    "dnv.vegancraft.advancements.textiles.leather.description": "Fabrique couro vegano",
+    "dnv.vegancraft.advancements.textiles.string.title": "Fios soltos",
+    "dnv.vegancraft.advancements.textiles.string.description": "Fabrique linha a partir de plantas"
 }

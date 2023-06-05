@@ -5,9 +5,9 @@
 			"item": "minecraft:cooked_beef",
 			"nbt": "{CustomModelData:9261003}"
 		},
-		"title": "Hail Seitan",
+		"title": [{"translate":"dnv.vegancraft.advancements.seitan.title","fallback":"Hail Seitan"}],
 		"frame": "task",
-		"description": [{"text":"Cook a seitan steak"}]
+		"description": [{"translate":"dnv.vegancraft.advancements.seitan.description","fallback":"Cook a seitan steak"}]
 	},
 	"criteria": {
 		"granted_by_function": {

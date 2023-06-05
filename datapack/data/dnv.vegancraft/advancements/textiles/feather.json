@@ -1,0 +1,17 @@
+{
+	"parent": "dnv.vegancraft:textiles/string",
+	"display": {
+		"icon": {
+			"item": "minecraft:feather",
+			"nbt": "{CustomModelData:9261010}"
+		},
+		"title": [{"translate":"dnv.vegancraft.advancements.textiles.feather.title","fallback":"Simple and elegant"}],
+		"frame": "task",
+		"description": [{"translate":"dnv.vegancraft.advancements.textiles.feather.description","fallback":"Craft a vegan faux feather"}]
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

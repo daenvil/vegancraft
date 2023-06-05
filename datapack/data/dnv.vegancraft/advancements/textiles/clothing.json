@@ -4,16 +4,149 @@
 		"icon": {
 			"item": "minecraft:leather_leggings"
 		},
-		"title": "Vegan Swag",
+		"title": [{"translate":"dnv.vegancraft.advancements.textiles.clothing.title","fallback":"Vegan Swag"}],
 		"frame": "challenge",
-		"description": "Craft a piece of vegan leather clothing"
+		"description": [{"translate":"dnv.vegancraft.advancements.textiles.clothing.description","fallback":"Craft a piece of vegan leather clothing"}]
 	},
 	"rewards": {
 		"experience": 50
 	},
 	"criteria": {
-		"granted_by_function": {
-			"trigger": "minecraft:impossible"
+		"recipe_crafted_boots_vegan": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:leather_boots",
+				"ingredients": [
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					}
+				]
+			}
+		},
+		"recipe_crafted_leggings_vegan": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:leather_leggings",
+				"ingredients": [
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					}
+				]
+			}
+		},
+		"recipe_crafted_chestplate_vegan": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:leather_chestplate",
+				"ingredients": [
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					}
+				]
+			}
+		},
+		"recipe_crafted_helmet_vegan": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:leather_helmet",
+				"ingredients": [
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["leather"],
+						"nbt": "{dnv.Vegan:1b}"
+					}
+				]
+			}
 		}
-	}
+	},
+	"requirements": [
+		[
+			"recipe_crafted_boots_vegan",
+			"recipe_crafted_leggings_vegan",
+			"recipe_crafted_chestplate_vegan",
+			"recipe_crafted_helmet_vegan"
+		]
+	]
 }

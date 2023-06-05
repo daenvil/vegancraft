@@ -1,1 +1,1 @@
-give @s minecraft:honeycomb{display:{Name:'[{"translate":"dnv.plant_wax.item.plant_wax","italic":false}]'},dnv.Vegan:1b,CustomModelData:9261008} 1
+give @s minecraft:honeycomb{display:{Name:'[{"translate":"dnv.plant_wax.item.plant_wax","italic":false,"fallback":"Plant Wax"}]'},dnv.Vegan:1b,CustomModelData:9261008} 1

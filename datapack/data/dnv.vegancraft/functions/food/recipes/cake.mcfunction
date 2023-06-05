@@ -1,10 +1,6 @@
-# Called by function dnv.vegan_food:recipes/cake if vegancraft is enabled
-# @s = player who used the custom cake recipe
-# Checks how many plant milks were used when crafting and labels the cake accordingly
+advancement revoke @s only dnv.vegancraft:food/recipes/cake
 
-execute store result score @s dnv.vegan_milk_d run clear @s minecraft:milk_bucket{dnv.Vegan:1b} 0
-scoreboard players operation @s dnv.vegan_milk_d -= @s dnv.vegan_milks
-
-execute if score @s dnv.vegan_milk_d matches -2.. run give @s minecraft:cake{display:{Name:'[{"translate":"dnv.vegan_food.item.cake","italic":false}]',Lore:['[{"translate":"dnv.vegancraft.contains_milk","italic":false,"color":"red"}]']}} 1
-execute if score @s dnv.vegan_milk_d matches ..-3 run function dnv.vegancraft:food/crafted_vegan_cake
-scoreboard players operation @s dnv.vegan_milks += @s dnv.vegan_milk_d
+execute store success score @s dnv.knowledge_book_removed run clear @s minecraft:knowledge_book
+execute if score @s dnv.knowledge_book_removed matches 0 run clear @s cake{dnv.Vegan:0b} 1
+give @s minecraft:cake{display:{Name:'[{"translate":"dnv.vegan_food.item.cake_vegan","italic":false,"fallback":"Vegan Cake"}]'},dnv.Vegan:1b} 1
+advancement grant @s only dnv.vegancraft:food/cake

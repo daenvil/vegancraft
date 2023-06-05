@@ -5,9 +5,9 @@
 			"item": "minecraft:leather",
 			"nbt": "{CustomModelData:9261006}"
 		},
-		"title": "As tough as leather",
+		"title": [{"translate":"dnv.vegancraft.advancements.textiles.leather.title","fallback":"As tough as leather"}],
 		"frame": "task",
-		"description": "Craft vegan leather"
+		"description": [{"translate":"dnv.vegancraft.advancements.textiles.leather.description","fallback":"Craft vegan leather"}]
 	},
 	"criteria": {
 		"granted_by_function": {

@@ -17,5 +17,6 @@
         "item": "minecraft:honey_bottle",
         "count": 1
     },
-    "group": "dnv.vegancraft.honey"
+    "group": "dnv.vegancraft.honey",
+    "category": "misc"
 }

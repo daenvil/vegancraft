@@ -23,5 +23,6 @@
         "item": "minecraft:cake",
         "count": 1
     },
-    "group": "dnv.vegancraft.cake"
+    "group": "dnv.vegancraft.cake",
+    "category": "misc"
 }

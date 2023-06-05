@@ -1,9 +1,9 @@
 {
     "criteria": {
         "recipe_unlocked": {
-            "trigger": "minecraft:recipe_unlocked",
+            "trigger": "minecraft:recipe_crafted",
             "conditions": {
-                "recipe": "dnv.vegan_food:knowledge_book/pie"
+                "recipe_id": "dnv.vegan_food:knowledge_book/pie"
             }
         }
     },

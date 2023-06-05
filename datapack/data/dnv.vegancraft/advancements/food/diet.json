@@ -4,9 +4,9 @@
 		"icon": {
 			"item": "minecraft:golden_carrot"
 		},
-		"title": "Plant-based Diet",
+		"title": [{"translate":"dnv.vegancraft.advancements.diet.title","fallback":"Plant-based Diet"}],
 		"frame": "challenge",
-		"description": "Play for 24 game-days without eating any animal products"
+		"description": [{"translate":"dnv.vegancraft.advancements.diet.description","fallback":"Play for 24 game-days without eating any animal products"}]
 	},
 	"criteria": {
 		"granted_by_function": {

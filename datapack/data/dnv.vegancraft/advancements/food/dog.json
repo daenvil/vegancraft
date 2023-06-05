@@ -4,9 +4,9 @@
 		"icon": {
 			"item": "minecraft:bone"
 		},
-		"title": "Dog Chef",
+		"title": [{"translate":"dnv.vegancraft.advancements.dog.title","fallback":"Dog Chef"}],
 		"frame": "task",
-		"description": "Feed a seitan steak to a wolf"
+		"description": [{"translate":"dnv.vegancraft.advancements.dog.description","fallback":"Feed a seitan steak to a wolf"}]
 	},
 	"criteria": {
 		"granted_by_function": {

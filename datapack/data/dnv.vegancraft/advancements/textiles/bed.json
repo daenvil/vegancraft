@@ -4,9 +4,9 @@
 		"icon": {
 			"item": "minecraft:green_bed"
 		},
-		"title": "Bittersweet Dreams",
+		"title": [{"translate":"dnv.vegancraft.advancements.textiles.bed.title","fallback":"Bittersweet Dreams"}],
 		"frame": "goal",
-		"description": "Craft a rudimentary bed using grass, hay, or jungle leaves."
+		"description": [{"translate":"dnv.vegancraft.advancements.textiles.bed.description","fallback":"Craft a rudimentary bed using grass, hay, or jungle leaves"}]
 	},
 	"criteria": {
 		"granted_by_function": {

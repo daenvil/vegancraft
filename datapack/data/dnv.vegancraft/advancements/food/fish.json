@@ -5,9 +5,9 @@
 			"item": "minecraft:cod",
 			"nbt": "{CustomModelData:9261004}"
 		},
-		"title": "Smells Fishy",
+		"title": [{"translate":"dnv.vegancraft.advancements.fish.title","fallback":"Smells Fishy"}],
 		"frame": "task",
-		"description": [{"text":"Cook a vegan not-fish fillet"}]
+		"description": [{"translate":"dnv.vegancraft.advancements.fish.description","fallback":"Cook a vegan not-fish fillet"}]
 	},
 	"criteria": {
 		"granted_by_function": {

@@ -3,14 +3,19 @@
         "function": "dnv.core:triggers/interacted_with_furnace"
     },
     "criteria": {
-        "crafting_table_interaction": {
+        "interacted_with_furnace": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
-                "location": {
-                    "block": {
-                        "blocks": ["minecraft:furnace"]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "id": "furnace"
+                            }
+                        }
                     }
-                }
+                ]
             }
         }
     }

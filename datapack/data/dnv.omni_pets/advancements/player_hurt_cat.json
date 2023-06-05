@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "cat"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "dnv.omni_pets:cat/attention/player_hurt_cat"
+    }
+  }
+  

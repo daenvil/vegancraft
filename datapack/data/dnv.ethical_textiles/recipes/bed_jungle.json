@@ -17,5 +17,6 @@
         "item": "minecraft:green_bed",
         "count": 1
     },
-    "group": "dnv.vegancraft.bed"
+    "group": "dnv.vegancraft.bed",
+    "category": "misc"
 }

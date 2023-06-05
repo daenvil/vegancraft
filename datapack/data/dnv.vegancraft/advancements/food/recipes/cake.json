@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "recipe_unlocked": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "dnv.vegan_food:knowledge_book/cake",
+                "ingredients": [
+                    {
+                        "items": ["milk_bucket"],
+                        "nbt": "{dnv.Vegan:1b}"
+                    },
+                    {
+                        "items": ["milk_bucket"],
+                        "nbt": "{dnv.Vegan:1b}"
+                    },
+                    {
+                        "items": ["milk_bucket"],
+                        "nbt": "{dnv.Vegan:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "dnv.vegancraft:food/recipes/cake"
+    }
+}

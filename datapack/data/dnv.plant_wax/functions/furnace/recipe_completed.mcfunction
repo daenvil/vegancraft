@@ -9,7 +9,7 @@ item modify block ~ ~ ~ container.0 dnv.core:reduce_count
 # Increase output count:
 execute if data block ~ ~ ~ {Items:[{Slot:2b}]} run tag @s add dnv.plant_wax.output
 execute if entity @s[tag=dnv.plant_wax.output] run item modify block ~ ~ ~ container.2 dnv.core:increase_count
-execute unless entity @s[tag=dnv.plant_wax.output] run data modify block ~ ~ ~ Items append value {Slot:2b,id:"minecraft:honeycomb",Count:1b,tag:{display:{Name:'[{"translate":"dnv.plant_wax.item.plant_wax","italic":false}]'},dnv.Vegan:1b,CustomModelData:9261008}}
+execute unless entity @s[tag=dnv.plant_wax.output] run data modify block ~ ~ ~ Items append value {Slot:2b,id:"minecraft:honeycomb",Count:1b,tag:{display:{Name:'[{"translate":"dnv.plant_wax.item.plant_wax","italic":false,"fallback":"Plant Wax"}]'},dnv.Vegan:1b,CustomModelData:9261008}}
 
 # Reset CookTime:
 data modify block ~ ~ ~ CookTime set value 0s

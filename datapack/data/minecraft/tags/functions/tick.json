@@ -1,7 +1,7 @@
 {
     "values": [
-        "dnv.core:furnace/tick",
         "dnv.core:player_tick",
-        "dnv.omni_pets:tick"
+        "dnv.omni_pets:tick",
+        "dnv.core:furnace/tick"
     ]
 }

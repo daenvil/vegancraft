@@ -6,5 +6,25 @@
     "dnv.ethical_textiles.item.hay_bed": "Hay Bed",
     "dnv.ethical_textiles.item.jungle_bed": "Leaf Bed",
     "dnv.ethical_textiles.item.grass_bed": "Grass Bed",
-    "dnv.ethical_textiles.item.cobweb": "Synthetic Cobweb"
+    "dnv.ethical_textiles.item.cobweb": "Synthetic Cobweb",
+
+    "dnv.vegancraft.contains_animal_products": "(Contains animal products)",
+    "dnv.ethical_textiles.item.faux_feather": "Faux Feather",
+    
+    "dnv.vegancraft.advancements.textiles.bed.title": "Bittersweet Dreams",
+    "dnv.vegancraft.advancements.textiles.bed.description": "Craft a rudimentary bed using grass, hay, or jungle leaves",
+	"dnv.vegancraft.advancements.textiles.book.title": "Ethical Studies",
+    "dnv.vegancraft.advancements.textiles.book.description": "Craft a vegan book",
+    "dnv.vegancraft.advancements.textiles.bow.title": "Our peaceful ways...",
+    "dnv.vegancraft.advancements.textiles.bow.description": "Craft a bow using vegan string",
+    "dnv.vegancraft.advancements.textiles.clothing.title": "Vegan Swag",
+    "dnv.vegancraft.advancements.textiles.clothing.description": "Craft a piece of vegan leather clothing",
+    "dnv.vegancraft.advancements.textiles.cobweb.title": "'You can't do that, huh?'",
+    "dnv.vegancraft.advancements.textiles.cobweb.description": "Craft synthetic vegan spider web",
+    "dnv.vegancraft.advancements.textiles.feather.title": "Simple and elegant",
+    "dnv.vegancraft.advancements.textiles.feather.description": "Craft a vegan faux feather",
+    "dnv.vegancraft.advancements.textiles.leather.title": "As tough as leather",
+    "dnv.vegancraft.advancements.textiles.leather.description": "Craft vegan leather",
+    "dnv.vegancraft.advancements.textiles.string.title": "Loose Threads",
+    "dnv.vegancraft.advancements.textiles.string.description": "Craft string from plants"
 }

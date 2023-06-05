@@ -4,9 +4,9 @@
 		"icon": {
 			"item": "minecraft:lead"
 		},
-		"title": "Friends, not food",
+		"title": [{"translate":"dnv.vegancraft.advancements.vegan_pets.title","fallback":"Friends, not food"}],
 		"frame": "goal",
-		"description": "Tame a cat or a wolf using vegan food"
+		"description": [{"translate":"dnv.vegancraft.advancements.vegan_pets.description","fallback":"Tame a cat or a wolf using vegan food"}]
 	},
 	"criteria": {
 		"granted_by_function": {

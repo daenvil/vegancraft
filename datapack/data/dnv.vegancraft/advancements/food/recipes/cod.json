@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "recipe_unlocked": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "dnv.vegan_food:knowledge_book/cod",
+                "ingredients": [
+                    {
+                        "items": ["cooked_beef"],
+                        "nbt": "{dnv.Vegan:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "dnv.vegancraft:food/recipes/cod"
+    }
+}

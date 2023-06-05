@@ -1,0 +1,10 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/feather"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":9261010}, "model": "dnv.ethical_textiles:item/faux_feather"}
+	]
+}

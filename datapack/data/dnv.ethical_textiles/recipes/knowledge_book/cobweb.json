@@ -14,5 +14,7 @@
     "result": {
         "item": "minecraft:knowledge_book",
         "count": 2
-    }
+    },
+    "group": "dnv.vegancraft.textiles",
+    "category": "misc"
 }

@@ -13,5 +13,6 @@
         "item": "minecraft:string",
         "count": 2
     },
-    "group": "dnv.vegancraft.string"
+    "group": "dnv.vegancraft.string",
+    "category": "misc"
 }

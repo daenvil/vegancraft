@@ -11,7 +11,7 @@
                     "functions": [
                         {
                             "function": "set_name",
-                            "name": {"translate":"dnv.acacia_gum.item.acacia_gumball", "italic":false}
+                            "name": {"translate":"dnv.acacia_gum.item.acacia_gumball", "italic":false, "fallback": "Acacia Gum"}
                         },
                         {
                             "function": "set_nbt",

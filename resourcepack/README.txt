@@ -1,11 +1,12 @@
-# Vegancraft Resourcepack v1e
+# Vegancraft Resourcepack v1.0
 
 This resourcepack contains all the required resources for every Vegancraft datapack by Daenvil, including:
 
-- [Plant-based Foods v1.0.1](https://daenvil.github.io/MCDatapacks/plant-based_foods.html)
-- [Acacia Gum v1](https://daenvil.github.io/MCDatapacks/acacia_gum.html)
-- [Ethical Textiles v1](https://daenvil.github.io/MCDatapacks/ethical_Textiles.html)
-- [Plant Wax v1](https://daenvil.github.io/MCDatapacks/plant_wax.html)
+- [Plant-based Foods v1.1](https://daenvil.github.io/MCDatapacks/plant-based_foods.html)
+- [Acacia Gum v1.1](https://daenvil.github.io/MCDatapacks/acacia_gum.html)
+- [Ethical Textiles v1.1](https://daenvil.github.io/MCDatapacks/ethical_Textiles.html)
+- [Plant Wax v1.1](https://daenvil.github.io/MCDatapacks/plant_wax.html)
+- [Magnet Fishing v1.1](https://daenvil.github.io/MCDatapacks/magnet_fishing.html)
 
 Read more on: https://daenvil.github.io/MCDatapacks/vegancraft.html
 
@@ -16,7 +17,7 @@ Read more on: https://daenvil.github.io/MCDatapacks/vegancraft.html
 
 - If you like my datapacks, please consider leaving a tip at my ko-fi: https://ko-fi.com/daenvilmc
 
-- This version was published on the 15th of December 2022. Check the webpages above for possible updates.
+- This version was published on the 5th of June 2023. Check the webpages above for possible updates.
 
 ## Installation
 

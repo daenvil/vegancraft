@@ -4,15 +4,15 @@
 	},
 	"criteria": {
 		"has_the_recipe": {
-			"trigger": "minecraft:recipe_unlocked",
+			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe": "dnv.vegan_food:knowledge_book/cake"
+				"recipe_id": "dnv.vegan_food:knowledge_book/cake"
 			}
 		},
 		"has_the_recipe2": {
-			"trigger": "minecraft:recipe_unlocked",
+			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe": "dnv.vegan_food:knowledge_book/pie"
+				"recipe_id": "dnv.vegan_food:knowledge_book/pie"
 			}
 		}
 	},

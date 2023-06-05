@@ -1,0 +1,53 @@
+{
+    "criteria": {
+      "ingot": {
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:iron_ingot"
+            ]
+          }
+        },
+        "trigger": "minecraft:fishing_rod_hooked",
+        "rod": {
+            "nbt": "{dnv.magnet_rod:1b}"
+        }
+      },
+      "ore": {
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:iron_ore"
+            ]
+          }
+        },
+        "trigger": "minecraft:fishing_rod_hooked",
+        "rod": {
+            "nbt": "{dnv.magnet_rod:1b}"
+        }
+      },
+      "raw_iron": {
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:raw_iron"
+            ]
+          }
+        },
+        "trigger": "minecraft:fishing_rod_hooked",
+        "rod": {
+            "nbt": "{dnv.magnet_rod:1b}"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "ingot",
+        "ore",
+        "raw_iron"
+      ]
+    ],
+    "rewards": {
+      "function": "dnv.vegancraft:magnet_fishing/advancement_trigger"
+    }
+  }

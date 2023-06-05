@@ -3,7 +3,9 @@
   "rewards": {
     "recipes": [
       "dnv.vegan_food:cake",
-      "dnv.vegan_food:pie"
+      "dnv.vegan_food:pie",
+      "dnv.vegan_food:knowledge_book/cake",
+      "dnv.vegan_food:knowledge_book/pie"
     ]
   },
   "criteria": {

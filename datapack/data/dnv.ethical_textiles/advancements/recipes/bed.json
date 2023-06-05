@@ -4,7 +4,10 @@
     "recipes": [
       "dnv.ethical_textiles:bed_grass",
       "dnv.ethical_textiles:bed_hay",
-      "dnv.ethical_textiles:bed_jungle"
+      "dnv.ethical_textiles:bed_jungle",
+      "dnv.ethical_textiles:knowledge_book/bed_grass",
+      "dnv.ethical_textiles:knowledge_book/bed_hay",
+      "dnv.ethical_textiles:knowledge_book/bed_jungle"
     ]
   },
   "criteria": {

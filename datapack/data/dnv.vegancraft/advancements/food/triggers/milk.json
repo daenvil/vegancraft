@@ -4,9 +4,9 @@
 	},
 	"criteria": {
 		"has_the_recipe": {
-			"trigger": "minecraft:recipe_unlocked",
+			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-			  "recipe": "dnv.vegan_food:knowledge_book/milk"
+			  "recipe_id": "dnv.vegan_food:knowledge_book/milk"
 			}
 		}
 	}

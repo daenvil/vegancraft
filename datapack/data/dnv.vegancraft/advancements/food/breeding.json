@@ -5,9 +5,9 @@
 			"item": "minecraft:cooked_beef",
 			"nbt": "{CustomModelData:9261003}"
 		},
-		"title": "Animal Lover",
+		"title": [{"translate":"dnv.vegancraft.advancements.breeding.title","fallback":"Animal Lover"}],
 		"frame": "goal",
-		"description": "Breed two animals using vegan meat."
+		"description": [{"translate":"dnv.vegancraft.advancements.breeding.description","fallback":"Breed two animals using vegan meat"}]
 	},
 	"criteria": {
 		"granted_by_function": {

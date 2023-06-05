@@ -1,9 +1,9 @@
 {
     "criteria": {
-        "recipe_unlocked": {
-            "trigger": "minecraft:recipe_unlocked",
+        "recipe_crafted_string_vines": {
+            "trigger": "minecraft:recipe_crafted",
             "conditions": {
-                "recipe": "dnv.ethical_textiles:knowledge_book/string_vines"
+                "recipe_id": "dnv.ethical_textiles:knowledge_book/string_vines"
             }
         }
     },

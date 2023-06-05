@@ -16,5 +16,6 @@
         "item": "minecraft:leather",
         "count": 1
     },
-    "group": "dnv.vegancraft.leather"
+    "group": "dnv.vegancraft.leather",
+    "category": "misc"
 }

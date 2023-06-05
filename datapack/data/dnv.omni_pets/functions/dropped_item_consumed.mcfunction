@@ -5,7 +5,6 @@
 
 # Player storage:
 data modify storage dnv.omni_pets:player UUID set from entity @s Thrower
-execute store result score dnv.dummy dnv.player_uuid run data get entity @s Thrower[0]
 
 # Plant-based Foods datapack integration:
 execute if score dnv.dummy dnv.vegancraft matches 1 if entity @s[nbt={Item:{tag:{dnv.Vegan:1b}}}] run function dnv.vegancraft:pets/ate_vegan_food

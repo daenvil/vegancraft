@@ -1,7 +1,7 @@
 {
     "display": {
         "title": "Plant Wax",
-        "description": "Daenvil's Plant Wax datapack (v1, for MC1.18+)",
+        "description": "Daenvil's Plant Wax datapack (v1.1, for MC1.20+)",
         "icon": {
             "item": "minecraft:honeycomb",
 			"nbt": "{CustomModelData:9261008}"

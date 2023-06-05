@@ -3,11 +3,7 @@ scoreboard objectives add dnv.fed_cat dummy
 scoreboard objectives add dnv.wolf_love dummy
 scoreboard objectives add dnv.cat_love dummy
 scoreboard objectives add dnv.ocelot_love dummy
-scoreboard objectives add dnv.seitans dummy
-scoreboard objectives add dnv.seitans_new dummy
-scoreboard objectives add dnv.vegan_milks dummy
-scoreboard objectives add dnv.vegan_milk_d dummy
-scoreboard objectives add dnv.crafted_cake minecraft.crafted:minecraft.cake
+
 scoreboard objectives add dnv.ate_nonvegan dummy
 scoreboard objectives add dnv.ate_veganalt dummy
 scoreboard objectives add dnv.vdiet_time minecraft.custom:play_time

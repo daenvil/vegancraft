@@ -1,9 +1,9 @@
 {
     "criteria": {
-        "recipe_unlocked": {
-            "trigger": "minecraft:recipe_unlocked",
+        "recipe_crafted_leather_3to1": {
+            "trigger": "minecraft:recipe_crafted",
             "conditions": {
-                "recipe": "dnv.ethical_textiles:knowledge_book/leather_3to1"
+                "recipe_id": "dnv.ethical_textiles:knowledge_book/leather_3to1"
             }
         }
     },

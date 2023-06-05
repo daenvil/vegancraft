@@ -5,9 +5,9 @@
 			"item": "minecraft:honey_bottle",
 			"nbt": "{CustomModelData:9261002}"
 		},
-		"title": "Save the Bees!",
+		"title": [{"translate":"dnv.vegancraft.advancements.honey.title","fallback":"Save the Bees!"}],
 		"frame": "task",
-		"description": [{"text":"Make vegan honey"}]
+		"description": [{"translate":"dnv.vegancraft.advancements.honey.description","fallback":"Make vegan honey"}]
 	},
 	"criteria": {
 		"granted_by_function": {

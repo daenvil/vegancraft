@@ -4,9 +4,9 @@
 		"icon": {
 			"item": "minecraft:cod"
 		},
-		"title": "Some serious gourmet fish",
+		"title": [{"translate":"dnv.vegancraft.advancements.cat.title","fallback":"Some serious gourmet fish"}],
 		"frame": "task",
-		"description": "Feed a vegan not-fish fillet to a cat"
+		"description": [{"translate":"dnv.vegancraft.advancements.cat.description","fallback":"Feed a vegan not-fish fillet to a cat"}]
 	},
 	"criteria": {
 		"granted_by_function": {

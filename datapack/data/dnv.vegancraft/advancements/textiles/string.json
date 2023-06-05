@@ -5,9 +5,9 @@
 			"item": "minecraft:string",
 			"nbt": "{CustomModelData:9261007}"
 		},
-		"title": "Loose Threads",
+		"title": [{"translate":"dnv.vegancraft.advancements.textiles.string.title","fallback":"Loose Threads"}],
 		"frame": "task",
-		"description": "Craft string from plants"
+		"description": [{"translate":"dnv.vegancraft.advancements.textiles.string.description","fallback":"Craft string from plants"}]
 	},
 	"criteria": {
 		"granted_by_function": {

@@ -20,5 +20,6 @@
         "item": "minecraft:pumpkin_pie",
         "count": 1
     },
-    "group": "dnv.vegancraft.pie"
+    "group": "dnv.vegancraft.pie",
+    "category": "misc"
 }

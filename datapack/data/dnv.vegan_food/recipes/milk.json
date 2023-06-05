@@ -20,5 +20,6 @@
         "item": "minecraft:milk_bucket",
         "count": 1
     },
-    "group": "dnv.vegancraft.milk"
+    "group": "dnv.vegancraft.milk",
+    "category": "misc"
 }

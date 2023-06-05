@@ -4,9 +4,9 @@
 		"icon": {
 			"item": "minecraft:cobweb"
 		},
-		"title": "'You can't do that, huh?'",
+		"title": [{"translate":"dnv.vegancraft.advancements.textiles.cobweb.title","fallback":"'You can't do that, huh?'"}],
 		"frame": "challenge",
-		"description": "Craft synthetic vegan spider web"
+		"description": [{"translate":"dnv.vegancraft.advancements.textiles.cobweb.description","fallback":"Craft synthetic vegan spider web"}]
 	},
 	"rewards": {
 		"experience": 50

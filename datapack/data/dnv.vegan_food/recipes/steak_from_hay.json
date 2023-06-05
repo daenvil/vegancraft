@@ -20,5 +20,6 @@
         "item": "minecraft:cooked_beef",
         "count": 3
     },
-    "group": "dnv.vegancraft.steak"
+    "group": "dnv.vegancraft.steak",
+    "category": "misc"
 }

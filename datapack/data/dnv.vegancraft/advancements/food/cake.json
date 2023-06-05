@@ -4,9 +4,9 @@
 		"icon": {
 			"item": "minecraft:cake"
 		},
-		"title": "The Icing on the Cake",
+		"title":  [{"translate":"dnv.vegancraft.advancements.cake.title","fallback":"The Icing on the Cake"}],
 		"frame": "goal",
-		"description": "Bake a fully vegan cake"
+		"description": [{"translate":"dnv.vegancraft.advancements.cake.description","fallback":"Bake a fully vegan cake"}]
 	},
 	"criteria": {
 		"granted_by_function": {

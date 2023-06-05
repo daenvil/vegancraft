@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_iron",
+            "weight": 70
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ingot",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ore",
+            "weight": 10
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+}

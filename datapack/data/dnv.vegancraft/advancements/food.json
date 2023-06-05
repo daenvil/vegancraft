@@ -4,9 +4,9 @@
 		"icon": {
 			"item": "minecraft:pumpkin_pie"
 		},
-		"title": "Plant-based Cooking",
+		"title": [{"translate":"dnv.vegancraft.advancements.food.title","fallback":"Plant-based Cooking"}],
 		"frame": "goal",
-		"description": "Vegan alternatives for vanilla foods",
+		"description": [{"translate":"dnv.vegancraft.advancements.food.description","fallback":"Vegan alternatives for vanilla foods"}],
 		"show_toast": false,
 		"announce_to_chat": false
 	},

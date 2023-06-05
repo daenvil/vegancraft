@@ -3,7 +3,9 @@
   "rewards": {
     "recipes": [
       "dnv.vegan_food:steak",
-      "dnv.vegan_food:steak_from_hay"
+      "dnv.vegan_food:steak_from_hay",
+      "dnv.vegan_food:knowledge_book/steak",
+      "dnv.vegan_food:knowledge_book/steak_from_hay"
     ]
   },
   "criteria": {

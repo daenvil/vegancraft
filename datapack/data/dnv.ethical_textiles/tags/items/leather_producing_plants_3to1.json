@@ -1,6 +1,7 @@
 {
     "values": [
         "minecraft:cactus",
-        "#dnv.core:dark_oak_bark"
+        "#dnv.core:dark_oak_bark",
+        "minecraft:bamboo_block"
     ]
 }

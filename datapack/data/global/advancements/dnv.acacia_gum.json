@@ -1,7 +1,7 @@
 {
     "display": {
         "title": "Acacia Gum",
-        "description": "Daenvil's Acacia Gum datapack (v1, for MC1.17+)",
+        "description": "Daenvil's Acacia Gum datapack (v1.1, for MC1.20+)",
         "icon": {
             "item": "minecraft:slime_ball",
 			"nbt": "{CustomModelData:9261005}"

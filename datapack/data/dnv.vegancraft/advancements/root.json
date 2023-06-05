@@ -6,7 +6,7 @@
 		"background": "minecraft:textures/block/green_wool.png",
 		"title": "Daenvil's Vegancraft",
 		"frame": "challenge",
-		"description": "Explore the possibilities of a vegan playstyle on Minecraft!",
+		"description": [{"translate":"dnv.vegancraft.advancements.root.description","fallback":"Explore the possibilities of a vegan playstyle on Minecraft!"}],
 		"show_toast": false,
 		"announce_to_chat": false
 	},

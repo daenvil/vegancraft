@@ -4,9 +4,9 @@
 		"icon": {
 			"item": "minecraft:golden_apple"
 		},
-		"title": "An apple a day...",
+		"title": [{"translate":"dnv.vegancraft.advancements.diet_alive.title","fallback":"An apple a day..."}],
 		"frame": "challenge",
-		"description": "Be alive for 24 game-days without eating any animal products"
+		"description": [{"translate":"dnv.vegancraft.advancements.diet_alive.description","fallback":"Be alive for 24 game-days without eating any animal products"}]
 	},
 	"criteria": {
 		"granted_by_function": {

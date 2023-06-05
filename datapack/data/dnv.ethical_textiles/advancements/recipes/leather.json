@@ -3,7 +3,9 @@
   "rewards": {
     "recipes": [
       "dnv.ethical_textiles:leather_3to1",
-      "dnv.ethical_textiles:leather_6to1"
+      "dnv.ethical_textiles:leather_6to1",
+      "dnv.ethical_textiles:knowledge_book/leather_3to1",
+      "dnv.ethical_textiles:knowledge_book/leather_6to1"
     ]
   },
   "criteria": {

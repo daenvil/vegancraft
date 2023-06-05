@@ -1,3 +1,8 @@
 {
-    "dnv.acacia_gum.item.acacia_gumball": "Goma de acacia"
+    "dnv.acacia_gum.item.acacia_gumball": "Goma de acacia",
+    
+    "dnv.vegancraft.advancements.acacia_gum.slime_ball.title":"Este árbol está... pegajoso",
+    "dnv.vegancraft.advancements.acacia_gum.slime_ball.description":"Extrae goma de una acacia",
+    "dnv.vegancraft.advancements.acacia_gum.frog.title":"Amante de slimes",
+    "dnv.vegancraft.advancements.acacia_gum.frog.description":"Alimenta con goma de acacia a una rana"
 }

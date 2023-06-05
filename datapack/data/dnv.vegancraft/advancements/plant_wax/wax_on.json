@@ -1,58 +1,58 @@
 {
-    "parent": "dnv.vegancraft:plant_wax/get",
-    "criteria": {
-      "vegan_wax_on": {
-        "conditions": {
-          "item": {
-            "items": [
-              "minecraft:honeycomb"
-            ],
-            "nbt": "{dnv.Vegan:1b}"
-          },
-          "location": {
-            "block": {
-              "blocks": [
-                "minecraft:copper_block",
-                "minecraft:exposed_copper",
-                "minecraft:weathered_copper",
-                "minecraft:oxidized_copper",
-                "minecraft:cut_copper",
-                "minecraft:exposed_cut_copper",
-                "minecraft:weathered_cut_copper",
-                "minecraft:oxidized_cut_copper",
-                "minecraft:cut_copper_slab",
-                "minecraft:exposed_cut_copper_slab",
-                "minecraft:weathered_cut_copper_slab",
-                "minecraft:oxidized_cut_copper_slab",
-                "minecraft:cut_copper_stairs",
-                "minecraft:exposed_cut_copper_stairs",
-                "minecraft:weathered_cut_copper_stairs",
-                "minecraft:oxidized_cut_copper_stairs"
-              ]
-            }
+  "parent": "dnv.vegancraft:plant_wax/get",
+  "criteria": {
+    "vegan_wax_on": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "all_of",
+            "terms": [
+              {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "tag": "dnv.core:waxable_blocks"
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "items": ["honeycomb"],
+                      "nbt": "{dnv.Vegan:1b}"
+                    }
+                  }
+                }
+              }
+            ]
           }
-        },
-        "trigger": "minecraft:item_used_on_block"
+        ]
       }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:cut_copper"
     },
-    "display": {
-      "announce_to_chat": true,
-      "frame": "task",
-      "hidden": false,
-      "icon": {
-        "item": "minecraft:cut_copper"
-      },
-      "show_toast": true,
-      "title": {
-        "translate": "The Miyagi Way"
-      },
-      "description": {
-        "text": "Apply Plant Wax to a Copper block!"
+    "show_toast": true,
+    "title": [
+      {
+        "translate": "dnv.vegancraft.advancements.plant_wax.wax_on.title",
+        "fallback": "The Miyagi Way"
       }
-    },
-    "requirements": [
-      [
-        "vegan_wax_on"
-      ]
+    ],
+    "description": [
+      {
+        "translate": "dnv.vegancraft.advancements.plant_wax.wax_on.description",
+        "fallback": "Wax something with plant wax"
+      }
     ]
   }
+}

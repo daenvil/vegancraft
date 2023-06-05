@@ -5,9 +5,9 @@
 			"item": "minecraft:milk_bucket",
 			"nbt": "{CustomModelData:9261001}"
 		},
-		"title": "Like milk, but made for humans",
+		"title": [{"translate":"dnv.vegancraft.advancements.milk.title","fallback":"Like milk, but made for humans"}],
 		"frame": "task",
-		"description": [{"text":"Make plant-based milk"}]
+		"description": [{"translate":"dnv.vegancraft.advancements.milk.description","fallback":"Make plant-based milk"}]
 	},
 	"criteria": {
 		"granted_by_function": {

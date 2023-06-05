@@ -4,9 +4,9 @@
 		"icon": {
 			"item": "minecraft:cod"
 		},
-		"title": "Not-fishy Business",
+		"title": [{"translate":"dnv.vegancraft.advancements.dolphin.title","fallback":"Not-fishy Business"}],
 		"frame": "task",
-		"description": "Feed a vegan not-fish fillet to a dolphin"
+		"description": [{"translate":"dnv.vegancraft.advancements.dolphin.description","fallback":"Feed a vegan not-fish fillet to a dolphin"}]
 	},
 	"criteria": {
 		"granted_by_function": {

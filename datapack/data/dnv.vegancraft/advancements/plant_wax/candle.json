@@ -4,14 +4,26 @@
 		"icon": {
 			"item": "minecraft:lime_candle"
 		},
-		"title": "Veganiversary",
+		"title": [{"translate":"dnv.vegancraft.advancements.plant_wax.candle.title","fallback":"Veganniversary"}],
 		"frame": "challenge",
-		"description": [{"text":"Craft a vegan candle. "},{"text":"Note: only works with a crafting table.","italic":true}],
-		"hidden": true
+		"description": [{"translate":"dnv.vegancraft.advancements.plant_wax.candle.description","fallback":"Craft a vegan candle"}]
 	},
 	"criteria": {
-		"granted_by_function": {
-			"trigger": "minecraft:impossible"
+		"recipe_crafted_candle_vegan": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:candle",
+				"ingredients": [
+					{
+						"items": ["honeycomb"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["string"],
+						"nbt": "{dnv.Vegan:1b}"
+					}
+				]
+			}
 		}
 	},
     "rewards": {

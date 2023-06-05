@@ -4,13 +4,30 @@
 		"icon": {
 			"item": "minecraft:bow"
 		},
-		"title": "Our peaceful ways...",
+		"title": [{"translate":"dnv.vegancraft.advancements.textiles.bow.title","fallback":"Our peaceful ways..."}],
 		"frame": "goal",
-		"description": "Craft a bow using vegan string"
+		"description": [{"translate":"dnv.vegancraft.advancements.textiles.bow.description","fallback":"Craft a bow using vegan string"}]
 	},
 	"criteria": {
-		"granted_by_function": {
-			"trigger": "minecraft:impossible"
+		"recipe_crafted_bow_vegan": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:bow",
+				"ingredients": [
+					{
+						"items": ["string"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["string"],
+						"nbt": "{dnv.Vegan:1b}"
+					},
+					{
+						"items": ["string"],
+						"nbt": "{dnv.Vegan:1b}"
+					}
+				]
+			}
 		}
 	}
 }

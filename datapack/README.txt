@@ -1,11 +1,11 @@
-# Daenvil's Vegancraft v1.0 (Full Datapack) for Minecraft 1.20+
+# Daenvil's Vegancraft v1.0.1 (Full Datapack) for Minecraft 1.20+
 
 This datapack is a merged version of the following datapacks:
 
 - [Plant-based Foods v1.1](https://daenvil.github.io/MCDatapacks/plant-based_foods.html)
 - [Omnivorous Pets v1.1](https://daenvil.github.io/MCDatapacks/omnivorous_pets.html)
 - [Acacia Gum v1.1](https://daenvil.github.io/MCDatapacks/acacia_gum.html)
-- [Ethical Textiles v1.1](https://daenvil.github.io/MCDatapacks/ethical_Textiles.html)
+- [Ethical Textiles v1.1.1](https://daenvil.github.io/MCDatapacks/ethical_Textiles.html)
 - [Plant Wax v1.1](https://daenvil.github.io/MCDatapacks/plant_wax.html)
 - [Magnet Fishing v1.1](https://daenvil.github.io/MCDatapacks/magnet_fishing.html)
 
@@ -14,9 +14,7 @@ This datapack is a merged version of the following datapacks:
   - On my website: https://daenvil.github.io/MCDatapacks/vegancraft.html
   - On GitHub: https://www.github.com/daenvil/vegancraft
 
-- If you like my datapacks, please consider leaving a tip at my ko-fi: https://ko-fi.com/daenvilmc
-
-- This version was published on the 5th of June 2023. Check the webpages above for possible updates.
+- This version was published on the 5th of January 2024. Check the webpages above for possible updates.
 
 ## Installation
 

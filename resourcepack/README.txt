@@ -15,9 +15,7 @@ Read more on: https://daenvil.github.io/MCDatapacks/vegancraft.html
   - On my website: https://daenvil.github.io/MCDatapacks/vegancraft.html
   - On GitHub: https://www.github.com/daenvil/vegancraft
 
-- If you like my datapacks, please consider leaving a tip at my ko-fi: https://ko-fi.com/daenvilmc
-
-- This version was published on the 5th of June 2023. Check the webpages above for possible updates.
+- This version was published on the 7th of June 2023. Check the webpages above for possible updates.
 
 ## Installation
 

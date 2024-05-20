@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/turtle_scute"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 9261016
+			},
+			"model": "dnv.vegancraft:item/hardened_seagrass"
+		}
+	]
+}

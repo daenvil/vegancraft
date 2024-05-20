@@ -1,0 +1,1 @@
+execute as @a[tag=dnv.subject.crafted_notsalmon_fillet,limit=1] run function zz.dnv.vegancraft:slots/on_crafted_notsalmon_fillet_delayed_player

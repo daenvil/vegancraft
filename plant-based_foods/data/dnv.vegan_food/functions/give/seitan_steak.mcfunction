@@ -1,0 +1,1 @@
+give @s cooked_beef[item_name="{\"translate\":\"dnv.vegan_food.item.seitan_steak\",\"fallback\":\"Seitan Steak\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Plant-based Foods\",\"color\":\"dark_green\",\"italic\":true}"],custom_model_data=9261003,custom_data={"dnv.vegan":true}]

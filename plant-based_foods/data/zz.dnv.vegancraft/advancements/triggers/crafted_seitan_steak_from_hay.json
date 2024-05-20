@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"crafted_seitan_steak_from_hay": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "dnv.vegan_food:seitan_steak_hay"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"crafted_seitan_steak_from_hay"
+		]
+	],
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_crafted_seitan_steak_from_hay"
+	}
+}

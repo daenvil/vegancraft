@@ -1,0 +1,50 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_pumpkin": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "pumpkin"
+					}
+				]
+			}
+		},
+		"has_pumpkin_pie": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "pumpkin_pie"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegan_food:vegan_pumpkin_pie"
+			}
+		},
+		"has_recipe_pumpkin_pie": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "pumpkin_pie"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_pumpkin",
+			"has_pumpkin_pie",
+			"has_the_recipe",
+			"has_recipe_pumpkin_pie"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegan_food:vegan_pumpkin_pie"
+		]
+	}
+}

@@ -1,6 +1,0 @@
-{
-	"parent": "item/handheld_rod",
-	"textures": {
-		"layer0": "dnv.magnet_fishing:item/magnet_rod"
-	}
-}

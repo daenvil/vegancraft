@@ -1,0 +1,72 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_kelp": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "kelp"
+					}
+				]
+			}
+		},
+		"has_cooked_beef": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "cooked_beef"
+					}
+				]
+			}
+		},
+		"has_item_tag_fishes": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#fishes"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegan_food:notfish_fillet"
+			}
+		},
+		"player_hurt_cod": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "cod"
+				}
+			}
+		},
+		"player_hurt_salmon": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "salmon"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_kelp",
+			"has_cooked_beef",
+			"has_item_tag_fishes",
+			"has_the_recipe",
+			"player_hurt_cod",
+			"player_hurt_salmon"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegan_food:notfish_fillet"
+		]
+	}
+}

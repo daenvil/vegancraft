@@ -1,0 +1,33 @@
+{
+	"criteria": {
+		"crafted_vegan_cake_vegan": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "dnv.vegan_food:vegan_cake",
+				"ingredients": [
+					{
+						"items": "milk_bucket",
+						"predicates": {
+							"custom_data": "{\"dnv.vegan\":true}"
+						}
+					},
+					{
+						"items": "milk_bucket",
+						"predicates": {
+							"custom_data": "{\"dnv.vegan\":true}"
+						}
+					},
+					{
+						"items": "milk_bucket",
+						"predicates": {
+							"custom_data": "{\"dnv.vegan\":true}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_crafted_vegan_cake_vegan"
+	}
+}

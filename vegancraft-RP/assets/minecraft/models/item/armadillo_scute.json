@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/armadillo_scute"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 9261022
+			},
+			"model": "dnv.ethical_textiles:item/armor_scale"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/cooked_porkchop"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 9261024
+			},
+			"model": "dnv.vegan_food:item/veggie_burger"
+		}
+	]
+}

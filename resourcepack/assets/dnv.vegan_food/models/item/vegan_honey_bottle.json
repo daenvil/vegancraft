@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "dnv.vegan_food:item/vegan_honey_bottle"
-    }
-}

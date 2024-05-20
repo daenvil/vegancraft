@@ -1,8 +1,0 @@
-{
-    "values": [
-        {
-            "id": "dnv.vegancraft:food/utility/player_tick",
-            "required": false
-        }
-    ]
-}

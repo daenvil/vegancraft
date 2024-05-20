@@ -1,0 +1,1 @@
+give @s milk_bucket[item_name="{\"translate\":\"dnv.vegan_food.item.plant_milk_bucket\",\"fallback\":\"Plant Milk\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Plant-based Foods\",\"color\":\"dark_green\",\"italic\":true}"],custom_model_data=9261001,custom_data={"dnv.vegan":true}]

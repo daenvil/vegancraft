@@ -1,0 +1,35 @@
+{
+	"type": "crafting_shaped",
+	"category": "misc",
+	"key": {
+		"M": {
+			"item": "milk_bucket"
+		},
+		"S": {
+			"item": "sugar"
+		},
+		"E": {
+			"tag": "dnv.vegan_food:egg_baking_replacements"
+		},
+		"W": {
+			"item": "wheat"
+		}
+	},
+	"pattern": [
+		"MMM",
+		"SES",
+		"WWW"
+	],
+	"result": {
+		"id": "cake",
+		"components": {
+			"item_name": "{\"translate\":\"dnv.vegan_food.item.vegan_cake\",\"fallback\":\"Vegan Cake\",\"italic\":false}",
+			"lore": [
+				"{\"text\":\"Daenvil's Plant-based Foods\",\"color\":\"dark_green\",\"italic\":true}"
+			],
+			"custom_data": {
+				"dnv.vegan": true
+			}
+		}
+	}
+}

@@ -1,9 +1,0 @@
-{
-    "values": [
-        {
-            "id": "dnv.vegancraft:utility/grant_crafting_advancement",
-            "required": false
-        },
-        "dnv.core:furnace/raycast/find_furnace"
-    ]
-}

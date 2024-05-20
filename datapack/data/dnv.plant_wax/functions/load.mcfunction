@@ -1,1 +1,0 @@
-scoreboard objectives add dnv.plant_wax.recipes_used dummy

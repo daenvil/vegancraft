@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/fishing_rod"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 9261009
+			},
+			"model": "dnv.magnet_fishing:item/magnet_fishing_rod"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/breeze_rod"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 9261027
+			},
+			"model": "dnv.vegancraft:item/breezy_rod"
+		}
+	]
+}

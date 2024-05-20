@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/fermented_spider_eye"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 9261015
+			},
+			"model": "dnv.vegancraft:item/fermented_sprout"
+		}
+	]
+}

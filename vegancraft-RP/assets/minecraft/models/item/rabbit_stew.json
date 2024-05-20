@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/rabbit_stew"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 9261025
+			},
+			"model": "dnv.vegan_food:item/seitan_stew"
+		}
+	]
+}

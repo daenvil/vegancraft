@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/slime_ball"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 9261005
+			},
+			"model": "dnv.acacia_gum:item/acacia_gum_ball"
+		}
+	]
+}

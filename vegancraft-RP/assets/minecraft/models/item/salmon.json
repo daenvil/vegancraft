@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/salmon"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 9261026
+			},
+			"model": "dnv.vegan_food:item/notsalmon_fillet"
+		}
+	]
+}

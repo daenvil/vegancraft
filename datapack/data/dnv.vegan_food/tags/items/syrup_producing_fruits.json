@@ -1,9 +1,0 @@
-{
-    "values": [
-        "minecraft:apple",
-        {
-            "id": "#forge:fruits/apple",
-            "required": false
-        }
-    ]
-}

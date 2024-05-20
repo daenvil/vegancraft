@@ -1,0 +1,61 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_item_tag_dnv.vegan_food:milk_producing_plants": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#dnv.vegan_food:milk_producing_plants"
+					}
+				]
+			}
+		},
+		"has_milk_bucket": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "milk_bucket"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegan_food:plant_milk_bucket"
+			}
+		},
+		"interacted_with_cow": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "cow"
+				}
+			}
+		},
+		"player_hurt_cow": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "cow"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_item_tag_dnv.vegan_food:milk_producing_plants",
+			"has_milk_bucket",
+			"has_the_recipe",
+			"interacted_with_cow",
+			"player_hurt_cow"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegan_food:plant_milk_bucket"
+		]
+	}
+}

@@ -1,6 +1,0 @@
-{
-    "condition": "match_tool",
-    "predicate": {
-        "nbt": "{dnv.magnet_rod:1b}"
-    }
-}

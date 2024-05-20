@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/string"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 9261007
+			},
+			"model": "dnv.ethical_textiles:item/plant_string"
+		}
+	]
+}

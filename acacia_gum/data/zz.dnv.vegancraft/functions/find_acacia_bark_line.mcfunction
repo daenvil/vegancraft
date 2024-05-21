@@ -1,0 +1,3 @@
+execute if block ~ ~ ~ #zz.dnv.core:acacia_bark run function zz.dnv.vegancraft:summon_acacia_gum_ball
+execute if score @s dnv.acacia_gum.found_acacia matches ..0 if score @s dnv.acacia_gum.found_acacia >= @s dnv.acacia_gum.raycast_range run scoreboard players remove @s dnv.acacia_gum.found_acacia 1
+execute if score @s dnv.acacia_gum.found_acacia matches ..0 if score @s dnv.acacia_gum.found_acacia >= @s dnv.acacia_gum.raycast_range positioned ^ ^ ^.1 run function zz.dnv.vegancraft:find_acacia_bark_line

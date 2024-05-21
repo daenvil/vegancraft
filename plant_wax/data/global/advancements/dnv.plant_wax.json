@@ -1,0 +1,26 @@
+{
+	"parent": "global:dnv.vegancraft",
+	"display": {
+		"title": {
+			"text": "Plant Wax",
+			"italic": false
+		},
+		"description": {
+			"text": "Daenvil's Plant Wax 2.0 (for MC1.20.5+)",
+			"italic": false
+		},
+		"icon": {
+			"id": "honeycomb",
+			"components": {
+				"custom_model_data": 9261008
+			}
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "tick"
+		}
+	}
+}

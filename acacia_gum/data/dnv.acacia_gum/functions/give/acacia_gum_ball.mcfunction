@@ -1,0 +1,1 @@
+give @s slime_ball[item_name="{\"translate\":\"dnv.acacia_gum.item.acacia_gum_ball\",\"fallback\":\"Acacia Gum\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Acacia Gum\",\"color\":\"gold\",\"italic\":true}"],custom_model_data=9261005,custom_data={"dnv.vegan":true}]

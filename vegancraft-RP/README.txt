@@ -16,7 +16,7 @@ Read more on: https://daenvil.github.io/MCDatapacks/vegancraft.html
   - On my website: https://daenvil.github.io/MCDatapacks/vegancraft.html
   - On GitHub: https://www.github.com/daenvil/vegancraft
 
-- This version was published on the 15th of May 2024. Check the webpages above for possible updates.
+- This version was published on the 20th of May 2024. Check the webpages above for possible updates.
 
 ## Installation
 

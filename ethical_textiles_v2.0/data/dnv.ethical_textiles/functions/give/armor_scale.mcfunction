@@ -1,0 +1,1 @@
+give @s armadillo_scute[item_name="{\"translate\":\"dnv.ethical_textiles.item.armor_scale\",\"fallback\":\"Armor Scale\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Ethical Textiles\",\"color\":\"#954535\",\"italic\":true}"],custom_model_data=9261022,custom_data={"dnv.vegan":true}]

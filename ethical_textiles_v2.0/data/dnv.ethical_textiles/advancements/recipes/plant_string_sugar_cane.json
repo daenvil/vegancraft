@@ -1,0 +1,52 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_sugar_cane": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "sugar_cane"
+					}
+				]
+			}
+		},
+		"has_string": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "string"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.ethical_textiles:plant_string_sugar_cane"
+			}
+		},
+		"player_hurt_spider": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "spider"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_sugar_cane",
+			"has_string",
+			"has_the_recipe",
+			"player_hurt_spider"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.ethical_textiles:plant_string_sugar_cane"
+		]
+	}
+}

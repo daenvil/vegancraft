@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"crafted_synthetic_cobweb": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "dnv.ethical_textiles:synthetic_cobweb"
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_crafted_synthetic_cobweb"
+	}
+}

@@ -1,0 +1,86 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_item_tag_dnv.ethical_textiles:leather_producing_plants_3to1": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#dnv.ethical_textiles:leather_producing_plants_3to1"
+					}
+				]
+			}
+		},
+		"has_leather": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "leather"
+					}
+				]
+			}
+		},
+		"has_rabbit_hide": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "rabbit_hide"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.ethical_textiles:faux_leather_3to1"
+			}
+		},
+		"interacted_with_cow": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "cow"
+				}
+			}
+		},
+		"player_hurt_cow": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "cow"
+				}
+			}
+		},
+		"has_acacia_gum": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "slime_ball",
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_item_tag_dnv.ethical_textiles:leather_producing_plants_3to1",
+			"has_leather",
+			"has_rabbit_hide",
+			"has_the_recipe",
+			"interacted_with_cow",
+			"player_hurt_cow",
+			"has_acacia_gum"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.ethical_textiles:faux_leather_3to1"
+		]
+	}
+}

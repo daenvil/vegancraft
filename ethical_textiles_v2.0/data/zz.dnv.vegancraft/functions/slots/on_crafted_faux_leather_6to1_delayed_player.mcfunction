@@ -1,0 +1,8 @@
+tag @s remove dnv.subject.crafted_faux_leather_6to1
+execute store success score @s dnv.success run tag @s remove dnv.crafted_vegan
+execute if score @s dnv.success matches 1 run return 0
+execute if items entity @s player.cursor leather run scoreboard players set @s dnv.success 1
+execute unless score @s dnv.success matches 0 run item modify entity @s player.cursor {"function":"set_components","components":{"custom_data":{"dnv.vegan":false},"custom_model_data":9261006,"item_name":"{\"translate\":\"dnv.ethical_textiles.item.faux_leather\",\"fallback\":\"Faux Leather\",\"italic\":false}","lore":["{\"translate\":\"dnv.vegancraft.contains_animal_products\",\"fallback\":\"(Contains animal products)\",\"color\":\"red\",\"italic\":false}","{\"text\":\"Daenvil's Ethical Textiles\",\"color\":\"#954535\",\"italic\":true}"]}}
+execute unless score @s dnv.success matches 0 run return 0
+execute store success score @s dnv.success run clear @s leather[custom_data~{dnv.vegan:true}] 1
+execute unless score @s dnv.success matches 0 run give @s leather[item_name="{\"translate\":\"dnv.ethical_textiles.item.faux_leather\",\"fallback\":\"Faux Leather\",\"italic\":false}",lore=["{\"translate\":\"dnv.vegancraft.contains_animal_products\",\"fallback\":\"(Contains animal products)\",\"color\":\"red\",\"italic\":false}","{\"text\":\"Daenvil's Ethical Textiles\",\"color\":\"#954535\",\"italic\":true}"],custom_model_data=9261006,custom_data={"dnv.vegan":false}]

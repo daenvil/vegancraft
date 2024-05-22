@@ -1,0 +1,26 @@
+{
+	"parent": "global:dnv.vegancraft",
+	"display": {
+		"title": {
+			"text": "Ethical Textiles",
+			"italic": false
+		},
+		"description": {
+			"text": "Daenvil's Ethical Textiles 2.0 (for MC1.20.5+)",
+			"italic": false
+		},
+		"icon": {
+			"id": "string",
+			"components": {
+				"custom_model_data": 9261007
+			}
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "tick"
+		}
+	}
+}

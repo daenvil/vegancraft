@@ -1,0 +1,74 @@
+{
+	"type": "block",
+	"pools": [
+		{
+			"conditions": [
+				{
+					"condition": "survives_explosion"
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:sugar_cane"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"conditions": [
+						{
+							"condition": "entity_properties",
+							"entity": "this",
+							"predicate": {
+
+							}
+						},
+						{
+							"condition": "entity_scores",
+							"entity": "this",
+							"scores": {
+								"dnv.xp_nerfer": {
+									"min": 0,
+									"max": {
+										"min": 200,
+										"max": 500
+									}
+								}
+							}
+						},
+						{
+							"condition": "random_chance",
+							"chance": 0.3
+						},
+						{
+							"condition": "block_state_property",
+							"block": "sugar_cane",
+							"properties": {
+								"age": "15"
+							}
+						}
+					],
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"custom_data": {
+									"dnv.xp_orb": true
+								}
+							}
+						}
+					],
+					"name": "emerald"
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:blocks/sugar_cane"
+}

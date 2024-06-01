@@ -1,0 +1,21 @@
+{
+	"type": "crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "carved_pumpkin"
+		},
+		{
+			"item": "pink_dye"
+		},
+		{
+			"item": "nether_gold_ore"
+		},
+		{
+			"tag": "dnv.vegancraft:piglin_head_patterns"
+		}
+	],
+	"result": {
+		"id": "piglin_head"
+	}
+}

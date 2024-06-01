@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"player_hurt_nonhostile_animal": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "#dnv.vegancraft:nonhostile_animals"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:utils/reset_animal_lover"
+	}
+}

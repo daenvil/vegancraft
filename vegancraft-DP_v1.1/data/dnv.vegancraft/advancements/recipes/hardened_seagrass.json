@@ -1,0 +1,57 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_seagrass": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "seagrass"
+					}
+				]
+			}
+		},
+		"has_turtle_scute": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "turtle_scute"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:hardened_seagrass"
+			}
+		},
+		"has_honeycomb": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "honeycomb",
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_seagrass",
+			"has_turtle_scute",
+			"has_the_recipe",
+			"has_honeycomb"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:hardened_seagrass"
+		]
+	}
+}

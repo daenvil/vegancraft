@@ -1,0 +1,32 @@
+{
+	"pack": {
+		"description": {
+			"text": "Daenvil",
+			"extra": [
+				{
+					"text": "'s ",
+					"color": "white",
+					"italic": false
+				},
+				{
+					"text": "Vegancraft",
+					"color": "white",
+					"italic": false,
+					"underlined": true
+				},
+				{
+					"text": "\nv1.1, for MC1.20.5+",
+					"color": "gray",
+					"italic": false
+				}
+			],
+			"color": "green",
+			"italic": false
+		},
+		"pack_format": 41,
+		"supported_formats": {
+			"min_inclusive": 41,
+			"max_inclusive": 42
+		}
+	}
+}

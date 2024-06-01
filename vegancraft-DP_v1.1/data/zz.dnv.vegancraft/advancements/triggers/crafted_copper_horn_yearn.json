@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"crafted_copper_horn": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "dnv.vegancraft:copper_horn_yearn"
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_crafted_copper_horn_yearn"
+	}
+}

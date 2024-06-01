@@ -1,0 +1,23 @@
+{
+	"type": "crafting_shaped",
+	"category": "misc",
+	"key": {
+		"G": {
+			"item": "green_dye"
+		},
+		"#": {
+			"item": "gunpowder"
+		},
+		"C": {
+			"item": "carved_pumpkin"
+		}
+	},
+	"pattern": [
+		"G#G",
+		"#C#",
+		"G#G"
+	],
+	"result": {
+		"id": "creeper_head"
+	}
+}

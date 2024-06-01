@@ -1,0 +1,65 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_chorus_fruit": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "chorus_fruit"
+					}
+				]
+			}
+		},
+		"has_dragon_breath": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "dragon_breath"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:end_mist"
+			}
+		},
+		"ender_dragon_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "ender_dragon"
+					}
+				}
+			}
+		},
+		"dragon_fireball_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "dragon_fireball"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_chorus_fruit",
+			"has_dragon_breath",
+			"has_the_recipe",
+			"ender_dragon_hurt_player",
+			"dragon_fireball_hurt_player"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:end_mist"
+		]
+	}
+}

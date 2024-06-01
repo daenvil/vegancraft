@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"consumed_custom_vegan_food": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"components": {
+						"custom_data": {
+							"dnv.vegan": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_ate_custom_vegan_food"
+	}
+}

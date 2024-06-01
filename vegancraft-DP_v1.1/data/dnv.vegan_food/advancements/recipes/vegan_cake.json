@@ -1,0 +1,61 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_milk_bucket": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "milk_bucket"
+					}
+				]
+			}
+		},
+		"has_item_tag_dnv.vegan_food:egg_baking_replacements": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#dnv.vegan_food:egg_baking_replacements"
+					}
+				]
+			}
+		},
+		"has_cake": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "cake"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegan_food:vegan_cake"
+			}
+		},
+		"has_recipe_cake": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "cake"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_milk_bucket",
+			"has_item_tag_dnv.vegan_food:egg_baking_replacements",
+			"has_cake",
+			"has_the_recipe",
+			"has_recipe_cake"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegan_food:vegan_cake"
+		]
+	}
+}

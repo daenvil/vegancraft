@@ -1,0 +1,90 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_wheat": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "wheat"
+					}
+				]
+			}
+		},
+		"has_item_tag_dnv.vegan_food:seitan_marinades": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#dnv.vegan_food:seitan_marinades"
+					}
+				]
+			}
+		},
+		"has_item_tag_dnv.vegan_food:nonhuman_mammal_meats": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#dnv.vegan_food:nonhuman_mammal_meats"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegan_food:seitan_steak"
+			}
+		},
+		"interacted_with_cow": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "cow"
+				}
+			}
+		},
+		"player_hurt_cow": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "cow"
+				}
+			}
+		},
+		"interacted_with_pig": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "pig"
+				}
+			}
+		},
+		"player_hurt_pig": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "pig"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_wheat",
+			"has_item_tag_dnv.vegan_food:seitan_marinades",
+			"has_item_tag_dnv.vegan_food:nonhuman_mammal_meats",
+			"has_the_recipe",
+			"interacted_with_cow",
+			"player_hurt_cow",
+			"interacted_with_pig",
+			"player_hurt_pig"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegan_food:seitan_steak"
+		]
+	}
+}

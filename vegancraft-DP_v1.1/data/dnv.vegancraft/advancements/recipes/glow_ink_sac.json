@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_item_tag_dnv.vegancraft:glow_items": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#dnv.vegancraft:glow_items"
+					}
+				]
+			}
+		},
+		"has_glow_ink_sac": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "glow_ink_sac"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:glow_ink_sac"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_item_tag_dnv.vegancraft:glow_items",
+			"has_glow_ink_sac",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:glow_ink_sac"
+		]
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"parent": "dnv.vegancraft:piglin_head",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.all_heads",
+			"fallback": "Trophy Maker",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.all_heads.description",
+			"fallback": "Craft all mob heads",
+			"italic": false
+		},
+		"icon": {
+			"id": "zombie_head"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"crafted_creeper_head": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "dnv.vegancraft:creeper_head"
+			}
+		},
+		"crafted_skeleton_skull": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "dnv.vegancraft:skeleton_skull"
+			}
+		},
+		"crafted_zombie_head": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "dnv.vegancraft:zombie_head"
+			}
+		},
+		"crafted_wither_skeleton_skull": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "dnv.vegancraft:wither_skeleton_skull"
+			}
+		},
+		"crafted_piglin_head": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "dnv.vegancraft:piglin_head"
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

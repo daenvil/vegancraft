@@ -1,0 +1,2 @@
+advancement revoke @s only zz.dnv.vegancraft:triggers/player_killed_nonhostile_animal
+execute if entity @s[advancements={dnv.vegancraft:food/animal_lover=true}] run advancement grant @s only dnv.vegancraft:food/traitor

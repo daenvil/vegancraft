@@ -1,0 +1,69 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_rabbit_stew": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "rabbit_stew"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegan_food:seitan_stew"
+			}
+		},
+		"has_recipe_rabbit_stew_brown_mushroom": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "rabbit_stew_brown_mushroom"
+			}
+		},
+		"has_recipe_rabbit_stew_red_mushroom": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "rabbit_stew_red_mushroom"
+			}
+		},
+		"has_cooked_beef": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "cooked_beef",
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		},
+		"player_hurt_rabbit": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "rabbit"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_rabbit_stew",
+			"has_the_recipe",
+			"has_recipe_rabbit_stew_brown_mushroom",
+			"has_recipe_rabbit_stew_red_mushroom",
+			"has_cooked_beef",
+			"player_hurt_rabbit"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegan_food:seitan_stew"
+		]
+	}
+}

@@ -1,0 +1,92 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"visited_swamp": {
+			"trigger": "location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"biomes": "minecraft:swamp"
+							}
+						}
+					}
+				]
+			}
+		},
+		"has_shroomlight": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "shroomlight"
+					}
+				]
+			}
+		},
+		"has_prismarine_crystals": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "prismarine_crystals"
+					}
+				]
+			}
+		},
+		"has_sea_lantern": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "sea_lantern"
+					}
+				]
+			}
+		},
+		"has_ochre_froglight": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "ochre_froglight"
+					}
+				]
+			}
+		},
+		"interacted_with_frog": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "frog"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_shroomlight",
+			"has_ochre_froglight",
+			"interacted_with_frog"
+		],
+		[
+			"has_prismarine_crystals",
+			"has_sea_lantern",
+			"has_ochre_froglight",
+			"interacted_with_frog"
+		],
+		[
+			"visited_swamp",
+			"has_ochre_froglight",
+			"interacted_with_frog"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:ochre_froglight"
+		]
+	}
+}

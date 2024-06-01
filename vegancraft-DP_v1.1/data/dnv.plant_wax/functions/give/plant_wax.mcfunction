@@ -1,0 +1,1 @@
+give @s honeycomb[item_name="{\"translate\":\"dnv.plant_wax.item.plant_wax\",\"fallback\":\"Plant Wax\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Plant Wax\",\"color\":\"#FAFAB0\",\"italic\":true}"],custom_model_data=9261008,custom_data={"dnv.vegan":true}]

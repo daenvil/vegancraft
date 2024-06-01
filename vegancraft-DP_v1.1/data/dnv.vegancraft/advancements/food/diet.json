@@ -1,0 +1,96 @@
+{
+	"parent": "dnv.vegancraft:food",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.vegan_diet",
+			"fallback": "Plant-based Diet",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.vegan_diet.description",
+			"fallback": "Play for 24 game-days without eating any animal products",
+			"italic": false
+		},
+		"icon": {
+			"id": "golden_carrot"
+		},
+		"frame": "goal"
+	},
+	"criteria": {
+		"day1": {
+			"trigger": "impossible"
+		},
+		"day2": {
+			"trigger": "impossible"
+		},
+		"day3": {
+			"trigger": "impossible"
+		},
+		"day4": {
+			"trigger": "impossible"
+		},
+		"day5": {
+			"trigger": "impossible"
+		},
+		"day6": {
+			"trigger": "impossible"
+		},
+		"day7": {
+			"trigger": "impossible"
+		},
+		"day8": {
+			"trigger": "impossible"
+		},
+		"day9": {
+			"trigger": "impossible"
+		},
+		"day10": {
+			"trigger": "impossible"
+		},
+		"day11": {
+			"trigger": "impossible"
+		},
+		"day12": {
+			"trigger": "impossible"
+		},
+		"day13": {
+			"trigger": "impossible"
+		},
+		"day14": {
+			"trigger": "impossible"
+		},
+		"day15": {
+			"trigger": "impossible"
+		},
+		"day16": {
+			"trigger": "impossible"
+		},
+		"day17": {
+			"trigger": "impossible"
+		},
+		"day18": {
+			"trigger": "impossible"
+		},
+		"day19": {
+			"trigger": "impossible"
+		},
+		"day20": {
+			"trigger": "impossible"
+		},
+		"day21": {
+			"trigger": "impossible"
+		},
+		"day22": {
+			"trigger": "impossible"
+		},
+		"day23": {
+			"trigger": "impossible"
+		},
+		"day24": {
+			"trigger": "impossible"
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

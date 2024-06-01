@@ -1,0 +1,1 @@
+give @s pufferfish[item_name="{\"translate\":\"dnv.vegancraft.item.puffer_bubble\",\"fallback\":\"Puffer Bubble\",\"italic\":false}",lore=["{\"translate\":\"dnv.vegancraft.puffer_bubble.lore\",\"fallback\":\"(Use as pufferfish)\",\"italic\":false}","{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"],custom_model_data=9261020,custom_data={"dnv.vegan":true}]

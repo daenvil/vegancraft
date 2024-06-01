@@ -1,0 +1,267 @@
+{
+	"type": "block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"conditions": [
+						{
+							"condition": "block_state_property",
+							"block": "pitcher_plant",
+							"properties": {
+								"half": "lower"
+							}
+						},
+						{
+							"condition": "any_of",
+							"terms": [
+								{
+									"condition": "match_tool",
+									"predicate": {
+										"items": "shears"
+									}
+								},
+								{
+									"condition": "match_tool",
+									"predicate": {
+										"predicates": {
+											"minecraft:enchantments": [
+												{
+													"enchantment": "minecraft:silk_touch",
+													"levels": {
+														"min": 1
+													}
+												}
+											]
+										}
+									}
+								}
+							]
+						}
+					],
+					"weight": 1,
+					"name": "pitcher_plant"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"conditions": [
+						{
+							"condition": "block_state_property",
+							"block": "pitcher_plant",
+							"properties": {
+								"half": "lower"
+							}
+						},
+						{
+							"condition": "inverted",
+							"term": {
+								"condition": "any_of",
+								"terms": [
+									{
+										"condition": "match_tool",
+										"predicate": {
+											"items": "shears"
+										}
+									},
+									{
+										"condition": "match_tool",
+										"predicate": {
+											"predicates": {
+												"minecraft:enchantments": [
+													{
+														"enchantment": "minecraft:silk_touch",
+														"levels": {
+															"min": 1
+														}
+													}
+												]
+											}
+										}
+									}
+								]
+							}
+						},
+						{
+							"condition": "survives_explosion"
+						}
+					],
+					"weight": 1,
+					"functions": [
+						{
+							"enchantment": "minecraft:fortune",
+							"formula": "minecraft:binomial_with_bonus_count",
+							"function": "minecraft:apply_bonus",
+							"parameters": {
+								"extra": 1,
+								"probability": 0.428571
+							}
+						}
+					],
+					"name": "pitcher_pod"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"conditions": [
+						{
+							"condition": "block_state_property",
+							"block": "pitcher_plant",
+							"properties": {
+								"half": "lower"
+							}
+						},
+						{
+							"condition": "inverted",
+							"term": {
+								"condition": "any_of",
+								"terms": [
+									{
+										"condition": "match_tool",
+										"predicate": {
+											"items": "shears"
+										}
+									},
+									{
+										"condition": "match_tool",
+										"predicate": {
+											"predicates": {
+												"minecraft:enchantments": [
+													{
+														"enchantment": "minecraft:silk_touch",
+														"levels": {
+															"min": 1
+														}
+													}
+												]
+											}
+										}
+									}
+								]
+							}
+						},
+						{
+							"condition": "random_chance",
+							"chance": 0.1
+						},
+						{
+							"condition": "survives_explosion"
+						}
+					],
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": "{\"translate\":\"dnv.vegancraft.item.pitcher_fluid\",\"fallback\":\"Pitcher Fluid\",\"italic\":false}",
+								"lore": [
+									"{\"translate\":\"dnv.vegancraft.item.pitcher_fluid.lore\",\"fallback\":\"(Use as ghast tear)\",\"italic\":false}",
+									"{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"
+								],
+								"custom_model_data": 9261023,
+								"custom_data": {
+									"dnv.vegan": true
+								}
+							}
+						},
+						{
+							"enchantment": "minecraft:fortune",
+							"formula": "minecraft:binomial_with_bonus_count",
+							"function": "minecraft:apply_bonus",
+							"parameters": {
+								"extra": 0,
+								"probability": 0.333333
+							}
+						}
+					],
+					"name": "ghast_tear"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"conditions": [
+						{
+							"condition": "inverted",
+							"term": {
+								"condition": "any_of",
+								"terms": [
+									{
+										"condition": "match_tool",
+										"predicate": {
+											"items": "shears"
+										}
+									},
+									{
+										"condition": "match_tool",
+										"predicate": {
+											"predicates": {
+												"minecraft:enchantments": [
+													{
+														"enchantment": "minecraft:silk_touch",
+														"levels": {
+															"min": 1
+														}
+													}
+												]
+											}
+										}
+									}
+								]
+							}
+						},
+						{
+							"condition": "entity_properties",
+							"entity": "this",
+							"predicate": {
+
+							}
+						},
+						{
+							"condition": "entity_scores",
+							"entity": "this",
+							"scores": {
+								"dnv.xp_nerfer": {
+									"min": 0,
+									"max": {
+										"min": 200,
+										"max": 500
+									}
+								}
+							}
+						},
+						{
+							"condition": "random_chance",
+							"chance": 0.6
+						}
+					],
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"custom_data": {
+									"dnv.xp_orb": true
+								}
+							}
+						}
+					],
+					"name": "emerald"
+				}
+			]
+		}
+	]
+}

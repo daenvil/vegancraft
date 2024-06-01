@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_item_tag_zz.dnv.core:dark_oak_bark": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#zz.dnv.core:dark_oak_bark"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:black_dye_stonecutting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_item_tag_zz.dnv.core:dark_oak_bark",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:black_dye_stonecutting"
+		]
+	}
+}

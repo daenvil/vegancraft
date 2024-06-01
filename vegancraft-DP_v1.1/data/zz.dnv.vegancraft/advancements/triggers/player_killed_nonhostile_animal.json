@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"player_killed_nonhostile_animal": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "#dnv.vegancraft:nonhostile_animals"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_player_killed_nonhostile_animal"
+	}
+}

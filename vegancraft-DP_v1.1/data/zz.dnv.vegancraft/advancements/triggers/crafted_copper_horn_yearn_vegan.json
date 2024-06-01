@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"crafted_copper_horn_vegan": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "dnv.vegancraft:copper_horn_yearn",
+				"ingredients": [
+					{
+						"items": "goat_horn",
+						"predicates": {
+							"custom_data": "{\"dnv.vegan\":true}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_crafted_copper_horn_yearn_vegan"
+	}
+}

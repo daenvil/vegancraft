@@ -1,0 +1,35 @@
+{
+	"type": "crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "magma_block"
+		},
+		{
+			"item": "glowstone_dust"
+		},
+		{
+			"item": "glowstone_dust"
+		},
+		{
+			"item": "glowstone_dust"
+		},
+		{
+			"item": "glowstone_dust"
+		}
+	],
+	"result": {
+		"id": "blaze_powder",
+		"count": 4,
+		"components": {
+			"item_name": "{\"translate\":\"dnv.vegancraft.item.blazing_powder\",\"fallback\":\"Blazing Powder\",\"italic\":false}",
+			"lore": [
+				"{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"
+			],
+			"custom_model_data": 9261012,
+			"custom_data": {
+				"dnv.vegan": true
+			}
+		}
+	}
+}

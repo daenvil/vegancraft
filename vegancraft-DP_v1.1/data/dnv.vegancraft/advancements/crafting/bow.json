@@ -1,0 +1,52 @@
+{
+	"parent": "dnv.vegancraft:crafting",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.bow",
+			"fallback": "Our peaceful ways...",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.bow.description",
+			"fallback": "Craft a bow using plant string",
+			"italic": false
+		},
+		"icon": {
+			"id": "bow"
+		}
+	},
+	"criteria": {
+		"crafted_bow": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "bow",
+				"ingredients": [
+					{
+						"items": "string",
+						"components": {
+							"custom_data": {
+								"dnv.vegan": true
+							}
+						}
+					},
+					{
+						"items": "string",
+						"components": {
+							"custom_data": {
+								"dnv.vegan": true
+							}
+						}
+					},
+					{
+						"items": "string",
+						"components": {
+							"custom_data": {
+								"dnv.vegan": true
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"type": "crafting_shaped",
+	"category": "misc",
+	"key": {
+		"H": {
+			"item": "hay_block"
+		},
+		"P": {
+			"tag": "planks"
+		}
+	},
+	"pattern": [
+		"HHH",
+		"PPP"
+	],
+	"result": {
+		"id": "yellow_bed",
+		"components": {
+			"item_name": "{\"translate\":\"dnv.ethical_textiles.item.hay_bed\",\"fallback\":\"Hay Bed\",\"italic\":false}",
+			"lore": [
+				"{\"text\":\"Daenvil's Ethical Textiles\",\"color\":\"#954535\",\"italic\":true}"
+			],
+			"custom_data": {
+				"dnv.vegan": true
+			}
+		}
+	},
+	"group": "dnv.ethical_textiles:rudimentary_beds"
+}

@@ -1,0 +1,57 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_cobweb": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "cobweb"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.ethical_textiles:synthetic_cobweb"
+			}
+		},
+		"spider_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "spider"
+					}
+				}
+			}
+		},
+		"has_acacia_gum": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "slime_ball",
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_cobweb",
+			"has_the_recipe",
+			"spider_hurt_player",
+			"has_acacia_gum"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.ethical_textiles:synthetic_cobweb"
+		]
+	}
+}

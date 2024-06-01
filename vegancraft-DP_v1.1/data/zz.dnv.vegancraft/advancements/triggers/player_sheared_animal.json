@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"player_sheared_animal": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "#dnv.vegancraft:shearable_animals"
+				},
+				"item": {
+					"items": "shears"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:utils/reset_animal_lover"
+	}
+}

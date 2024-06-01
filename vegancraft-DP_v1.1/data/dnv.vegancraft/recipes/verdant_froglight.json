@@ -1,0 +1,23 @@
+{
+	"type": "crafting_shaped",
+	"category": "misc",
+	"key": {
+		"G": {
+			"item": "green_dye"
+		},
+		"P": {
+			"item": "prismarine_crystals"
+		},
+		"S": {
+			"item": "shroomlight"
+		}
+	},
+	"pattern": [
+		"GPG",
+		"PSP",
+		"GPG"
+	],
+	"result": {
+		"id": "verdant_froglight"
+	}
+}

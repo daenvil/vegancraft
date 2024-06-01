@@ -1,0 +1,1 @@
+scoreboard objectives add dnv.success dummy

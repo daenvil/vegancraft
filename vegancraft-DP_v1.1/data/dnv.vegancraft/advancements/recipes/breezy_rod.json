@@ -1,0 +1,65 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_dragon_breath": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "dragon_breath"
+					}
+				]
+			}
+		},
+		"has_breeze_rod": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "breeze_rod"
+					}
+				]
+			}
+		},
+		"has_wind_charge": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "wind_charge"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:breezy_rod"
+			}
+		},
+		"breeze_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "breeze"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_dragon_breath",
+			"has_breeze_rod",
+			"has_wind_charge",
+			"has_the_recipe",
+			"breeze_hurt_player"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:breezy_rod"
+		]
+	}
+}

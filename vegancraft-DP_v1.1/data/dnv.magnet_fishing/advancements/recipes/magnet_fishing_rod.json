@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_fishing_rod": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fishing_rod"
+					}
+				]
+			}
+		},
+		"has_redstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "redstone"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.magnet_fishing:magnet_fishing_rod"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_fishing_rod",
+			"has_redstone",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.magnet_fishing:magnet_fishing_rod"
+		]
+	}
+}

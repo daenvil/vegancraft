@@ -1,0 +1,1 @@
+execute as @a[tag=dnv.subject.crafted_faux_leather_6to1,limit=1] run function zz.dnv.vegancraft:slots/on_crafted_faux_leather_6to1_delayed_player

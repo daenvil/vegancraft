@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"crafted_notfish_fillet_vegan": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "dnv.vegan_food:notfish_fillet",
+				"ingredients": [
+					{
+						"items": "cooked_beef",
+						"predicates": {
+							"custom_data": "{\"dnv.vegan\":true}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_crafted_notfish_fillet_vegan"
+	}
+}

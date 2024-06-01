@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"crafted_notsalmon_fillet": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "dnv.vegan_food:notsalmon_fillet"
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_crafted_notsalmon_fillet"
+	}
+}

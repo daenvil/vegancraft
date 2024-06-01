@@ -1,0 +1,12 @@
+{
+	"type": "crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"tag": "coals"
+		}
+	],
+	"result": {
+		"id": "black_dye"
+	}
+}

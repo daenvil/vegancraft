@@ -1,0 +1,26 @@
+{
+	"parent": "dnv.vegancraft:crafting",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.piglin_head",
+			"fallback": "Craftspigship",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.piglin_head.description",
+			"fallback": "Craft a fake piglin head",
+			"italic": false
+		},
+		"icon": {
+			"id": "piglin_head"
+		}
+	},
+	"criteria": {
+		"crafted_piglin_head": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "dnv.vegancraft:piglin_head"
+			}
+		}
+	}
+}

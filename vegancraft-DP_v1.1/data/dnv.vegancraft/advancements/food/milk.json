@@ -1,0 +1,36 @@
+{
+	"parent": "dnv.vegancraft:food",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.milk",
+			"fallback": "Like milk, but made for humans",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.milk.description",
+			"fallback": "Get plant-based milk",
+			"italic": false
+		},
+		"icon": {
+			"id": "milk_bucket",
+			"components": {
+				"custom_model_data": 9261001
+			}
+		}
+	},
+	"criteria": {
+		"has_vegan_milk": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "milk_bucket",
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		}
+	}
+}

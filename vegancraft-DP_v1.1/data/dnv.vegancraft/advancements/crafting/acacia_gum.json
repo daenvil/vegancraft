@@ -1,0 +1,36 @@
+{
+	"parent": "dnv.vegancraft:crafting",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.acacia_gum",
+			"fallback": "This tree is... sticky",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.acacia_gum.description",
+			"fallback": "Get acacia gum",
+			"italic": false
+		},
+		"icon": {
+			"id": "slime_ball",
+			"components": {
+				"custom_model_data": 9261005
+			}
+		}
+	},
+	"criteria": {
+		"has_acacia_gum": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "slime_ball",
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_redstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "redstone"
+					}
+				]
+			}
+		},
+		"has_glowstone_dust": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "glowstone_dust"
+					}
+				]
+			}
+		},
+		"has_gunpowder": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "gunpowder"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:gunpowder"
+			}
+		},
+		"creeper_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "creeper"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_redstone",
+			"has_glowstone_dust",
+			"has_gunpowder",
+			"has_the_recipe",
+			"creeper_hurt_player"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:gunpowder"
+		]
+	}
+}

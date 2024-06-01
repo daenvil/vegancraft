@@ -1,0 +1,65 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_item_tag_flowers": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#flowers"
+					}
+				]
+			}
+		},
+		"has_honey_bottle": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "honey_bottle"
+					}
+				]
+			}
+		},
+		"has_honeycomb": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "honeycomb"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegan_food:vegan_honey_bottle_flowers"
+			}
+		},
+		"bee_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "bee"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_item_tag_flowers",
+			"has_honey_bottle",
+			"has_honeycomb",
+			"has_the_recipe",
+			"bee_hurt_player"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegan_food:vegan_honey_bottle_flowers"
+		]
+	}
+}

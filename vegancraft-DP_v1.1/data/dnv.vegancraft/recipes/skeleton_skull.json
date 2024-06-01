@@ -1,0 +1,23 @@
+{
+	"type": "crafting_shaped",
+	"category": "misc",
+	"key": {
+		"W": {
+			"item": "white_dye"
+		},
+		"B": {
+			"item": "bone_block"
+		},
+		"C": {
+			"item": "carved_pumpkin"
+		}
+	},
+	"pattern": [
+		"WBW",
+		"BCB",
+		"WBW"
+	],
+	"result": {
+		"id": "skeleton_skull"
+	}
+}

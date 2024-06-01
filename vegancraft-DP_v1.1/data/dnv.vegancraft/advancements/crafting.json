@@ -1,0 +1,25 @@
+{
+	"parent": "dnv.vegancraft:root",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.crafting.title",
+			"fallback": "Ethical Crafting",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.crafting.description",
+			"fallback": "Craft useful items without harming mobs",
+			"italic": false
+		},
+		"icon": {
+			"id": "crafting_table"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "tick"
+		}
+	}
+}

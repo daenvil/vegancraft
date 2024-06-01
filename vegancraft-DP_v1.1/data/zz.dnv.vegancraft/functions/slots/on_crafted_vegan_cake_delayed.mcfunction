@@ -1,0 +1,1 @@
+execute as @a[tag=dnv.subject.crafted_vegan_cake,limit=1] run function zz.dnv.vegancraft:slots/on_crafted_vegan_cake_delayed_player

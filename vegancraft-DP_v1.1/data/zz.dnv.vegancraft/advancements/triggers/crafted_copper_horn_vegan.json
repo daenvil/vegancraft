@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"crafted_copper_horn_vegan": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "dnv.vegancraft:copper_horn",
+				"ingredients": [
+					{
+						"items": "honeycomb",
+						"predicates": {
+							"custom_data": "{\"dnv.vegan\":true}"
+						}
+					},
+					{
+						"items": "honeycomb",
+						"predicates": {
+							"custom_data": "{\"dnv.vegan\":true}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_crafted_copper_horn_vegan"
+	}
+}

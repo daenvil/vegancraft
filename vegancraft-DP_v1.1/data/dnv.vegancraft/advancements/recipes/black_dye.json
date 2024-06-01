@@ -1,0 +1,54 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_item_tag_coals": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#coals"
+					}
+				]
+			}
+		},
+		"has_black_dye": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "black_dye"
+					}
+				]
+			}
+		},
+		"has_ink_sac": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "ink_sac"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:black_dye"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_item_tag_coals",
+			"has_black_dye",
+			"has_ink_sac",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:black_dye"
+		]
+	}
+}

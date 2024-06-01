@@ -1,0 +1,94 @@
+{
+	"type": "fishing",
+	"pools": [
+		{
+			"conditions": [
+				{
+					"condition": "inverted",
+					"term": {
+						"condition": "match_tool",
+						"predicate": {
+							"components": {
+								"custom_model_data": 9261009
+							}
+						}
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"weight": 10,
+					"value": "minecraft:gameplay/fishing/junk"
+				},
+				{
+					"type": "loot_table",
+					"conditions": [
+						{
+							"condition": "entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "minecraft:fishing_hook",
+									"in_open_water": true
+								}
+							}
+						}
+					],
+					"weight": 5,
+					"quality": 2,
+					"value": "minecraft:gameplay/fishing/treasure"
+				},
+				{
+					"type": "loot_table",
+					"weight": 85,
+					"value": "minecraft:gameplay/fishing/fish"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"predicate": {
+						"components": {
+							"custom_model_data": 9261009
+						}
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"weight": 10,
+					"value": "dnv.magnet_fishing:junk"
+				},
+				{
+					"type": "loot_table",
+					"conditions": [
+						{
+							"condition": "entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "minecraft:fishing_hook",
+									"in_open_water": true
+								}
+							}
+						}
+					],
+					"weight": 5,
+					"quality": 2,
+					"value": "dnv.magnet_fishing:treasure"
+				},
+				{
+					"type": "loot_table",
+					"weight": 85,
+					"value": "dnv.magnet_fishing:pure_iron"
+				}
+			]
+		}
+	]
+}

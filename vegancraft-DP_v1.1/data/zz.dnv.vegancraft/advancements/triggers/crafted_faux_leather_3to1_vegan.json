@@ -1,0 +1,33 @@
+{
+	"criteria": {
+		"crafted_faux_leather_vegan": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "dnv.ethical_textiles:faux_leather_3to1",
+				"ingredients": [
+					{
+						"items": "slime_ball",
+						"predicates": {
+							"custom_data": "{\"dnv.vegan\":true}"
+						}
+					},
+					{
+						"items": "slime_ball",
+						"predicates": {
+							"custom_data": "{\"dnv.vegan\":true}"
+						}
+					},
+					{
+						"items": "slime_ball",
+						"predicates": {
+							"custom_data": "{\"dnv.vegan\":true}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_crafted_faux_leather_3to1_vegan"
+	}
+}

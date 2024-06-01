@@ -1,0 +1,23 @@
+{
+	"type": "crafting_shaped",
+	"category": "misc",
+	"key": {
+		"M": {
+			"item": "magenta_dye"
+		},
+		"P": {
+			"item": "prismarine_crystals"
+		},
+		"S": {
+			"item": "shroomlight"
+		}
+	},
+	"pattern": [
+		"MPM",
+		"PSP",
+		"MPM"
+	],
+	"result": {
+		"id": "pearlescent_froglight"
+	}
+}

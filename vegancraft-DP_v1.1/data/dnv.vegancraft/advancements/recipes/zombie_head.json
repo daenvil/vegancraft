@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_carved_pumpkin": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "carved_pumpkin"
+					}
+				]
+			}
+		},
+		"has_zombie_head": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "zombie_head"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:zombie_head"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_carved_pumpkin",
+			"has_zombie_head",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:zombie_head"
+		]
+	}
+}

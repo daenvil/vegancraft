@@ -1,0 +1,24 @@
+{
+	"type": "crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "poisonous_potato"
+		}
+	],
+	"result": {
+		"id": "spider_eye",
+		"count": 4,
+		"components": {
+			"item_name": "{\"translate\":\"dnv.vegancraft.item.poisonous_sprout\",\"fallback\":\"Poisonous Sprout\",\"italic\":false}",
+			"lore": [
+				"{\"translate\":\"dnv.vegancraft.poisonous_sprout.lore\",\"fallback\":\"(Use as spider eye)\",\"italic\":false}",
+				"{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"
+			],
+			"custom_model_data": 9261014,
+			"custom_data": {
+				"dnv.vegan": true
+			}
+		}
+	}
+}

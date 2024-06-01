@@ -1,0 +1,61 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_book": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "book"
+					}
+				]
+			}
+		},
+		"has_item_tag_coals": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#coals"
+					}
+				]
+			}
+		},
+		"has_writable_book": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "writable_book"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:writable_book_pencil"
+			}
+		},
+		"has_recipe_writable_book": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "writable_book"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_book",
+			"has_item_tag_coals",
+			"has_writable_book",
+			"has_the_recipe",
+			"has_recipe_writable_book"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:writable_book_pencil"
+		]
+	}
+}

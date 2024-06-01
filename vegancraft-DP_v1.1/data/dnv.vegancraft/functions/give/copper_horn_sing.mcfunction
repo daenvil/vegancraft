@@ -1,0 +1,1 @@
+give @s goat_horn[item_name="{\"translate\":\"dnv.vegancraft.item.copper_horn\",\"fallback\":\"Copper Horn\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"],custom_model_data=9261011,instrument="sing_goat_horn",custom_data={"dnv.vegan":true}]

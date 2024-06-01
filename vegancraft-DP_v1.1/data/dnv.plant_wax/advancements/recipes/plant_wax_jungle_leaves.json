@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_jungle_leaves": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "jungle_leaves"
+					}
+				]
+			}
+		},
+		"has_honeycomb": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "honeycomb"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.plant_wax:plant_wax_jungle_leaves"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_jungle_leaves",
+			"has_honeycomb",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.plant_wax:plant_wax_jungle_leaves"
+		]
+	}
+}

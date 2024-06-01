@@ -1,0 +1,1 @@
+execute as @a[tag=dnv.subject.crafted_copper_horn_feel,limit=1] run function zz.dnv.vegancraft:slots/on_crafted_copper_horn_feel_delayed_player

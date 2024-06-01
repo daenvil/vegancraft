@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_item_tag_dnv.vegancraft:copper_horn_templates_dream": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#dnv.vegancraft:copper_horn_templates_dream"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:copper_horn_dream"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_item_tag_dnv.vegancraft:copper_horn_templates_dream",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:copper_horn_dream"
+		]
+	}
+}

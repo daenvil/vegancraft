@@ -1,0 +1,45 @@
+{
+	"parent": "dnv.vegancraft:food",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.hail_seitan",
+			"fallback": "Hail Seitan!",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.hail_seitan.description",
+			"fallback": "Craft 666 seitan steaks",
+			"italic": false
+		},
+		"icon": {
+			"id": "cooked_beef",
+			"components": {
+				"custom_model_data": 9261003
+			}
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"crafted_111_seitan": {
+			"trigger": "impossible"
+		},
+		"crafted_222_seitan": {
+			"trigger": "impossible"
+		},
+		"crafted_333_seitan": {
+			"trigger": "impossible"
+		},
+		"crafted_444_seitan": {
+			"trigger": "impossible"
+		},
+		"crafted_555_seitan": {
+			"trigger": "impossible"
+		},
+		"crafted_666_seitan": {
+			"trigger": "impossible"
+		}
+	},
+	"rewards": {
+		"experience": 66
+	}
+}

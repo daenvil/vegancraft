@@ -1,0 +1,33 @@
+{
+	"criteria": {
+		"consumed_nonvegan_food": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": "#dnv.vegancraft:nonvegan_foods"
+				}
+			}
+		},
+		"consumed_custom_nonvegan_food": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"components": {
+						"custom_data": {
+							"dnv.vegan": false
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"consumed_nonvegan_food",
+			"consumed_custom_nonvegan_food"
+		]
+	],
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_ate_nonvegan_food"
+	}
+}

@@ -1,0 +1,140 @@
+{
+	"type": "block",
+	"functions": [
+		{
+			"function": "minecraft:explosion_decay"
+		}
+	],
+	"pools": [
+		{
+			"conditions": [
+				{
+					"condition": "block_state_property",
+					"block": "minecraft:sweet_berry_bush",
+					"properties": {
+						"age": "3"
+					}
+				}
+			],
+			"functions": [
+				{
+					"add": false,
+					"count": {
+						"type": "minecraft:uniform",
+						"max": 3,
+						"min": 2
+					},
+					"function": "minecraft:set_count"
+				},
+				{
+					"enchantment": "minecraft:fortune",
+					"formula": "minecraft:uniform_bonus_count",
+					"function": "minecraft:apply_bonus",
+					"parameters": {
+						"bonusMultiplier": 1
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:sweet_berries"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "block_state_property",
+					"block": "minecraft:sweet_berry_bush",
+					"properties": {
+						"age": "2"
+					}
+				}
+			],
+			"functions": [
+				{
+					"add": false,
+					"count": {
+						"type": "minecraft:uniform",
+						"max": 2,
+						"min": 1
+					},
+					"function": "minecraft:set_count"
+				},
+				{
+					"enchantment": "minecraft:fortune",
+					"formula": "minecraft:uniform_bonus_count",
+					"function": "minecraft:apply_bonus",
+					"parameters": {
+						"bonusMultiplier": 1
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:sweet_berries"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"conditions": [
+						{
+							"condition": "entity_properties",
+							"entity": "this",
+							"predicate": {
+
+							}
+						},
+						{
+							"condition": "entity_scores",
+							"entity": "this",
+							"scores": {
+								"dnv.xp_nerfer": {
+									"min": 0,
+									"max": {
+										"min": 200,
+										"max": 500
+									}
+								}
+							}
+						},
+						{
+							"condition": "random_chance",
+							"chance": 0.3
+						},
+						{
+							"condition": "block_state_property",
+							"block": "sweet_berry_bush",
+							"properties": {
+								"age": "1"
+							}
+						}
+					],
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"custom_data": {
+									"dnv.xp_orb": true
+								}
+							}
+						}
+					],
+					"name": "emerald"
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:blocks/sweet_berry_bush"
+}

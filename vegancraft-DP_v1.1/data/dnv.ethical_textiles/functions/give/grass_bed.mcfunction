@@ -1,0 +1,1 @@
+give @s green_bed[item_name="{\"translate\":\"dnv.ethical_textiles.item.grass_bed\",\"fallback\":\"Grass Bed\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Ethical Textiles\",\"color\":\"#954535\",\"italic\":true}"],custom_data={"dnv.vegan":true}]

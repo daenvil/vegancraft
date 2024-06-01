@@ -1,0 +1,18 @@
+{
+	"type": "crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"tag": "coals"
+		},
+		{
+			"item": "redstone"
+		},
+		{
+			"item": "glowstone_dust"
+		}
+	],
+	"result": {
+		"id": "gunpowder"
+	}
+}

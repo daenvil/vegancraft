@@ -1,0 +1,111 @@
+{
+	"type": "block",
+	"pools": [
+		{
+			"functions": [
+				{
+					"function": "minecraft:explosion_decay"
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"add": false,
+							"conditions": [
+								{
+									"block": "minecraft:nether_wart",
+									"condition": "minecraft:block_state_property",
+									"properties": {
+										"age": "3"
+									}
+								}
+							],
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 4,
+								"min": 2
+							},
+							"function": "minecraft:set_count"
+						},
+						{
+							"conditions": [
+								{
+									"block": "minecraft:nether_wart",
+									"condition": "minecraft:block_state_property",
+									"properties": {
+										"age": "3"
+									}
+								}
+							],
+							"enchantment": "minecraft:fortune",
+							"formula": "minecraft:uniform_bonus_count",
+							"function": "minecraft:apply_bonus",
+							"parameters": {
+								"bonusMultiplier": 1
+							}
+						}
+					],
+					"name": "minecraft:nether_wart"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"conditions": [
+						{
+							"condition": "entity_properties",
+							"entity": "this",
+							"predicate": {
+
+							}
+						},
+						{
+							"condition": "entity_scores",
+							"entity": "this",
+							"scores": {
+								"dnv.xp_nerfer": {
+									"min": 0,
+									"max": {
+										"min": 200,
+										"max": 500
+									}
+								}
+							}
+						},
+						{
+							"condition": "random_chance",
+							"chance": 0.5
+						},
+						{
+							"condition": "block_state_property",
+							"block": "nether_wart",
+							"properties": {
+								"age": "3"
+							}
+						}
+					],
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"custom_data": {
+									"dnv.xp_orb": true
+								}
+							}
+						}
+					],
+					"name": "emerald"
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:blocks/nether_wart"
+}

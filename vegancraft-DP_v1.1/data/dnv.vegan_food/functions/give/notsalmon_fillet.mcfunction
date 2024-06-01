@@ -1,0 +1,1 @@
+give @s salmon[item_name="{\"translate\":\"dnv.vegan_food.item.notsalmon_fillet\",\"fallback\":\"Not-salmon Fillet\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Plant-based Foods\",\"color\":\"dark_green\",\"italic\":true}"],custom_model_data=9261026,food={"nutrition":6,"saturation":9.6},custom_data={"dnv.vegan":true}]

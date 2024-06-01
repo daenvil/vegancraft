@@ -1,0 +1,1 @@
+give @s cooked_porkchop[item_name="{\"translate\":\"dnv.vegan_food.item.veggie_burger\",\"fallback\":\"Veggie Burger\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Plant-based Foods\",\"color\":\"dark_green\",\"italic\":true}"],custom_model_data=9261024,custom_data={"dnv.vegan":true}]

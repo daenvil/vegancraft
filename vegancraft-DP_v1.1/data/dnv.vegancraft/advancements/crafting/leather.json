@@ -1,0 +1,36 @@
+{
+	"parent": "dnv.vegancraft:crafting/acacia_gum",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.leather",
+			"fallback": "As Tough as Leather",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.leather.description",
+			"fallback": "Get vegan leather",
+			"italic": false
+		},
+		"icon": {
+			"id": "leather",
+			"components": {
+				"custom_model_data": 9261006
+			}
+		}
+	},
+	"criteria": {
+		"has_vegan_leather": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "leather",
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		}
+	}
+}

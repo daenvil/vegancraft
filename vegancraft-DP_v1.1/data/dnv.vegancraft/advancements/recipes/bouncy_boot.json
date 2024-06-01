@@ -1,0 +1,64 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_rabbit_foot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "rabbit_foot"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:bouncy_boot"
+			}
+		},
+		"interacted_with_rabbit": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "rabbit"
+				}
+			}
+		},
+		"player_hurt_rabbit": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:rabbit"
+				}
+			}
+		},
+		"has_slime_ball": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "slime_ball",
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_rabbit_foot",
+			"has_the_recipe",
+			"interacted_with_rabbit",
+			"player_hurt_rabbit",
+			"has_slime_ball"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:bouncy_boot"
+		]
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"criteria": {
+		"#axes_used_on_#zz.dnv.core:acacia_bark": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "#axes"
+						}
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "#zz.dnv.core:acacia_bark"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_used_axe_on_acacia_bark"
+	}
+}

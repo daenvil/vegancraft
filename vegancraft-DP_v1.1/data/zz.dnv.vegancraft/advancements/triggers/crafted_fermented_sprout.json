@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"crafted_fermented_sprout": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "fermented_spider_eye",
+				"ingredients": [
+					{
+						"items": "spider_eye",
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_crafted_fermented_sprout"
+	}
+}

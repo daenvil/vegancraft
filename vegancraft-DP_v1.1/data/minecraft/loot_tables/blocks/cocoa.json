@@ -1,0 +1,88 @@
+{
+	"type": "block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"add": false,
+							"conditions": [
+								{
+									"block": "minecraft:cocoa",
+									"condition": "minecraft:block_state_property",
+									"properties": {
+										"age": "2"
+									}
+								}
+							],
+							"count": 3,
+							"function": "minecraft:set_count"
+						},
+						{
+							"function": "minecraft:explosion_decay"
+						}
+					],
+					"name": "minecraft:cocoa_beans"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"conditions": [
+						{
+							"condition": "entity_properties",
+							"entity": "this",
+							"predicate": {
+
+							}
+						},
+						{
+							"condition": "entity_scores",
+							"entity": "this",
+							"scores": {
+								"dnv.xp_nerfer": {
+									"min": 0,
+									"max": {
+										"min": 200,
+										"max": 500
+									}
+								}
+							}
+						},
+						{
+							"condition": "random_chance",
+							"chance": 0.2
+						},
+						{
+							"condition": "block_state_property",
+							"block": "cocoa",
+							"properties": {
+								"age": "2"
+							}
+						}
+					],
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"custom_data": {
+									"dnv.xp_orb": true
+								}
+							}
+						}
+					],
+					"name": "emerald"
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:blocks/cocoa"
+}

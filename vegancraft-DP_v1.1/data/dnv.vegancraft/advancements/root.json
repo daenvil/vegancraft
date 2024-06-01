@@ -1,0 +1,25 @@
+{
+	"display": {
+		"title": {
+			"text": "Daenvil's Vegancraft",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.root.description",
+			"fallback": "Explore the possibilities of a vegan playstyle on Minecraft!",
+			"italic": false
+		},
+		"icon": {
+			"id": "kelp"
+		},
+		"frame": "challenge",
+		"background": "minecraft:textures/block/green_wool.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "tick"
+		}
+	}
+}

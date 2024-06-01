@@ -1,0 +1,2 @@
+execute unless items entity @s contents emerald[custom_data~{"dnv.xp_orb":true}] run tag @s add dnv.xp_ignore
+execute unless entity @s[tag=dnv.xp_ignore] run function zz.dnv.vegancraft:convert_to_xp_orbs with entity @s Item

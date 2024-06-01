@@ -1,0 +1,43 @@
+{
+	"parent": "dnv.vegancraft:crafting",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.creeper_hugger.title",
+			"fallback": "Creeper Hugger",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.creeper_hugger.description",
+			"fallback": "Be killed by a creeper after having crafted gunpowder by yourself",
+			"italic": false
+		},
+		"icon": {
+			"id": "creeper_head"
+		},
+		"hidden": true
+	},
+	"criteria": {
+		"creeper_killed_player": {
+			"trigger": "entity_killed_player",
+			"conditions": {
+				"entity": {
+					"type": "creeper"
+				},
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:crafted",
+								"stat": "minecraft:gunpowder",
+								"value": {
+									"min": 1
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+}

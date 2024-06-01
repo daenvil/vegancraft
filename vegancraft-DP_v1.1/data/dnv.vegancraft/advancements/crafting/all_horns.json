@@ -1,0 +1,155 @@
+{
+	"parent": "dnv.vegancraft:crafting/plant_wax",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.all_horns",
+			"fallback": "Full Band",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.all_horns.description",
+			"fallback": "Get all vegan copper horns",
+			"italic": false
+		},
+		"icon": {
+			"id": "goat_horn",
+			"components": {
+				"custom_model_data": 9261011
+			}
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"has_ponder": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "goat_horn",
+						"components": {
+							"instrument": "ponder_goat_horn"
+						},
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		},
+		"has_sing": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "goat_horn",
+						"components": {
+							"instrument": "sing_goat_horn"
+						},
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		},
+		"has_seek": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "goat_horn",
+						"components": {
+							"instrument": "seek_goat_horn"
+						},
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		},
+		"has_feel": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "goat_horn",
+						"components": {
+							"instrument": "feel_goat_horn"
+						},
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		},
+		"has_admire": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "goat_horn",
+						"components": {
+							"instrument": "admire_goat_horn"
+						},
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		},
+		"has_call": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "goat_horn",
+						"components": {
+							"instrument": "call_goat_horn"
+						},
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		},
+		"has_yearn": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "goat_horn",
+						"components": {
+							"instrument": "yearn_goat_horn"
+						},
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		},
+		"has_dream": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "goat_horn",
+						"components": {
+							"instrument": "dream_goat_horn"
+						},
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"parent": "dnv.vegancraft:root",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.magnet_fishing",
+			"fallback": "Rusty Business",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.magnet_fishing.description",
+			"fallback": "Catch iron with a magnet rod",
+			"italic": false
+		},
+		"icon": {
+			"id": "fishing_rod",
+			"components": {
+				"damage": 0,
+				"custom_model_data": 9261009
+			}
+		}
+	},
+	"criteria": {
+		"fished_iron": {
+			"trigger": "fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"items": [
+						"iron_ingot",
+						"raw_iron",
+						"iron_ore"
+					]
+				},
+				"rod": {
+					"components": {
+						"custom_model_data": 9261009
+					}
+				}
+			}
+		}
+	}
+}

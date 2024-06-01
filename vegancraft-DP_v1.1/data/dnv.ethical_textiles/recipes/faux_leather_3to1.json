@@ -1,0 +1,30 @@
+{
+	"type": "crafting_shaped",
+	"category": "misc",
+	"key": {
+		"L": {
+			"tag": "dnv.ethical_textiles:leather_producing_plants_3to1"
+		},
+		"S": {
+			"item": "slime_ball"
+		}
+	},
+	"pattern": [
+		"LLL",
+		"SSS"
+	],
+	"result": {
+		"id": "leather",
+		"components": {
+			"item_name": "{\"translate\":\"dnv.ethical_textiles.item.faux_leather\",\"fallback\":\"Faux Leather\",\"italic\":false}",
+			"lore": [
+				"{\"text\":\"Daenvil's Ethical Textiles\",\"color\":\"#954535\",\"italic\":true}"
+			],
+			"custom_model_data": 9261006,
+			"custom_data": {
+				"dnv.vegan": true
+			}
+		}
+	},
+	"group": "dnv.ethical_textiles.faux_leather"
+}

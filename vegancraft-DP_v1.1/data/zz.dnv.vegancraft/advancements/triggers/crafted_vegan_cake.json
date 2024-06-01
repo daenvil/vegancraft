@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"crafted_vegan_cake": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "dnv.vegan_food:vegan_cake"
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_crafted_vegan_cake"
+	}
+}

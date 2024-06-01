@@ -1,0 +1,21 @@
+{
+	"type": "crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "skeleton_skull"
+		},
+		{
+			"item": "black_dye"
+		},
+		{
+			"item": "netherite_ingot"
+		},
+		{
+			"item": "rib_armor_trim_smithing_template"
+		}
+	],
+	"result": {
+		"id": "wither_skeleton_skull"
+	}
+}

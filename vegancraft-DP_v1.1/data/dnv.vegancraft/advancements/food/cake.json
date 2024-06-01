@@ -1,0 +1,56 @@
+{
+	"parent": "dnv.vegancraft:food/milk",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.cake",
+			"fallback": "The Icing on the Cake",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.cake.description",
+			"fallback": "Bake a fully vegan cake",
+			"italic": false
+		},
+		"icon": {
+			"id": "cake"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"crafted_vegan_cake": {
+			"trigger": "recipe_crafted",
+			"conditions": {
+				"recipe_id": "dnv.vegan_food:vegan_cake",
+				"ingredients": [
+					{
+						"items": "milk_bucket",
+						"components": {
+							"custom_data": {
+								"dnv.vegan": true
+							}
+						}
+					},
+					{
+						"items": "milk_bucket",
+						"components": {
+							"custom_data": {
+								"dnv.vegan": true
+							}
+						}
+					},
+					{
+						"items": "milk_bucket",
+						"components": {
+							"custom_data": {
+								"dnv.vegan": true
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

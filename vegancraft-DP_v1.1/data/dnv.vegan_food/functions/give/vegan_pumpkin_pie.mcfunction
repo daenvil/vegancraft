@@ -1,0 +1,1 @@
+give @s pumpkin_pie[item_name="{\"translate\":\"dnv.vegan_food.item.vegan_pumpkin_pie\",\"fallback\":\"Vegan Pumpkin Pie\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Plant-based Foods\",\"color\":\"dark_green\",\"italic\":true}"],custom_data={"dnv.vegan":true}]

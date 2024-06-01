@@ -1,0 +1,93 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_item_tag_leaves": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#leaves"
+					}
+				]
+			}
+		},
+		"has_feather": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "feather"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.ethical_textiles:faux_feather"
+			}
+		},
+		"interacted_with_chicken": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "chicken"
+				}
+			}
+		},
+		"player_hurt_chicken": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "chicken"
+				}
+			}
+		},
+		"interacted_with_parrot": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "parrot"
+				}
+			}
+		},
+		"player_hurt_parrot": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "parrot"
+				}
+			}
+		},
+		"has_plant_string": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "string",
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_item_tag_leaves",
+			"has_feather",
+			"has_the_recipe",
+			"interacted_with_chicken",
+			"player_hurt_chicken",
+			"interacted_with_parrot",
+			"player_hurt_parrot",
+			"has_plant_string"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.ethical_textiles:faux_feather"
+		]
+	}
+}

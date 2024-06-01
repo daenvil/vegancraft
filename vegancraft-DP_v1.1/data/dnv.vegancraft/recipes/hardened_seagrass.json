@@ -1,0 +1,26 @@
+{
+	"type": "crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "seagrass"
+		},
+		{
+			"item": "honeycomb"
+		}
+	],
+	"result": {
+		"id": "turtle_scute",
+		"components": {
+			"item_name": "{\"translate\":\"dnv.vegancraft.item.hardened_seagrass\",\"fallback\":\"Hardened Seagrass\",\"italic\":false}",
+			"lore": [
+				"{\"translate\":\"dnv.vegancraft.hardened_seagrass.lore\",\"fallback\":\"(Use as turtle scute)\",\"italic\":false}",
+				"{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"
+			],
+			"custom_model_data": 9261016,
+			"custom_data": {
+				"dnv.vegan": true
+			}
+		}
+	}
+}

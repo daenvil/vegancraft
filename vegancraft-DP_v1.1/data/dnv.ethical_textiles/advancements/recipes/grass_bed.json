@@ -1,0 +1,90 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_item_tag_zz.dnv.core:grass": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#zz.dnv.core:grass"
+					}
+				]
+			}
+		},
+		"has_item_tag_wool": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#wool"
+					}
+				]
+			}
+		},
+		"has_item_tag_beds": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#beds"
+					}
+				]
+			}
+		},
+		"has_shears": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "shears"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.ethical_textiles:grass_bed"
+			}
+		},
+		"has_recipe_white_bed": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "white_bed"
+			}
+		},
+		"interacted_with_sheep": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "sheep"
+				}
+			}
+		},
+		"player_hurt_sheep": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "sheep"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_item_tag_zz.dnv.core:grass",
+			"has_item_tag_wool",
+			"has_item_tag_beds",
+			"has_shears",
+			"has_the_recipe",
+			"has_recipe_white_bed",
+			"interacted_with_sheep",
+			"player_hurt_sheep"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.ethical_textiles:grass_bed"
+		]
+	}
+}

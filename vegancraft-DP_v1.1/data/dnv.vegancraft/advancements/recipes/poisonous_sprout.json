@@ -1,0 +1,65 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_poisonous_potato": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "poisonous_potato"
+					}
+				]
+			}
+		},
+		"has_spider_eye": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "spider_eye"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:poisonous_sprout"
+			}
+		},
+		"spider_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "spider"
+					}
+				}
+			}
+		},
+		"cave_spider_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "cave_spider"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_poisonous_potato",
+			"has_spider_eye",
+			"has_the_recipe",
+			"spider_hurt_player",
+			"cave_spider_hurt_player"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:poisonous_sprout"
+		]
+	}
+}

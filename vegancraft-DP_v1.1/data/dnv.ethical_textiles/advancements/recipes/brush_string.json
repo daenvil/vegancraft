@@ -1,0 +1,71 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_brush": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "brush"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.ethical_textiles:brush_string"
+			}
+		},
+		"player_hurt_chicken": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "chicken"
+				}
+			}
+		},
+		"player_hurt_parrot": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "parrot"
+				}
+			}
+		},
+		"has_plant_string": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "string",
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		},
+		"has_recipe_brush": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "brush"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_brush",
+			"has_the_recipe",
+			"player_hurt_chicken",
+			"player_hurt_parrot",
+			"has_plant_string",
+			"has_recipe_brush"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.ethical_textiles:brush_string"
+		]
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"parent": "dnv.vegancraft:root",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.food",
+			"fallback": "Plant-based Cooking",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.food.description",
+			"fallback": "Vegan alternatives for vanilla foods",
+			"italic": false
+		},
+		"icon": {
+			"id": "cooked_porkchop",
+			"components": {
+				"custom_model_data": 9261024
+			}
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "tick"
+		}
+	}
+}

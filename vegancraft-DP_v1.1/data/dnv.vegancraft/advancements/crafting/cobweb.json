@@ -1,0 +1,33 @@
+{
+	"parent": "dnv.vegancraft:crafting/acacia_gum",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.cobweb",
+			"fallback": "'You can't do that, huh?'",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.cobweb.description",
+			"fallback": "Get vegan synthetic cobweb",
+			"italic": false
+		},
+		"icon": {
+			"id": "cobweb"
+		}
+	},
+	"criteria": {
+		"has_vegan_cobweb": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "cobweb",
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		}
+	}
+}

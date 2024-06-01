@@ -1,0 +1,26 @@
+{
+	"type": "smithing_transform",
+	"base": {
+		"item": "goat_horn"
+	},
+	"addition": {
+		"item": "copper_ingot"
+	},
+	"template": {
+		"tag": "dnv.vegancraft:copper_horn_templates_seek"
+	},
+	"result": {
+		"id": "goat_horn",
+		"components": {
+			"item_name": "{\"translate\":\"dnv.vegancraft.item.copper_horn\",\"fallback\":\"Copper Horn\",\"italic\":false}",
+			"lore": [
+				"{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"
+			],
+			"custom_model_data": 9261011,
+			"instrument": "seek_goat_horn",
+			"custom_data": {
+				"dnv.vegan": true
+			}
+		}
+	}
+}

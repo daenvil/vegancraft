@@ -1,0 +1,36 @@
+{
+	"parent": "dnv.vegancraft:crafting",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.plant_wax",
+			"fallback": "Waxy Leaves",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.plant_wax.description",
+			"fallback": "Make plant wax",
+			"italic": false
+		},
+		"icon": {
+			"id": "honeycomb",
+			"components": {
+				"custom_model_data": 9261008
+			}
+		}
+	},
+	"criteria": {
+		"has_honeycomb": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "honeycomb",
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		}
+	}
+}

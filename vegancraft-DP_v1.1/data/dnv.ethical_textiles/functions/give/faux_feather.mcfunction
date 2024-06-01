@@ -1,0 +1,1 @@
+give @s feather[item_name="{\"translate\":\"dnv.ethical_textiles.item.faux_feather\",\"fallback\":\"Faux Feather\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Ethical Textiles\",\"color\":\"#954535\",\"italic\":true}"],custom_model_data=9261010,custom_data={"dnv.vegan":true}]

@@ -1,0 +1,1 @@
+give @s dragon_breath[item_name="{\"translate\":\"dnv.vegancraft.item.end_mist\",\"fallback\":\"End's Mist\",\"italic\":false}",lore=["{\"translate\":\"dnv.vegancraft.end_mist.lore\",\"fallback\":\"(Use as dragon's breath)\",\"italic\":false}","{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"],custom_model_data=9261017,custom_data={"dnv.vegan":true}]

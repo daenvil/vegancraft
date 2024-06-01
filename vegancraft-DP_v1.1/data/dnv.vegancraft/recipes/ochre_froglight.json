@@ -1,0 +1,23 @@
+{
+	"type": "crafting_shaped",
+	"category": "misc",
+	"key": {
+		"Y": {
+			"item": "yellow_dye"
+		},
+		"P": {
+			"item": "prismarine_crystals"
+		},
+		"S": {
+			"item": "shroomlight"
+		}
+	},
+	"pattern": [
+		"YPY",
+		"PSP",
+		"YPY"
+	],
+	"result": {
+		"id": "ochre_froglight"
+	}
+}

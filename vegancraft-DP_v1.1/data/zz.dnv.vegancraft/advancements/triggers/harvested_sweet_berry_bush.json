@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"used_sweet_berry_bush": {
+			"trigger": "default_block_use",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"state": {
+									"age": "1"
+								},
+								"blocks": "sweet_berry_bush"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_harvested_sweet_berry_bush"
+	}
+}

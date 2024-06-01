@@ -1,0 +1,1 @@
+give @s cod[item_name="{\"translate\":\"dnv.vegan_food.item.notfish_fillet\",\"fallback\":\"Not-fish Fillet\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Plant-based Foods\",\"color\":\"dark_green\",\"italic\":true}"],custom_model_data=9261004,food={"nutrition":5,"saturation":6},custom_data={"dnv.vegan":true}]

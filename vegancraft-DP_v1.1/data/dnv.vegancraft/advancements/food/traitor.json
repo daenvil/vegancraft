@@ -1,0 +1,64 @@
+{
+	"parent": "dnv.vegancraft:food/animal_lover",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.traitor",
+			"fallback": "Traitor!",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.traitor.description",
+			"fallback": "Kill a non-hostile animal or eat animal products after being considered an \"animal lover\"",
+			"italic": false
+		},
+		"icon": {
+			"id": "white_banner",
+			"components": {
+				"minecraft:banner_patterns": [
+					{
+						"color": "cyan",
+						"pattern": "minecraft:rhombus"
+					},
+					{
+						"color": "light_gray",
+						"pattern": "minecraft:stripe_bottom"
+					},
+					{
+						"color": "gray",
+						"pattern": "minecraft:stripe_center"
+					},
+					{
+						"color": "light_gray",
+						"pattern": "minecraft:border"
+					},
+					{
+						"color": "black",
+						"pattern": "minecraft:stripe_middle"
+					},
+					{
+						"color": "light_gray",
+						"pattern": "minecraft:half_horizontal"
+					},
+					{
+						"color": "light_gray",
+						"pattern": "minecraft:circle"
+					},
+					{
+						"color": "black",
+						"pattern": "minecraft:border"
+					}
+				]
+			}
+		},
+		"frame": "challenge",
+		"hidden": true
+	},
+	"criteria": {
+		"granted_by_function": {
+			"trigger": "impossible"
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_considered_traitor"
+	}
+}

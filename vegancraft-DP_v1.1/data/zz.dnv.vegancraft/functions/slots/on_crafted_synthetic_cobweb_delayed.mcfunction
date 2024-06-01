@@ -1,0 +1,1 @@
+execute as @a[tag=dnv.subject.crafted_synthetic_cobweb,limit=1] run function zz.dnv.vegancraft:slots/on_crafted_synthetic_cobweb_delayed_player

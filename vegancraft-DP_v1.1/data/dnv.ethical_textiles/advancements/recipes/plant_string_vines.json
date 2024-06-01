@@ -1,0 +1,52 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_item_tag_dnv.ethical_textiles:string_producing_vines": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#dnv.ethical_textiles:string_producing_vines"
+					}
+				]
+			}
+		},
+		"has_string": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "string"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.ethical_textiles:plant_string_vines"
+			}
+		},
+		"player_hurt_spider": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "spider"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_item_tag_dnv.ethical_textiles:string_producing_vines",
+			"has_string",
+			"has_the_recipe",
+			"player_hurt_spider"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.ethical_textiles:plant_string_vines"
+		]
+	}
+}

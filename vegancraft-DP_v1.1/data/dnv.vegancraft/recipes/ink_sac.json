@@ -1,0 +1,12 @@
+{
+	"type": "crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "black_dye"
+		}
+	],
+	"result": {
+		"id": "ink_sac"
+	}
+}

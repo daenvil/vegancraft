@@ -1,0 +1,64 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_armadillo_scute": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "armadillo_scute"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.ethical_textiles:armor_scale"
+			}
+		},
+		"interacted_with_armadillo": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "armadillo"
+				}
+			}
+		},
+		"player_hurt_armadillo": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "armadillo"
+				}
+			}
+		},
+		"has_acacia_gum": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "slime_ball",
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_armadillo_scute",
+			"has_the_recipe",
+			"interacted_with_armadillo",
+			"player_hurt_armadillo",
+			"has_acacia_gum"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.ethical_textiles:armor_scale"
+		]
+	}
+}

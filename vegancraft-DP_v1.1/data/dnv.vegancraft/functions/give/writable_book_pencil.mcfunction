@@ -1,0 +1,1 @@
+give @s writable_book[item_name="{\"translate\":\"dnv.vegancraft.item.writable_book_pencil\",\"fallback\":\"Book and Pencil\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"],custom_model_data=9261028,custom_data={"dnv.vegan":true}]

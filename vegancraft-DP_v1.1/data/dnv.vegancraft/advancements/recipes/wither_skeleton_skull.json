@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_rib_armor_trim_smithing_template": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "rib_armor_trim_smithing_template"
+					}
+				]
+			}
+		},
+		"has_wither_skeleton_skull": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "wither_skeleton_skull"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:wither_skeleton_skull"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_rib_armor_trim_smithing_template",
+			"has_wither_skeleton_skull",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:wither_skeleton_skull"
+		]
+	}
+}

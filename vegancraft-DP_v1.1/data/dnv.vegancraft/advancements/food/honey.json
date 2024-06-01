@@ -1,0 +1,36 @@
+{
+	"parent": "dnv.vegancraft:food",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.honey",
+			"fallback": "Save the Bees!",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.honey.description",
+			"fallback": "Get vegan honey",
+			"italic": false
+		},
+		"icon": {
+			"id": "honey_bottle",
+			"components": {
+				"custom_model_data": 9261002
+			}
+		}
+	},
+	"criteria": {
+		"has_vegan_honey": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "honey_bottle",
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		}
+	}
+}

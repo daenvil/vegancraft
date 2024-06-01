@@ -1,0 +1,76 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_heart_of_the_sea": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "heart_of_the_sea"
+					}
+				]
+			}
+		},
+		"has_soul_sand": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "soul_sand"
+					}
+				]
+			}
+		},
+		"has_pufferfish": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "pufferfish"
+					}
+				]
+			}
+		},
+		"has_pufferfish_bucket": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "pufferfish_bucket"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:puffer_bubble"
+			}
+		},
+		"pufferfish_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "pufferfish"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_heart_of_the_sea",
+			"has_soul_sand",
+			"has_pufferfish",
+			"has_pufferfish_bucket",
+			"has_the_recipe",
+			"pufferfish_hurt_player"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:puffer_bubble"
+		]
+	}
+}

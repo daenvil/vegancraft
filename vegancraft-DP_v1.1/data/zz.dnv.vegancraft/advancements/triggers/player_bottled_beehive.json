@@ -1,0 +1,28 @@
+{
+	"criteria": {
+		"player_bottled_beehive": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "glass_bottle"
+						}
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "#beehives"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:utils/reset_animal_lover"
+	}
+}

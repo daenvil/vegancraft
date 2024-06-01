@@ -1,0 +1,1 @@
+give @s globe_banner_pattern

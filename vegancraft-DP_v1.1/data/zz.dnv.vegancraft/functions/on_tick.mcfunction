@@ -1,0 +1,1 @@
+execute as @e[type=item,tag=!dnv.xp_ignore] at @s run function zz.dnv.vegancraft:on_tick_item

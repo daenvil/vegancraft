@@ -1,0 +1,72 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_glowstone_dust": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "glowstone_dust"
+					}
+				]
+			}
+		},
+		"has_blaze_powder": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "blaze_powder"
+					}
+				]
+			}
+		},
+		"has_blaze_rod": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "blaze_rod"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:blazing_powder"
+			}
+		},
+		"has_recipe_blaze_powder": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "blaze_powder"
+			}
+		},
+		"blaze_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "blaze"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_glowstone_dust",
+			"has_blaze_powder",
+			"has_blaze_rod",
+			"has_the_recipe",
+			"has_recipe_blaze_powder",
+			"blaze_hurt_player"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:blazing_powder"
+		]
+	}
+}

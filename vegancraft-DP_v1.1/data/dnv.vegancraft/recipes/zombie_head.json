@@ -1,0 +1,23 @@
+{
+	"type": "crafting_shaped",
+	"category": "misc",
+	"key": {
+		"G": {
+			"item": "green_dye"
+		},
+		"F": {
+			"item": "fermented_spider_eye"
+		},
+		"C": {
+			"item": "carved_pumpkin"
+		}
+	},
+	"pattern": [
+		"GFG",
+		"FCF",
+		"GFG"
+	],
+	"result": {
+		"id": "zombie_head"
+	}
+}

@@ -1,0 +1,80 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_phantom_membrane": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "phantom_membrane"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:feathery_membrane"
+			}
+		},
+		"phantom_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "phantom"
+					}
+				}
+			}
+		},
+		"player_hurt_phantom": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "phantom"
+				}
+			}
+		},
+		"has_honeycomb": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "honeycomb",
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		},
+		"has_feather": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "feather",
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_phantom_membrane",
+			"has_the_recipe",
+			"phantom_hurt_player",
+			"player_hurt_phantom",
+			"has_honeycomb",
+			"has_feather"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:feathery_membrane"
+		]
+	}
+}

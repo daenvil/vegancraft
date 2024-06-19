@@ -1,0 +1,23 @@
+{
+	"type": "crafting_shaped",
+	"category": "misc",
+	"key": {
+		"P": {
+			"item": "popped_chorus_fruit"
+		},
+		"E": {
+			"item": "ender_pearl"
+		},
+		"C": {
+			"item": "chest"
+		}
+	},
+	"pattern": [
+		"PEP",
+		"ECE",
+		"PEP"
+	],
+	"result": {
+		"id": "shulker_box"
+	}
+}

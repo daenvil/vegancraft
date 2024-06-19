@@ -1,0 +1,23 @@
+{
+	"type": "crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"D": {
+			"item": "diamond_sword"
+		},
+		"P": {
+			"item": "prismarine_crystals"
+		},
+		"B": {
+			"item": "blaze_rod"
+		}
+	},
+	"pattern": [
+		" DD",
+		"PBD",
+		"PP "
+	],
+	"result": {
+		"id": "trident"
+	}
+}

@@ -1,7 +1,7 @@
 {
-	"parent": "item/generated",
+	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "item/breeze_rod"
+		"layer0": "minecraft:item/breeze_rod"
 	},
 	"overrides": [
 		{

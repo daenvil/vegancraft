@@ -1,0 +1,76 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_netherite_block": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "netherite_block"
+					}
+				]
+			}
+		},
+		"has_netherite_ingot": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "netherite_ingot"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:nether_star"
+			}
+		},
+		"wither_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "wither"
+					}
+				}
+			}
+		},
+		"wither_skull_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "wither_skull"
+					}
+				}
+			}
+		},
+		"has_wither_skeleton_skull": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "wither_skeleton_skull"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_netherite_block",
+			"has_netherite_ingot",
+			"has_the_recipe",
+			"wither_hurt_player",
+			"wither_skull_hurt_player",
+			"has_wither_skeleton_skull"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:nether_star"
+		]
+	}
+}

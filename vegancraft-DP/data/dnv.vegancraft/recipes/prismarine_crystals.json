@@ -1,0 +1,12 @@
+{
+	"type": "smelting",
+	"category": "misc",
+	"cookingtime": 200,
+	"experience": 0,
+	"ingredient": {
+		"item": "prismarine_shard"
+	},
+	"result": {
+		"id": "prismarine_crystals"
+	}
+}

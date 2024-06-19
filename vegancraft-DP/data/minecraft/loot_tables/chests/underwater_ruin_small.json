@@ -1,0 +1,127 @@
+{
+	"type": "chest",
+	"pools": [
+		{
+			"rolls": {
+				"min": 2,
+				"max": 8
+			},
+			"entries": [
+				{
+					"type": "item",
+					"weight": 10,
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 4,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:coal"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:stone_axe"
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "minecraft:rotten_flesh"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3,
+								"min": 2
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:wheat"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:leather_chestplate"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:golden_helmet"
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly"
+						}
+					],
+					"name": "minecraft:fishing_rod"
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"functions": [
+						{
+							"decoration": "minecraft:red_x",
+							"function": "minecraft:exploration_map",
+							"skip_existing_chunks": false,
+							"zoom": 1
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "filled_map.buried_treasure"
+							},
+							"target": "item_name"
+						}
+					],
+					"name": "minecraft:map"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0,
+								"max": 4
+							}
+						}
+					],
+					"name": "nautilus_shell"
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:chests/underwater_ruin_small"
+}

@@ -1,6 +1,8 @@
 {
 	"values": [
 		"eye_armor_trim_smithing_template",
-		"spire_armor_trim_smithing_template"
+		"spire_armor_trim_smithing_template",
+		"flow_armor_trim_smithing_template",
+		"bolt_armor_trim_smithing_template"
 	]
 }

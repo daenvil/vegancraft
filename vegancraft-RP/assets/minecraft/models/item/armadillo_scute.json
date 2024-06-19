@@ -1,7 +1,7 @@
 {
-	"parent": "item/generated",
+	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "item/armadillo_scute"
+		"layer0": "minecraft:item/armadillo_scute"
 	},
 	"overrides": [
 		{

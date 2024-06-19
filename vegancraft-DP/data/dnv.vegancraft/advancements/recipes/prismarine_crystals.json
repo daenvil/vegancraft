@@ -1,0 +1,54 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_prismarine_shard": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "prismarine_shard"
+					}
+				]
+			}
+		},
+		"has_prismarine_crystals": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "prismarine_crystals"
+					}
+				]
+			}
+		},
+		"has_sea_lantern": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "sea_lantern"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:prismarine_crystals"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_prismarine_shard",
+			"has_prismarine_crystals",
+			"has_sea_lantern",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:prismarine_crystals"
+		]
+	}
+}

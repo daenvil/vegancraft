@@ -103,8 +103,20 @@
 							}
 						},
 						{
+							"condition": "value_check",
+							"value": {
+								"type": "score",
+								"target": {
+									"type": "fixed",
+									"name": "#dnv"
+								},
+								"score": "dnv.xp_from_crops_disabled"
+							},
+							"range": 0
+						},
+						{
 							"condition": "random_chance",
-							"chance": 0.1
+							"chance": 0.2
 						},
 						{
 							"condition": "block_state_property",

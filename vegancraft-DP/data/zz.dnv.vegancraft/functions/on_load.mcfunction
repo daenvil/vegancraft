@@ -11,6 +11,8 @@ schedule function zz.dnv.vegancraft:utils/diet_loop 4000 replace
 scoreboard objectives add dnv.ate_nonvegan dummy
 scoreboard objectives add dnv.ate_vegan_alt dummy
 scoreboard objectives add dnv.success dummy
+scoreboard objectives add dnv.xp_from_crops_disabled dummy
+execute unless score #dnv dnv.xp_from_crops_disabled matches 1 run scoreboard players set #dnv dnv.xp_from_crops_disabled 0
 scoreboard objectives add dnv.xp_nerfer dummy
 
 execute as @a unless score @s dnv.xp_nerfer matches 1.. run scoreboard players set @s dnv.xp_nerfer 0

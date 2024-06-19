@@ -1,0 +1,15 @@
+{
+	"type": "crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "chorus_fruit"
+		},
+		{
+			"item": "emerald"
+		}
+	],
+	"result": {
+		"id": "ender_pearl"
+	}
+}

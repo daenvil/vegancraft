@@ -1,0 +1,71 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_trident": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "trident"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:trident"
+			}
+		},
+		"trident_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "trident"
+					}
+				}
+			}
+		},
+		"has_blaze_rod": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "blaze_rod",
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		},
+		"has_blaze_powder": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "blaze_powder",
+						"predicates": {
+							"custom_data": "{dnv.vegan:true}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_trident",
+			"has_the_recipe",
+			"trident_hurt_player",
+			"has_blaze_rod",
+			"has_blaze_powder"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:trident"
+		]
+	}
+}

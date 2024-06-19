@@ -1,0 +1,118 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_emerald": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "emerald"
+					}
+				]
+			}
+		},
+		"has_gold_block": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "gold_block"
+					}
+				]
+			}
+		},
+		"has_echo_shard": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "echo_shard"
+					}
+				]
+			}
+		},
+		"has_chorus_fruit": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "chorus_fruit"
+					}
+				]
+			}
+		},
+		"has_shulker_box": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "shulker_box"
+					}
+				]
+			}
+		},
+		"has_shulker_shell": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "shulker_shell"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:totem_of_undying"
+			}
+		},
+		"shulker_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "shulker"
+					}
+				}
+			}
+		},
+		"shulker_bullet_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "shulker_bullet"
+					}
+				}
+			}
+		},
+		"player_hurt_shulker": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "shulker"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_emerald",
+			"has_gold_block",
+			"has_echo_shard",
+			"has_chorus_fruit",
+			"has_shulker_box",
+			"has_shulker_shell",
+			"has_the_recipe",
+			"shulker_hurt_player",
+			"shulker_bullet_hurt_player",
+			"player_hurt_shulker"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:totem_of_undying"
+		]
+	}
+}

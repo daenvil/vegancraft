@@ -1,7 +1,7 @@
 {
-	"parent": "item/generated",
+	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "item/rabbit_stew"
+		"layer0": "minecraft:item/rabbit_stew"
 	},
 	"overrides": [
 		{

@@ -1,1 +1,1 @@
-execute as @e[type=item,tag=!dnv.xp_ignore] at @s run function zz.dnv.vegancraft:on_tick_item
+execute unless score #dnv dnv.xp_from_crops_disabled matches 1 as @e[type=item,tag=!dnv.xp_ignore] at @s run function zz.dnv.vegancraft:on_tick_item

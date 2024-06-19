@@ -1,0 +1,76 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_amethyst_shard": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "amethyst_shard"
+					}
+				]
+			}
+		},
+		"has_prismarine": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "prismarine"
+					}
+				]
+			}
+		},
+		"has_prismarine_shard": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "prismarine_shard"
+					}
+				]
+			}
+		},
+		"has_prismarine_bricks": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "prismarine_bricks"
+					}
+				]
+			}
+		},
+		"has_sea_lantern": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "sea_lantern"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:prismarine_shard"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_amethyst_shard",
+			"has_prismarine",
+			"has_prismarine_shard",
+			"has_prismarine_bricks",
+			"has_sea_lantern",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:prismarine_shard"
+		]
+	}
+}

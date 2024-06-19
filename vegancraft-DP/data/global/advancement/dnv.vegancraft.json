@@ -1,0 +1,23 @@
+{
+	"parent": "global:root",
+	"display": {
+		"title": {
+			"text": "Vegancraft",
+			"italic": false
+		},
+		"description": {
+			"text": "Daenvil's Vegancraft 1.2 (for MC1.21+)",
+			"italic": false
+		},
+		"icon": {
+			"id": "kelp"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "tick"
+		}
+	}
+}

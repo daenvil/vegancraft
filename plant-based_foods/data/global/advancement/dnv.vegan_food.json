@@ -1,0 +1,26 @@
+{
+	"parent": "global:dnv.vegancraft",
+	"display": {
+		"title": {
+			"text": "Plant-based Foods",
+			"italic": false
+		},
+		"description": {
+			"text": "Daenvil's Plant-based Foods 2.0.1 (for MC1.21+)",
+			"italic": false
+		},
+		"icon": {
+			"id": "cooked_porkchop",
+			"components": {
+				"custom_model_data": 9261024
+			}
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "tick"
+		}
+	}
+}

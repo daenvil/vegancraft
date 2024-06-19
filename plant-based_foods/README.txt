@@ -1,4 +1,4 @@
-# Plant-based Foods (v2.0.1, for Minecraft 1.20.5-1.20.6)
+# Plant-based Foods (v2.0.1, for Minecraft 1.21+)
 
 A datapack that adds vegan alternatives to dairy, eggs, honey, and meat.
 

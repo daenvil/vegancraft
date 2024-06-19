@@ -1,0 +1,26 @@
+{
+	"parent": "global:dnv.vegancraft",
+	"display": {
+		"title": {
+			"text": "Acacia Gum",
+			"italic": false
+		},
+		"description": {
+			"text": "Daenvil's Acacia Gum 1.2.1 (for MC1.21+)",
+			"italic": false
+		},
+		"icon": {
+			"id": "slime_ball",
+			"components": {
+				"custom_model_data": 9261005
+			}
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "tick"
+		}
+	}
+}

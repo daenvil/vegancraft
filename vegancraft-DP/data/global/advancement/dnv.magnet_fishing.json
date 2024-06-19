@@ -1,0 +1,26 @@
+{
+	"parent": "global:dnv.vegancraft",
+	"display": {
+		"title": {
+			"text": "Magnet Fishing",
+			"italic": false
+		},
+		"description": {
+			"text": "Daenvil's Magnet Fishing 2.0.1 (for MC1.21+)",
+			"italic": false
+		},
+		"icon": {
+			"id": "fishing_rod",
+			"components": {
+				"custom_model_data": 9261009
+			}
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "tick"
+		}
+	}
+}

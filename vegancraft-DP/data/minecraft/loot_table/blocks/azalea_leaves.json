@@ -1,0 +1,202 @@
+{
+	"type": "block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "alternatives",
+					"children": [
+						{
+							"type": "item",
+							"conditions": [
+								{
+									"condition": "any_of",
+									"terms": [
+										{
+											"condition": "match_tool",
+											"predicate": {
+												"items": "minecraft:shears"
+											}
+										},
+										{
+											"condition": "match_tool",
+											"predicate": {
+												"predicates": {
+													"minecraft:enchantments": [
+														{
+															"enchantments": "minecraft:silk_touch",
+															"levels": {
+																"min": 1
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							],
+							"weight": 1,
+							"name": "minecraft:azalea_leaves"
+						},
+						{
+							"type": "item",
+							"conditions": [
+								{
+									"condition": "survives_explosion"
+								},
+								{
+									"condition": "table_bonus",
+									"enchantment": "minecraft:fortune",
+									"chances": [
+										0.05,
+										0.0625,
+										0.083333336,
+										0.1
+									]
+								}
+							],
+							"weight": 1,
+							"name": "minecraft:azalea"
+						}
+					]
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "inverted",
+					"term": {
+						"condition": "any_of",
+						"terms": [
+							{
+								"condition": "match_tool",
+								"predicate": {
+									"items": "minecraft:shears"
+								}
+							},
+							{
+								"condition": "match_tool",
+								"predicate": {
+									"predicates": {
+										"minecraft:enchantments": [
+											{
+												"enchantments": "minecraft:silk_touch",
+												"levels": {
+													"min": 1
+												}
+											}
+										]
+									}
+								}
+							}
+						]
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"conditions": [
+						{
+							"condition": "table_bonus",
+							"enchantment": "minecraft:fortune",
+							"chances": [
+								0.02,
+								0.022222223,
+								0.025,
+								0.033333335,
+								0.1
+							]
+						}
+					],
+					"weight": 1,
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 2,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						},
+						{
+							"function": "minecraft:explosion_decay"
+						}
+					],
+					"name": "minecraft:stick"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"conditions": [
+						{
+							"condition": "entity_properties",
+							"entity": "this",
+							"predicate": {
+
+							}
+						},
+						{
+							"condition": "entity_scores",
+							"entity": "this",
+							"scores": {
+								"dnv.xp_nerfer": {
+									"min": 0,
+									"max": {
+										"min": 200,
+										"max": 500
+									}
+								}
+							}
+						},
+						{
+							"condition": "value_check",
+							"value": {
+								"type": "score",
+								"target": {
+									"type": "fixed",
+									"name": "#dnv"
+								},
+								"score": "dnv.xp_from_crops_disabled"
+							},
+							"range": 0
+						},
+						{
+							"condition": "random_chance",
+							"chance": 0.2
+						},
+						{
+							"condition": "block_state_property",
+							"block": "azalea_leaves",
+							"properties": {
+								"persistent": "false"
+							}
+						}
+					],
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"custom_data": {
+									"dnv.xp_orb": true
+								}
+							}
+						}
+					],
+					"name": "emerald"
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:blocks/azalea_leaves"
+}

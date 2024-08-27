@@ -13,6 +13,7 @@
 		}
 	],
 	"result": {
-		"id": "gunpowder"
+		"id": "gunpowder",
+		"count": 3
 	}
 }

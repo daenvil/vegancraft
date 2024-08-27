@@ -15,6 +15,7 @@
 	],
 	"result": {
 		"id": "leather",
+		"count": 3,
 		"components": {
 			"item_name": "{\"translate\":\"dnv.ethical_textiles.item.faux_leather\",\"fallback\":\"Faux Leather\",\"italic\":false}",
 			"lore": [

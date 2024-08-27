@@ -129,7 +129,7 @@
 			"entries": [
 				{
 					"type": "item",
-					"weight": 1,
+					"weight": 9,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -142,6 +142,11 @@
 						}
 					],
 					"name": "nautilus_shell"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "tide_armor_trim_smithing_template"
 				}
 			]
 		}

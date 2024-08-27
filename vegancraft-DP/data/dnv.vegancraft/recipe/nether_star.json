@@ -2,20 +2,20 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"B": {
-			"item": "blaze_powder"
+		"N": {
+			"item": "netherite_ingot"
 		},
 		"D": {
 			"item": "diamond"
 		},
-		"N": {
-			"item": "netherite_block"
+		"B": {
+			"item": "blaze_powder"
 		}
 	},
 	"pattern": [
-		"BDB",
-		"DND",
-		"BDB"
+		"NDN",
+		"DBD",
+		"NDN"
 	],
 	"result": {
 		"id": "nether_star"

@@ -15,7 +15,7 @@
 					"underlined": true
 				},
 				{
-					"text": "\nv2.0.1, for MC1.21+",
+					"text": "\nv2.0.2, for MC1.21+",
 					"color": "gray",
 					"italic": false
 				}
@@ -26,7 +26,7 @@
 		"pack_format": 46,
 		"supported_formats": {
 			"min_inclusive": 46,
-			"max_inclusive": 48
+			"max_inclusive": 49
 		}
 	}
 }

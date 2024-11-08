@@ -1,0 +1,418 @@
+{
+	"type": "chest",
+	"pools": [
+		{
+			"rolls": {
+				"min": 5,
+				"max": 10
+			},
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 2,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:enchanted_golden_apple"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:music_disc_otherside"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"functions": [
+						{
+							"add": false,
+							"count": 1,
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:compass"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 2,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:sculk_catalyst"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:name_tag"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"functions": [
+						{
+							"add": false,
+							"count": 1,
+							"function": "minecraft:set_count"
+						},
+						{
+							"add": false,
+							"damage": {
+								"type": "minecraft:uniform",
+								"max": 1,
+								"min": 0.8
+							},
+							"function": "minecraft:set_damage"
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"max": 50,
+								"min": 30
+							},
+							"options": "#minecraft:on_random_loot"
+						}
+					],
+					"name": "minecraft:diamond_hoe"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"functions": [
+						{
+							"add": false,
+							"count": 1,
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:lead"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"functions": [
+						{
+							"add": false,
+							"count": 1,
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:diamond_horse_armor"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"functions": [
+						{
+							"add": false,
+							"count": 1,
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:saddle"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:music_disc_13"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:music_disc_cat"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"max": 50,
+								"min": 30
+							},
+							"options": "#minecraft:on_random_loot"
+						}
+					],
+					"name": "minecraft:diamond_leggings"
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "minecraft:swift_sneak"
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 10,
+								"min": 4
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:sculk"
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:sculk_sensor"
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 4,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:candle"
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 15,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:amethyst_shard"
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:experience_bottle"
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 15,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:glow_berries"
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"max": 39,
+								"min": 20
+							},
+							"options": "#minecraft:on_random_loot"
+						}
+					],
+					"name": "minecraft:iron_leggings"
+				},
+				{
+					"type": "item",
+					"weight": 4,
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:echo_shard"
+				},
+				{
+					"type": "item",
+					"weight": 4,
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:disc_fragment_5"
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_regeneration"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#minecraft:on_random_loot"
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 10,
+								"min": 3
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:nether_star"
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 15,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:soul_torch"
+				},
+				{
+					"type": "item",
+					"weight": 7,
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 15,
+								"min": 6
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:coal"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "empty",
+					"weight": 75
+				},
+				{
+					"type": "item",
+					"weight": 4,
+					"name": "minecraft:ward_armor_trim_smithing_template"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:silence_armor_trim_smithing_template"
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:chests/ancient_city"
+}

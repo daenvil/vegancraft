@@ -1,0 +1,85 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_blaze_powder": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "blaze_powder"
+					}
+				]
+			}
+		},
+		"has_crying_obsidian": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "crying_obsidian"
+					}
+				]
+			}
+		},
+		"has_ender_pearl": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "ender_pearl"
+					}
+				]
+			}
+		},
+		"has_ender_eye": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "ender_eye"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:ender_eye"
+			}
+		},
+		"enderman_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "enderman"
+					}
+				}
+			}
+		},
+		"player_hurt_enderman": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "enderman"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_blaze_powder",
+			"has_crying_obsidian",
+			"has_ender_pearl",
+			"has_ender_eye",
+			"has_the_recipe",
+			"enderman_hurt_player",
+			"player_hurt_enderman"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:ender_eye"
+		]
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_paper": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "paper"
+					}
+				]
+			}
+		},
+		"has_item_frame": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "item_frame"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.ethical_textiles:item_frame_paper"
+			}
+		},
+		"player_hurt_cow": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "cow"
+				}
+			}
+		},
+		"has_recipe_item_frame": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "item_frame"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_paper",
+			"has_item_frame",
+			"has_the_recipe",
+			"player_hurt_cow",
+			"has_recipe_item_frame"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.ethical_textiles:item_frame_paper"
+		]
+	}
+}

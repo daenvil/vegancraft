@@ -2,15 +2,9 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "rose_bush"
-		},
-		{
-			"item": "netherite_ingot"
-		},
-		{
-			"tag": "soul_fire_base_blocks"
-		}
+		"rose_bush",
+		"netherite_ingot",
+		"#soul_fire_base_blocks"
 	],
 	"result": {
 		"id": "wither_rose",

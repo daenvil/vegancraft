@@ -2,12 +2,8 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"G": {
-			"tag": "zz.dnv.core:grass"
-		},
-		"P": {
-			"tag": "planks"
-		}
+		"G": "#zz.dnv.core:grass",
+		"P": "#planks"
 	},
 	"pattern": [
 		"GGG",

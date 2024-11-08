@@ -2,12 +2,8 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "blaze_rod"
-		},
-		{
-			"item": "dragon_breath"
-		}
+		"blaze_rod",
+		"dragon_breath"
 	],
 	"result": {
 		"id": "breeze_rod",

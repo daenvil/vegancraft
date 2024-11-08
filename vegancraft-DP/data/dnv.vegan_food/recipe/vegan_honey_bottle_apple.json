@@ -2,12 +2,8 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"A": {
-			"item": "apple"
-		},
-		"G": {
-			"item": "glass_bottle"
-		}
+		"A": "apple",
+		"G": "glass_bottle"
 	},
 	"pattern": [
 		" A ",

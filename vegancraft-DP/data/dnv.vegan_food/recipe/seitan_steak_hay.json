@@ -2,12 +2,8 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "hay_block"
-		},
-		{
-			"tag": "dnv.vegan_food:seitan_marinades"
-		}
+		"hay_block",
+		"#dnv.vegan_food:seitan_marinades"
 	],
 	"result": {
 		"id": "cooked_beef",

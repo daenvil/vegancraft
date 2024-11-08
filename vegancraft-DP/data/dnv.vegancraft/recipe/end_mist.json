@@ -2,15 +2,9 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "glass_bottle"
-		},
-		{
-			"item": "blaze_powder"
-		},
-		{
-			"item": "chorus_fruit"
-		}
+		"glass_bottle",
+		"blaze_powder",
+		"chorus_fruit"
 	],
 	"result": {
 		"id": "dragon_breath",

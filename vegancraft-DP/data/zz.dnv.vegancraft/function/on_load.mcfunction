@@ -10,7 +10,16 @@ scoreboard objectives add dnv.vegancraft.deaths minecraft.custom:deaths
 schedule function zz.dnv.vegancraft:utils/diet_loop 4000 replace
 scoreboard objectives add dnv.ate_nonvegan dummy
 scoreboard objectives add dnv.ate_vegan_alt dummy
+scoreboard objectives add dnv.count.crafted_copper_horn dummy
 scoreboard objectives add dnv.success dummy
+scoreboard objectives add dnv.count.crafted_copper_horn_ponder dummy
+scoreboard objectives add dnv.count.crafted_copper_horn_sing dummy
+scoreboard objectives add dnv.count.crafted_copper_horn_seek dummy
+scoreboard objectives add dnv.count.crafted_copper_horn_feel dummy
+scoreboard objectives add dnv.count.crafted_copper_horn_admire dummy
+scoreboard objectives add dnv.count.crafted_copper_horn_call dummy
+scoreboard objectives add dnv.count.crafted_copper_horn_yearn dummy
+scoreboard objectives add dnv.count.crafted_copper_horn_dream dummy
 scoreboard objectives add dnv.xp_from_crops_disabled dummy
 execute unless score #dnv dnv.xp_from_crops_disabled matches 1 run scoreboard players set #dnv dnv.xp_from_crops_disabled 0
 scoreboard objectives add dnv.xp_nerfer dummy

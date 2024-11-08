@@ -2,9 +2,7 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"S": {
-			"item": "sugar_cane"
-		}
+		"S": "sugar_cane"
 	},
 	"pattern": [
 		"S ",

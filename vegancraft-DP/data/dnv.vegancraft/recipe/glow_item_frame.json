@@ -2,12 +2,8 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"tag": "dnv.vegancraft:glow_items"
-		},
-		{
-			"item": "item_frame"
-		}
+		"#dnv.vegancraft:glow_items",
+		"item_frame"
 	],
 	"result": {
 		"id": "glow_item_frame"

@@ -2,12 +2,8 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "seagrass"
-		},
-		{
-			"item": "honeycomb"
-		}
+		"seagrass",
+		"honeycomb"
 	],
 	"result": {
 		"id": "turtle_scute",

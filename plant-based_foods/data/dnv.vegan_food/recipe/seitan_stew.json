@@ -2,21 +2,11 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "baked_potato"
-		},
-		{
-			"item": "cooked_beef"
-		},
-		{
-			"item": "bowl"
-		},
-		{
-			"item": "carrot"
-		},
-		{
-			"tag": "zz.dnv.core:mushrooms"
-		}
+		"baked_potato",
+		"cooked_beef",
+		"bowl",
+		"carrot",
+		"#zz.dnv.core:mushrooms"
 	],
 	"result": {
 		"id": "rabbit_stew",

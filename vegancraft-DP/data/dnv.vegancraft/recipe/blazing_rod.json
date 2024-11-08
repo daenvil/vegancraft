@@ -2,15 +2,9 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "lightning_rod"
-		},
-		{
-			"item": "blaze_powder"
-		},
-		{
-			"item": "blaze_powder"
-		}
+		"lightning_rod",
+		"blaze_powder",
+		"blaze_powder"
 	],
 	"result": {
 		"id": "blaze_rod",

@@ -1,0 +1,2 @@
+$execute store success score @s dnv.success run clear @s rabbit_stew[custom_data~{dnv.vegan:true}] $(count)
+$execute unless score @s dnv.success matches 0 run give @s suspicious_stew[custom_data={"dnv.vegan":false}] $(count)

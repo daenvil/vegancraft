@@ -2,18 +2,10 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "honeycomb"
-		},
-		{
-			"item": "feather"
-		},
-		{
-			"item": "feather"
-		},
-		{
-			"item": "honeycomb"
-		}
+		"honeycomb",
+		"feather",
+		"feather",
+		"honeycomb"
 	],
 	"result": {
 		"id": "phantom_membrane",

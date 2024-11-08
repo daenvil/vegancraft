@@ -2,15 +2,9 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"F": {
-			"tag": "flowers"
-		},
-		"W": {
-			"item": "water_bucket"
-		},
-		"G": {
-			"item": "glass_bottle"
-		}
+		"F": "#flowers",
+		"W": "water_bucket",
+		"G": "glass_bottle"
 	},
 	"pattern": [
 		"FFF",

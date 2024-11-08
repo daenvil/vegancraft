@@ -2,12 +2,8 @@
 	"type": "crafting_shaped",
 	"category": "equipment",
 	"key": {
-		"C": {
-			"item": "copper_ingot"
-		},
-		"H": {
-			"item": "honeycomb"
-		}
+		"C": "copper_ingot",
+		"H": "honeycomb"
 	},
 	"pattern": [
 		"C C",

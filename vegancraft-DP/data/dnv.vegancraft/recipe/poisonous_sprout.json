@@ -2,9 +2,7 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "poisonous_potato"
-		}
+		"poisonous_potato"
 	],
 	"result": {
 		"id": "spider_eye",

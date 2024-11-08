@@ -2,15 +2,9 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"G": {
-			"item": "green_dye"
-		},
-		"P": {
-			"item": "prismarine_crystals"
-		},
-		"S": {
-			"item": "shroomlight"
-		}
+		"G": "green_dye",
+		"P": "prismarine_crystals",
+		"S": "shroomlight"
 	},
 	"pattern": [
 		"GPG",

@@ -1,8 +1,6 @@
 {
 	"type": "stonecutting",
-	"ingredient": {
-		"tag": "zz.dnv.core:birch_bark"
-	},
+	"ingredient": "#zz.dnv.core:birch_bark",
 	"result": {
 		"id": "white_dye",
 		"count": 4

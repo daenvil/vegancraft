@@ -2,12 +2,8 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"S": {
-			"item": "stick"
-		},
-		"P": {
-			"item": "paper"
-		}
+		"S": "stick",
+		"P": "paper"
 	},
 	"pattern": [
 		"SSS",

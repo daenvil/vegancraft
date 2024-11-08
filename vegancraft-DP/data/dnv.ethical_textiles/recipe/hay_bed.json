@@ -2,12 +2,8 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"H": {
-			"item": "hay_block"
-		},
-		"P": {
-			"tag": "planks"
-		}
+		"H": "hay_block",
+		"P": "#planks"
 	},
 	"pattern": [
 		"HHH",

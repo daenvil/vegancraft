@@ -2,15 +2,9 @@
 	"type": "crafting_shaped",
 	"category": "equipment",
 	"key": {
-		"D": {
-			"item": "diamond_sword"
-		},
-		"P": {
-			"item": "prismarine_crystals"
-		},
-		"B": {
-			"item": "blaze_rod"
-		}
+		"D": "diamond_sword",
+		"P": "prismarine_crystals",
+		"B": "blaze_rod"
 	},
 	"pattern": [
 		" DD",

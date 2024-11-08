@@ -2,15 +2,9 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"W": {
-			"item": "white_dye"
-		},
-		"B": {
-			"item": "bone_block"
-		},
-		"C": {
-			"item": "carved_pumpkin"
-		}
+		"W": "white_dye",
+		"B": "bone_block",
+		"C": "carved_pumpkin"
 	},
 	"pattern": [
 		"WBW",

@@ -2,18 +2,10 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "kelp"
-		},
-		{
-			"item": "kelp"
-		},
-		{
-			"item": "kelp"
-		},
-		{
-			"item": "cooked_beef"
-		}
+		"kelp",
+		"kelp",
+		"kelp",
+		"cooked_beef"
 	],
 	"result": {
 		"id": "cod",
@@ -27,6 +19,9 @@
 			"food": {
 				"nutrition": 5,
 				"saturation": 6
+			},
+			"consumable": {
+
 			},
 			"custom_data": {
 				"dnv.vegan": true

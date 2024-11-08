@@ -2,15 +2,9 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"M": {
-			"tag": "dnv.vegan_food:milk_producing_plants"
-		},
-		"W": {
-			"item": "water_bucket"
-		},
-		"B": {
-			"item": "bucket"
-		}
+		"M": "#dnv.vegan_food:milk_producing_plants",
+		"W": "water_bucket",
+		"B": "bucket"
 	},
 	"pattern": [
 		"MMM",

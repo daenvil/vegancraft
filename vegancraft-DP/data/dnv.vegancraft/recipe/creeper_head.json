@@ -2,15 +2,9 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"G": {
-			"item": "green_dye"
-		},
-		"#": {
-			"item": "gunpowder"
-		},
-		"C": {
-			"item": "carved_pumpkin"
-		}
+		"G": "green_dye",
+		"#": "gunpowder",
+		"C": "carved_pumpkin"
 	},
 	"pattern": [
 		"G#G",

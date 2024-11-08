@@ -2,15 +2,9 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"P": {
-			"item": "popped_chorus_fruit"
-		},
-		"E": {
-			"item": "ender_pearl"
-		},
-		"C": {
-			"item": "chest"
-		}
+		"P": "popped_chorus_fruit",
+		"E": "ender_pearl",
+		"C": "chest"
 	},
 	"pattern": [
 		"PEP",

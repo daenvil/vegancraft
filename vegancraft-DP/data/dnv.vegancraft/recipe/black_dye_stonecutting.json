@@ -1,8 +1,6 @@
 {
 	"type": "stonecutting",
-	"ingredient": {
-		"tag": "zz.dnv.core:dark_oak_bark"
-	},
+	"ingredient": "#zz.dnv.core:dark_oak_bark",
 	"result": {
 		"id": "black_dye",
 		"count": 4

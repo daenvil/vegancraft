@@ -2,15 +2,9 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "bone_meal"
-		},
-		{
-			"item": "bone_meal"
-		},
-		{
-			"item": "bone_meal"
-		}
+		"bone_meal",
+		"bone_meal",
+		"bone_meal"
 	],
 	"result": {
 		"id": "bone"

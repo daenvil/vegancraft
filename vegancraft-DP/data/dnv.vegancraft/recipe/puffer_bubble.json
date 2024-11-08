@@ -2,12 +2,8 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "heart_of_the_sea"
-		},
-		{
-			"item": "soul_sand"
-		}
+		"heart_of_the_sea",
+		"soul_sand"
 	],
 	"result": {
 		"id": "pufferfish",

@@ -1,4 +1,4 @@
-# Daenvil's Vegancraft v1.2.1 (Full Datapack) for Minecraft 1.21+
+# Daenvil's Vegancraft v1.2.2 (Full Datapack) for Minecraft 1.21.2+
 
 This datapack is a merged version of the following datapacks:
 
@@ -15,7 +15,7 @@ And also contains additional content not present on those datapacks.
   - On my website: https://daenvil.github.io/MCDatapacks/vegancraft.html
   - On GitHub: https://www.github.com/daenvil/vegancraft
 
-- This version was published on the 27th of August 2024. Check the webpages above for possible updates.
+- This version was published on the 8th of November 2024. Check the webpages above for possible updates.
 
 ## Installation
 

@@ -2,15 +2,9 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "compass"
-		},
-		{
-			"item": "blaze_powder"
-		},
-		{
-			"item": "crying_obsidian"
-		}
+		"compass",
+		"blaze_powder",
+		"crying_obsidian"
 	],
 	"result": {
 		"id": "ender_eye",

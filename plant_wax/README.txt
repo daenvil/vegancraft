@@ -1,4 +1,4 @@
-# Plant Wax (v2.0.1, for Minecraft 1.21+)
+# Plant Wax (v2.0.2, for Minecraft 1.21+)
 
 A datapack that adds Plant Wax (a retextured Honeycomb). Obtained by smelting dead bushes or jungle leaves.
 
@@ -7,7 +7,7 @@ A datapack that adds Plant Wax (a retextured Honeycomb). Obtained by smelting de
   - On PlanetMinecraft: https://www.planetminecraft.com/data-pack/plant-wax/
   - On my website: https://daenvil.github.io/MCDatapacks/plant_wax.html
 
-- This version was published on the 19th of June 2024. Check the webpages above for possible updates.
+- This version was published on the 8th of November 2024. Check the webpages above for possible updates.
 
 ## Installation
 

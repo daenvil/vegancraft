@@ -1,0 +1,85 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_lightning_rod": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "lightning_rod"
+					}
+				]
+			}
+		},
+		"has_trial_key": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "trial_key"
+					}
+				]
+			}
+		},
+		"has_ominous_trial_key": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "ominous_trial_key"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.vegancraft:trial_key"
+			}
+		},
+		"breeze_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "breeze"
+					}
+				}
+			}
+		},
+		"wind_charge_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "wind_charge"
+					}
+				}
+			}
+		},
+		"player_hurt_breeze": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "breeze"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_lightning_rod",
+			"has_trial_key",
+			"has_ominous_trial_key",
+			"has_the_recipe",
+			"breeze_hurt_player",
+			"wind_charge_hurt_player",
+			"player_hurt_breeze"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.vegancraft:trial_key"
+		]
+	}
+}

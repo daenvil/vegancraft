@@ -1,8 +1,11 @@
 tag @s remove dnv.subject.crafted_synthetic_cobweb
 execute store success score @s dnv.success run tag @s remove dnv.crafted_vegan
+execute if score @s dnv.success matches 1 run scoreboard players set @s dnv.count.crafted_synthetic_cobweb 0
 execute if score @s dnv.success matches 1 run return 0
 execute if items entity @s player.cursor cobweb run scoreboard players set @s dnv.success 1
 execute unless score @s dnv.success matches 0 run item modify entity @s player.cursor {"function":"set_components","components":{"custom_data":{"dnv.vegan":false},"item_name":"{\"translate\":\"dnv.ethical_textiles.item.synthetic_cobweb\",\"fallback\":\"Synthetic Cobweb\",\"italic\":false}","lore":["{\"translate\":\"dnv.vegancraft.contains_animal_products\",\"fallback\":\"(Contains animal products)\",\"color\":\"red\",\"italic\":false}","{\"text\":\"Daenvil's Ethical Textiles\",\"color\":\"#954535\",\"italic\":true}"]}}
+execute unless score @s dnv.success matches 0 run scoreboard players set @s dnv.count.crafted_synthetic_cobweb 0
 execute unless score @s dnv.success matches 0 run return 0
-execute store success score @s dnv.success run clear @s cobweb[custom_data~{dnv.vegan:true}] 2
-execute unless score @s dnv.success matches 0 run give @s cobweb[item_name="{\"translate\":\"dnv.ethical_textiles.item.synthetic_cobweb\",\"fallback\":\"Synthetic Cobweb\",\"italic\":false}",lore=["{\"translate\":\"dnv.vegancraft.contains_animal_products\",\"fallback\":\"(Contains animal products)\",\"color\":\"red\",\"italic\":false}","{\"text\":\"Daenvil's Ethical Textiles\",\"color\":\"#954535\",\"italic\":true}"],custom_data={"dnv.vegan":false}] 2
+execute store result storage dnv.vegancraft:craft_count synthetic_cobweb.count int 1 run scoreboard players get @s dnv.count.crafted_synthetic_cobweb
+function zz.dnv.vegancraft:slots/on_crafted_synthetic_cobweb_replace_output with storage dnv.vegancraft:craft_count synthetic_cobweb
+scoreboard players set @s dnv.count.crafted_synthetic_cobweb 0

@@ -2,9 +2,7 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"tag": "dnv.vegancraft:glow_items"
-		}
+		"#dnv.vegancraft:glow_items"
 	],
 	"result": {
 		"id": "glow_ink_sac"

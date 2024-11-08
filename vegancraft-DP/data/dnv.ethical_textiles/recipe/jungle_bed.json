@@ -2,12 +2,8 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"J": {
-			"item": "jungle_leaves"
-		},
-		"P": {
-			"tag": "planks"
-		}
+		"J": "jungle_leaves",
+		"P": "#planks"
 	},
 	"pattern": [
 		"JJJ",

@@ -1,4 +1,4 @@
-# Acacia Gum (v1.2.1, for Minecraft 1.21+)
+# Acacia Gum (v1.2.2, for Minecraft 1.21+)
 
 This datapack adds the item "Acacia Gumball" (a retextured Slimeball), which is obtained by stripping acacia logs.
 
@@ -7,7 +7,7 @@ This datapack adds the item "Acacia Gumball" (a retextured Slimeball), which is 
   - On PlanetMinecraft: https://www.planetminecraft.com/data-pack/acacia-gum-slime-from-stripping-acacias/
   - On my website: https://daenvil.github.io/MCDatapacks/acacia_gum.html
 
-- This version was published on the 19th of June 2024. Check the webpages above for possible updates.
+- This version was published on the 8th of November 2024. Check the webpages above for possible updates.
 
 ## Installation
 

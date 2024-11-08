@@ -2,18 +2,10 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "wheat"
-		},
-		{
-			"item": "wheat"
-		},
-		{
-			"item": "wheat"
-		},
-		{
-			"tag": "dnv.vegan_food:seitan_marinades"
-		}
+		"wheat",
+		"wheat",
+		"wheat",
+		"#dnv.vegan_food:seitan_marinades"
 	],
 	"result": {
 		"id": "cooked_beef",

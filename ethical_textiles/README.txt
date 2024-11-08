@@ -1,4 +1,4 @@
-# Ethical Textiles (v2.0.2, for Minecraft 1.21+)
+# Ethical Textiles (v2.0.3, for Minecraft 1.21.2+)
 
 A datapack that adds plant-based alternatives to leather, string, wool, and feathers.
 
@@ -7,7 +7,7 @@ A datapack that adds plant-based alternatives to leather, string, wool, and feat
   - On PlanetMinecraft: https://www.planetminecraft.com/data-pack/ethical-textiles-plant-string-and-leather/
   - On my website: https://daenvil.github.io/MCDatapacks/ethical_textiles.html
 
-- This version was published on the 27th of August 2024. Check the webpages above for possible updates.
+- This version was published on the 8th of November 2024. Check the webpages above for possible updates.
 
 ## Installation
 

@@ -2,15 +2,9 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"M": {
-			"item": "magenta_dye"
-		},
-		"P": {
-			"item": "prismarine_crystals"
-		},
-		"S": {
-			"item": "shroomlight"
-		}
+		"M": "magenta_dye",
+		"P": "prismarine_crystals",
+		"S": "shroomlight"
 	},
 	"pattern": [
 		"MPM",

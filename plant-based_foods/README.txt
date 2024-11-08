@@ -1,4 +1,4 @@
-# Plant-based Foods (v2.0.1, for Minecraft 1.21+)
+# Plant-based Foods (v2.0.2, for Minecraft 1.21.2+)
 
 A datapack that adds vegan alternatives to dairy, eggs, honey, and meat.
 
@@ -7,7 +7,7 @@ A datapack that adds vegan alternatives to dairy, eggs, honey, and meat.
   - On PlanetMinecraft: https://www.planetminecraft.com/data-pack/plant-based-foods/
   - On my website: https://daenvil.github.io/MCDatapacks/plant-based_foods.html
 
-- This version was published on the 19th of June 2024. Check the webpages above for possible updates.
+- This version was published on the 8th of November 2024. Check the webpages above for possible updates.
 
 ## Installation
 

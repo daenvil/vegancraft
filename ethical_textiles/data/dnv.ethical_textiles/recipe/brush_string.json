@@ -2,15 +2,9 @@
 	"type": "crafting_shaped",
 	"category": "equipment",
 	"key": {
-		"S": {
-			"item": "string"
-		},
-		"C": {
-			"item": "copper_ingot"
-		},
-		"#": {
-			"item": "stick"
-		}
+		"S": "string",
+		"C": "copper_ingot",
+		"#": "stick"
 	},
 	"pattern": [
 		"S S",

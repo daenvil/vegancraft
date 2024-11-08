@@ -2,15 +2,9 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"S": {
-			"item": "string"
-		},
-		"#": {
-			"item": "slime_ball"
-		},
-		"D": {
-			"item": "diamond"
-		}
+		"S": "string",
+		"#": "slime_ball",
+		"D": "diamond"
 	},
 	"pattern": [
 		"S#",

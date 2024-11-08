@@ -2,21 +2,11 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "magma_block"
-		},
-		{
-			"item": "glowstone_dust"
-		},
-		{
-			"item": "glowstone_dust"
-		},
-		{
-			"item": "glowstone_dust"
-		},
-		{
-			"item": "glowstone_dust"
-		}
+		"magma_block",
+		"glowstone_dust",
+		"glowstone_dust",
+		"glowstone_dust",
+		"glowstone_dust"
 	],
 	"result": {
 		"id": "blaze_powder",

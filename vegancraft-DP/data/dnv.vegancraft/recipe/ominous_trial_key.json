@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"category": "misc",
+	"key": {
+		"P": "polished_tuff",
+		"B": "blaze_rod",
+		"C": "crying_obsidian"
+	},
+	"pattern": [
+		" P ",
+		" B ",
+		" C "
+	],
+	"result": {
+		"id": "ominous_trial_key"
+	}
+}

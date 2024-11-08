@@ -3,9 +3,7 @@
 	"category": "misc",
 	"cookingtime": 200,
 	"experience": 0.1,
-	"ingredient": {
-		"item": "jungle_leaves"
-	},
+	"ingredient": "jungle_leaves",
 	"result": {
 		"id": "honeycomb",
 		"components": {

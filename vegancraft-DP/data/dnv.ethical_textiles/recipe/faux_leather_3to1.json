@@ -2,12 +2,8 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"L": {
-			"tag": "dnv.ethical_textiles:leather_producing_plants_3to1"
-		},
-		"S": {
-			"item": "slime_ball"
-		}
+		"L": "#dnv.ethical_textiles:leather_producing_plants_3to1",
+		"S": "slime_ball"
 	},
 	"pattern": [
 		"LLL",

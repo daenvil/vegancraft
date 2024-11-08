@@ -2,12 +2,8 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"S": {
-			"item": "slime_ball"
-		},
-		"L": {
-			"item": "leather_boots"
-		}
+		"S": "slime_ball",
+		"L": "leather_boots"
 	},
 	"pattern": [
 		"SSS",

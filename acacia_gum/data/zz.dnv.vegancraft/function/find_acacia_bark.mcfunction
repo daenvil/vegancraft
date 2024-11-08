@@ -1,4 +1,4 @@
-execute store result score @s dnv.acacia_gum.raycast_range run attribute @s player.block_interaction_range get -10
+execute store result score @s dnv.acacia_gum.raycast_range run attribute @s block_interaction_range get -10
 scoreboard players operation @s dnv.acacia_gum.raycast_range_doubled = @s dnv.acacia_gum.raycast_range
 scoreboard players operation @s dnv.acacia_gum.raycast_range_doubled *= #dnv dnv.2
 scoreboard players set @s dnv.acacia_gum.found_acacia 0

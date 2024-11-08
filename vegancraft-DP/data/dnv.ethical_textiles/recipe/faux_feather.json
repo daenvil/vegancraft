@@ -2,15 +2,9 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"S": {
-			"item": "string"
-		},
-		"L": {
-			"tag": "leaves"
-		},
-		"#": {
-			"item": "stick"
-		}
+		"S": "string",
+		"L": "#leaves",
+		"#": "stick"
 	},
 	"pattern": [
 		"SL",

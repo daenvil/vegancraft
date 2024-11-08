@@ -2,15 +2,9 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "pumpkin"
-		},
-		{
-			"item": "sugar"
-		},
-		{
-			"tag": "dnv.vegan_food:egg_baking_replacements"
-		}
+		"pumpkin",
+		"sugar",
+		"#dnv.vegan_food:egg_baking_replacements"
 	],
 	"result": {
 		"id": "pumpkin_pie",

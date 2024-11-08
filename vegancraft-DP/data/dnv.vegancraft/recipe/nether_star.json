@@ -2,15 +2,9 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"N": {
-			"item": "netherite_ingot"
-		},
-		"D": {
-			"item": "diamond"
-		},
-		"B": {
-			"item": "blaze_powder"
-		}
+		"N": "netherite_ingot",
+		"D": "diamond",
+		"B": "blaze_powder"
 	},
 	"pattern": [
 		"NDN",

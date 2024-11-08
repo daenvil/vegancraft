@@ -2,15 +2,9 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"Y": {
-			"item": "yellow_dye"
-		},
-		"P": {
-			"item": "prismarine_crystals"
-		},
-		"S": {
-			"item": "shroomlight"
-		}
+		"Y": "yellow_dye",
+		"P": "prismarine_crystals",
+		"S": "shroomlight"
 	},
 	"pattern": [
 		"YPY",

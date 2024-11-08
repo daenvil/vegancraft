@@ -2,15 +2,9 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "bread"
-		},
-		{
-			"item": "beetroot"
-		},
-		{
-			"item": "brown_mushroom"
-		}
+		"bread",
+		"beetroot",
+		"brown_mushroom"
 	],
 	"result": {
 		"id": "cooked_porkchop",

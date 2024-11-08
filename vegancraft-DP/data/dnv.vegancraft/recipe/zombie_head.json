@@ -2,15 +2,9 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"G": {
-			"item": "green_dye"
-		},
-		"F": {
-			"item": "fermented_spider_eye"
-		},
-		"C": {
-			"item": "carved_pumpkin"
-		}
+		"G": "green_dye",
+		"F": "fermented_spider_eye",
+		"C": "carved_pumpkin"
 	},
 	"pattern": [
 		"GFG",

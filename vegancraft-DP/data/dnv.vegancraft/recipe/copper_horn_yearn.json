@@ -1,14 +1,8 @@
 {
 	"type": "smithing_transform",
-	"base": {
-		"item": "goat_horn"
-	},
-	"addition": {
-		"item": "copper_ingot"
-	},
-	"template": {
-		"tag": "dnv.vegancraft:copper_horn_templates_yearn"
-	},
+	"base": "goat_horn",
+	"addition": "copper_ingot",
+	"template": "#dnv.vegancraft:copper_horn_templates_yearn",
 	"result": {
 		"id": "goat_horn",
 		"components": {

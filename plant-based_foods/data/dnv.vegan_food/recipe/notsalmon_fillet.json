@@ -2,15 +2,9 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "carrot"
-		},
-		{
-			"item": "kelp"
-		},
-		{
-			"item": "honey_bottle"
-		}
+		"carrot",
+		"kelp",
+		"honey_bottle"
 	],
 	"result": {
 		"id": "salmon",
@@ -23,6 +17,9 @@
 			"food": {
 				"nutrition": 6,
 				"saturation": 9.6
+			},
+			"consumable": {
+
 			},
 			"custom_data": {
 				"dnv.vegan": true

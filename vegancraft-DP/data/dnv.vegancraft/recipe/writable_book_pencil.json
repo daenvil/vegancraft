@@ -2,15 +2,9 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "book"
-		},
-		{
-			"item": "stick"
-		},
-		{
-			"tag": "coals"
-		}
+		"book",
+		"stick",
+		"#coals"
 	],
 	"result": {
 		"id": "writable_book",

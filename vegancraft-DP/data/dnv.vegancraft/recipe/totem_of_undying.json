@@ -2,15 +2,9 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"E": {
-			"item": "emerald"
-		},
-		"G": {
-			"item": "gold_block"
-		},
-		"#": {
-			"item": "echo_shard"
-		}
+		"E": "emerald",
+		"G": "gold_block",
+		"#": "echo_shard"
 	},
 	"pattern": [
 		"   ",

@@ -15,7 +15,7 @@
 					"underlined": true
 				},
 				{
-					"text": "\nv2.0.2, for MC1.21.2+",
+					"text": "\nv2.1, for MC1.21.4+",
 					"color": "gray",
 					"italic": false
 				}
@@ -23,10 +23,10 @@
 			"color": "green",
 			"italic": false
 		},
-		"pack_format": 57,
+		"pack_format": 61,
 		"supported_formats": {
-			"min_inclusive": 57,
-			"max_inclusive": 58
+			"min_inclusive": 61,
+			"max_inclusive": 62
 		}
 	}
 }

@@ -1,1 +1,1 @@
-give @s string[item_name="{\"translate\":\"dnv.ethical_textiles.item.plant_string\",\"fallback\":\"Plant String\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Ethical Textiles\",\"color\":\"#954535\",\"italic\":true}"],custom_model_data=9261007,custom_data={"dnv.vegan":true}]
+give @s string[item_name="{\"translate\":\"dnv.ethical_textiles.item.plant_string\",\"fallback\":\"Plant String\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Ethical Textiles\",\"color\":\"#954535\",\"italic\":true}"],custom_data={"dnv.vegan":true},item_model="dnv.ethical_textiles:plant_string"]

@@ -1,1 +1,1 @@
-give @s blaze_powder[item_name="{\"translate\":\"dnv.vegancraft.item.blazing_powder\",\"fallback\":\"Blazing Powder\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"],custom_model_data=9261012,custom_data={"dnv.vegan":true}]
+give @s blaze_powder[item_name="{\"translate\":\"dnv.vegancraft.item.blazing_powder\",\"fallback\":\"Blazing Powder\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"],custom_data={"dnv.vegan":true},item_model="dnv.vegancraft:blazing_powder"]

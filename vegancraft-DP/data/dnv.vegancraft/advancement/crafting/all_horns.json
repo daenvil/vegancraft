@@ -14,7 +14,7 @@
 		"icon": {
 			"id": "goat_horn",
 			"components": {
-				"custom_model_data": 9261011
+				"item_model": "dnv.vegancraft:copper_horn"
 			}
 		},
 		"frame": "challenge"

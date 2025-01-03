@@ -1,0 +1,20 @@
+{
+	"model": {
+		"type": "range_dispatch",
+		"property": "custom_model_data",
+		"entries": [
+			{
+				"threshold": 9261011,
+				"model": {
+					"type": "minecraft:model",
+					"model": "dnv.vegancraft:item/copper_horn"
+				}
+			}
+		],
+		"fallback": {
+			"type": "model",
+			"model": "minecraft:item/goat_horn"
+		},
+		"index": 0
+	}
+}

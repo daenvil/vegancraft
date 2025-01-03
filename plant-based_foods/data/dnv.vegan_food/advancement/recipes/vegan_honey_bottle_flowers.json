@@ -1,12 +1,12 @@
 {
 	"parent": "minecraft:recipes/root",
 	"criteria": {
-		"has_item_tag_flowers": {
+		"has_item_tag_zz.dnv.core:flowers": {
 			"trigger": "inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"items": "#flowers"
+						"items": "#zz.dnv.core:flowers"
 					}
 				]
 			}
@@ -50,7 +50,7 @@
 	},
 	"requirements": [
 		[
-			"has_item_tag_flowers",
+			"has_item_tag_zz.dnv.core:flowers",
 			"has_honey_bottle",
 			"has_honeycomb",
 			"has_the_recipe",

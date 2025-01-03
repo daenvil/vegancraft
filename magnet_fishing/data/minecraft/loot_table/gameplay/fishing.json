@@ -6,12 +6,29 @@
 				{
 					"condition": "inverted",
 					"term": {
-						"condition": "match_tool",
-						"predicate": {
-							"components": {
-								"custom_model_data": 9261009
+						"condition": "any_of",
+						"terms": [
+							{
+								"condition": "match_tool",
+								"predicate": {
+									"components": {
+										"custom_model_data": {
+											"floats": [
+												9261009
+											]
+										}
+									}
+								}
+							},
+							{
+								"condition": "match_tool",
+								"predicate": {
+									"components": {
+										"item_model": "dnv.magnet_fishing:magnet_fishing_rod"
+									}
+								}
 							}
-						}
+						]
 					}
 				}
 			],
@@ -50,12 +67,29 @@
 		{
 			"conditions": [
 				{
-					"condition": "match_tool",
-					"predicate": {
-						"components": {
-							"custom_model_data": 9261009
+					"condition": "any_of",
+					"terms": [
+						{
+							"condition": "match_tool",
+							"predicate": {
+								"components": {
+									"custom_model_data": {
+										"floats": [
+											9261009
+										]
+									}
+								}
+							}
+						},
+						{
+							"condition": "match_tool",
+							"predicate": {
+								"components": {
+									"item_model": "dnv.magnet_fishing:magnet_fishing_rod"
+								}
+							}
 						}
-					}
+					]
 				}
 			],
 			"rolls": 1,

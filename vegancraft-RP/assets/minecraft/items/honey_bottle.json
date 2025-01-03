@@ -1,0 +1,20 @@
+{
+	"model": {
+		"type": "range_dispatch",
+		"property": "custom_model_data",
+		"entries": [
+			{
+				"threshold": 9261002,
+				"model": {
+					"type": "minecraft:model",
+					"model": "dnv.vegan_food:item/vegan_honey_bottle"
+				}
+			}
+		],
+		"fallback": {
+			"type": "model",
+			"model": "minecraft:item/honey_bottle"
+		},
+		"index": 0
+	}
+}

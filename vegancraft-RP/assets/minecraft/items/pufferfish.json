@@ -1,0 +1,20 @@
+{
+	"model": {
+		"type": "range_dispatch",
+		"property": "custom_model_data",
+		"entries": [
+			{
+				"threshold": 9261020,
+				"model": {
+					"type": "minecraft:model",
+					"model": "dnv.vegancraft:item/puffer_bubble"
+				}
+			}
+		],
+		"fallback": {
+			"type": "model",
+			"model": "minecraft:item/pufferfish"
+		},
+		"index": 0
+	}
+}

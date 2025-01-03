@@ -1,6 +1,6 @@
 {
 	"type": "stonecutting",
-	"ingredient": "#zz.dnv.core:birch_bark",
+	"ingredient": "#dnv.vegancraft:white_dye_bark",
 	"result": {
 		"id": "white_dye",
 		"count": 4

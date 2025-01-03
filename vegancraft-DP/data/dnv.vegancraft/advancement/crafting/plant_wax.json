@@ -14,7 +14,7 @@
 		"icon": {
 			"id": "honeycomb",
 			"components": {
-				"custom_model_data": 9261008
+				"item_model": "dnv.plant_wax:plant_wax"
 			}
 		}
 	},

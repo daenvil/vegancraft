@@ -11,10 +11,10 @@
 			"lore": [
 				"{\"text\":\"Daenvil's Plant Wax\",\"color\":\"#FAFAB0\",\"italic\":true}"
 			],
-			"custom_model_data": 9261008,
 			"custom_data": {
 				"dnv.vegan": true
-			}
+			},
+			"item_model": "dnv.plant_wax:plant_wax"
 		}
 	}
 }

@@ -13,10 +13,10 @@
 			"lore": [
 				"{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"
 			],
-			"custom_model_data": 9261028,
 			"custom_data": {
 				"dnv.vegan": true
-			}
+			},
+			"item_model": "dnv.vegancraft:writable_book_pencil"
 		}
 	}
 }

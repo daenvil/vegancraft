@@ -14,11 +14,11 @@
 			"lore": [
 				"{\"text\":\"Daenvil's Plant-based Foods\",\"color\":\"dark_green\",\"italic\":true}"
 			],
-			"custom_model_data": 9261003,
 			"custom_data": {
 				"dnv.vegan": true
-			}
+			},
+			"item_model": "dnv.vegan_food:seitan_steak"
 		}
 	},
-	"group": "dnv.vegan_food.seitan_steak"
+	"group": "dnv.vegan_food.seitan"
 }

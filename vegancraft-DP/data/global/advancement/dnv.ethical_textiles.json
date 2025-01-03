@@ -6,13 +6,13 @@
 			"italic": false
 		},
 		"description": {
-			"text": "Daenvil's Ethical Textiles 2.0.3 (for MC1.21.2+)",
+			"text": "Daenvil's Ethical Textiles 2.1 (for MC1.21.4+)",
 			"italic": false
 		},
 		"icon": {
 			"id": "string",
 			"components": {
-				"custom_model_data": 9261007
+				"item_model": "dnv.ethical_textiles:plant_string"
 			}
 		},
 		"show_toast": false,

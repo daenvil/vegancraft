@@ -27,7 +27,7 @@
 				"recipe": "dnv.vegan_food:notsalmon_fillet"
 			}
 		},
-		"has_honey_bottle": {
+		"has_vegan_honey": {
 			"trigger": "inventory_changed",
 			"conditions": {
 				"items": [
@@ -62,7 +62,7 @@
 			"has_kelp",
 			"has_item_tag_fishes",
 			"has_the_recipe",
-			"has_honey_bottle",
+			"has_vegan_honey",
 			"player_hurt_cod",
 			"player_hurt_salmon"
 		]

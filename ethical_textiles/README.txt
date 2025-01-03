@@ -1,4 +1,4 @@
-# Ethical Textiles (v2.0.3, for Minecraft 1.21.2+)
+# Ethical Textiles (v2.1, for Minecraft 1.21.4+)
 
 A datapack that adds plant-based alternatives to leather, string, wool, and feathers.
 
@@ -7,12 +7,12 @@ A datapack that adds plant-based alternatives to leather, string, wool, and feat
   - On PlanetMinecraft: https://www.planetminecraft.com/data-pack/ethical-textiles-plant-string-and-leather/
   - On my website: https://daenvil.github.io/MCDatapacks/ethical_textiles.html
 
-- This version was published on the 8th of November 2024. Check the webpages above for possible updates.
+- This version was published on the 3rd of January 2025. Check the webpages above for possible updates.
 
 ## Installation
 
 - Drop the datapack zip file inside the "datapacks" folder of your world folder (<your minecraft folder>/saves/<your world>/datapacks/).
-- Drop the resourcepack zip file ("vegancraft-RP_v1.2.zip") inside the "resourcepacks" folder of your minecraft folder. If you don't have the resourcepack, download it from one of the webpages above.
+- Drop the resourcepack zip file ("vegancraft-RP_v1.3.zip") inside the "resourcepacks" folder of your minecraft folder. If you don't have the resourcepack, download it from one of the webpages above.
 
 ## Features
 

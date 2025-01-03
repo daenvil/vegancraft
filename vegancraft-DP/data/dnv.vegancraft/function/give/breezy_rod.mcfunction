@@ -1,1 +1,1 @@
-give @s breeze_rod[item_name="{\"translate\":\"dnv.vegancraft.item.breezy_rod\",\"fallback\":\"Breezy Rod\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"],custom_model_data=9261027,custom_data={"dnv.vegan":true}]
+give @s breeze_rod[item_name="{\"translate\":\"dnv.vegancraft.item.breezy_rod\",\"fallback\":\"Breezy Rod\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"],custom_data={"dnv.vegan":true},item_model="dnv.vegancraft:breezy_rod"]

@@ -168,10 +168,10 @@
 									"{\"translate\":\"dnv.vegancraft.item.pitcher_fluid.lore\",\"fallback\":\"(Use as ghast tear)\",\"italic\":false}",
 									"{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"
 								],
-								"custom_model_data": 9261023,
 								"custom_data": {
 									"dnv.vegan": true
-								}
+								},
+								"item_model": "dnv.vegancraft:pitcher_fluid"
 							}
 						},
 						{

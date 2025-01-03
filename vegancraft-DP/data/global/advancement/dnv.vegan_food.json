@@ -6,13 +6,13 @@
 			"italic": false
 		},
 		"description": {
-			"text": "Daenvil's Plant-based Foods 2.0.2 (for MC1.21.2+)",
+			"text": "Daenvil's Plant-based Foods 2.1 (for MC1.21.4+)",
 			"italic": false
 		},
 		"icon": {
 			"id": "cooked_porkchop",
 			"components": {
-				"custom_model_data": 9261024
+				"item_model": "dnv.vegan_food:veggie_burger"
 			}
 		},
 		"show_toast": false,

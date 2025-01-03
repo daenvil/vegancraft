@@ -14,7 +14,7 @@
 		"icon": {
 			"id": "slime_ball",
 			"components": {
-				"custom_model_data": 9261005
+				"item_model": "dnv.acacia_gum:acacia_gum_ball"
 			}
 		}
 	},

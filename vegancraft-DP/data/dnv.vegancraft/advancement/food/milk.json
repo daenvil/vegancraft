@@ -14,7 +14,7 @@
 		"icon": {
 			"id": "milk_bucket",
 			"components": {
-				"custom_model_data": 9261001
+				"item_model": "dnv.vegan_food:plant_milk_bucket"
 			}
 		}
 	},

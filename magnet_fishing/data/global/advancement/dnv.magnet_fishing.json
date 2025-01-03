@@ -6,13 +6,13 @@
 			"italic": false
 		},
 		"description": {
-			"text": "Daenvil's Magnet Fishing 2.0.2 (for MC1.21+)",
+			"text": "Daenvil's Magnet Fishing 2.1 (for MC1.21.4+)",
 			"italic": false
 		},
 		"icon": {
 			"id": "fishing_rod",
 			"components": {
-				"custom_model_data": 9261009
+				"item_model": "dnv.magnet_fishing:magnet_fishing_rod"
 			}
 		},
 		"show_toast": false,

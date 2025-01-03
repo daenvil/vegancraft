@@ -6,13 +6,13 @@
 			"italic": false
 		},
 		"description": {
-			"text": "Daenvil's Plant Wax 2.0.2 (for MC1.21+)",
+			"text": "Daenvil's Plant Wax 2.1 (for MC1.21.4+)",
 			"italic": false
 		},
 		"icon": {
 			"id": "honeycomb",
 			"components": {
-				"custom_model_data": 9261008
+				"item_model": "dnv.plant_wax:plant_wax"
 			}
 		},
 		"show_toast": false,

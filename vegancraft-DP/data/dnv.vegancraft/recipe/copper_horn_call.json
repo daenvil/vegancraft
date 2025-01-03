@@ -10,11 +10,11 @@
 			"lore": [
 				"{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"
 			],
-			"custom_model_data": 9261011,
 			"instrument": "call_goat_horn",
 			"custom_data": {
 				"dnv.vegan": true
-			}
+			},
+			"item_model": "dnv.vegancraft:copper_horn"
 		}
 	}
 }

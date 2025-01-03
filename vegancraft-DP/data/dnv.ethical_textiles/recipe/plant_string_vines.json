@@ -16,10 +16,10 @@
 			"lore": [
 				"{\"text\":\"Daenvil's Ethical Textiles\",\"color\":\"#954535\",\"italic\":true}"
 			],
-			"custom_model_data": 9261007,
 			"custom_data": {
 				"dnv.vegan": true
-			}
+			},
+			"item_model": "dnv.ethical_textiles:plant_string"
 		}
 	},
 	"group": "dnv.ethical_textiles.plant_string"

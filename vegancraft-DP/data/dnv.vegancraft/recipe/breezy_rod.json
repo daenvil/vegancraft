@@ -12,10 +12,10 @@
 			"lore": [
 				"{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"
 			],
-			"custom_model_data": 9261027,
 			"custom_data": {
 				"dnv.vegan": true
-			}
+			},
+			"item_model": "dnv.vegancraft:breezy_rod"
 		}
 	}
 }

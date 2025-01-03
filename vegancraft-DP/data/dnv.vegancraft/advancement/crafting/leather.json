@@ -14,7 +14,7 @@
 		"icon": {
 			"id": "leather",
 			"components": {
-				"custom_model_data": 9261006
+				"item_model": "dnv.ethical_textiles:faux_leather"
 			}
 		}
 	},

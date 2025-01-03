@@ -13,7 +13,7 @@
 			"lore": [
 				"{\"text\":\"Daenvil's Magnet Fishing\",\"color\":\"aqua\",\"italic\":true}"
 			],
-			"custom_model_data": 9261009
+			"item_model": "dnv.magnet_fishing:magnet_fishing_rod"
 		}
 	}
 }

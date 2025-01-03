@@ -15,10 +15,10 @@
 								"lore": [
 									"{\"text\":\"Daenvil's Acacia Gum\",\"color\":\"gold\",\"italic\":true}"
 								],
-								"custom_model_data": 9261005,
 								"custom_data": {
 									"dnv.vegan": true
-								}
+								},
+								"item_model": "dnv.acacia_gum:acacia_gum_ball"
 							}
 						}
 					],

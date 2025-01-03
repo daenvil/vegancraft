@@ -18,10 +18,10 @@
 				"{\"translate\":\"dnv.vegancraft.bouncy_boot.lore\",\"fallback\":\"(Use as rabbit's foot)\",\"italic\":false}",
 				"{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"
 			],
-			"custom_model_data": 9261018,
 			"custom_data": {
 				"dnv.vegan": true
-			}
+			},
+			"item_model": "dnv.vegancraft:bouncy_boot"
 		}
 	}
 }

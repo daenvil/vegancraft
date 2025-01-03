@@ -1,12 +1,12 @@
 {
 	"parent": "minecraft:recipes/root",
 	"criteria": {
-		"has_item_tag_zz.dnv.core:birch_bark": {
+		"has_item_tag_dnv.vegancraft:white_dye_bark": {
 			"trigger": "inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"items": "#zz.dnv.core:birch_bark"
+						"items": "#dnv.vegancraft:white_dye_bark"
 					}
 				]
 			}
@@ -20,7 +20,7 @@
 	},
 	"requirements": [
 		[
-			"has_item_tag_zz.dnv.core:birch_bark",
+			"has_item_tag_dnv.vegancraft:white_dye_bark",
 			"has_the_recipe"
 		]
 	],

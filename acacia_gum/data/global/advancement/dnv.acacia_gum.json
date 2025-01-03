@@ -6,13 +6,13 @@
 			"italic": false
 		},
 		"description": {
-			"text": "Daenvil's Acacia Gum 1.2.2 (for MC1.21+)",
+			"text": "Daenvil's Acacia Gum 1.3 (for MC1.21.4+)",
 			"italic": false
 		},
 		"icon": {
 			"id": "slime_ball",
 			"components": {
-				"custom_model_data": 9261005
+				"item_model": "dnv.acacia_gum:acacia_gum_ball"
 			}
 		},
 		"show_toast": false,

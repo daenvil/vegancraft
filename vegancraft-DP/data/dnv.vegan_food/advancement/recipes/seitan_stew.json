@@ -29,7 +29,7 @@
 				"recipe": "rabbit_stew_red_mushroom"
 			}
 		},
-		"has_cooked_beef": {
+		"has_vegan_steak": {
 			"trigger": "inventory_changed",
 			"conditions": {
 				"items": [
@@ -57,7 +57,7 @@
 			"has_the_recipe",
 			"has_recipe_rabbit_stew_brown_mushroom",
 			"has_recipe_rabbit_stew_red_mushroom",
-			"has_cooked_beef",
+			"has_vegan_steak",
 			"player_hurt_rabbit"
 		]
 	],

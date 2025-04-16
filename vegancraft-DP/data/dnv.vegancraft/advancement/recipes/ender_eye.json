@@ -64,6 +64,26 @@
 					"type": "enderman"
 				}
 			}
+		},
+		"stronghold": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "stronghold"
+					}
+				}
+			}
+		},
+		"the_end": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "the_end"
+					}
+				}
+			}
 		}
 	},
 	"requirements": [
@@ -74,7 +94,9 @@
 			"has_ender_eye",
 			"has_the_recipe",
 			"enderman_hurt_player",
-			"player_hurt_enderman"
+			"player_hurt_enderman",
+			"stronghold",
+			"the_end"
 		]
 	],
 	"rewards": {

@@ -1,1 +1,1 @@
-give @s fishing_rod[item_name="{\"translate\":\"dnv.magnet_fishing.item.magnet_fishing_rod\",\"fallback\":\"Magnet Fishing Rod\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Magnet Fishing\",\"color\":\"aqua\",\"italic\":true}"],item_model="dnv.magnet_fishing:magnet_fishing_rod"]
+give @s fishing_rod[item_name={"translate":"dnv.magnet_fishing.item.magnet_fishing_rod","fallback":"Magnet Fishing Rod","italic":false},lore=[{"text":"Daenvil's Magnet Fishing","color":"aqua","italic":true}],item_model="dnv.magnet_fishing:magnet_fishing_rod"]

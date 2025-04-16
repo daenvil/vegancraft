@@ -44,6 +44,16 @@
 					"type": "enderman"
 				}
 			}
+		},
+		"the_end": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "the_end"
+					}
+				}
+			}
 		}
 	},
 	"requirements": [
@@ -52,7 +62,8 @@
 			"has_ender_pearl",
 			"has_the_recipe",
 			"enderman_hurt_player",
-			"player_hurt_enderman"
+			"player_hurt_enderman",
+			"the_end"
 		]
 	],
 	"rewards": {

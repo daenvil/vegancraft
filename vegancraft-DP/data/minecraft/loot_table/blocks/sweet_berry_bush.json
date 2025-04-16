@@ -135,7 +135,7 @@
 					"weight": 1,
 					"functions": [
 						{
-							"function": "minecraft:set_components",
+							"function": "set_components",
 							"components": {
 								"custom_data": {
 									"dnv.xp_orb": true

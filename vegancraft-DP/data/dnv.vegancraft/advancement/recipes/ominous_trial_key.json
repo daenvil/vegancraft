@@ -1,16 +1,6 @@
 {
 	"parent": "minecraft:recipes/root",
 	"criteria": {
-		"has_blaze_rod": {
-			"trigger": "inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "blaze_rod"
-					}
-				]
-			}
-		},
 		"has_ominous_trial_key": {
 			"trigger": "inventory_changed",
 			"conditions": {
@@ -54,16 +44,26 @@
 					"type": "breeze"
 				}
 			}
+		},
+		"trial_chambers": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "trial_chambers"
+					}
+				}
+			}
 		}
 	},
 	"requirements": [
 		[
-			"has_blaze_rod",
 			"has_ominous_trial_key",
 			"has_the_recipe",
 			"breeze_hurt_player",
 			"wind_charge_hurt_player",
-			"player_hurt_breeze"
+			"player_hurt_breeze",
+			"trial_chambers"
 		]
 	],
 	"rewards": {

@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"traded_with_villager": {
+			"trigger": "villager_trade"
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_traded_with_villager"
+	}
+}

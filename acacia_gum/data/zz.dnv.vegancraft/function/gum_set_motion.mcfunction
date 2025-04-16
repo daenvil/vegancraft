@@ -1,0 +1,2 @@
+data modify entity @e[type=snowball,tag=dnv.projectile,sort=nearest,limit=1] Motion set from storage dnv.acacia_gum:storage Motion
+tag @e[type=snowball,tag=dnv.projectile,sort=nearest,limit=1] remove dnv.projectile

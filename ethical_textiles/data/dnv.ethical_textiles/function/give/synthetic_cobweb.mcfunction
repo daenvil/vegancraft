@@ -1,1 +1,1 @@
-give @s cobweb[item_name="{\"translate\":\"dnv.ethical_textiles.item.synthetic_cobweb\",\"fallback\":\"Synthetic Cobweb\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Ethical Textiles\",\"color\":\"#954535\",\"italic\":true}"],custom_data={"dnv.vegan":true}]
+give @s cobweb[item_name={"translate":"dnv.ethical_textiles.item.synthetic_cobweb","fallback":"Synthetic Cobweb","italic":false},lore=[{"text":"Daenvil's Ethical Textiles","color":"#954535","italic":true}],custom_data={"dnv.vegan":true}]

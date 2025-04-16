@@ -11,16 +11,21 @@
 		"id": "cod",
 		"count": 3,
 		"components": {
-			"item_name": "{\"translate\":\"dnv.vegan_food.item.notfish_fillet\",\"fallback\":\"Not-fish Fillet\",\"italic\":false}",
+			"item_name": {
+				"translate": "dnv.vegan_food.item.notfish_fillet",
+				"fallback": "Not-fish Fillet",
+				"italic": false
+			},
 			"lore": [
-				"{\"text\":\"Daenvil's Plant-based Foods\",\"color\":\"dark_green\",\"italic\":true}"
+				{
+					"text": "Daenvil's Plant-based Foods",
+					"color": "dark_green",
+					"italic": true
+				}
 			],
 			"food": {
 				"nutrition": 5,
 				"saturation": 6
-			},
-			"consumable": {
-
 			},
 			"custom_data": {
 				"dnv.vegan": true

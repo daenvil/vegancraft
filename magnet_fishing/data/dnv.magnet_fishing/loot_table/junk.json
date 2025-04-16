@@ -9,12 +9,11 @@
 					"weight": 3,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.9
-							},
-							"function": "minecraft:set_damage"
+							}
 						}
 					],
 					"name": "iron_pickaxe"
@@ -24,12 +23,11 @@
 					"weight": 3,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.9
-							},
-							"function": "minecraft:set_damage"
+							}
 						}
 					],
 					"name": "iron_shovel"
@@ -39,12 +37,11 @@
 					"weight": 3,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.9
-							},
-							"function": "minecraft:set_damage"
+							}
 						}
 					],
 					"name": "iron_axe"
@@ -54,12 +51,11 @@
 					"weight": 3,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.9
-							},
-							"function": "minecraft:set_damage"
+							}
 						}
 					],
 					"name": "iron_hoe"
@@ -69,12 +65,11 @@
 					"weight": 3,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.9
-							},
-							"function": "minecraft:set_damage"
+							}
 						}
 					],
 					"name": "shears"
@@ -84,12 +79,11 @@
 					"weight": 3,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.9
-							},
-							"function": "minecraft:set_damage"
+							}
 						}
 					],
 					"name": "chainmail_helmet"
@@ -99,12 +93,11 @@
 					"weight": 3,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.9
-							},
-							"function": "minecraft:set_damage"
+							}
 						}
 					],
 					"name": "chainmail_chestplate"
@@ -114,12 +107,11 @@
 					"weight": 3,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.9
-							},
-							"function": "minecraft:set_damage"
+							}
 						}
 					],
 					"name": "chainmail_leggings"
@@ -129,12 +121,11 @@
 					"weight": 3,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.9
-							},
-							"function": "minecraft:set_damage"
+							}
 						}
 					],
 					"name": "chainmail_boots"
@@ -150,12 +141,11 @@
 					"weight": 2,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.9
-							},
-							"function": "minecraft:set_damage"
+							}
 						}
 					],
 					"name": "fishing_rod"

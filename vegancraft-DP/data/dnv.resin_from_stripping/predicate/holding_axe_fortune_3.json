@@ -1,0 +1,43 @@
+{
+	"condition": "any_of",
+	"terms": [
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"weapon.mainhand": {
+						"items": "#axes",
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:fortune",
+									"levels": 3
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"weapon.offhand": {
+						"items": "#axes",
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:fortune",
+									"levels": 3
+								}
+							]
+						}
+					}
+				}
+			}
+		}
+	]
+}

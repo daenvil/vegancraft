@@ -1,0 +1,1 @@
+give @s shulker_box[item_name={"translate":"dnv.vegancraft.item.chorus_box","fallback":"Chorus Box","italic":false},lore=[{"text":"Daenvil's Vegancraft","color":"green","italic":true}]]

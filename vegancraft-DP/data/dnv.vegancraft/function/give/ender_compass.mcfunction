@@ -1,0 +1,1 @@
+give @s ender_eye[item_name={"translate":"dnv.vegancraft.item.ender_compass","fallback":"Ender Compass","italic":false},lore=[{"text":"Daenvil's Vegancraft","color":"green","italic":true}],item_model="dnv.vegancraft:ender_compass"]

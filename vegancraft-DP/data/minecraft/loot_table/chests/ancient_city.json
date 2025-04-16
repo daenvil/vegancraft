@@ -12,13 +12,11 @@
 					"weight": 1,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 2,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
+								"min": 1,
+								"max": 2
+							}
 						}
 					],
 					"name": "minecraft:enchanted_golden_apple"
@@ -33,9 +31,8 @@
 					"weight": 2,
 					"functions": [
 						{
-							"add": false,
-							"count": 1,
-							"function": "minecraft:set_count"
+							"function": "set_count",
+							"count": 1
 						}
 					],
 					"name": "minecraft:compass"
@@ -45,13 +42,11 @@
 					"weight": 2,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 2,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
+								"min": 1,
+								"max": 2
+							}
 						}
 					],
 					"name": "minecraft:sculk_catalyst"
@@ -66,25 +61,21 @@
 					"weight": 2,
 					"functions": [
 						{
-							"add": false,
-							"count": 1,
-							"function": "minecraft:set_count"
+							"function": "set_count",
+							"count": 1
 						},
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
-								"type": "minecraft:uniform",
-								"max": 1,
-								"min": 0.8
-							},
-							"function": "minecraft:set_damage"
+								"min": 0.8,
+								"max": 1
+							}
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"function": "enchant_with_levels",
 							"levels": {
-								"type": "minecraft:uniform",
-								"max": 50,
-								"min": 30
+								"min": 30,
+								"max": 50
 							},
 							"options": "#minecraft:on_random_loot"
 						}
@@ -96,9 +87,8 @@
 					"weight": 2,
 					"functions": [
 						{
-							"add": false,
-							"count": 1,
-							"function": "minecraft:set_count"
+							"function": "set_count",
+							"count": 1
 						}
 					],
 					"name": "minecraft:lead"
@@ -108,9 +98,8 @@
 					"weight": 2,
 					"functions": [
 						{
-							"add": false,
-							"count": 1,
-							"function": "minecraft:set_count"
+							"function": "set_count",
+							"count": 1
 						}
 					],
 					"name": "minecraft:diamond_horse_armor"
@@ -120,9 +109,8 @@
 					"weight": 2,
 					"functions": [
 						{
-							"add": false,
-							"count": 1,
-							"function": "minecraft:set_count"
+							"function": "set_count",
+							"count": 1
 						}
 					],
 					"name": "minecraft:saddle"
@@ -142,11 +130,10 @@
 					"weight": 2,
 					"functions": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"function": "enchant_with_levels",
 							"levels": {
-								"type": "minecraft:uniform",
-								"max": 50,
-								"min": 30
+								"min": 30,
+								"max": 50
 							},
 							"options": "#minecraft:on_random_loot"
 						}
@@ -158,7 +145,7 @@
 					"weight": 3,
 					"functions": [
 						{
-							"function": "minecraft:enchant_randomly",
+							"function": "enchant_randomly",
 							"options": "minecraft:swift_sneak"
 						}
 					],
@@ -169,13 +156,11 @@
 					"weight": 3,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 10,
-								"min": 4
-							},
-							"function": "minecraft:set_count"
+								"min": 4,
+								"max": 10
+							}
 						}
 					],
 					"name": "minecraft:sculk"
@@ -185,13 +170,11 @@
 					"weight": 3,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 3,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
+								"min": 1,
+								"max": 3
+							}
 						}
 					],
 					"name": "minecraft:sculk_sensor"
@@ -201,13 +184,11 @@
 					"weight": 3,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 4,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
+								"min": 1,
+								"max": 4
+							}
 						}
 					],
 					"name": "minecraft:candle"
@@ -217,13 +198,11 @@
 					"weight": 3,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 15,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
+								"min": 1,
+								"max": 15
+							}
 						}
 					],
 					"name": "minecraft:amethyst_shard"
@@ -233,13 +212,11 @@
 					"weight": 3,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 3,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
+								"min": 1,
+								"max": 3
+							}
 						}
 					],
 					"name": "minecraft:experience_bottle"
@@ -249,13 +226,11 @@
 					"weight": 3,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 15,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
+								"min": 1,
+								"max": 15
+							}
 						}
 					],
 					"name": "minecraft:glow_berries"
@@ -265,11 +240,10 @@
 					"weight": 3,
 					"functions": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"function": "enchant_with_levels",
 							"levels": {
-								"type": "minecraft:uniform",
-								"max": 39,
-								"min": 20
+								"min": 20,
+								"max": 39
 							},
 							"options": "#minecraft:on_random_loot"
 						}
@@ -281,13 +255,11 @@
 					"weight": 4,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 3,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
+								"min": 1,
+								"max": 3
+							}
 						}
 					],
 					"name": "minecraft:echo_shard"
@@ -297,13 +269,11 @@
 					"weight": 4,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 3,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
+								"min": 1,
+								"max": 3
+							}
 						}
 					],
 					"name": "minecraft:disc_fragment_5"
@@ -313,16 +283,14 @@
 					"weight": 5,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 3,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
+								"min": 1,
+								"max": 3
+							}
 						},
 						{
-							"function": "minecraft:set_potion",
+							"function": "set_potion",
 							"id": "minecraft:strong_regeneration"
 						}
 					],
@@ -333,7 +301,7 @@
 					"weight": 5,
 					"functions": [
 						{
-							"function": "minecraft:enchant_randomly",
+							"function": "enchant_randomly",
 							"options": "#minecraft:on_random_loot"
 						}
 					],
@@ -344,13 +312,11 @@
 					"weight": 5,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 10,
-								"min": 3
-							},
-							"function": "minecraft:set_count"
+								"min": 3,
+								"max": 10
+							}
 						}
 					],
 					"name": "minecraft:book"
@@ -365,13 +331,11 @@
 					"weight": 5,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 15,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
+								"min": 1,
+								"max": 15
+							}
 						}
 					],
 					"name": "minecraft:soul_torch"
@@ -381,16 +345,19 @@
 					"weight": 7,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 15,
-								"min": 6
-							},
-							"function": "minecraft:set_count"
+								"min": 6,
+								"max": 15
+							}
 						}
 					],
 					"name": "minecraft:coal"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "trial_key"
 				}
 			]
 		},

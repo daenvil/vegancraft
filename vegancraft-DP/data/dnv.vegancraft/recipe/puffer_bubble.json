@@ -8,10 +8,22 @@
 	"result": {
 		"id": "pufferfish",
 		"components": {
-			"item_name": "{\"translate\":\"dnv.vegancraft.item.puffer_bubble\",\"fallback\":\"Puffer Bubble\",\"italic\":false}",
+			"item_name": {
+				"translate": "dnv.vegancraft.item.puffer_bubble",
+				"fallback": "Puffer Bubble",
+				"italic": false
+			},
 			"lore": [
-				"{\"translate\":\"dnv.vegancraft.puffer_bubble.lore\",\"fallback\":\"(Use as pufferfish)\",\"italic\":false}",
-				"{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"
+				{
+					"translate": "dnv.vegancraft.puffer_bubble.lore",
+					"fallback": "(Use as pufferfish)",
+					"italic": false
+				},
+				{
+					"text": "Daenvil's Vegancraft",
+					"color": "green",
+					"italic": true
+				}
 			],
 			"custom_data": {
 				"dnv.vegan": true

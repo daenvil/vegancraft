@@ -1,0 +1,32 @@
+{
+	"parent": "dnv.vegancraft:root",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.vegan_trading",
+			"fallback": "Plant-based Capitalism",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.vegan_trading.description",
+			"fallback": "Trade a vegan item with a villager",
+			"italic": false
+		},
+		"icon": {
+			"id": "emerald"
+		}
+	},
+	"criteria": {
+		"vegan_villager_trade": {
+			"trigger": "villager_trade",
+			"conditions": {
+				"item": {
+					"components": {
+						"custom_data": {
+							"dnv.vegan": true
+						}
+					}
+				}
+			}
+		}
+	}
+}

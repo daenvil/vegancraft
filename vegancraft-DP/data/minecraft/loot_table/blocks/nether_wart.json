@@ -14,39 +14,34 @@
 					"weight": 1,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"conditions": [
 								{
+									"condition": "block_state_property",
 									"block": "minecraft:nether_wart",
-									"condition": "minecraft:block_state_property",
 									"properties": {
 										"age": "3"
 									}
 								}
 							],
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 4,
-								"min": 2
-							},
-							"function": "minecraft:set_count"
+								"min": 2,
+								"max": 4
+							}
 						},
 						{
+							"function": "apply_bonus",
 							"conditions": [
 								{
+									"condition": "block_state_property",
 									"block": "minecraft:nether_wart",
-									"condition": "minecraft:block_state_property",
 									"properties": {
 										"age": "3"
 									}
 								}
 							],
 							"enchantment": "minecraft:fortune",
-							"formula": "minecraft:uniform_bonus_count",
-							"function": "minecraft:apply_bonus",
-							"parameters": {
-								"bonusMultiplier": 1
-							}
+							"formula": "ore_drops"
 						}
 					],
 					"name": "minecraft:nether_wart"
@@ -106,7 +101,7 @@
 					"weight": 1,
 					"functions": [
 						{
-							"function": "minecraft:set_components",
+							"function": "set_components",
 							"components": {
 								"custom_data": {
 									"dnv.xp_orb": true

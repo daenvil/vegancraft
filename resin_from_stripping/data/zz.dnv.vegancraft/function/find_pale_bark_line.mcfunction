@@ -1,0 +1,3 @@
+execute if block ~ ~ ~ #zz.dnv.core:pale_oak_bark run function zz.dnv.vegancraft:find_pale_bark_success
+execute if score @s dnv.resin_from_stripping.found_pale_bark matches ..0 if score @s dnv.resin_from_stripping.found_pale_bark >= @s dnv.resin_from_stripping.raycast_range run scoreboard players remove @s dnv.resin_from_stripping.found_pale_bark 1
+execute if score @s dnv.resin_from_stripping.found_pale_bark matches ..0 if score @s dnv.resin_from_stripping.found_pale_bark >= @s dnv.resin_from_stripping.raycast_range positioned ^ ^ ^.1 run function zz.dnv.vegancraft:find_pale_bark_line

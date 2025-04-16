@@ -3,6 +3,7 @@
 		"zz.dnv.vegancraft:on_load",
 		"zz.dnv.vegancraft:load_vegan_food",
 		"zz.dnv.vegancraft:load_acacia_gum",
-		"zz.dnv.vegancraft:load_ethical_textiles"
+		"zz.dnv.vegancraft:load_ethical_textiles",
+		"zz.dnv.vegancraft:load_resin_from_stripping"
 	]
 }

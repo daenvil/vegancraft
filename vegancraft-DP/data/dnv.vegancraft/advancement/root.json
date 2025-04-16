@@ -13,7 +13,7 @@
 			"id": "kelp"
 		},
 		"frame": "challenge",
-		"background": "minecraft:textures/block/green_wool.png",
+		"background": "minecraft:block/green_wool",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

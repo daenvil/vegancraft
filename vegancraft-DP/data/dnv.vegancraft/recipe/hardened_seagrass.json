@@ -8,10 +8,22 @@
 	"result": {
 		"id": "turtle_scute",
 		"components": {
-			"item_name": "{\"translate\":\"dnv.vegancraft.item.hardened_seagrass\",\"fallback\":\"Hardened Seagrass\",\"italic\":false}",
+			"item_name": {
+				"translate": "dnv.vegancraft.item.hardened_seagrass",
+				"fallback": "Hardened Seagrass",
+				"italic": false
+			},
 			"lore": [
-				"{\"translate\":\"dnv.vegancraft.hardened_seagrass.lore\",\"fallback\":\"(Use as turtle scute)\",\"italic\":false}",
-				"{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"
+				{
+					"translate": "dnv.vegancraft.hardened_seagrass.lore",
+					"fallback": "(Use as turtle scute)",
+					"italic": false
+				},
+				{
+					"text": "Daenvil's Vegancraft",
+					"color": "green",
+					"italic": true
+				}
 			],
 			"custom_data": {
 				"dnv.vegan": true

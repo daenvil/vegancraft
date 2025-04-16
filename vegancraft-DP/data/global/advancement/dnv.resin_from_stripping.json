@@ -1,0 +1,23 @@
+{
+	"parent": "global:dnv.vegancraft",
+	"display": {
+		"title": {
+			"text": "Resin From Stripping",
+			"italic": false
+		},
+		"description": {
+			"text": "Daenvil's Resin from Stripping 1.0 (for MC1.21.5+)",
+			"italic": false
+		},
+		"icon": {
+			"id": "resin_clump"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "tick"
+		}
+	}
+}

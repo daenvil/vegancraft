@@ -13,10 +13,22 @@
 	"result": {
 		"id": "rabbit_foot",
 		"components": {
-			"item_name": "{\"translate\":\"dnv.vegancraft.item.bouncy_boot\",\"fallback\":\"Bouncy Boot\",\"italic\":false}",
+			"item_name": {
+				"translate": "dnv.vegancraft.item.bouncy_boot",
+				"fallback": "Bouncy Boot",
+				"italic": false
+			},
 			"lore": [
-				"{\"translate\":\"dnv.vegancraft.bouncy_boot.lore\",\"fallback\":\"(Use as rabbit's foot)\",\"italic\":false}",
-				"{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"
+				{
+					"translate": "dnv.vegancraft.bouncy_boot.lore",
+					"fallback": "(Use as rabbit's foot)",
+					"italic": false
+				},
+				{
+					"text": "Daenvil's Vegancraft",
+					"color": "green",
+					"italic": true
+				}
 			],
 			"custom_data": {
 				"dnv.vegan": true

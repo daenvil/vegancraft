@@ -8,6 +8,8 @@
 	"dnv.vegancraft.advancement.plant_wax.description": "Obtén cera vexetal",
 	"dnv.vegancraft.advancement.bow": "As nosas pacíficas costumes...",
 	"dnv.vegancraft.advancement.bow.description": "Fabrica un arco usando fío vexetal",
+	"dnv.vegancraft.advancement.vegan_trading": "Capitalismo baseado en plantas",
+	"dnv.vegancraft.advancement.vegan_trading.description": "Comercia un obxeto vegano cun aldeán",
 	"dnv.vegancraft.advancement.food": "Cociña baseada en plantas",
 	"dnv.vegancraft.advancement.food.description": "Alternativas veganas para alimentos comunes del juego",
 	"dnv.vegancraft.advancement.honey": "Salva as abellas!",
@@ -92,5 +94,7 @@
 	"dnv.vegancraft.banner.circled_v.purple": "V nun círculo morado",
 	"dnv.vegancraft.banner.circled_v.red": "V nun círculo vermello",
 	"dnv.vegancraft.banner.circled_v.white": "V nun círculo branco",
-	"dnv.vegancraft.banner.circled_v.yellow": "V nun círculo amarelo"
+	"dnv.vegancraft.banner.circled_v.yellow": "V nun círculo amarelo",
+	"dnv.vegancraft.item.ender_compass": "Compás de Ender",
+	"dnv.vegancraft.item.chorus_box": "Caixa coral"
 }

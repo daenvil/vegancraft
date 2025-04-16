@@ -1,6 +1,16 @@
 {
 	"parent": "minecraft:recipes/root",
 	"criteria": {
+		"has_chorus_flower": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "chorus_flower"
+					}
+				]
+			}
+		},
 		"has_chorus_fruit": {
 			"trigger": "inventory_changed",
 			"conditions": {
@@ -11,12 +21,12 @@
 				]
 			}
 		},
-		"has_dragon_breath": {
+		"has_popped_chorus_fruit": {
 			"trigger": "inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"items": "dragon_breath"
+						"items": "popped_chorus_fruit"
 					}
 				]
 			}
@@ -50,8 +60,9 @@
 	},
 	"requirements": [
 		[
+			"has_chorus_flower",
 			"has_chorus_fruit",
-			"has_dragon_breath",
+			"has_popped_chorus_fruit",
 			"has_the_recipe",
 			"ender_dragon_hurt_player",
 			"dragon_fireball_hurt_player"

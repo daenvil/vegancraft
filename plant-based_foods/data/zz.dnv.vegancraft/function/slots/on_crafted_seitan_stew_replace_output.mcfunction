@@ -1,2 +1,2 @@
 $execute store success score @s dnv.success run clear @s rabbit_stew[custom_data~{dnv.vegan:true}] $(count)
-$execute unless score @s dnv.success matches 0 run give @s rabbit_stew[item_name="{\"translate\":\"dnv.vegan_food.item.seitan_stew\",\"fallback\":\"Seitan Stew\",\"italic\":false}",lore=["{\"translate\":\"dnv.vegancraft.contains_animal_products\",\"fallback\":\"(Contains animal products)\",\"color\":\"red\",\"italic\":false}","{\"text\":\"Daenvil's Plant-based Foods\",\"color\":\"dark_green\",\"italic\":true}"],custom_data={"dnv.vegan":false},item_model="dnv.vegan_food:seitan_stew"] $(count)
+$execute unless score @s dnv.success matches 0 run give @s suspicious_stew[custom_data={"dnv.vegan":false}] $(count)

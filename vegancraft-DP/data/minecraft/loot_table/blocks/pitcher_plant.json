@@ -95,9 +95,9 @@
 					"weight": 1,
 					"functions": [
 						{
+							"function": "apply_bonus",
 							"enchantment": "minecraft:fortune",
-							"formula": "minecraft:binomial_with_bonus_count",
-							"function": "minecraft:apply_bonus",
+							"formula": "binomial_with_bonus_count",
 							"parameters": {
 								"extra": 1,
 								"probability": 0.428571
@@ -163,10 +163,22 @@
 						{
 							"function": "set_components",
 							"components": {
-								"item_name": "{\"translate\":\"dnv.vegancraft.item.pitcher_fluid\",\"fallback\":\"Pitcher Fluid\",\"italic\":false}",
+								"item_name": {
+									"translate": "dnv.vegancraft.item.pitcher_fluid",
+									"fallback": "Pitcher Fluid",
+									"italic": false
+								},
 								"lore": [
-									"{\"translate\":\"dnv.vegancraft.item.pitcher_fluid.lore\",\"fallback\":\"(Use as ghast tear)\",\"italic\":false}",
-									"{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"
+									{
+										"translate": "dnv.vegancraft.item.pitcher_fluid.lore",
+										"fallback": "(Use as ghast tear)",
+										"italic": false
+									},
+									{
+										"text": "Daenvil's Vegancraft",
+										"color": "green",
+										"italic": true
+									}
 								],
 								"custom_data": {
 									"dnv.vegan": true
@@ -175,11 +187,11 @@
 							}
 						},
 						{
+							"function": "apply_bonus",
 							"enchantment": "minecraft:fortune",
-							"formula": "minecraft:binomial_with_bonus_count",
-							"function": "minecraft:apply_bonus",
+							"formula": "binomial_with_bonus_count",
 							"parameters": {
-								"extra": 0,
+								"extra": 1,
 								"probability": 0.333333
 							}
 						}
@@ -263,7 +275,7 @@
 					"weight": 1,
 					"functions": [
 						{
-							"function": "minecraft:set_components",
+							"function": "set_components",
 							"components": {
 								"custom_data": {
 									"dnv.xp_orb": true
@@ -350,7 +362,7 @@
 					"weight": 1,
 					"functions": [
 						{
-							"function": "minecraft:set_components",
+							"function": "set_components",
 							"components": {
 								"custom_data": {
 									"dnv.xp_orb": true

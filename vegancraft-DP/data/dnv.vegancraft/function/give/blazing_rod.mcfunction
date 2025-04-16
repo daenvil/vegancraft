@@ -1,1 +1,1 @@
-give @s blaze_rod[item_name="{\"translate\":\"dnv.vegancraft.item.blazing_rod\",\"fallback\":\"Blazing Rod\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"],custom_data={"dnv.vegan":true},item_model="dnv.vegancraft:blazing_rod"]
+give @s blaze_rod[item_name={"translate":"dnv.vegancraft.item.blazing_rod","fallback":"Blazing Rod","italic":false},lore=[{"text":"Daenvil's Vegancraft","color":"green","italic":true}],custom_data={"dnv.vegan":true},item_model="dnv.vegancraft:blazing_rod"]

@@ -1,1 +1,1 @@
-give @s feather[item_name="{\"translate\":\"dnv.ethical_textiles.item.faux_feather\",\"fallback\":\"Faux Feather\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Ethical Textiles\",\"color\":\"#954535\",\"italic\":true}"],custom_data={"dnv.vegan":true},item_model="dnv.ethical_textiles:faux_feather"]
+give @s feather[item_name={"translate":"dnv.ethical_textiles.item.faux_feather","fallback":"Faux Feather","italic":false},lore=[{"text":"Daenvil's Ethical Textiles","color":"#954535","italic":true}],custom_data={"dnv.vegan":true},item_model="dnv.ethical_textiles:faux_feather"]

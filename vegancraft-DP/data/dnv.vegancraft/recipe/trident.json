@@ -4,12 +4,13 @@
 	"key": {
 		"D": "diamond_sword",
 		"P": "prismarine_crystals",
-		"B": "blaze_rod"
+		"B": "blaze_rod",
+		"H": "heart_of_the_sea"
 	},
 	"pattern": [
 		" DD",
 		"PBD",
-		"PP "
+		"HP "
 	],
 	"result": {
 		"id": "trident"

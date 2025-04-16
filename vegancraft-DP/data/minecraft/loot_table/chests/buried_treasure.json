@@ -22,13 +22,11 @@
 					"weight": 20,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 4,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
+								"min": 1,
+								"max": 4
+							}
 						}
 					],
 					"name": "minecraft:iron_ingot"
@@ -38,13 +36,11 @@
 					"weight": 10,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 4,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
+								"min": 1,
+								"max": 4
+							}
 						}
 					],
 					"name": "minecraft:gold_ingot"
@@ -54,13 +50,11 @@
 					"weight": 5,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 2,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
+								"min": 1,
+								"max": 2
+							}
 						}
 					],
 					"name": "minecraft:tnt"
@@ -78,13 +72,11 @@
 					"weight": 5,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 8,
-								"min": 4
-							},
-							"function": "minecraft:set_count"
+								"min": 4,
+								"max": 8
+							}
 						}
 					],
 					"name": "minecraft:emerald"
@@ -94,13 +86,11 @@
 					"weight": 5,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 2,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
+								"min": 1,
+								"max": 2
+							}
 						}
 					],
 					"name": "minecraft:diamond"
@@ -110,13 +100,11 @@
 					"weight": 5,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 5,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
+								"min": 1,
+								"max": 5
+							}
 						}
 					],
 					"name": "minecraft:prismarine_crystals"
@@ -149,13 +137,11 @@
 					"weight": 1,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 4,
-								"min": 2
-							},
-							"function": "minecraft:set_count"
+								"min": 2,
+								"max": 4
+							}
 						}
 					],
 					"name": "minecraft:cooked_cod"
@@ -165,13 +151,11 @@
 					"weight": 1,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 4,
-								"min": 2
-							},
-							"function": "minecraft:set_count"
+								"min": 2,
+								"max": 4
+							}
 						}
 					],
 					"name": "minecraft:cooked_salmon"
@@ -181,13 +165,11 @@
 					"weight": 2,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 4,
-								"min": 2
-							},
-							"function": "minecraft:set_count"
+								"min": 2,
+								"max": 4
+							}
 						}
 					],
 					"name": "nautilus_shell"

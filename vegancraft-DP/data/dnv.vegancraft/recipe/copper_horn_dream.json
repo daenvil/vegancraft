@@ -6,9 +6,17 @@
 	"result": {
 		"id": "goat_horn",
 		"components": {
-			"item_name": "{\"translate\":\"dnv.vegancraft.item.copper_horn\",\"fallback\":\"Copper Horn\",\"italic\":false}",
+			"item_name": {
+				"translate": "dnv.vegancraft.item.copper_horn",
+				"fallback": "Copper Horn",
+				"italic": false
+			},
 			"lore": [
-				"{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"
+				{
+					"text": "Daenvil's Vegancraft",
+					"color": "green",
+					"italic": true
+				}
 			],
 			"instrument": "dream_goat_horn",
 			"custom_data": {

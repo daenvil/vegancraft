@@ -12,13 +12,11 @@
 					"weight": 10,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 4,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
+								"min": 1,
+								"max": 4
+							}
 						}
 					],
 					"name": "minecraft:coal"
@@ -43,13 +41,11 @@
 					"weight": 10,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"max": 3,
-								"min": 2
-							},
-							"function": "minecraft:set_count"
+								"min": 2,
+								"max": 3
+							}
 						}
 					],
 					"name": "minecraft:wheat"
@@ -74,7 +70,7 @@
 					"weight": 5,
 					"functions": [
 						{
-							"function": "minecraft:enchant_randomly",
+							"function": "enchant_randomly",
 							"options": "#minecraft:on_random_loot"
 						}
 					],
@@ -85,17 +81,10 @@
 					"weight": 5,
 					"functions": [
 						{
-							"decoration": "minecraft:red_x",
-							"function": "minecraft:exploration_map",
-							"skip_existing_chunks": false,
-							"zoom": 1
+							"function": "exploration_map"
 						},
 						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "filled_map.buried_treasure"
-							},
-							"target": "item_name"
+							"function": "set_name"
 						}
 					],
 					"name": "minecraft:map"
@@ -110,10 +99,8 @@
 					"weight": 9,
 					"functions": [
 						{
-							"function": "minecraft:set_count",
-							"add": false,
+							"function": "set_count",
 							"count": {
-								"type": "minecraft:uniform",
 								"min": 0,
 								"max": 4
 							}

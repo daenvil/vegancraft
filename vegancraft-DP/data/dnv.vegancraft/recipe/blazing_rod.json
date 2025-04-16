@@ -9,9 +9,17 @@
 	"result": {
 		"id": "blaze_rod",
 		"components": {
-			"item_name": "{\"translate\":\"dnv.vegancraft.item.blazing_rod\",\"fallback\":\"Blazing Rod\",\"italic\":false}",
+			"item_name": {
+				"translate": "dnv.vegancraft.item.blazing_rod",
+				"fallback": "Blazing Rod",
+				"italic": false
+			},
 			"lore": [
-				"{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"
+				{
+					"text": "Daenvil's Vegancraft",
+					"color": "green",
+					"italic": true
+				}
 			],
 			"custom_data": {
 				"dnv.vegan": true

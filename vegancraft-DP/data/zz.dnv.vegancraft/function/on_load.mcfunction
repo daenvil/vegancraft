@@ -26,3 +26,5 @@ scoreboard objectives add dnv.xp_nerfer dummy
 
 execute as @a unless score @s dnv.xp_nerfer matches 1.. run scoreboard players set @s dnv.xp_nerfer 0
 schedule function zz.dnv.vegancraft:decay_xp_nerf 1200 replace
+schedule function zz.dnv.vegancraft:trades/villager_init 5s
+schedule function zz.dnv.vegancraft:trades/wandering_trader_init 20s

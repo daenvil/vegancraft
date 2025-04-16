@@ -8,6 +8,8 @@
 	"dnv.vegancraft.advancement.plant_wax.description": "Obtén cera vegetal",
 	"dnv.vegancraft.advancement.bow": "Nuestras pacíficas costumbres...",
 	"dnv.vegancraft.advancement.bow.description": "Fabrica un arco usando hilo vegetal",
+	"dnv.vegancraft.advancement.vegan_trading": "Capitalismo basado en plantas",
+	"dnv.vegancraft.advancement.vegan_trading.description": "Comercia un objeto vegano con un aldeano",
 	"dnv.vegancraft.advancement.food": "Cocina basada en plantas",
 	"dnv.vegancraft.advancement.food.description": "Alternativas veganas para alimentos comúns do xogo",
 	"dnv.vegancraft.advancement.honey": "¡Salva a las abejas!",
@@ -92,5 +94,7 @@
 	"dnv.vegancraft.banner.circled_v.purple": "V en círculo púrpura",
 	"dnv.vegancraft.banner.circled_v.red": "V en círculo rojo",
 	"dnv.vegancraft.banner.circled_v.white": "V en círculo blanco",
-	"dnv.vegancraft.banner.circled_v.yellow": "V en círculo amarillo"
+	"dnv.vegancraft.banner.circled_v.yellow": "V en círculo amarillo",
+	"dnv.vegancraft.item.ender_compass": "Brújula de Ender",
+	"dnv.vegancraft.item.chorus_box": "Caja de chorus"
 }

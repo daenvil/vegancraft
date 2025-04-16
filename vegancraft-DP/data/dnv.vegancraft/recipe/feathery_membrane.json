@@ -10,10 +10,22 @@
 	"result": {
 		"id": "phantom_membrane",
 		"components": {
-			"item_name": "{\"translate\":\"dnv.vegancraft.item.feathery_membrane\",\"fallback\":\"Feathery Membrane\",\"italic\":false}",
+			"item_name": {
+				"translate": "dnv.vegancraft.item.feathery_membrane",
+				"fallback": "Feathery Membrane",
+				"italic": false
+			},
 			"lore": [
-				"{\"translate\":\"dnv.vegancraft.feathery_membrane.lore\",\"fallback\":\"(Use as phantom membrane)\",\"italic\":false}",
-				"{\"text\":\"Daenvil's Vegancraft\",\"color\":\"green\",\"italic\":true}"
+				{
+					"translate": "dnv.vegancraft.feathery_membrane.lore",
+					"fallback": "(Use as phantom membrane)",
+					"italic": false
+				},
+				{
+					"text": "Daenvil's Vegancraft",
+					"color": "green",
+					"italic": true
+				}
 			],
 			"custom_data": {
 				"dnv.vegan": true

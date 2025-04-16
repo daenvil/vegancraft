@@ -3,13 +3,21 @@
 	"category": "misc",
 	"cookingtime": 200,
 	"experience": 0.1,
-	"ingredient": "jungle_leaves",
+	"ingredient": "jungle_sapling",
 	"result": {
 		"id": "honeycomb",
 		"components": {
-			"item_name": "{\"translate\":\"dnv.plant_wax.item.plant_wax\",\"fallback\":\"Plant Wax\",\"italic\":false}",
+			"item_name": {
+				"translate": "dnv.plant_wax.item.plant_wax",
+				"fallback": "Plant Wax",
+				"italic": false
+			},
 			"lore": [
-				"{\"text\":\"Daenvil's Plant Wax\",\"color\":\"#FAFAB0\",\"italic\":true}"
+				{
+					"text": "Daenvil's Plant Wax",
+					"color": "#FAFAB0",
+					"italic": true
+				}
 			],
 			"custom_data": {
 				"dnv.vegan": true

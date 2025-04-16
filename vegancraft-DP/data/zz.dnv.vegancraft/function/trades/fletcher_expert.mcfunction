@@ -1,0 +1,11 @@
+data modify entity @s Offers.Recipes append value {buy:{id:"feather",count:12,components:{item_name:{translate:"dnv.ethical_textiles.item.faux_feather",fallback:"Faux Feather",italic:false},lore:[{text:"Daenvil's Ethical Textiles",color:"#954535",italic:true}],custom_data:{dnv.vegan:true},item_model:"dnv.ethical_textiles:faux_feather"}},sell:{id:"emerald",count:1,components:{}},xp:30,maxUses:16,priceMultiplier:0.05}
+tag @s add dnv.vegan_fletcher_expert
+tag @s add dnv.not_butcher
+tag @s add dnv.not_cleric
+tag @s add dnv.not_farmer
+tag @s add dnv.not_fisherman
+tag @s add dnv.not_leatherworker
+tag @s add dnv.not_librarian
+tag @s add dnv.not_novice
+tag @s add dnv.not_apprentice
+tag @s add dnv.not_journeyman

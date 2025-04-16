@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "item",
-					"weight": 50,
+					"weight": 25,
 					"name": "chipped_anvil"
 				},
 				{
@@ -16,25 +16,29 @@
 				},
 				{
 					"type": "item",
-					"weight": 100,
+					"weight": 75,
 					"name": "name_tag"
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "lodestone"
 				},
 				{
 					"type": "item",
 					"weight": 25,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.6
-							},
-							"function": "minecraft:set_damage"
+							}
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"function": "enchant_with_levels",
 							"levels": 30,
-							"treasure": true
+							"options": "#dnv.magnet_fishing:treasure"
 						}
 					],
 					"name": "iron_helmet"
@@ -44,17 +48,16 @@
 					"weight": 25,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.6
-							},
-							"function": "minecraft:set_damage"
+							}
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"function": "enchant_with_levels",
 							"levels": 30,
-							"treasure": true
+							"options": "#dnv.magnet_fishing:treasure"
 						}
 					],
 					"name": "iron_chestplate"
@@ -64,17 +67,16 @@
 					"weight": 25,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.6
-							},
-							"function": "minecraft:set_damage"
+							}
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"function": "enchant_with_levels",
 							"levels": 30,
-							"treasure": true
+							"options": "#dnv.magnet_fishing:treasure"
 						}
 					],
 					"name": "iron_leggings"
@@ -84,17 +86,16 @@
 					"weight": 25,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.6
-							},
-							"function": "minecraft:set_damage"
+							}
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"function": "enchant_with_levels",
 							"levels": 30,
-							"treasure": true
+							"options": "#dnv.magnet_fishing:treasure"
 						}
 					],
 					"name": "iron_boots"
@@ -104,17 +105,16 @@
 					"weight": 25,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.5
-							},
-							"function": "minecraft:set_damage"
+							}
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"function": "enchant_with_levels",
 							"levels": 30,
-							"treasure": true
+							"options": "#dnv.magnet_fishing:treasure"
 						}
 					],
 					"name": "shield"
@@ -124,17 +124,16 @@
 					"weight": 25,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.5
-							},
-							"function": "minecraft:set_damage"
+							}
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"function": "enchant_with_levels",
 							"levels": 30,
-							"treasure": true
+							"options": "#dnv.magnet_fishing:treasure"
 						}
 					],
 					"name": "iron_pickaxe"
@@ -144,17 +143,16 @@
 					"weight": 25,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.5
-							},
-							"function": "minecraft:set_damage"
+							}
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"function": "enchant_with_levels",
 							"levels": 30,
-							"treasure": true
+							"options": "#dnv.magnet_fishing:treasure"
 						}
 					],
 					"name": "iron_shovel"
@@ -164,17 +162,16 @@
 					"weight": 25,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.5
-							},
-							"function": "minecraft:set_damage"
+							}
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"function": "enchant_with_levels",
 							"levels": 30,
-							"treasure": true
+							"options": "#dnv.magnet_fishing:treasure"
 						}
 					],
 					"name": "iron_axe"
@@ -184,17 +181,16 @@
 					"weight": 25,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.5
-							},
-							"function": "minecraft:set_damage"
+							}
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"function": "enchant_with_levels",
 							"levels": 30,
-							"treasure": true
+							"options": "#dnv.magnet_fishing:treasure"
 						}
 					],
 					"name": "iron_hoe"
@@ -204,17 +200,16 @@
 					"weight": 25,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.5
-							},
-							"function": "minecraft:set_damage"
+							}
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"function": "enchant_with_levels",
 							"levels": 30,
-							"treasure": true
+							"options": "#dnv.magnet_fishing:treasure"
 						}
 					],
 					"name": "iron_sword"
@@ -224,17 +219,16 @@
 					"weight": 25,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.4
-							},
-							"function": "minecraft:set_damage"
+							}
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"function": "enchant_with_levels",
 							"levels": 30,
-							"treasure": true
+							"options": "#dnv.magnet_fishing:treasure"
 						}
 					],
 					"name": "crossbow"
@@ -244,17 +238,16 @@
 					"weight": 25,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.25
-							},
-							"function": "minecraft:set_damage"
+							}
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"function": "enchant_with_levels",
 							"levels": 30,
-							"treasure": true
+							"options": "#dnv.magnet_fishing:treasure"
 						}
 					],
 					"name": "bow"
@@ -264,17 +257,34 @@
 					"weight": 50,
 					"functions": [
 						{
-							"add": false,
+							"function": "set_damage",
 							"damage": {
 								"min": 0,
 								"max": 0.25
-							},
-							"function": "minecraft:set_damage"
+							}
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"function": "enchant_with_levels",
 							"levels": 30,
-							"treasure": true
+							"options": "#dnv.magnet_fishing:treasure"
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"translate": "dnv.magnet_fishing.item.magnet_fishing_rod",
+									"fallback": "Magnet Fishing Rod",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "Daenvil's Magnet Fishing",
+										"color": "aqua",
+										"italic": true
+									}
+								],
+								"item_model": "dnv.magnet_fishing:magnet_fishing_rod"
+							}
 						}
 					],
 					"name": "fishing_rod"
@@ -284,12 +294,26 @@
 					"weight": 100,
 					"functions": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"function": "enchant_with_levels",
 							"levels": 30,
-							"treasure": true
+							"options": "#dnv.magnet_fishing:treasure"
 						}
 					],
 					"name": "book"
+				},
+				{
+					"type": "item",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0,
+								"max": 0.25
+							}
+						}
+					],
+					"name": "trident"
 				}
 			]
 		}

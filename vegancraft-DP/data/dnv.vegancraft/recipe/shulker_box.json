@@ -12,6 +12,20 @@
 		"PEP"
 	],
 	"result": {
-		"id": "shulker_box"
+		"id": "shulker_box",
+		"components": {
+			"item_name": {
+				"translate": "dnv.vegancraft.item.chorus_box",
+				"fallback": "Chorus Box",
+				"italic": false
+			},
+			"lore": [
+				{
+					"text": "Daenvil's Vegancraft",
+					"color": "green",
+					"italic": true
+				}
+			]
+		}
 	}
 }

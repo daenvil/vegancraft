@@ -11,6 +11,16 @@
 				]
 			}
 		},
+		"has_conduit": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "conduit"
+					}
+				]
+			}
+		},
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
@@ -39,28 +49,15 @@
 					}
 				]
 			}
-		},
-		"has_blaze_powder": {
-			"trigger": "inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "blaze_powder",
-						"predicates": {
-							"custom_data": "{dnv.vegan:true}"
-						}
-					}
-				]
-			}
 		}
 	},
 	"requirements": [
 		[
 			"has_trident",
+			"has_conduit",
 			"has_the_recipe",
 			"trident_hurt_player",
-			"has_blaze_rod",
-			"has_blaze_powder"
+			"has_blaze_rod"
 		]
 	],
 	"rewards": {

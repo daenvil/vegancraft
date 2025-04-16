@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"using_slime_ball": {
+			"trigger": "using_item",
+			"conditions": {
+				"item": {
+					"items": "slime_ball",
+					"custom_data": "{dnv.vegan:true}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_used_acacia_gum_ball"
+	}
+}

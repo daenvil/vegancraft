@@ -2,7 +2,7 @@
 	"type": "crafting_shaped",
 	"category": "misc",
 	"key": {
-		"F": "#zz.dnv.core:flowers",
+		"F": "#flowers",
 		"W": "water_bucket",
 		"G": "glass_bottle"
 	},
@@ -14,9 +14,17 @@
 	"result": {
 		"id": "honey_bottle",
 		"components": {
-			"item_name": "{\"translate\":\"dnv.vegan_food.item.vegan_honey_bottle\",\"fallback\":\"Vegan Honey\",\"italic\":false}",
+			"item_name": {
+				"translate": "dnv.vegan_food.item.vegan_honey_bottle",
+				"fallback": "Vegan Honey",
+				"italic": false
+			},
 			"lore": [
-				"{\"text\":\"Daenvil's Plant-based Foods\",\"color\":\"dark_green\",\"italic\":true}"
+				{
+					"text": "Daenvil's Plant-based Foods",
+					"color": "dark_green",
+					"italic": true
+				}
 			],
 			"custom_data": {
 				"dnv.vegan": true

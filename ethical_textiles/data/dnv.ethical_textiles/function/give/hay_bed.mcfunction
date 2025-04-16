@@ -1,1 +1,1 @@
-give @s yellow_bed[item_name="{\"translate\":\"dnv.ethical_textiles.item.hay_bed\",\"fallback\":\"Hay Bed\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Ethical Textiles\",\"color\":\"#954535\",\"italic\":true}"],custom_data={"dnv.vegan":true}]
+give @s yellow_bed[item_name={"translate":"dnv.ethical_textiles.item.hay_bed","fallback":"Hay Bed","italic":false},lore=[{"text":"Daenvil's Ethical Textiles","color":"#954535","italic":true}],custom_data={"dnv.vegan":true}]

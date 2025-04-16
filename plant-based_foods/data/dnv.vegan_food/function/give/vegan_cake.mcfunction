@@ -1,1 +1,1 @@
-give @s cake[item_name="{\"translate\":\"dnv.vegan_food.item.vegan_cake\",\"fallback\":\"Vegan Cake\",\"italic\":false}",lore=["{\"text\":\"Daenvil's Plant-based Foods\",\"color\":\"dark_green\",\"italic\":true}"],custom_data={"dnv.vegan":true}]
+give @s cake[item_name={"translate":"dnv.vegan_food.item.vegan_cake","fallback":"Vegan Cake","italic":false},lore=[{"text":"Daenvil's Plant-based Foods","color":"dark_green","italic":true}],custom_data={"dnv.vegan":true}]

@@ -41,7 +41,10 @@
 								}
 							],
 							"enchantment": "minecraft:fortune",
-							"formula": "ore_drops"
+							"formula": "uniform_bonus_count",
+							"parameters": {
+								"bonusMultiplier": 1
+							}
 						}
 					],
 					"name": "minecraft:nether_wart"

@@ -35,7 +35,11 @@
 						{
 							"function": "apply_bonus",
 							"enchantment": "minecraft:fortune",
-							"formula": "ore_drops"
+							"formula": "binomial_with_bonus_count",
+							"parameters": {
+								"extra": 3,
+								"probability": 0.5714286
+							}
 						}
 					],
 					"name": "minecraft:potato"

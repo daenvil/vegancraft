@@ -1,0 +1,32 @@
+{
+	"parent": "dnv.vegancraft:magnet_fishing",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.ocean_cleaner",
+			"fallback": "Ocean Cleaner",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.ocean_cleaner.description",
+			"fallback": "Catch stuff with a magnet fishing rod 1000 times",
+			"italic": false
+		},
+		"icon": {
+			"id": "fishing_rod",
+			"components": {
+				"damage": 0,
+				"item_model": "dnv.magnet_fishing:magnet_fishing_rod"
+			}
+		},
+		"frame": "challenge",
+		"hidden": true
+	},
+	"criteria": {
+		"magnet_fish_1000_times": {
+			"trigger": "impossible"
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

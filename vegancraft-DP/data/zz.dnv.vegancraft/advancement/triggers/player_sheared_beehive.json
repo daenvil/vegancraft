@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"player_sheared_beehive": {
+		"shears_used_on_#beehives": {
 			"trigger": "item_used_on_block",
 			"conditions": {
 				"location": [

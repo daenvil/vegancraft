@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"fished_iron": {
+			"trigger": "fishing_rod_hooked",
+			"conditions": {
+				"rod": {
+					"components": {
+						"item_model": "dnv.magnet_fishing:magnet_fishing_rod"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_magnet_fished"
+	}
+}

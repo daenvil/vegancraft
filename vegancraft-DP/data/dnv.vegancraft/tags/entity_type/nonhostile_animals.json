@@ -22,15 +22,12 @@
 		"rabbit",
 		"salmon",
 		"sheep",
-		"skeleton_horse",
 		"sniffer",
 		"squid",
 		"strider",
 		"tadpole",
 		"tropical_fish",
 		"turtle",
-		"villager",
-		"wandering_trader",
 		"bee",
 		"dolphin",
 		"fox",
@@ -39,7 +36,6 @@
 		"panda",
 		"polar_bear",
 		"trader_llama",
-		"wolf",
-		"zombified_piglin"
+		"wolf"
 	]
 }

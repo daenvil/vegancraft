@@ -16,7 +16,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 75,
+					"weight": 50,
 					"name": "name_tag"
 				},
 				{
@@ -26,7 +26,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 25,
+					"weight": 12,
 					"functions": [
 						{
 							"function": "set_damage",
@@ -45,7 +45,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 25,
+					"weight": 12,
 					"functions": [
 						{
 							"function": "set_damage",
@@ -64,7 +64,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 25,
+					"weight": 12,
 					"functions": [
 						{
 							"function": "set_damage",
@@ -83,7 +83,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 25,
+					"weight": 12,
 					"functions": [
 						{
 							"function": "set_damage",
@@ -99,6 +99,101 @@
 						}
 					],
 					"name": "iron_boots"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0,
+								"max": 0.5
+							}
+						},
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"options": "#dnv.magnet_fishing:treasure"
+						}
+					],
+					"name": "iron_pickaxe"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0,
+								"max": 0.5
+							}
+						},
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"options": "#dnv.magnet_fishing:treasure"
+						}
+					],
+					"name": "iron_shovel"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0,
+								"max": 0.5
+							}
+						},
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"options": "#dnv.magnet_fishing:treasure"
+						}
+					],
+					"name": "iron_axe"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0,
+								"max": 0.5
+							}
+						},
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"options": "#dnv.magnet_fishing:treasure"
+						}
+					],
+					"name": "iron_hoe"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0,
+								"max": 0.5
+							}
+						},
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"options": "#dnv.magnet_fishing:treasure"
+						}
+					],
+					"name": "iron_sword"
 				},
 				{
 					"type": "item",
@@ -121,102 +216,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 25,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.5
-							}
-						},
-						{
-							"function": "enchant_with_levels",
-							"levels": 30,
-							"options": "#dnv.magnet_fishing:treasure"
-						}
-					],
-					"name": "iron_pickaxe"
-				},
-				{
-					"type": "item",
-					"weight": 25,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.5
-							}
-						},
-						{
-							"function": "enchant_with_levels",
-							"levels": 30,
-							"options": "#dnv.magnet_fishing:treasure"
-						}
-					],
-					"name": "iron_shovel"
-				},
-				{
-					"type": "item",
-					"weight": 25,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.5
-							}
-						},
-						{
-							"function": "enchant_with_levels",
-							"levels": 30,
-							"options": "#dnv.magnet_fishing:treasure"
-						}
-					],
-					"name": "iron_axe"
-				},
-				{
-					"type": "item",
-					"weight": 25,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.5
-							}
-						},
-						{
-							"function": "enchant_with_levels",
-							"levels": 30,
-							"options": "#dnv.magnet_fishing:treasure"
-						}
-					],
-					"name": "iron_hoe"
-				},
-				{
-					"type": "item",
-					"weight": 25,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.5
-							}
-						},
-						{
-							"function": "enchant_with_levels",
-							"levels": 30,
-							"options": "#dnv.magnet_fishing:treasure"
-						}
-					],
-					"name": "iron_sword"
-				},
-				{
-					"type": "item",
-					"weight": 25,
+					"weight": 15,
 					"functions": [
 						{
 							"function": "set_damage",

@@ -1,3 +1,4 @@
+
 scoreboard objectives add dnv.acacia_gum.found_acacia dummy
 scoreboard objectives add dnv.acacia_gum.n_drops dummy
 scoreboard objectives add dnv.acacia_gum.raycast_range dummy

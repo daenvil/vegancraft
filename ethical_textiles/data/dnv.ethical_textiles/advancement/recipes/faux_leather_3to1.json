@@ -11,6 +11,16 @@
 				]
 			}
 		},
+		"has_item_tag_dnv.ethical_textiles:adhesives": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#dnv.ethical_textiles:adhesives"
+					}
+				]
+			}
+		},
 		"has_leather": {
 			"trigger": "inventory_changed",
 			"conditions": {
@@ -52,30 +62,17 @@
 					"type": "cow"
 				}
 			}
-		},
-		"has_acacia_gum": {
-			"trigger": "inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "slime_ball",
-						"predicates": {
-							"custom_data": "{dnv.vegan:true}"
-						}
-					}
-				]
-			}
 		}
 	},
 	"requirements": [
 		[
 			"has_item_tag_dnv.ethical_textiles:leather_producing_plants_3to1",
+			"has_item_tag_dnv.ethical_textiles:adhesives",
 			"has_leather",
 			"has_rabbit_hide",
 			"has_the_recipe",
 			"interacted_with_cow",
-			"player_hurt_cow",
-			"has_acacia_gum"
+			"player_hurt_cow"
 		]
 	],
 	"rewards": {

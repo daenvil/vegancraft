@@ -1,3 +1,4 @@
+
 scoreboard objectives add dnv.resin_from_stripping.found_pale_bark dummy
 scoreboard objectives add dnv.resin_from_stripping.n_drops dummy
 scoreboard objectives add dnv.resin_from_stripping.raycast_range dummy

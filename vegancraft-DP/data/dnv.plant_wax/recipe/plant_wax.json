@@ -3,7 +3,7 @@
 	"category": "misc",
 	"cookingtime": 200,
 	"experience": 0.1,
-	"ingredient": "dead_bush",
+	"ingredient": "#dnv.plant_wax:waxy_plants",
 	"result": {
 		"id": "honeycomb",
 		"components": {

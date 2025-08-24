@@ -8,7 +8,7 @@
 		},
 		"description": {
 			"translate": "dnv.vegancraft.advancement.milk.description",
-			"fallback": "Get plant-based milk",
+			"fallback": "Make milk from plants",
 			"italic": false
 		},
 		"icon": {

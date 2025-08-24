@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"player_bottled_beehive": {
+		"glass_bottle_used_on_#beehives": {
 			"trigger": "item_used_on_block",
 			"conditions": {
 				"location": [

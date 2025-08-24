@@ -8,7 +8,7 @@
 		},
 		"description": {
 			"translate": "dnv.vegancraft.advancement.honey.description",
-			"fallback": "Get vegan honey",
+			"fallback": "Make vegan honey from flowers or apples",
 			"italic": false
 		},
 		"icon": {

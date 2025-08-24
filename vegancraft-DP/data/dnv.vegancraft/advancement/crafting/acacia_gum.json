@@ -8,7 +8,7 @@
 		},
 		"description": {
 			"translate": "dnv.vegancraft.advancement.acacia_gum.description",
-			"fallback": "Get acacia gum",
+			"fallback": "Obtain gum from an acacia tree",
 			"italic": false
 		},
 		"icon": {

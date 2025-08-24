@@ -8,7 +8,7 @@
 		},
 		"description": {
 			"translate": "dnv.vegancraft.advancement.plant_wax.description",
-			"fallback": "Make plant wax",
+			"fallback": "Get wax by smelting bushes or jungle saplings",
 			"italic": false
 		},
 		"icon": {

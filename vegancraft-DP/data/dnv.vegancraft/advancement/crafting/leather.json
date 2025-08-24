@@ -8,7 +8,7 @@
 		},
 		"description": {
 			"translate": "dnv.vegancraft.advancement.leather.description",
-			"fallback": "Get vegan leather",
+			"fallback": "Make faux leather using gum or resin",
 			"italic": false
 		},
 		"icon": {

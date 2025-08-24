@@ -3,11 +3,11 @@
 	"category": "misc",
 	"key": {
 		"L": "#dnv.ethical_textiles:leather_producing_plants_3to1",
-		"S": "slime_ball"
+		"A": "#dnv.ethical_textiles:adhesives"
 	},
 	"pattern": [
 		"LLL",
-		"SSS"
+		"AAA"
 	],
 	"result": {
 		"id": "leather",

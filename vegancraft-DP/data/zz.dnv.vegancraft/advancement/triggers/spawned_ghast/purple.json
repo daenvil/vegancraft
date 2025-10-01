@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"interacted_with_happy_ghast": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "happy_ghast"
+				},
+				"item": {
+					"items": "happy_ghast_spawn_egg",
+					"components": {
+						"item_model": "dnv.balloons:purple_balloon"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_spawned_balloon/purple"
+	}
+}

@@ -1,3 +1,4 @@
+
 scoreboard objectives add dnv.count.crafted_vegan_cake dummy
 scoreboard objectives add dnv.success dummy
 scoreboard objectives add dnv.count.crafted_seitan_stew dummy

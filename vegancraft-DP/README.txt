@@ -1,12 +1,13 @@
-# Daenvil's Vegancraft v1.4.2 (Full Datapack) for Minecraft 1.21.5+
+# Daenvil's Vegancraft v1.5 (Full Datapack) for Minecraft 1.21.8
 
 This datapack is a merged version of the following datapacks:
 
 - [Plant-based Foods v2.1.1](https://daenvil.github.io/MCDatapacks/plant-based_foods.html)
 - [Acacia Gum v1.4](https://daenvil.github.io/MCDatapacks/acacia_gum.html)
-- [Ethical Textiles v2.2](https://daenvil.github.io/MCDatapacks/ethical_Textiles.html)
-- [Plant Wax v2.3](https://daenvil.github.io/MCDatapacks/plant_wax.html)
-- [Magnet Fishing v2.2.1](https://daenvil.github.io/MCDatapacks/magnet_fishing.html)
+- [Ethical Textiles v2.1.1](https://daenvil.github.io/MCDatapacks/ethical_Textiles.html)
+- [Plant Wax v2.2](https://daenvil.github.io/MCDatapacks/plant_wax.html)
+- [Magnet Fishing v2.2](https://daenvil.github.io/MCDatapacks/magnet_fishing.html)
+- [Hot Air Balloons v1.0](https://daenvil.github.io/MCDatapacks/balloons.html)
 
 And also contains additional content not present on those datapacks.
 
@@ -15,12 +16,12 @@ And also contains additional content not present on those datapacks.
   - On my website: https://daenvil.github.io/MCDatapacks/vegancraft.html
   - On GitHub: https://www.github.com/daenvil/vegancraft
 
-- This version was published on the 24th of August 2025. Check the webpages above for possible updates.
+- This version was published on the 1st of October 2025. Check the webpages above for possible updates.
 
 ## Installation
 
 - Drop the datapack zip file inside the "datapacks" folder of your world folder (<your minecraft folder>/saves/<your world>/datapacks/).
-- Drop the resourcepack zip file ("vegancraft-RP_v1.4.zip") inside the "resourcepacks" folder of your minecraft folder. If you don't have the resourcepack, download it from one of the webpages above.
+- Drop the resourcepack zip file ("vegancraft-RP_v1.5.zip") inside the "resourcepacks" folder of your minecraft folder. If you don't have the resourcepack, download it from one of the webpages above.
 
 ## Features
 

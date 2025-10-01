@@ -1,4 +1,4 @@
-# Vegancraft Resourcepack v1.4
+# Vegancraft Resourcepack v1.5
 
 This resourcepack contains all the required resources for every Vegancraft datapack by Daenvil, including:
 
@@ -7,7 +7,8 @@ This resourcepack contains all the required resources for every Vegancraft datap
 - [Ethical Textiles v2.1](https://daenvil.github.io/MCDatapacks/ethical_Textiles.html)
 - [Plant Wax v2.2](https://daenvil.github.io/MCDatapacks/plant_wax.html)
 - [Magnet Fishing v2.2](https://daenvil.github.io/MCDatapacks/magnet_fishing.html)
-- [Vegancraft v1.4](https://daenvil.github.io/MCDatapacks/vegancraft.html)
+- [Hot Air Balloons v1.0](https://daenvil.github.io/MCDatapacks/balloons.html)
+- [Vegancraft v1.5](https://daenvil.github.io/MCDatapacks/vegancraft.html)
 
 Read more on: https://daenvil.github.io/MCDatapacks/vegancraft.html
 
@@ -16,7 +17,7 @@ Read more on: https://daenvil.github.io/MCDatapacks/vegancraft.html
   - On my website: https://daenvil.github.io/MCDatapacks/vegancraft.html
   - On GitHub: https://www.github.com/daenvil/vegancraft
 
-- This version was published on the 16th of April 2025. Check the webpages above for possible updates.
+- This version was published on the 1st of October 2025. Check the webpages above for possible updates.
 
 ## Installation
 

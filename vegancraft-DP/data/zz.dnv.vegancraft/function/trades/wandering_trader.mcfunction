@@ -18,3 +18,5 @@ execute if predicate {condition:"random_chance",chance:0.17} run data modify ent
 tag @s add dnv.vegan_wandering_trader
 execute if predicate {condition:"random_chance",chance:0.17} run data modify entity @s Offers.Recipes append value {buy:{id:"emerald",count:4,components:{}},sell:{id:"phantom_membrane",count:1,components:{item_name:{translate:"dnv.vegancraft.item.feathery_membrane",fallback:"Feathery Membrane",italic:false},lore:[{translate:"dnv.vegancraft.feathery_membrane.lore",fallback:"(Use as phantom membrane)",italic:false},{text:"Daenvil's Vegancraft",color:"green",italic:true}],custom_data:{dnv.vegan:true},item_model:"dnv.vegancraft:feathery_membrane"}},maxUses:5}
 tag @s add dnv.vegan_wandering_trader
+execute if predicate {condition:"random_chance",chance:0.12} run data modify entity @s Offers.Recipes append value {buy:{id:"diamond",count:7,components:{}},sell:{id:"music_disc_lava_chicken",count:1,components:{}},maxUses:1}
+tag @s add dnv.vegan_wandering_trader

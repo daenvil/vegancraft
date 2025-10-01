@@ -322,6 +322,56 @@
 										}
 									],
 									"name": "ghast_tear"
+								},
+								{
+									"type": "item",
+									"conditions": [
+										{
+											"condition": "block_state_property",
+											"block": "pitcher_crop",
+											"properties": {
+												"half": "lower"
+											}
+										},
+										{
+											"condition": "inverted",
+											"term": {
+												"condition": "any_of",
+												"terms": [
+													{
+														"condition": "match_tool",
+														"predicate": {
+															"items": "shears"
+														}
+													},
+													{
+														"condition": "match_tool",
+														"predicate": {
+															"predicates": {
+																"minecraft:enchantments": [
+																	{
+																		"enchantments": "minecraft:silk_touch",
+																		"levels": {
+																			"min": 1
+																		}
+																	}
+																]
+															}
+														}
+													}
+												]
+											}
+										},
+										{
+											"condition": "random_chance",
+											"chance": 0.01
+										},
+										{
+											"condition": "survives_explosion"
+										}
+									],
+									"weight": 1,
+									"name": "music_disc_tears"
 								}
 							]
 						}

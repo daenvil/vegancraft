@@ -1,0 +1,32 @@
+{
+	"pack": {
+		"description": {
+			"text": "Daenvil",
+			"extra": [
+				{
+					"text": "'s ",
+					"color": "white",
+					"italic": false
+				},
+				{
+					"text": "Hot Air Balloons",
+					"color": "white",
+					"italic": false,
+					"underlined": true
+				},
+				{
+					"text": "\nv1.0, for MC1.21.8",
+					"color": "gray",
+					"italic": false
+				}
+			],
+			"color": "green",
+			"italic": false
+		},
+		"pack_format": 81,
+		"supported_formats": {
+			"min_inclusive": 81,
+			"max_inclusive": 98
+		}
+	}
+}

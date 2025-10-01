@@ -1,0 +1,23 @@
+{
+	"criteria": {
+		"started_riding_happy_ghast": {
+			"trigger": "started_riding",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"type": "happy_ghast"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_started_riding_ghast"
+	}
+}

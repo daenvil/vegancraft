@@ -1,0 +1,122 @@
+{
+	"type": "chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "exploration_map"
+						},
+						{
+							"function": "set_name"
+						}
+					],
+					"name": "minecraft:map"
+				}
+			]
+		},
+		{
+			"rolls": 3,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:compass"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:map"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:clock"
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 10
+							}
+						}
+					],
+					"name": "minecraft:paper"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					],
+					"name": "minecraft:feather"
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					],
+					"name": "minecraft:book"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "empty",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 2
+						}
+					],
+					"name": "minecraft:coast_armor_trim_smithing_template"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 0.2
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "music_disc_mall"
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:chests/shipwreck_map"
+}

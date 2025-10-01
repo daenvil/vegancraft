@@ -1,0 +1,4 @@
+advancement revoke @s only zz.dnv.vegancraft:triggers/spawned_ghast/pink
+playsound minecraft:entity.breeze.inhale neutral @a
+execute as @e[type=happy_ghast,distance=..7,nbt={Age:0}] run tag @s add dnv.adult
+execute as @n[type=happy_ghast,tag=!dnv.adult,distance=..7] run data merge entity @s {id:"happy_ghast",Tags:["dnv.balloon","dnv.balloon_pink","dnv.adult"],CustomName:{text:"Hot Air Balloon"},Age:0,Silent:true,Health:10,attributes:[{id:"flying_speed",base:0.005}],active_effects:[{duration:-1,id:"invisibility",show_particles:false},{duration:40,id:"levitation"},{duration:-1,id:"wind_charged"}],equipment:{body:{id:"pink_harness",count:1,components:{equippable:{slot:"body",asset_id:"dnv.balloons:pink_balloon"}}}},drop_chances:{body:0},PersistenceRequired:true}

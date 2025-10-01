@@ -1,0 +1,166 @@
+{
+	"type": "archaeology",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "music_disc_strad"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "music_disc_strad"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:clay"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:brick"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:yellow_dye"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:blue_dye"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:light_blue_dye"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:white_dye"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:orange_dye"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:red_candle"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:green_candle"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:purple_candle"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:brown_candle"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:magenta_stained_glass_pane"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:pink_stained_glass_pane"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:blue_stained_glass_pane"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:light_blue_stained_glass_pane"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:red_stained_glass_pane"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:yellow_stained_glass_pane"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:purple_stained_glass_pane"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:spruce_hanging_sign"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:oak_hanging_sign"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:gold_nugget"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:coal"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:wheat_seeds"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:beetroot_seeds"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:dead_bush"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:flower_pot"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:string"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:lead"
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:archaeology/trail_ruins_common"
+}

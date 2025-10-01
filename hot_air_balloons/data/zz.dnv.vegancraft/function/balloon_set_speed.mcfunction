@@ -1,0 +1,2 @@
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{passenger:{type:"player"}}} run attribute @s flying_speed base set 0.050000
+execute unless predicate {condition:"entity_properties",entity:"this",predicate:{passenger:{type:"player"}}} run attribute @s flying_speed base set 0.005000

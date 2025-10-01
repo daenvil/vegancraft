@@ -1,0 +1,26 @@
+{
+	"parent": "global:dnv.vegancraft",
+	"display": {
+		"title": {
+			"text": "Hot Air Balloons",
+			"italic": false
+		},
+		"description": {
+			"text": "Daenvil's Balloons 1.0 (for MC1.21.8)",
+			"italic": false
+		},
+		"icon": {
+			"id": "happy_ghast_spawn_egg",
+			"components": {
+				"item_model": "dnv.balloons:white_balloon"
+			}
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "tick"
+		}
+	}
+}

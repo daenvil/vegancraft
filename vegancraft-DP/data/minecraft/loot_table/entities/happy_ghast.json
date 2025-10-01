@@ -1,0 +1,1604 @@
+{
+	"type": "entity",
+	"pools": [
+		{
+			"conditions": [
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"dnv.balloon_black\"]}"
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"translate": "dnv.balloons.item.black_balloon",
+									"fallback": "Black Balloon",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "Daenvil's Balloons",
+										"color": "gray",
+										"italic": true
+									}
+								],
+								"custom_data": {
+									"dnv.balloon": true
+								},
+								"item_model": "dnv.balloons:black_balloon",
+								"entity_data": {
+									"id": "happy_ghast",
+									"Tags": [
+										"dnv.balloon",
+										"dnv.balloon_black",
+										"dnv.adult"
+									],
+									"CustomName": {
+										"text": "Hot Air Balloon"
+									},
+									"Age": 0,
+									"Silent": true,
+									"Health": 10,
+									"attributes": [
+										{
+											"id": "flying_speed",
+											"base": 0.005
+										}
+									],
+									"active_effects": [
+										{
+											"duration": -1,
+											"id": "invisibility",
+											"show_particles": false
+										},
+										{
+											"duration": 40,
+											"id": "levitation"
+										},
+										{
+											"duration": -1,
+											"id": "wind_charged"
+										}
+									],
+									"equipment": {
+										"body": {
+											"id": "black_harness",
+											"count": 1,
+											"components": {
+												"equippable": {
+													"slot": "body",
+													"asset_id": "dnv.balloons:black_balloon"
+												}
+											}
+										}
+									},
+									"drop_chances": {
+										"body": 0
+									},
+									"PersistenceRequired": true
+								},
+								"max_stack_size": 1
+							}
+						}
+					],
+					"name": "happy_ghast_spawn_egg"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"dnv.balloon_blue\"]}"
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"translate": "dnv.balloons.item.blue_balloon",
+									"fallback": "Blue Balloon",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "Daenvil's Balloons",
+										"color": "gray",
+										"italic": true
+									}
+								],
+								"custom_data": {
+									"dnv.balloon": true
+								},
+								"item_model": "dnv.balloons:blue_balloon",
+								"entity_data": {
+									"id": "happy_ghast",
+									"Tags": [
+										"dnv.balloon",
+										"dnv.balloon_blue",
+										"dnv.adult"
+									],
+									"CustomName": {
+										"text": "Hot Air Balloon"
+									},
+									"Age": 0,
+									"Silent": true,
+									"Health": 10,
+									"attributes": [
+										{
+											"id": "flying_speed",
+											"base": 0.005
+										}
+									],
+									"active_effects": [
+										{
+											"duration": -1,
+											"id": "invisibility",
+											"show_particles": false
+										},
+										{
+											"duration": 40,
+											"id": "levitation"
+										},
+										{
+											"duration": -1,
+											"id": "wind_charged"
+										}
+									],
+									"equipment": {
+										"body": {
+											"id": "blue_harness",
+											"count": 1,
+											"components": {
+												"equippable": {
+													"slot": "body",
+													"asset_id": "dnv.balloons:blue_balloon"
+												}
+											}
+										}
+									},
+									"drop_chances": {
+										"body": 0
+									},
+									"PersistenceRequired": true
+								},
+								"max_stack_size": 1
+							}
+						}
+					],
+					"name": "happy_ghast_spawn_egg"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"dnv.balloon_brown\"]}"
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"translate": "dnv.balloons.item.brown_balloon",
+									"fallback": "Brown Balloon",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "Daenvil's Balloons",
+										"color": "gray",
+										"italic": true
+									}
+								],
+								"custom_data": {
+									"dnv.balloon": true
+								},
+								"item_model": "dnv.balloons:brown_balloon",
+								"entity_data": {
+									"id": "happy_ghast",
+									"Tags": [
+										"dnv.balloon",
+										"dnv.balloon_brown",
+										"dnv.adult"
+									],
+									"CustomName": {
+										"text": "Hot Air Balloon"
+									},
+									"Age": 0,
+									"Silent": true,
+									"Health": 10,
+									"attributes": [
+										{
+											"id": "flying_speed",
+											"base": 0.005
+										}
+									],
+									"active_effects": [
+										{
+											"duration": -1,
+											"id": "invisibility",
+											"show_particles": false
+										},
+										{
+											"duration": 40,
+											"id": "levitation"
+										},
+										{
+											"duration": -1,
+											"id": "wind_charged"
+										}
+									],
+									"equipment": {
+										"body": {
+											"id": "brown_harness",
+											"count": 1,
+											"components": {
+												"equippable": {
+													"slot": "body",
+													"asset_id": "dnv.balloons:brown_balloon"
+												}
+											}
+										}
+									},
+									"drop_chances": {
+										"body": 0
+									},
+									"PersistenceRequired": true
+								},
+								"max_stack_size": 1
+							}
+						}
+					],
+					"name": "happy_ghast_spawn_egg"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"dnv.balloon_cyan\"]}"
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"translate": "dnv.balloons.item.cyan_balloon",
+									"fallback": "Cyan Balloon",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "Daenvil's Balloons",
+										"color": "gray",
+										"italic": true
+									}
+								],
+								"custom_data": {
+									"dnv.balloon": true
+								},
+								"item_model": "dnv.balloons:cyan_balloon",
+								"entity_data": {
+									"id": "happy_ghast",
+									"Tags": [
+										"dnv.balloon",
+										"dnv.balloon_cyan",
+										"dnv.adult"
+									],
+									"CustomName": {
+										"text": "Hot Air Balloon"
+									},
+									"Age": 0,
+									"Silent": true,
+									"Health": 10,
+									"attributes": [
+										{
+											"id": "flying_speed",
+											"base": 0.005
+										}
+									],
+									"active_effects": [
+										{
+											"duration": -1,
+											"id": "invisibility",
+											"show_particles": false
+										},
+										{
+											"duration": 40,
+											"id": "levitation"
+										},
+										{
+											"duration": -1,
+											"id": "wind_charged"
+										}
+									],
+									"equipment": {
+										"body": {
+											"id": "cyan_harness",
+											"count": 1,
+											"components": {
+												"equippable": {
+													"slot": "body",
+													"asset_id": "dnv.balloons:cyan_balloon"
+												}
+											}
+										}
+									},
+									"drop_chances": {
+										"body": 0
+									},
+									"PersistenceRequired": true
+								},
+								"max_stack_size": 1
+							}
+						}
+					],
+					"name": "happy_ghast_spawn_egg"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"dnv.balloon_gray\"]}"
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"translate": "dnv.balloons.item.gray_balloon",
+									"fallback": "Gray Balloon",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "Daenvil's Balloons",
+										"color": "gray",
+										"italic": true
+									}
+								],
+								"custom_data": {
+									"dnv.balloon": true
+								},
+								"item_model": "dnv.balloons:gray_balloon",
+								"entity_data": {
+									"id": "happy_ghast",
+									"Tags": [
+										"dnv.balloon",
+										"dnv.balloon_gray",
+										"dnv.adult"
+									],
+									"CustomName": {
+										"text": "Hot Air Balloon"
+									},
+									"Age": 0,
+									"Silent": true,
+									"Health": 10,
+									"attributes": [
+										{
+											"id": "flying_speed",
+											"base": 0.005
+										}
+									],
+									"active_effects": [
+										{
+											"duration": -1,
+											"id": "invisibility",
+											"show_particles": false
+										},
+										{
+											"duration": 40,
+											"id": "levitation"
+										},
+										{
+											"duration": -1,
+											"id": "wind_charged"
+										}
+									],
+									"equipment": {
+										"body": {
+											"id": "gray_harness",
+											"count": 1,
+											"components": {
+												"equippable": {
+													"slot": "body",
+													"asset_id": "dnv.balloons:gray_balloon"
+												}
+											}
+										}
+									},
+									"drop_chances": {
+										"body": 0
+									},
+									"PersistenceRequired": true
+								},
+								"max_stack_size": 1
+							}
+						}
+					],
+					"name": "happy_ghast_spawn_egg"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"dnv.balloon_green\"]}"
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"translate": "dnv.balloons.item.green_balloon",
+									"fallback": "Green Balloon",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "Daenvil's Balloons",
+										"color": "gray",
+										"italic": true
+									}
+								],
+								"custom_data": {
+									"dnv.balloon": true
+								},
+								"item_model": "dnv.balloons:green_balloon",
+								"entity_data": {
+									"id": "happy_ghast",
+									"Tags": [
+										"dnv.balloon",
+										"dnv.balloon_green",
+										"dnv.adult"
+									],
+									"CustomName": {
+										"text": "Hot Air Balloon"
+									},
+									"Age": 0,
+									"Silent": true,
+									"Health": 10,
+									"attributes": [
+										{
+											"id": "flying_speed",
+											"base": 0.005
+										}
+									],
+									"active_effects": [
+										{
+											"duration": -1,
+											"id": "invisibility",
+											"show_particles": false
+										},
+										{
+											"duration": 40,
+											"id": "levitation"
+										},
+										{
+											"duration": -1,
+											"id": "wind_charged"
+										}
+									],
+									"equipment": {
+										"body": {
+											"id": "green_harness",
+											"count": 1,
+											"components": {
+												"equippable": {
+													"slot": "body",
+													"asset_id": "dnv.balloons:green_balloon"
+												}
+											}
+										}
+									},
+									"drop_chances": {
+										"body": 0
+									},
+									"PersistenceRequired": true
+								},
+								"max_stack_size": 1
+							}
+						}
+					],
+					"name": "happy_ghast_spawn_egg"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"dnv.balloon_light_blue\"]}"
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"translate": "dnv.balloons.item.light_blue_balloon",
+									"fallback": "Light Blue Balloon",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "Daenvil's Balloons",
+										"color": "gray",
+										"italic": true
+									}
+								],
+								"custom_data": {
+									"dnv.balloon": true
+								},
+								"item_model": "dnv.balloons:light_blue_balloon",
+								"entity_data": {
+									"id": "happy_ghast",
+									"Tags": [
+										"dnv.balloon",
+										"dnv.balloon_light_blue",
+										"dnv.adult"
+									],
+									"CustomName": {
+										"text": "Hot Air Balloon"
+									},
+									"Age": 0,
+									"Silent": true,
+									"Health": 10,
+									"attributes": [
+										{
+											"id": "flying_speed",
+											"base": 0.005
+										}
+									],
+									"active_effects": [
+										{
+											"duration": -1,
+											"id": "invisibility",
+											"show_particles": false
+										},
+										{
+											"duration": 40,
+											"id": "levitation"
+										},
+										{
+											"duration": -1,
+											"id": "wind_charged"
+										}
+									],
+									"equipment": {
+										"body": {
+											"id": "light_blue_harness",
+											"count": 1,
+											"components": {
+												"equippable": {
+													"slot": "body",
+													"asset_id": "dnv.balloons:light_blue_balloon"
+												}
+											}
+										}
+									},
+									"drop_chances": {
+										"body": 0
+									},
+									"PersistenceRequired": true
+								},
+								"max_stack_size": 1
+							}
+						}
+					],
+					"name": "happy_ghast_spawn_egg"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"dnv.balloon_light_gray\"]}"
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"translate": "dnv.balloons.item.light_gray_balloon",
+									"fallback": "Light Gray Balloon",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "Daenvil's Balloons",
+										"color": "gray",
+										"italic": true
+									}
+								],
+								"custom_data": {
+									"dnv.balloon": true
+								},
+								"item_model": "dnv.balloons:light_gray_balloon",
+								"entity_data": {
+									"id": "happy_ghast",
+									"Tags": [
+										"dnv.balloon",
+										"dnv.balloon_light_gray",
+										"dnv.adult"
+									],
+									"CustomName": {
+										"text": "Hot Air Balloon"
+									},
+									"Age": 0,
+									"Silent": true,
+									"Health": 10,
+									"attributes": [
+										{
+											"id": "flying_speed",
+											"base": 0.005
+										}
+									],
+									"active_effects": [
+										{
+											"duration": -1,
+											"id": "invisibility",
+											"show_particles": false
+										},
+										{
+											"duration": 40,
+											"id": "levitation"
+										},
+										{
+											"duration": -1,
+											"id": "wind_charged"
+										}
+									],
+									"equipment": {
+										"body": {
+											"id": "light_gray_harness",
+											"count": 1,
+											"components": {
+												"equippable": {
+													"slot": "body",
+													"asset_id": "dnv.balloons:light_gray_balloon"
+												}
+											}
+										}
+									},
+									"drop_chances": {
+										"body": 0
+									},
+									"PersistenceRequired": true
+								},
+								"max_stack_size": 1
+							}
+						}
+					],
+					"name": "happy_ghast_spawn_egg"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"dnv.balloon_lime\"]}"
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"translate": "dnv.balloons.item.lime_balloon",
+									"fallback": "Lime Balloon",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "Daenvil's Balloons",
+										"color": "gray",
+										"italic": true
+									}
+								],
+								"custom_data": {
+									"dnv.balloon": true
+								},
+								"item_model": "dnv.balloons:lime_balloon",
+								"entity_data": {
+									"id": "happy_ghast",
+									"Tags": [
+										"dnv.balloon",
+										"dnv.balloon_lime",
+										"dnv.adult"
+									],
+									"CustomName": {
+										"text": "Hot Air Balloon"
+									},
+									"Age": 0,
+									"Silent": true,
+									"Health": 10,
+									"attributes": [
+										{
+											"id": "flying_speed",
+											"base": 0.005
+										}
+									],
+									"active_effects": [
+										{
+											"duration": -1,
+											"id": "invisibility",
+											"show_particles": false
+										},
+										{
+											"duration": 40,
+											"id": "levitation"
+										},
+										{
+											"duration": -1,
+											"id": "wind_charged"
+										}
+									],
+									"equipment": {
+										"body": {
+											"id": "lime_harness",
+											"count": 1,
+											"components": {
+												"equippable": {
+													"slot": "body",
+													"asset_id": "dnv.balloons:lime_balloon"
+												}
+											}
+										}
+									},
+									"drop_chances": {
+										"body": 0
+									},
+									"PersistenceRequired": true
+								},
+								"max_stack_size": 1
+							}
+						}
+					],
+					"name": "happy_ghast_spawn_egg"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"dnv.balloon_magenta\"]}"
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"translate": "dnv.balloons.item.magenta_balloon",
+									"fallback": "Magenta Balloon",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "Daenvil's Balloons",
+										"color": "gray",
+										"italic": true
+									}
+								],
+								"custom_data": {
+									"dnv.balloon": true
+								},
+								"item_model": "dnv.balloons:magenta_balloon",
+								"entity_data": {
+									"id": "happy_ghast",
+									"Tags": [
+										"dnv.balloon",
+										"dnv.balloon_magenta",
+										"dnv.adult"
+									],
+									"CustomName": {
+										"text": "Hot Air Balloon"
+									},
+									"Age": 0,
+									"Silent": true,
+									"Health": 10,
+									"attributes": [
+										{
+											"id": "flying_speed",
+											"base": 0.005
+										}
+									],
+									"active_effects": [
+										{
+											"duration": -1,
+											"id": "invisibility",
+											"show_particles": false
+										},
+										{
+											"duration": 40,
+											"id": "levitation"
+										},
+										{
+											"duration": -1,
+											"id": "wind_charged"
+										}
+									],
+									"equipment": {
+										"body": {
+											"id": "magenta_harness",
+											"count": 1,
+											"components": {
+												"equippable": {
+													"slot": "body",
+													"asset_id": "dnv.balloons:magenta_balloon"
+												}
+											}
+										}
+									},
+									"drop_chances": {
+										"body": 0
+									},
+									"PersistenceRequired": true
+								},
+								"max_stack_size": 1
+							}
+						}
+					],
+					"name": "happy_ghast_spawn_egg"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"dnv.balloon_orange\"]}"
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"translate": "dnv.balloons.item.orange_balloon",
+									"fallback": "Orange Balloon",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "Daenvil's Balloons",
+										"color": "gray",
+										"italic": true
+									}
+								],
+								"custom_data": {
+									"dnv.balloon": true
+								},
+								"item_model": "dnv.balloons:orange_balloon",
+								"entity_data": {
+									"id": "happy_ghast",
+									"Tags": [
+										"dnv.balloon",
+										"dnv.balloon_orange",
+										"dnv.adult"
+									],
+									"CustomName": {
+										"text": "Hot Air Balloon"
+									},
+									"Age": 0,
+									"Silent": true,
+									"Health": 10,
+									"attributes": [
+										{
+											"id": "flying_speed",
+											"base": 0.005
+										}
+									],
+									"active_effects": [
+										{
+											"duration": -1,
+											"id": "invisibility",
+											"show_particles": false
+										},
+										{
+											"duration": 40,
+											"id": "levitation"
+										},
+										{
+											"duration": -1,
+											"id": "wind_charged"
+										}
+									],
+									"equipment": {
+										"body": {
+											"id": "orange_harness",
+											"count": 1,
+											"components": {
+												"equippable": {
+													"slot": "body",
+													"asset_id": "dnv.balloons:orange_balloon"
+												}
+											}
+										}
+									},
+									"drop_chances": {
+										"body": 0
+									},
+									"PersistenceRequired": true
+								},
+								"max_stack_size": 1
+							}
+						}
+					],
+					"name": "happy_ghast_spawn_egg"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"dnv.balloon_pink\"]}"
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"translate": "dnv.balloons.item.pink_balloon",
+									"fallback": "Pink Balloon",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "Daenvil's Balloons",
+										"color": "gray",
+										"italic": true
+									}
+								],
+								"custom_data": {
+									"dnv.balloon": true
+								},
+								"item_model": "dnv.balloons:pink_balloon",
+								"entity_data": {
+									"id": "happy_ghast",
+									"Tags": [
+										"dnv.balloon",
+										"dnv.balloon_pink",
+										"dnv.adult"
+									],
+									"CustomName": {
+										"text": "Hot Air Balloon"
+									},
+									"Age": 0,
+									"Silent": true,
+									"Health": 10,
+									"attributes": [
+										{
+											"id": "flying_speed",
+											"base": 0.005
+										}
+									],
+									"active_effects": [
+										{
+											"duration": -1,
+											"id": "invisibility",
+											"show_particles": false
+										},
+										{
+											"duration": 40,
+											"id": "levitation"
+										},
+										{
+											"duration": -1,
+											"id": "wind_charged"
+										}
+									],
+									"equipment": {
+										"body": {
+											"id": "pink_harness",
+											"count": 1,
+											"components": {
+												"equippable": {
+													"slot": "body",
+													"asset_id": "dnv.balloons:pink_balloon"
+												}
+											}
+										}
+									},
+									"drop_chances": {
+										"body": 0
+									},
+									"PersistenceRequired": true
+								},
+								"max_stack_size": 1
+							}
+						}
+					],
+					"name": "happy_ghast_spawn_egg"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"dnv.balloon_purple\"]}"
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"translate": "dnv.balloons.item.purple_balloon",
+									"fallback": "Purple Balloon",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "Daenvil's Balloons",
+										"color": "gray",
+										"italic": true
+									}
+								],
+								"custom_data": {
+									"dnv.balloon": true
+								},
+								"item_model": "dnv.balloons:purple_balloon",
+								"entity_data": {
+									"id": "happy_ghast",
+									"Tags": [
+										"dnv.balloon",
+										"dnv.balloon_purple",
+										"dnv.adult"
+									],
+									"CustomName": {
+										"text": "Hot Air Balloon"
+									},
+									"Age": 0,
+									"Silent": true,
+									"Health": 10,
+									"attributes": [
+										{
+											"id": "flying_speed",
+											"base": 0.005
+										}
+									],
+									"active_effects": [
+										{
+											"duration": -1,
+											"id": "invisibility",
+											"show_particles": false
+										},
+										{
+											"duration": 40,
+											"id": "levitation"
+										},
+										{
+											"duration": -1,
+											"id": "wind_charged"
+										}
+									],
+									"equipment": {
+										"body": {
+											"id": "purple_harness",
+											"count": 1,
+											"components": {
+												"equippable": {
+													"slot": "body",
+													"asset_id": "dnv.balloons:purple_balloon"
+												}
+											}
+										}
+									},
+									"drop_chances": {
+										"body": 0
+									},
+									"PersistenceRequired": true
+								},
+								"max_stack_size": 1
+							}
+						}
+					],
+					"name": "happy_ghast_spawn_egg"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"dnv.balloon_red\"]}"
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"translate": "dnv.balloons.item.red_balloon",
+									"fallback": "Red Balloon",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "Daenvil's Balloons",
+										"color": "gray",
+										"italic": true
+									}
+								],
+								"custom_data": {
+									"dnv.balloon": true
+								},
+								"item_model": "dnv.balloons:red_balloon",
+								"entity_data": {
+									"id": "happy_ghast",
+									"Tags": [
+										"dnv.balloon",
+										"dnv.balloon_red",
+										"dnv.adult"
+									],
+									"CustomName": {
+										"text": "Hot Air Balloon"
+									},
+									"Age": 0,
+									"Silent": true,
+									"Health": 10,
+									"attributes": [
+										{
+											"id": "flying_speed",
+											"base": 0.005
+										}
+									],
+									"active_effects": [
+										{
+											"duration": -1,
+											"id": "invisibility",
+											"show_particles": false
+										},
+										{
+											"duration": 40,
+											"id": "levitation"
+										},
+										{
+											"duration": -1,
+											"id": "wind_charged"
+										}
+									],
+									"equipment": {
+										"body": {
+											"id": "red_harness",
+											"count": 1,
+											"components": {
+												"equippable": {
+													"slot": "body",
+													"asset_id": "dnv.balloons:red_balloon"
+												}
+											}
+										}
+									},
+									"drop_chances": {
+										"body": 0
+									},
+									"PersistenceRequired": true
+								},
+								"max_stack_size": 1
+							}
+						}
+					],
+					"name": "happy_ghast_spawn_egg"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"dnv.balloon_white\"]}"
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"translate": "dnv.balloons.item.white_balloon",
+									"fallback": "White Balloon",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "Daenvil's Balloons",
+										"color": "gray",
+										"italic": true
+									}
+								],
+								"custom_data": {
+									"dnv.balloon": true
+								},
+								"item_model": "dnv.balloons:white_balloon",
+								"entity_data": {
+									"id": "happy_ghast",
+									"Tags": [
+										"dnv.balloon",
+										"dnv.balloon_white",
+										"dnv.adult"
+									],
+									"CustomName": {
+										"text": "Hot Air Balloon"
+									},
+									"Age": 0,
+									"Silent": true,
+									"Health": 10,
+									"attributes": [
+										{
+											"id": "flying_speed",
+											"base": 0.005
+										}
+									],
+									"active_effects": [
+										{
+											"duration": -1,
+											"id": "invisibility",
+											"show_particles": false
+										},
+										{
+											"duration": 40,
+											"id": "levitation"
+										},
+										{
+											"duration": -1,
+											"id": "wind_charged"
+										}
+									],
+									"equipment": {
+										"body": {
+											"id": "white_harness",
+											"count": 1,
+											"components": {
+												"equippable": {
+													"slot": "body",
+													"asset_id": "dnv.balloons:white_balloon"
+												}
+											}
+										}
+									},
+									"drop_chances": {
+										"body": 0
+									},
+									"PersistenceRequired": true
+								},
+								"max_stack_size": 1
+							}
+						}
+					],
+					"name": "happy_ghast_spawn_egg"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"dnv.balloon_yellow\"]}"
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"translate": "dnv.balloons.item.yellow_balloon",
+									"fallback": "Yellow Balloon",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "Daenvil's Balloons",
+										"color": "gray",
+										"italic": true
+									}
+								],
+								"custom_data": {
+									"dnv.balloon": true
+								},
+								"item_model": "dnv.balloons:yellow_balloon",
+								"entity_data": {
+									"id": "happy_ghast",
+									"Tags": [
+										"dnv.balloon",
+										"dnv.balloon_yellow",
+										"dnv.adult"
+									],
+									"CustomName": {
+										"text": "Hot Air Balloon"
+									},
+									"Age": 0,
+									"Silent": true,
+									"Health": 10,
+									"attributes": [
+										{
+											"id": "flying_speed",
+											"base": 0.005
+										}
+									],
+									"active_effects": [
+										{
+											"duration": -1,
+											"id": "invisibility",
+											"show_particles": false
+										},
+										{
+											"duration": 40,
+											"id": "levitation"
+										},
+										{
+											"duration": -1,
+											"id": "wind_charged"
+										}
+									],
+									"equipment": {
+										"body": {
+											"id": "yellow_harness",
+											"count": 1,
+											"components": {
+												"equippable": {
+													"slot": "body",
+													"asset_id": "dnv.balloons:yellow_balloon"
+												}
+											}
+										}
+									},
+									"drop_chances": {
+										"body": 0
+									},
+									"PersistenceRequired": true
+								},
+								"max_stack_size": 1
+							}
+						}
+					],
+					"name": "happy_ghast_spawn_egg"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"dnv.balloon_halloween\"]}"
+					}
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"translate": "dnv.balloons.item.halloween_balloon",
+									"fallback": "Halloween Balloon",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "Daenvil's Balloons",
+										"color": "gray",
+										"italic": true
+									}
+								],
+								"custom_data": {
+									"dnv.balloon": true
+								},
+								"item_model": "dnv.balloons:halloween_balloon",
+								"entity_data": {
+									"id": "happy_ghast",
+									"Tags": [
+										"dnv.balloon",
+										"dnv.balloon_halloween",
+										"dnv.adult"
+									],
+									"CustomName": {
+										"text": "Hot Air Balloon"
+									},
+									"Age": 0,
+									"Silent": true,
+									"Health": 10,
+									"attributes": [
+										{
+											"id": "flying_speed",
+											"base": 0.005
+										}
+									],
+									"active_effects": [
+										{
+											"duration": -1,
+											"id": "invisibility",
+											"show_particles": false
+										},
+										{
+											"duration": 40,
+											"id": "levitation"
+										},
+										{
+											"duration": -1,
+											"id": "wind_charged"
+										}
+									],
+									"equipment": {
+										"body": {
+											"id": "orange_harness",
+											"count": 1,
+											"components": {
+												"equippable": {
+													"slot": "body",
+													"asset_id": "dnv.balloons:halloween_balloon"
+												}
+											}
+										}
+									},
+									"drop_chances": {
+										"body": 0
+									},
+									"PersistenceRequired": true
+								},
+								"max_stack_size": 1
+							}
+						}
+					],
+					"name": "happy_ghast_spawn_egg"
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:entities/happy_ghast"
+}

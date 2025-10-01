@@ -1,0 +1,90 @@
+{
+	"type": "crafting_shaped",
+	"category": "misc",
+	"key": {
+		"L": "leather",
+		"B": "blue_wool",
+		"G": "ghast_tear",
+		"S": "string",
+		"#": "blaze_powder"
+	},
+	"pattern": [
+		"LBL",
+		"BGB",
+		"S#S"
+	],
+	"result": {
+		"id": "happy_ghast_spawn_egg",
+		"components": {
+			"item_name": {
+				"translate": "dnv.balloons.item.blue_balloon",
+				"fallback": "Blue Balloon",
+				"italic": false
+			},
+			"lore": [
+				{
+					"text": "Daenvil's Balloons",
+					"color": "gray",
+					"italic": true
+				}
+			],
+			"custom_data": {
+				"dnv.balloon": true
+			},
+			"item_model": "dnv.balloons:blue_balloon",
+			"entity_data": {
+				"id": "happy_ghast",
+				"Tags": [
+					"dnv.balloon",
+					"dnv.balloon_blue",
+					"dnv.adult"
+				],
+				"CustomName": {
+					"text": "Hot Air Balloon"
+				},
+				"Age": 0,
+				"Silent": true,
+				"Health": 10,
+				"attributes": [
+					{
+						"id": "flying_speed",
+						"base": 0.005
+					}
+				],
+				"active_effects": [
+					{
+						"duration": -1,
+						"id": "invisibility",
+						"show_particles": false
+					},
+					{
+						"duration": 40,
+						"id": "levitation"
+					},
+					{
+						"duration": -1,
+						"id": "wind_charged"
+					}
+				],
+				"equipment": {
+					"body": {
+						"id": "blue_harness",
+						"count": 1,
+						"components": {
+							"equippable": {
+								"slot": "body",
+								"asset_id": "dnv.balloons:blue_balloon"
+							}
+						}
+					}
+				},
+				"drop_chances": {
+					"body": 0
+				},
+				"PersistenceRequired": true
+			},
+			"max_stack_size": 1
+		}
+	},
+	"group": "dnv.balloons"
+}

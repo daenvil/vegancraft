@@ -134,7 +134,16 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "minecraft:saddle"
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					],
+					"name": "minecraft:leather"
 				},
 				{
 					"type": "item",

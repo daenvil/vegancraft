@@ -1,0 +1,26 @@
+{
+	"parent": "dnv.vegancraft:crafting",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.chase_the_skies",
+			"fallback": "Chase the Skies!",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.chase_the_skies.description",
+			"fallback": "Ride a balloon",
+			"italic": false
+		},
+		"icon": {
+			"id": "happy_ghast_spawn_egg",
+			"components": {
+				"item_model": "dnv.balloons:white_balloon"
+			}
+		}
+	},
+	"criteria": {
+		"rode_balloon": {
+			"trigger": "impossible"
+		}
+	}
+}

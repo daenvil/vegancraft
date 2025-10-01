@@ -1,0 +1,121 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_ghast_tear": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "ghast_tear"
+					}
+				]
+			}
+		},
+		"has_blaze_powder": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "blaze_powder"
+					}
+				]
+			}
+		},
+		"has_dried_ghast": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "dried_ghast"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.balloons:orange_balloon"
+			}
+		},
+		"has_recipe_dried_ghast": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dried_ghast"
+			}
+		},
+		"ghast_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "ghast"
+					}
+				}
+			}
+		},
+		"player_hurt_ghast": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "ghast"
+				}
+			}
+		},
+		"using_spyglass": {
+			"trigger": "using_item",
+			"conditions": {
+				"item": {
+					"items": "spyglass",
+					"player": [
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "minecraft:player",
+									"looking_at": {
+										"type": "minecraft:ghast"
+									}
+								}
+							}
+						}
+					]
+				}
+			}
+		},
+		"started_riding_happy_ghast": {
+			"trigger": "started_riding",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"type": "happy_ghast"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_ghast_tear",
+			"has_blaze_powder",
+			"has_dried_ghast",
+			"has_the_recipe",
+			"has_recipe_dried_ghast",
+			"ghast_hurt_player",
+			"player_hurt_ghast",
+			"using_spyglass",
+			"started_riding_happy_ghast"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.balloons:orange_balloon"
+		]
+	}
+}

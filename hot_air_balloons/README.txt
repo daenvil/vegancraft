@@ -1,4 +1,4 @@
-# Hot Air Balloons (v1.0, for Minecraft 1.21.8)
+# Hot Air Balloons (v1.0, for Minecraft 1.21.9+)
 
 This datapack adds hot air balloons, an alternative to riding ghasts.
 
@@ -7,7 +7,7 @@ This datapack adds hot air balloons, an alternative to riding ghasts.
   - On PlanetMinecraft: https://www.planetminecraft.com/data-pack/hot-air-balloons/
   - On my website: https://daenvil.github.io/MCDatapacks/balloons.html
 
-- This version was published on the 1st of October 2025. Check the webpages above for possible updates.
+- This version was published on the 6th of October 2025. Check the webpages above for possible updates.
 
 ## Installation
 

@@ -415,127 +415,46 @@
 							}
 						},
 						{
-							"condition": "entity_properties",
-							"entity": "this",
-							"predicate": {
-
-							}
-						},
-						{
-							"condition": "entity_scores",
-							"entity": "this",
-							"scores": {
-								"dnv.xp_nerfer": {
-									"min": 0,
-									"max": {
-										"min": 200,
-										"max": 500
-									}
-								}
-							}
-						},
-						{
-							"condition": "value_check",
-							"value": {
-								"type": "score",
-								"target": {
-									"type": "fixed",
-									"name": "#dnv"
-								},
-								"score": "dnv.xp_from_crops_disabled"
-							},
-							"range": 0
-						},
-						{
-							"condition": "block_state_property",
-							"block": "pitcher_crop",
-							"properties": {
-								"age": "4",
-								"half": "lower"
-							}
-						},
-						{
-							"condition": "random_chance",
-							"chance": 0.1
-						},
-						{
-							"condition": "block_state_property",
-							"block": "pitcher_crop",
-							"properties": {
-								"age": "4",
-								"half": "lower"
-							}
-						}
-					],
-					"weight": 1,
-					"functions": [
-						{
-							"function": "set_components",
-							"components": {
-								"custom_data": {
-									"dnv.xp_orb": true
-								}
-							}
-						}
-					],
-					"name": "emerald"
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "item",
-					"conditions": [
-						{
-							"condition": "inverted",
-							"term": {
-								"condition": "any_of",
-								"terms": [
-									{
-										"condition": "match_tool",
-										"predicate": {
-											"items": "shears"
-										}
+							"condition": "any_of",
+							"terms": [
+								{
+									"condition": "value_check",
+									"value": {
+										"type": "score",
+										"target": {
+											"type": "fixed",
+											"name": "#dnv"
+										},
+										"score": "dnv.xp_from_crops_require_player"
 									},
-									{
-										"condition": "match_tool",
-										"predicate": {
-											"predicates": {
-												"minecraft:enchantments": [
-													{
-														"enchantments": "minecraft:silk_touch",
-														"levels": {
-															"min": 1
-														}
+									"range": 0
+								},
+								{
+									"condition": "all_of",
+									"terms": [
+										{
+											"condition": "entity_properties",
+											"entity": "this",
+											"predicate": {
+
+											}
+										},
+										{
+											"condition": "entity_scores",
+											"entity": "this",
+											"scores": {
+												"dnv.xp_nerfer": {
+													"min": 0,
+													"max": {
+														"min": 200,
+														"max": 500
 													}
-												]
+												}
 											}
 										}
-									}
-								]
-							}
-						},
-						{
-							"condition": "entity_properties",
-							"entity": "this",
-							"predicate": {
-
-							}
-						},
-						{
-							"condition": "entity_scores",
-							"entity": "this",
-							"scores": {
-								"dnv.xp_nerfer": {
-									"min": 0,
-									"max": {
-										"min": 200,
-										"max": 500
-									}
+									]
 								}
-							}
+							]
 						},
 						{
 							"condition": "value_check",
@@ -556,18 +475,6 @@
 								"age": "4",
 								"half": "lower"
 							}
-						},
-						{
-							"condition": "random_chance",
-							"chance": 0.1
-						},
-						{
-							"condition": "block_state_property",
-							"block": "pitcher_crop",
-							"properties": {
-								"age": "4",
-								"half": "lower"
-							}
 						}
 					],
 					"weight": 1,
@@ -578,6 +485,18 @@
 								"custom_data": {
 									"dnv.xp_orb": true
 								}
+							}
+						},
+						{
+							"function": "set_count",
+							"count": {
+								"type": "score",
+								"target": {
+									"type": "fixed",
+									"name": "#dnv"
+								},
+								"score": "dnv.xp_from_crops_multiplier",
+								"scale": 2
 							}
 						}
 					],

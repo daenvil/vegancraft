@@ -7,7 +7,7 @@ A datapack that adds plant-based alternatives to leather, string, wool, and feat
   - On PlanetMinecraft: https://www.planetminecraft.com/data-pack/ethical-textiles-plant-string-and-leather/
   - On my website: https://daenvil.github.io/MCDatapacks/ethical_textiles.html
 
-- This version was published on the 6th of October 2025. Check the webpages above for possible updates.
+- This version was published on the 12th of November 2025. Check the webpages above for possible updates.
 
 ## Installation
 

@@ -22,7 +22,11 @@ scoreboard objectives add dnv.count.crafted_copper_horn_call dummy
 scoreboard objectives add dnv.count.crafted_copper_horn_yearn dummy
 scoreboard objectives add dnv.count.crafted_copper_horn_dream dummy
 scoreboard objectives add dnv.xp_from_crops_disabled dummy
+scoreboard objectives add dnv.xp_from_crops_require_player dummy
+scoreboard objectives add dnv.xp_from_crops_multiplier dummy
 execute unless score #dnv dnv.xp_from_crops_disabled matches 1 run scoreboard players set #dnv dnv.xp_from_crops_disabled 0
+execute unless score #dnv dnv.xp_from_crops_require_player matches 1 run scoreboard players set #dnv dnv.xp_from_crops_require_player 0
+execute unless score #dnv dnv.xp_from_crops_multiplier matches 2..50 run scoreboard players set #dnv dnv.xp_from_crops_multiplier 1
 scoreboard objectives add dnv.xp_nerfer dummy
 
 execute as @a unless score @s dnv.xp_nerfer matches 1.. run scoreboard players set @s dnv.xp_nerfer 0

@@ -138,24 +138,46 @@
 					"type": "item",
 					"conditions": [
 						{
-							"condition": "entity_properties",
-							"entity": "this",
-							"predicate": {
+							"condition": "any_of",
+							"terms": [
+								{
+									"condition": "value_check",
+									"value": {
+										"type": "score",
+										"target": {
+											"type": "fixed",
+											"name": "#dnv"
+										},
+										"score": "dnv.xp_from_crops_require_player"
+									},
+									"range": 0
+								},
+								{
+									"condition": "all_of",
+									"terms": [
+										{
+											"condition": "entity_properties",
+											"entity": "this",
+											"predicate": {
 
-							}
-						},
-						{
-							"condition": "entity_scores",
-							"entity": "this",
-							"scores": {
-								"dnv.xp_nerfer": {
-									"min": 0,
-									"max": {
-										"min": 200,
-										"max": 500
-									}
+											}
+										},
+										{
+											"condition": "entity_scores",
+											"entity": "this",
+											"scores": {
+												"dnv.xp_nerfer": {
+													"min": 0,
+													"max": {
+														"min": 200,
+														"max": 500
+													}
+												}
+											}
+										}
+									]
 								}
-							}
+							]
 						},
 						{
 							"condition": "value_check",
@@ -171,7 +193,7 @@
 						},
 						{
 							"condition": "random_chance",
-							"chance": 0.3
+							"chance": 0.02
 						},
 						{
 							"condition": "block_state_property",
@@ -189,6 +211,17 @@
 								"custom_data": {
 									"dnv.xp_orb": true
 								}
+							}
+						},
+						{
+							"function": "set_count",
+							"count": {
+								"type": "score",
+								"target": {
+									"type": "fixed",
+									"name": "#dnv"
+								},
+								"score": "dnv.xp_from_crops_multiplier"
 							}
 						}
 					],

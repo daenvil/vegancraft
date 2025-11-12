@@ -7,7 +7,7 @@ A datapack that adds Plant Wax (a retextured Honeycomb). Obtained by smelting de
   - On PlanetMinecraft: https://www.planetminecraft.com/data-pack/plant-wax/
   - On my website: https://daenvil.github.io/MCDatapacks/plant_wax.html
 
-- This version was published on the 6th of October 2025. Check the webpages above for possible updates.
+- This version was published on the 12th of November 2025. Check the webpages above for possible updates.
 
 ## Installation
 

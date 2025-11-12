@@ -7,7 +7,7 @@ This datapack makes pale oak logs (and wood) spawn resin clumps when stripped.
   - On PlanetMinecraft: https://www.planetminecraft.com/data-pack/resin-from-stripping-pale-oak/
   - On my website: https://daenvil.github.io/MCDatapacks/resin_from_stripping.html
 
-- This version was published on the 6th of October 2025. Check the webpages above for possible updates.
+- This version was published on the 12th of November 2025. Check the webpages above for possible updates.
 
 ## Installation
 

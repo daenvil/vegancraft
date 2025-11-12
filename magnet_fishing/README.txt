@@ -1,4 +1,4 @@
-# Magnet Fishing (v2.2.2, for Minecraft 1.21.9+)
+# Magnet Fishing (v2.2.3, for Minecraft 1.21.9+)
 
 A datapack that adds a magnet fishing rod, with which you can fish iron and iron items. Craft the magnet rod with a regular fishing rod, an iron ingot, and redstone dust.
 
@@ -7,7 +7,7 @@ A datapack that adds a magnet fishing rod, with which you can fish iron and iron
   - On PlanetMinecraft: https://www.planetminecraft.com/data-pack/magnet-fishing/
   - On my website: https://daenvil.github.io/MCDatapacks/magnet_fishing.html
 
-- This version was published on the 6th of October 2025. Check the webpages above for possible updates.
+- This version was published on the 12th of November 2025. Check the webpages above for possible updates.
 
 ## Installation
 

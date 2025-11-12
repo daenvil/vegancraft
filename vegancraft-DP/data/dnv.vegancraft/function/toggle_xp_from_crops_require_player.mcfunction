@@ -1,0 +1,4 @@
+scoreboard players add #dnv dnv.xp_from_crops_require_player 1
+execute if score #dnv dnv.xp_from_crops_require_player matches 2 run scoreboard players set #dnv dnv.xp_from_crops_require_player 0
+execute if score #dnv dnv.xp_from_crops_require_player matches 0 run tellraw @s {"text":"* Vegancraft: XP from crops can now be obtained without players directly harvesting crops *","color":"green","italic":true}
+execute if score #dnv dnv.xp_from_crops_require_player matches 1 run tellraw @s {"text":"* Vegancraft: XP from crops now requires players to directly harvest crops *","color":"yellow","italic":true}

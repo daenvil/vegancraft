@@ -126,6 +126,11 @@
 					"type": "item",
 					"weight": 1,
 					"name": "minecraft:iron_sword"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:iron_spear"
 				}
 			]
 		},
@@ -192,6 +197,59 @@
 					"type": "item",
 					"weight": 1,
 					"name": "minecraft:potion"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "empty",
+					"weight": 148
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					],
+					"name": "minecraft:copper_nautilus_armor"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					],
+					"name": "minecraft:iron_nautilus_armor"
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					],
+					"name": "minecraft:golden_nautilus_armor"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					],
+					"name": "minecraft:diamond_nautilus_armor"
 				}
 			]
 		}

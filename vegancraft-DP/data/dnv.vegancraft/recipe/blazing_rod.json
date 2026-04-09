@@ -2,7 +2,7 @@
 	"type": "crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		"lightning_rod",
+		"#lightning_rods",
 		"blaze_powder",
 		"blaze_powder"
 	],

@@ -1,0 +1,18 @@
+{
+	"wants": {
+		"id": "brown_mushroom",
+		"count": 7,
+		"components": {
+
+		}
+	},
+	"gives": {
+		"id": "emerald",
+		"components": {
+
+		}
+	},
+	"max_uses": 16,
+	"reputation_discount": 0.05,
+	"xp": 20.0
+}

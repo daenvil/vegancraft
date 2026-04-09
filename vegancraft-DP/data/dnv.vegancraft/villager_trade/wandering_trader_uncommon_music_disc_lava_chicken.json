@@ -1,0 +1,16 @@
+{
+	"wants": {
+		"id": "diamond",
+		"count": 7,
+		"components": {
+
+		}
+	},
+	"gives": {
+		"id": "music_disc_lava_chicken",
+		"components": {
+
+		}
+	},
+	"max_uses": 1
+}

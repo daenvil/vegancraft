@@ -472,7 +472,7 @@
 							"condition": "block_state_property",
 							"block": "pitcher_crop",
 							"properties": {
-								"age": "4",
+								"age": "4.0",
 								"half": "lower"
 							}
 						}
@@ -496,7 +496,7 @@
 									"name": "#dnv"
 								},
 								"score": "dnv.xp_from_crops_multiplier",
-								"scale": 2
+								"scale": 2.0
 							}
 						}
 					],

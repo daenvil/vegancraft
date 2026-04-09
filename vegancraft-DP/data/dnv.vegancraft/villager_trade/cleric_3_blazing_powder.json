@@ -1,0 +1,33 @@
+{
+	"wants": {
+		"id": "blaze_powder",
+		"count": 16,
+		"components": {
+			"item_name": {
+				"translate": "dnv.vegancraft.item.blazing_powder",
+				"fallback": "Blazing Powder",
+				"italic": false
+			},
+			"lore": [
+				{
+					"text": "Daenvil's Vegancraft",
+					"color": "green",
+					"italic": true
+				}
+			],
+			"custom_data": {
+				"dnv.vegan": true
+			},
+			"item_model": "dnv.vegancraft:blazing_powder"
+		}
+	},
+	"gives": {
+		"id": "emerald",
+		"components": {
+
+		}
+	},
+	"max_uses": 12,
+	"reputation_discount": 0.05,
+	"xp": 20.0
+}

@@ -25,7 +25,7 @@
 			],
 			"food": {
 				"nutrition": 5,
-				"saturation": 6
+				"saturation": 6.0
 			},
 			"custom_data": {
 				"dnv.vegan": true

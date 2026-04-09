@@ -1,0 +1,36 @@
+{
+	"wants": {
+		"id": "fermented_spider_eye",
+		"components": {
+			"item_name": {
+				"translate": "dnv.vegancraft.item.fermented_sprout",
+				"fallback": "Fermented Sprout",
+				"italic": false
+			},
+			"lore": [
+				{
+					"translate": "dnv.vegancraft.item.fermented_sprout.lore",
+					"fallback": "(Use as fermented spider eye)",
+					"italic": false
+				},
+				{
+					"text": "Daenvil's Vegancraft",
+					"color": "green",
+					"italic": true
+				}
+			],
+			"custom_data": {
+				"dnv.vegan": true
+			},
+			"item_model": "dnv.vegancraft:fermented_sprout"
+		}
+	},
+	"gives": {
+		"id": "emerald",
+		"count": 6,
+		"components": {
+
+		}
+	},
+	"max_uses": 2
+}

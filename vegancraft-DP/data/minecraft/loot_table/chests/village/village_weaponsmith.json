@@ -90,6 +90,16 @@
 				{
 					"type": "item",
 					"weight": 5,
+					"name": "minecraft:iron_spear"
+				},
+				{
+					"type": "item",
+					"weight": 7,
+					"name": "minecraft:copper_spear"
+				},
+				{
+					"type": "item",
+					"weight": 5,
 					"name": "minecraft:iron_chestplate"
 				},
 				{

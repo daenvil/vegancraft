@@ -27,7 +27,7 @@
 														{
 															"enchantments": "minecraft:silk_touch",
 															"levels": {
-																"min": 1
+																"min": 1.0
 															}
 														}
 													]
@@ -85,7 +85,7 @@
 											{
 												"enchantments": "minecraft:silk_touch",
 												"levels": {
-													"min": 1
+													"min": 1.0
 												}
 											}
 										]
@@ -192,7 +192,7 @@
 						},
 						{
 							"condition": "random_chance",
-							"chance": 0.02
+							"chance": 0.11
 						},
 						{
 							"condition": "block_state_property",

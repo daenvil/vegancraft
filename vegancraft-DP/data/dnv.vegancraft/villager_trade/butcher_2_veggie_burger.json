@@ -1,0 +1,33 @@
+{
+	"wants": {
+		"id": "emerald",
+		"components": {
+
+		}
+	},
+	"gives": {
+		"id": "cooked_porkchop",
+		"count": 5,
+		"components": {
+			"item_name": {
+				"translate": "dnv.vegan_food.item.veggie_burger",
+				"fallback": "Veggie Burger",
+				"italic": false
+			},
+			"lore": [
+				{
+					"text": "Daenvil's Plant-based Foods",
+					"color": "dark_green",
+					"italic": true
+				}
+			],
+			"custom_data": {
+				"dnv.vegan": true
+			},
+			"item_model": "dnv.vegan_food:veggie_burger"
+		}
+	},
+	"max_uses": 16,
+	"reputation_discount": 0.05,
+	"xp": 5.0
+}

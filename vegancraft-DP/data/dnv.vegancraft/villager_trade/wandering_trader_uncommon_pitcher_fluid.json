@@ -1,0 +1,36 @@
+{
+	"wants": {
+		"id": "emerald",
+		"count": 5,
+		"components": {
+
+		}
+	},
+	"gives": {
+		"id": "ghast_tear",
+		"components": {
+			"item_name": {
+				"translate": "dnv.vegancraft.item.pitcher_fluid",
+				"fallback": "Pitcher Fluid",
+				"italic": false
+			},
+			"lore": [
+				{
+					"translate": "dnv.vegancraft.item.pitcher_fluid.lore",
+					"fallback": "(Use as ghast tear)",
+					"italic": false
+				},
+				{
+					"text": "Daenvil's Vegancraft",
+					"color": "green",
+					"italic": true
+				}
+			],
+			"custom_data": {
+				"dnv.vegan": true
+			},
+			"item_model": "dnv.vegancraft:pitcher_fluid"
+		}
+	},
+	"max_uses": 5
+}

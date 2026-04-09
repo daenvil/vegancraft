@@ -1,0 +1,18 @@
+{
+	"wants": {
+		"id": "iron_ingot",
+		"count": 6,
+		"components": {
+
+		}
+	},
+	"gives": {
+		"id": "emerald",
+		"components": {
+
+		}
+	},
+	"max_uses": 12,
+	"reputation_discount": 0.05,
+	"xp": 4.0
+}

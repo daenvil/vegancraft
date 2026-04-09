@@ -1,0 +1,18 @@
+{
+	"wants": {
+		"id": "emerald",
+		"count": 48,
+		"components": {
+
+		}
+	},
+	"gives": {
+		"id": "heart_of_the_sea",
+		"components": {
+
+		}
+	},
+	"max_uses": 3,
+	"reputation_discount": 0.2,
+	"xp": 30.0
+}

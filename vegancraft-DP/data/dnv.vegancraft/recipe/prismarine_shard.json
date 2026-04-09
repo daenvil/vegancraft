@@ -2,7 +2,7 @@
 	"type": "smelting",
 	"category": "misc",
 	"cookingtime": 200,
-	"experience": 0,
+	"experience": 0.0,
 	"ingredient": "amethyst_shard",
 	"result": {
 		"id": "prismarine_shard"

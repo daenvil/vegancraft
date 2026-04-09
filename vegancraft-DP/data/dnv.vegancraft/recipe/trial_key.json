@@ -3,7 +3,7 @@
 	"category": "misc",
 	"key": {
 		"P": "polished_tuff",
-		"L": "lightning_rod",
+		"L": "#lightning_rods",
 		"O": "obsidian"
 	},
 	"pattern": [

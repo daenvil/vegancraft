@@ -1,0 +1,38 @@
+{
+	"wants": {
+		"id": "phantom_membrane",
+		"count": 8,
+		"components": {
+			"item_name": {
+				"translate": "dnv.vegancraft.item.feathery_membrane",
+				"fallback": "Feathery Membrane",
+				"italic": false
+			},
+			"lore": [
+				{
+					"translate": "dnv.vegancraft.feathery_membrane.lore",
+					"fallback": "(Use as phantom membrane)",
+					"italic": false
+				},
+				{
+					"text": "Daenvil's Vegancraft",
+					"color": "green",
+					"italic": true
+				}
+			],
+			"custom_data": {
+				"dnv.vegan": true
+			},
+			"item_model": "dnv.vegancraft:feathery_membrane"
+		}
+	},
+	"gives": {
+		"id": "emerald",
+		"components": {
+
+		}
+	},
+	"max_uses": 16,
+	"reputation_discount": 0.05,
+	"xp": 2.0
+}

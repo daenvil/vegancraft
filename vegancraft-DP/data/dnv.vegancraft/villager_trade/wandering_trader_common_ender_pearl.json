@@ -1,0 +1,16 @@
+{
+	"wants": {
+		"id": "emerald",
+		"count": 5,
+		"components": {
+
+		}
+	},
+	"gives": {
+		"id": "ender_pearl",
+		"components": {
+
+		}
+	},
+	"max_uses": 6
+}

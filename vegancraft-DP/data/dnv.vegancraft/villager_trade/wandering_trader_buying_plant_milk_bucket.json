@@ -1,0 +1,31 @@
+{
+	"wants": {
+		"id": "milk_bucket",
+		"components": {
+			"item_name": {
+				"translate": "dnv.vegan_food.item.plant_milk_bucket",
+				"fallback": "Plant Milk",
+				"italic": false
+			},
+			"lore": [
+				{
+					"text": "Daenvil's Plant-based Foods",
+					"color": "dark_green",
+					"italic": true
+				}
+			],
+			"custom_data": {
+				"dnv.vegan": true
+			},
+			"item_model": "dnv.vegan_food:plant_milk_bucket"
+		}
+	},
+	"gives": {
+		"id": "emerald",
+		"count": 4,
+		"components": {
+
+		}
+	},
+	"max_uses": 2
+}

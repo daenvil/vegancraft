@@ -1,0 +1,59 @@
+{
+	"wants": {
+		"id": "honey_bottle",
+		"components": {
+			"item_name": {
+				"translate": "dnv.vegan_food.item.vegan_honey_bottle",
+				"fallback": "Vegan Honey",
+				"italic": false
+			},
+			"lore": [
+				{
+					"text": "Daenvil's Plant-based Foods",
+					"color": "dark_green",
+					"italic": true
+				}
+			],
+			"custom_data": {
+				"dnv.vegan": true
+			},
+			"item_model": "dnv.vegan_food:vegan_honey_bottle"
+		}
+	},
+	"additional_wants": {
+		"id": "emerald",
+		"count": 2,
+		"components": {
+
+		}
+	},
+	"gives": {
+		"id": "salmon",
+		"count": 6,
+		"components": {
+			"item_name": {
+				"translate": "dnv.vegan_food.item.notsalmon_fillet",
+				"fallback": "Not-salmon Fillet",
+				"italic": false
+			},
+			"lore": [
+				{
+					"text": "Daenvil's Plant-based Foods",
+					"color": "dark_green",
+					"italic": true
+				}
+			],
+			"food": {
+				"nutrition": 6,
+				"saturation": 9.6
+			},
+			"custom_data": {
+				"dnv.vegan": true
+			},
+			"item_model": "dnv.vegan_food:notsalmon_fillet"
+		}
+	},
+	"max_uses": 16,
+	"reputation_discount": 0.05,
+	"xp": 10.0
+}

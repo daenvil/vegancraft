@@ -135,7 +135,7 @@
 							"condition": "block_state_property",
 							"block": "potatoes",
 							"properties": {
-								"age": "7"
+								"age": "7.0"
 							}
 						}
 					],
@@ -233,7 +233,7 @@
 							"condition": "block_state_property",
 							"block": "potatoes",
 							"properties": {
-								"age": "7"
+								"age": "7.0"
 							}
 						}
 					],

@@ -1,14 +1,14 @@
-# Vegancraft Resourcepack v1.5.2
+# Vegancraft Resourcepack v1.6
 
 This resourcepack contains all the required resources for every Vegancraft datapack by Daenvil, including:
 
 - [Plant-based Foods v2.1](https://daenvil.github.io/MCDatapacks/plant-based_foods.html)
 - [Acacia Gum v1.4](https://daenvil.github.io/MCDatapacks/acacia_gum.html)
-- [Ethical Textiles v2.1](https://daenvil.github.io/MCDatapacks/ethical_Textiles.html)
-- [Plant Wax v2.2](https://daenvil.github.io/MCDatapacks/plant_wax.html)
+- [Ethical Textiles v2.2](https://daenvil.github.io/MCDatapacks/ethical_Textiles.html)
+- [Plant Wax v2.4](https://daenvil.github.io/MCDatapacks/plant_wax.html)
 - [Magnet Fishing v2.2](https://daenvil.github.io/MCDatapacks/magnet_fishing.html)
 - [Hot Air Balloons v1.0](https://daenvil.github.io/MCDatapacks/balloons.html)
-- [Vegancraft v1.5](https://daenvil.github.io/MCDatapacks/vegancraft.html)
+- [Vegancraft v1.6](https://daenvil.github.io/MCDatapacks/vegancraft.html)
 
 Read more on: https://daenvil.github.io/MCDatapacks/vegancraft.html
 
@@ -17,7 +17,7 @@ Read more on: https://daenvil.github.io/MCDatapacks/vegancraft.html
   - On my website: https://daenvil.github.io/MCDatapacks/vegancraft.html
   - On GitHub: https://www.github.com/daenvil/vegancraft
 
-- This version was published on the 12th of November 2025. Check the webpages above for possible updates.
+- This version was published on the 9th of April 2026. Check the webpages above for possible updates.
 
 ## Installation
 

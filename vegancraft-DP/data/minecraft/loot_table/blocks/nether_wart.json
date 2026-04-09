@@ -43,7 +43,7 @@
 							"enchantment": "minecraft:fortune",
 							"formula": "uniform_bonus_count",
 							"parameters": {
-								"bonusMultiplier": 1
+								"bonusMultiplier": 1.0
 							}
 						}
 					],
@@ -115,7 +115,7 @@
 							"condition": "block_state_property",
 							"block": "nether_wart",
 							"properties": {
-								"age": "3"
+								"age": "3.0"
 							}
 						}
 					],
@@ -213,7 +213,7 @@
 							"condition": "block_state_property",
 							"block": "nether_wart",
 							"properties": {
-								"age": "3"
+								"age": "3.0"
 							}
 						}
 					],

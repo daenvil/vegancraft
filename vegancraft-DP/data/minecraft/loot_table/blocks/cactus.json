@@ -84,7 +84,7 @@
 							"condition": "block_state_property",
 							"block": "cactus",
 							"properties": {
-								"age": "15"
+								"age": "15.0"
 							}
 						}
 					],

@@ -88,7 +88,7 @@
 							"block": "chorus_flower",
 							"properties": {
 								"age": {
-									"min": "2"
+									"min": "2.0"
 								}
 							}
 						}
@@ -112,7 +112,7 @@
 									"name": "#dnv"
 								},
 								"score": "dnv.xp_from_crops_multiplier",
-								"scale": 2
+								"scale": 2.0
 							}
 						}
 					],
@@ -189,7 +189,7 @@
 							"block": "chorus_flower",
 							"properties": {
 								"age": {
-									"min": "2"
+									"min": "2.0"
 								}
 							}
 						}

@@ -84,7 +84,7 @@
 							"condition": "block_state_property",
 							"block": "sugar_cane",
 							"properties": {
-								"age": "15"
+								"age": "15.0"
 							}
 						}
 					],

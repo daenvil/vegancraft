@@ -1,2 +1,0 @@
-execute as @a at @s as @n[type=wandering_trader,tag=!dnv.vegan_wandering_trader,distance=..128] run function zz.dnv.vegancraft:trades/wandering_trader
-schedule function zz.dnv.vegancraft:trades/wandering_trader_init 20s

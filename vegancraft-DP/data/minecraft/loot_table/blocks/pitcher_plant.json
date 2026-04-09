@@ -364,7 +364,7 @@
 									"name": "#dnv"
 								},
 								"score": "dnv.xp_from_crops_multiplier",
-								"scale": 2
+								"scale": 2.0
 							}
 						}
 					],

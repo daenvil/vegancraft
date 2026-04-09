@@ -42,6 +42,11 @@
 				},
 				{
 					"type": "item",
+					"weight": 2,
+					"name": "minecraft:stone_spear"
+				},
+				{
+					"type": "item",
 					"weight": 10,
 					"functions": [
 						{
@@ -108,6 +113,59 @@
 						}
 					],
 					"name": "minecraft:map"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "empty",
+					"weight": 148
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					],
+					"name": "minecraft:copper_nautilus_armor"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					],
+					"name": "minecraft:iron_nautilus_armor"
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					],
+					"name": "minecraft:golden_nautilus_armor"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					],
+					"name": "minecraft:diamond_nautilus_armor"
 				}
 			]
 		},

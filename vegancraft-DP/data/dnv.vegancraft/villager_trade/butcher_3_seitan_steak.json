@@ -1,0 +1,33 @@
+{
+	"wants": {
+		"id": "emerald",
+		"components": {
+
+		}
+	},
+	"gives": {
+		"id": "cooked_beef",
+		"count": 8,
+		"components": {
+			"item_name": {
+				"translate": "dnv.vegan_food.item.seitan_steak",
+				"fallback": "Seitan Steak",
+				"italic": false
+			},
+			"lore": [
+				{
+					"text": "Daenvil's Plant-based Foods",
+					"color": "dark_green",
+					"italic": true
+				}
+			],
+			"custom_data": {
+				"dnv.vegan": true
+			},
+			"item_model": "dnv.vegan_food:seitan_steak"
+		}
+	},
+	"max_uses": 16,
+	"reputation_discount": 0.05,
+	"xp": 20.0
+}

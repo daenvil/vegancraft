@@ -1,0 +1,16 @@
+{
+	"wants": {
+		"id": "emerald",
+		"count": 5,
+		"components": {
+
+		}
+	},
+	"gives": {
+		"id": "heart_of_the_sea",
+		"components": {
+
+		}
+	},
+	"max_uses": 4
+}

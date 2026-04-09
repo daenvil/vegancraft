@@ -1,0 +1,18 @@
+{
+	"wants": {
+		"id": "ominous_bottle",
+		"components": {
+
+		}
+	},
+	"gives": {
+		"id": "emerald",
+		"count": 12,
+		"components": {
+
+		}
+	},
+	"max_uses": 6,
+	"reputation_discount": 0.05,
+	"xp": 20.0
+}

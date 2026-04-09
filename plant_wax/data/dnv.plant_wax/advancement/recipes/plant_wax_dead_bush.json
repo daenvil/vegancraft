@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_dead_bush": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "dead_bush"
+					}
+				]
+			}
+		},
+		"has_honeycomb": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "honeycomb"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.plant_wax:plant_wax_dead_bush"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_dead_bush",
+			"has_honeycomb",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.plant_wax:plant_wax_dead_bush"
+		]
+	}
+}

@@ -97,7 +97,7 @@
 							"condition": "block_state_property",
 							"block": "cocoa",
 							"properties": {
-								"age": "2"
+								"age": "2.0"
 							}
 						}
 					],

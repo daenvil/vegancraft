@@ -110,7 +110,7 @@
 							"condition": "block_state_property",
 							"block": "carrots",
 							"properties": {
-								"age": "7"
+								"age": "7.0"
 							}
 						}
 					],
@@ -208,7 +208,7 @@
 							"condition": "block_state_property",
 							"block": "carrots",
 							"properties": {
-								"age": "7"
+								"age": "7.0"
 							}
 						}
 					],

@@ -133,7 +133,7 @@
 							"condition": "block_state_property",
 							"block": "beetroots",
 							"properties": {
-								"age": "3"
+								"age": "3.0"
 							}
 						}
 					],

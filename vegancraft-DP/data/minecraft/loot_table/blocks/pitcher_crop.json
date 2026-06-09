@@ -472,7 +472,7 @@
 							"condition": "block_state_property",
 							"block": "pitcher_crop",
 							"properties": {
-								"age": "4.0",
+								"age": "4",
 								"half": "lower"
 							}
 						}

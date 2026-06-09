@@ -115,7 +115,7 @@
 							"condition": "block_state_property",
 							"block": "nether_wart",
 							"properties": {
-								"age": "3.0"
+								"age": "3"
 							}
 						}
 					],
@@ -213,7 +213,7 @@
 							"condition": "block_state_property",
 							"block": "nether_wart",
 							"properties": {
-								"age": "3.0"
+								"age": "3"
 							}
 						}
 					],

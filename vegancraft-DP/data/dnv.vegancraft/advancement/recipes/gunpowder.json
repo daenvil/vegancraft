@@ -42,7 +42,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "creeper"
+						"entity_type": "creeper"
 					}
 				}
 			}

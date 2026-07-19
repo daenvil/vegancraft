@@ -51,7 +51,7 @@
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"type": "cow"
+					"entity_type": "cow"
 				}
 			}
 		},
@@ -59,7 +59,7 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "cow"
+					"entity_type": "cow"
 				}
 			}
 		}

@@ -1,0 +1,32 @@
+{
+	"pack": {
+		"description": {
+			"text": "Daenvil",
+			"extra": [
+				{
+					"text": "'s ",
+					"color": "white",
+					"italic": false
+				},
+				{
+					"text": "Craftable Sulfur Cubes",
+					"color": "white",
+					"italic": false,
+					"underlined": true
+				},
+				{
+					"text": "\nv1.0, for MC26.2+",
+					"color": "gray",
+					"italic": false
+				}
+			],
+			"color": "green",
+			"italic": false
+		},
+		"min_format": [
+			107,
+			1
+		],
+		"max_format": 127
+	}
+}

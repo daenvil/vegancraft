@@ -46,7 +46,7 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "rabbit"
+					"entity_type": "rabbit"
 				}
 			}
 		}

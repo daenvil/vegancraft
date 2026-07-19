@@ -32,7 +32,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "trident"
+						"entity_type": "trident"
 					}
 				}
 			}

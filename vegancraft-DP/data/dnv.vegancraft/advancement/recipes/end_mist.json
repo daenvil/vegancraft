@@ -42,7 +42,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "ender_dragon"
+						"entity_type": "ender_dragon"
 					}
 				}
 			}
@@ -52,7 +52,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "dragon_fireball"
+						"entity_type": "dragon_fireball"
 					}
 				}
 			}

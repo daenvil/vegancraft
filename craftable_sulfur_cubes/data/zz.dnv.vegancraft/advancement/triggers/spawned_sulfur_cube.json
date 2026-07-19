@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"interacted_with_sulfur_cube": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "sulfur_cube"
+				},
+				"item": {
+					"items": "sulfur_cube_spawn_egg",
+					"components": {
+						"item_model": "dnv.sulfur_cubes:sulfur_cube"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_spawned_sulfur_cube"
+	}
+}

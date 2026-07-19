@@ -31,7 +31,7 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "spider"
+					"entity_type": "spider"
 				}
 			}
 		}

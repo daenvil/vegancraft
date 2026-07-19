@@ -6,6 +6,7 @@
 		"zz.dnv.vegancraft:load_ethical_textiles",
 		"dnv.magnet_fishing:on_load",
 		"zz.dnv.vegancraft:load_resin_from_stripping",
-		"zz.dnv.vegancraft:load_ghast_ballons"
+		"zz.dnv.vegancraft:load_ghast_ballons",
+		"zz.dnv.vegancraft:load_sulfur_cubes"
 	]
 }

@@ -1,0 +1,26 @@
+{
+	"parent": "global:dnv.vegancraft",
+	"display": {
+		"title": {
+			"text": "Craftable Sulfur Cubes",
+			"italic": false
+		},
+		"description": {
+			"text": "Daenvil's Sulfur Cubes 1.0 (for MC26.2+)",
+			"italic": false
+		},
+		"icon": {
+			"id": "sulfur_cube_spawn_egg",
+			"components": {
+				"item_model": "dnv.sulfur_cubes:sulfur_cube"
+			}
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "tick"
+		}
+	}
+}

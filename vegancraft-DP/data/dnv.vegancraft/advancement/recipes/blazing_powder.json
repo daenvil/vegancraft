@@ -48,7 +48,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "blaze"
+						"entity_type": "blaze"
 					}
 				}
 			}

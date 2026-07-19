@@ -42,7 +42,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "breeze"
+						"entity_type": "breeze"
 					}
 				}
 			}

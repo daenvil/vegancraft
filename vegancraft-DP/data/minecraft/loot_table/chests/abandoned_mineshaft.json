@@ -291,6 +291,19 @@
 						}
 					],
 					"name": "minecraft:torch"
+				},
+				{
+					"type": "item",
+					"conditions": [
+						{
+							"condition": "location_check",
+							"predicate": {
+								"biomes": "minecraft:sulfur_caves"
+							}
+						}
+					],
+					"weight": 10,
+					"name": "minecraft:music_disc_bounce"
 				}
 			]
 		}

@@ -57,7 +57,7 @@
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"type": "sheep"
+					"entity_type": "sheep"
 				}
 			}
 		},
@@ -65,7 +65,7 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "sheep"
+					"entity_type": "sheep"
 				}
 			}
 		}

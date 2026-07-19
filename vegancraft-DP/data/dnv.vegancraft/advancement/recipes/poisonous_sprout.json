@@ -32,7 +32,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "spider"
+						"entity_type": "spider"
 					}
 				}
 			}
@@ -42,7 +42,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "cave_spider"
+						"entity_type": "cave_spider"
 					}
 				}
 			}

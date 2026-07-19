@@ -7,7 +7,11 @@
 					"condition": "entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"dnv.balloon_black\"]}"
+						"entity_tags": {
+							"all_of": [
+								"dnv.balloon_black"
+							]
+						}
 					}
 				}
 			],
@@ -101,7 +105,11 @@
 					"condition": "entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"dnv.balloon_blue\"]}"
+						"entity_tags": {
+							"all_of": [
+								"dnv.balloon_blue"
+							]
+						}
 					}
 				}
 			],
@@ -195,7 +203,11 @@
 					"condition": "entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"dnv.balloon_brown\"]}"
+						"entity_tags": {
+							"all_of": [
+								"dnv.balloon_brown"
+							]
+						}
 					}
 				}
 			],
@@ -289,7 +301,11 @@
 					"condition": "entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"dnv.balloon_cyan\"]}"
+						"entity_tags": {
+							"all_of": [
+								"dnv.balloon_cyan"
+							]
+						}
 					}
 				}
 			],
@@ -383,7 +399,11 @@
 					"condition": "entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"dnv.balloon_gray\"]}"
+						"entity_tags": {
+							"all_of": [
+								"dnv.balloon_gray"
+							]
+						}
 					}
 				}
 			],
@@ -477,7 +497,11 @@
 					"condition": "entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"dnv.balloon_green\"]}"
+						"entity_tags": {
+							"all_of": [
+								"dnv.balloon_green"
+							]
+						}
 					}
 				}
 			],
@@ -571,7 +595,11 @@
 					"condition": "entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"dnv.balloon_light_blue\"]}"
+						"entity_tags": {
+							"all_of": [
+								"dnv.balloon_light_blue"
+							]
+						}
 					}
 				}
 			],
@@ -665,7 +693,11 @@
 					"condition": "entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"dnv.balloon_light_gray\"]}"
+						"entity_tags": {
+							"all_of": [
+								"dnv.balloon_light_gray"
+							]
+						}
 					}
 				}
 			],
@@ -759,7 +791,11 @@
 					"condition": "entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"dnv.balloon_lime\"]}"
+						"entity_tags": {
+							"all_of": [
+								"dnv.balloon_lime"
+							]
+						}
 					}
 				}
 			],
@@ -853,7 +889,11 @@
 					"condition": "entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"dnv.balloon_magenta\"]}"
+						"entity_tags": {
+							"all_of": [
+								"dnv.balloon_magenta"
+							]
+						}
 					}
 				}
 			],
@@ -947,7 +987,11 @@
 					"condition": "entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"dnv.balloon_orange\"]}"
+						"entity_tags": {
+							"all_of": [
+								"dnv.balloon_orange"
+							]
+						}
 					}
 				}
 			],
@@ -1041,7 +1085,11 @@
 					"condition": "entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"dnv.balloon_pink\"]}"
+						"entity_tags": {
+							"all_of": [
+								"dnv.balloon_pink"
+							]
+						}
 					}
 				}
 			],
@@ -1135,7 +1183,11 @@
 					"condition": "entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"dnv.balloon_purple\"]}"
+						"entity_tags": {
+							"all_of": [
+								"dnv.balloon_purple"
+							]
+						}
 					}
 				}
 			],
@@ -1229,7 +1281,11 @@
 					"condition": "entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"dnv.balloon_red\"]}"
+						"entity_tags": {
+							"all_of": [
+								"dnv.balloon_red"
+							]
+						}
 					}
 				}
 			],
@@ -1323,7 +1379,11 @@
 					"condition": "entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"dnv.balloon_white\"]}"
+						"entity_tags": {
+							"all_of": [
+								"dnv.balloon_white"
+							]
+						}
 					}
 				}
 			],
@@ -1417,7 +1477,11 @@
 					"condition": "entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"dnv.balloon_yellow\"]}"
+						"entity_tags": {
+							"all_of": [
+								"dnv.balloon_yellow"
+							]
+						}
 					}
 				}
 			],
@@ -1511,7 +1575,11 @@
 					"condition": "entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"dnv.balloon_halloween\"]}"
+						"entity_tags": {
+							"all_of": [
+								"dnv.balloon_halloween"
+							]
+						}
 					}
 				}
 			],

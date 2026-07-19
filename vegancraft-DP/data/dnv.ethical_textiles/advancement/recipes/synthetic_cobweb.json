@@ -22,7 +22,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "spider"
+						"entity_type": "spider"
 					}
 				}
 			}

@@ -9,5 +9,6 @@
 	"result": {
 		"id": "gunpowder",
 		"count": 3
-	}
+	},
+	"group": "dnv.vegancraft.gunpowder"
 }

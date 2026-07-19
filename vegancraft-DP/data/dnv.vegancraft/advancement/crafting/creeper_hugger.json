@@ -21,11 +21,10 @@
 			"trigger": "entity_killed_player",
 			"conditions": {
 				"entity": {
-					"type": "creeper"
+					"entity_type": "creeper"
 				},
 				"player": {
-					"type_specific": {
-						"type": "player",
+					"type_specific/player": {
 						"stats": [
 							{
 								"type": "minecraft:crafted",

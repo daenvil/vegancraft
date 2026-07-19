@@ -4,7 +4,7 @@
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"type": "#dnv.vegancraft:bucketable_animals"
+					"entity_type": "#dnv.vegancraft:bucketable_animals"
 				},
 				"item": {
 					"items": "bucket"

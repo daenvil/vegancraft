@@ -1,0 +1,14 @@
+{
+	"type": "crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"#coals",
+		"redstone",
+		"sulfur"
+	],
+	"result": {
+		"id": "gunpowder",
+		"count": 6
+	},
+	"group": "dnv.vegancraft.gunpowder"
+}

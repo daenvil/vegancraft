@@ -61,7 +61,7 @@
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"type": "frog"
+					"entity_type": "frog"
 				}
 			}
 		}

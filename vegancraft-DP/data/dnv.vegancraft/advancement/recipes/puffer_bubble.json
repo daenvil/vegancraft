@@ -52,7 +52,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "pufferfish"
+						"entity_type": "pufferfish"
 					}
 				}
 			}

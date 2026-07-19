@@ -48,7 +48,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "ghast"
+						"entity_type": "ghast"
 					}
 				}
 			}
@@ -57,7 +57,7 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "ghast"
+					"entity_type": "ghast"
 				}
 			}
 		},
@@ -71,8 +71,7 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"type_specific": {
-									"type": "minecraft:player",
+								"type_specific/player": {
 									"looking_at": {
 										"type": "minecraft:ghast"
 									}
@@ -92,7 +91,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "happy_ghast"
+								"entity_type": "happy_ghast"
 							}
 						}
 					}

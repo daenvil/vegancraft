@@ -42,7 +42,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "bee"
+						"entity_type": "bee"
 					}
 				}
 			}

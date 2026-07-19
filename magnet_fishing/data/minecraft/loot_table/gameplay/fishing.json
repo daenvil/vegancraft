@@ -12,11 +12,7 @@
 								"condition": "match_tool",
 								"predicate": {
 									"components": {
-										"custom_model_data": {
-											"floats": [
-												9261009
-											]
-										}
+										"item_model": "dnv.magnet_fishing:magnet_fishing_rod"
 									}
 								}
 							},
@@ -46,8 +42,7 @@
 							"condition": "entity_properties",
 							"entity": "this",
 							"predicate": {
-								"type_specific": {
-									"type": "minecraft:fishing_hook",
+								"minecraft:type_specific/fishing_hook": {
 									"in_open_water": true
 								}
 							}
@@ -73,11 +68,7 @@
 							"condition": "match_tool",
 							"predicate": {
 								"components": {
-									"custom_model_data": {
-										"floats": [
-											9261009
-										]
-									}
+									"item_model": "dnv.magnet_fishing:magnet_fishing_rod"
 								}
 							}
 						},
@@ -106,8 +97,7 @@
 							"condition": "entity_properties",
 							"entity": "this",
 							"predicate": {
-								"type_specific": {
-									"type": "minecraft:fishing_hook",
+								"minecraft:type_specific/fishing_hook": {
 									"in_open_water": true
 								}
 							}

@@ -21,7 +21,7 @@
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"type": "rabbit"
+					"entity_type": "rabbit"
 				}
 			}
 		},
@@ -29,7 +29,7 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:rabbit"
+					"entity_type": "minecraft:rabbit"
 				}
 			}
 		},

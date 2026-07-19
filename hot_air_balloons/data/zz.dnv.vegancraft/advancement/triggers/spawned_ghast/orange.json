@@ -4,7 +4,7 @@
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"type": "happy_ghast"
+					"entity_type": "happy_ghast"
 				},
 				"item": {
 					"items": "happy_ghast_spawn_egg",

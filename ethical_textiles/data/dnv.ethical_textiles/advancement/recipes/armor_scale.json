@@ -21,7 +21,7 @@
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"type": "armadillo"
+					"entity_type": "armadillo"
 				}
 			}
 		},
@@ -29,7 +29,7 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "armadillo"
+					"entity_type": "armadillo"
 				}
 			}
 		},

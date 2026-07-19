@@ -4,7 +4,7 @@
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"type": "#dnv.vegancraft:shearable_animals"
+					"entity_type": "#dnv.vegancraft:shearable_animals"
 				},
 				"item": {
 					"items": "shears"

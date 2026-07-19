@@ -22,7 +22,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "breeze"
+						"entity_type": "breeze"
 					}
 				}
 			}
@@ -32,7 +32,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "wind_charge"
+						"entity_type": "wind_charge"
 					}
 				}
 			}
@@ -41,7 +41,7 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "breeze"
+					"entity_type": "breeze"
 				}
 			}
 		},

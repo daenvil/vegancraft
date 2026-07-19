@@ -1,0 +1,23 @@
+{
+	"criteria": {
+		"interacted_with_sulfur_cube": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "sulfur_cube",
+					"entity_tags": {
+						"any_of": [
+							"dnv.sulfur_cube"
+						]
+					}
+				},
+				"item": {
+					"items": "shears"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_sheared_cube"
+	}
+}

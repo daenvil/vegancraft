@@ -4,7 +4,7 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "#dnv.vegancraft:nonhostile_animals"
+					"entity_type": "#dnv.vegancraft:nonhostile_animals"
 				}
 			}
 		}

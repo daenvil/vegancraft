@@ -1,0 +1,1 @@
+execute as @e[type=item] if items entity @s contents sulfur_cube_spawn_egg at @s run kill @e[type=experience_orb,distance=..1]

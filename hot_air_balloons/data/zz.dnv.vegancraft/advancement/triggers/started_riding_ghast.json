@@ -9,7 +9,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "happy_ghast"
+								"entity_type": "happy_ghast"
 							}
 						}
 					}

@@ -52,7 +52,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "shulker"
+						"entity_type": "shulker"
 					}
 				}
 			}
@@ -62,7 +62,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "shulker_bullet"
+						"entity_type": "shulker_bullet"
 					}
 				}
 			}
@@ -71,7 +71,7 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "shulker"
+					"entity_type": "shulker"
 				}
 			}
 		},

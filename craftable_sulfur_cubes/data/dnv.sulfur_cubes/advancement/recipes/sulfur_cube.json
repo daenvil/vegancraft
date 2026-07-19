@@ -1,0 +1,127 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_sulfur": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "sulfur"
+					}
+				]
+			}
+		},
+		"has_sulfur_spike": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "sulfur_spike"
+					}
+				]
+			}
+		},
+		"has_potent_sulfur": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "potent_sulfur"
+					}
+				]
+			}
+		},
+		"has_sulfur_cube_bucket": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "sulfur_cube_bucket"
+					}
+				]
+			}
+		},
+		"has_sulfur_cube_spawn_egg": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "sulfur_cube_spawn_egg"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "dnv.sulfur_cubes:sulfur_cube"
+			}
+		},
+		"sulfur_cube_hurt_player": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"entity_type": "sulfur_cube"
+					}
+				}
+			}
+		},
+		"player_hurt_sulfur_cube": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "sulfur_cube"
+				}
+			}
+		},
+		"using_spyglass": {
+			"trigger": "using_item",
+			"conditions": {
+				"item": {
+					"items": "spyglass",
+					"player": [
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific/player": {
+									"looking_at": {
+										"type": "minecraft:sulfur_cube"
+									}
+								}
+							}
+						}
+					]
+				}
+			}
+		},
+		"interacted_with_sulfur_cube": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "sulfur_cube"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_sulfur",
+			"has_sulfur_spike",
+			"has_potent_sulfur",
+			"has_sulfur_cube_bucket",
+			"has_sulfur_cube_spawn_egg",
+			"has_the_recipe",
+			"sulfur_cube_hurt_player",
+			"player_hurt_sulfur_cube",
+			"using_spyglass",
+			"interacted_with_sulfur_cube"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.sulfur_cubes:sulfur_cube"
+		]
+	}
+}

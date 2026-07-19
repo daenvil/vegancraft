@@ -32,7 +32,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "enderman"
+						"entity_type": "enderman"
 					}
 				}
 			}
@@ -41,7 +41,7 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "enderman"
+					"entity_type": "enderman"
 				}
 			}
 		},

@@ -1,0 +1,39 @@
+{
+	"parent": "dnv.vegancraft:crafting",
+	"display": {
+		"title": {
+			"translate": "dnv.vegancraft.advancement.chaos_cubed",
+			"fallback": "Chaos Cubed!",
+			"italic": false
+		},
+		"description": {
+			"translate": "dnv.vegancraft.advancement.chaos_cubed.description",
+			"fallback": "Craft and place a sulfur cube",
+			"italic": false
+		},
+		"icon": {
+			"id": "sulfur_cube_spawn_egg",
+			"components": {
+				"item_model": "dnv.sulfur_cubes:sulfur_cube"
+			}
+		}
+	},
+	"criteria": {
+		"sulfur_cube_spawn_egg_used_on_block": {
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "sulfur_cube_spawn_egg",
+							"components": {
+								"item_model": "dnv.sulfur_cubes:sulfur_cube"
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

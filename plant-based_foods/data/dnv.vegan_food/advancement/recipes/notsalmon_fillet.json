@@ -44,7 +44,7 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "cod"
+					"entity_type": "cod"
 				}
 			}
 		},
@@ -52,7 +52,7 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "salmon"
+					"entity_type": "salmon"
 				}
 			}
 		}

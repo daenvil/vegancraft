@@ -1,4 +1,4 @@
-# Resin from Stripping (v1.0.2, for Minecraft 26.1+)
+# Resin from Stripping (v1.0.3, for Minecraft 26.2+)
 
 This datapack makes pale oak logs (and wood) spawn resin clumps when stripped.
 
@@ -7,7 +7,7 @@ This datapack makes pale oak logs (and wood) spawn resin clumps when stripped.
   - On PlanetMinecraft: https://www.planetminecraft.com/data-pack/resin-from-stripping-pale-oak/
   - On my website: https://daenvil.github.io/MCDatapacks/resin_from_stripping.html
 
-- This version was published on the 9th of April 2026. Check the webpages above for possible updates.
+- This version was published on the 19th of July 2026. Check the webpages above for possible updates.
 
 ## Installation
 

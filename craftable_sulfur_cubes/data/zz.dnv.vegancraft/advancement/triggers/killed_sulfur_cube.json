@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"player_killed_sulfur_cube": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "sulfur_cube",
+					"entity_tags": {
+						"all_of": [
+							"dnv.sulfur_cube"
+						]
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "zz.dnv.vegancraft:slots/on_killed_sulfur_cube"
+	}
+}

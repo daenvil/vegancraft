@@ -32,7 +32,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "wither"
+						"entity_type": "wither"
 					}
 				}
 			}
@@ -42,7 +42,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "wither_skull"
+						"entity_type": "wither_skull"
 					}
 				}
 			}

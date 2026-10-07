@@ -3,19 +3,17 @@
 		"used_cave_vines_plant": {
 			"trigger": "default_block_use",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"state": {
-									"berries": "false"
-								},
-								"blocks": "cave_vines_plant"
+				"location": {
+					"type": "location_check",
+					"predicate": {
+						"block": {
+							"blocks": "cave_vines_plant",
+							"state": {
+								"berries": "false"
 							}
 						}
 					}
-				]
+				}
 			}
 		}
 	},

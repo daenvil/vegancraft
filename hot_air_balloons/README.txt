@@ -1,13 +1,12 @@
-# Hot Air Balloons (v1.0.2, for Minecraft 26.2+)
+# Hot Air Balloons (v1.0.3, for Minecraft 26.3+)
 
 This datapack adds hot air balloons, an alternative to riding ghasts.
 
 - This datapack was made by Daenvil, its official pages are:
 
-  - On PlanetMinecraft: https://www.planetminecraft.com/data-pack/hot-air-balloons/
   - On my website: https://daenvil.github.io/MCDatapacks/balloons.html
 
-- This version was published on the 19th of July 2026. Check the webpages above for possible updates.
+- This version was published on the 7th of October 2026. Check the webpages above for possible updates.
 
 ## Installation
 
@@ -23,7 +22,7 @@ You are allowed to:
 
 - Download, use, and edit this datapack* for personal use.
 - Use this datapack or variations of it in a Minecraft server.
-- Publish audiovisual content that uses this datapack or variations of it (e.g. gameplay videos on online platforms), as long as you acknowledge me (Daenvil) as the author of this datapack and provide a link to its page on PlanetMinecraft (https://www.planetminecraft.com/data-pack/resin-from-stripping/) or to its webpage (https://daenvil.github.io/MCDatapacks/resin_from_stripping.html).
+- Publish audiovisual content that uses this datapack or variations of it (e.g. gameplay videos on online platforms), as long as you acknowledge me (Daenvil) as the author of this datapack and provide a link to its webpage (https://daenvil.github.io/MCDatapacks/balloons.html).
 - Share this datapack or variations of it privately (e.g. transferring the files to friends), as long as there is no financial profit involved, the files are not publicly available, and this text file is included with the files you share.
 
 You are not allowed to:

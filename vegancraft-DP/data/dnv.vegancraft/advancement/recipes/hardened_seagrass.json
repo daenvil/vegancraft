@@ -24,7 +24,7 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegancraft:hardened_seagrass"
+				"recipes": "dnv.vegancraft:hardened_seagrass"
 			}
 		},
 		"has_honeycomb": {

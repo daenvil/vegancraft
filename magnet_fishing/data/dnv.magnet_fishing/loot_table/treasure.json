@@ -27,292 +27,341 @@
 				{
 					"type": "item",
 					"weight": 12,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.6
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_damage",
+								"damage": {
+									"type": "uniform",
+									"min": 0,
+									"max": 0.6
+								}
+							},
+							{
+								"type": "enchant_with_levels",
+								"levels": 30,
+								"options": "#dnv.magnet_fishing:treasure"
 							}
-						},
-						{
-							"function": "enchant_with_levels",
-							"levels": 30,
-							"options": "#dnv.magnet_fishing:treasure"
-						}
-					],
+						]
+					},
 					"name": "iron_helmet"
 				},
 				{
 					"type": "item",
 					"weight": 12,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.6
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_damage",
+								"damage": {
+									"type": "uniform",
+									"min": 0,
+									"max": 0.6
+								}
+							},
+							{
+								"type": "enchant_with_levels",
+								"levels": 30,
+								"options": "#dnv.magnet_fishing:treasure"
 							}
-						},
-						{
-							"function": "enchant_with_levels",
-							"levels": 30,
-							"options": "#dnv.magnet_fishing:treasure"
-						}
-					],
+						]
+					},
 					"name": "iron_chestplate"
 				},
 				{
 					"type": "item",
 					"weight": 12,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.6
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_damage",
+								"damage": {
+									"type": "uniform",
+									"min": 0,
+									"max": 0.6
+								}
+							},
+							{
+								"type": "enchant_with_levels",
+								"levels": 30,
+								"options": "#dnv.magnet_fishing:treasure"
 							}
-						},
-						{
-							"function": "enchant_with_levels",
-							"levels": 30,
-							"options": "#dnv.magnet_fishing:treasure"
-						}
-					],
+						]
+					},
 					"name": "iron_leggings"
 				},
 				{
 					"type": "item",
 					"weight": 12,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.6
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_damage",
+								"damage": {
+									"type": "uniform",
+									"min": 0,
+									"max": 0.6
+								}
+							},
+							{
+								"type": "enchant_with_levels",
+								"levels": 30,
+								"options": "#dnv.magnet_fishing:treasure"
 							}
-						},
-						{
-							"function": "enchant_with_levels",
-							"levels": 30,
-							"options": "#dnv.magnet_fishing:treasure"
-						}
-					],
+						]
+					},
 					"name": "iron_boots"
 				},
 				{
 					"type": "item",
 					"weight": 10,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.5
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_damage",
+								"damage": {
+									"type": "uniform",
+									"min": 0,
+									"max": 0.5
+								}
+							},
+							{
+								"type": "enchant_with_levels",
+								"levels": 30,
+								"options": "#dnv.magnet_fishing:treasure"
 							}
-						},
-						{
-							"function": "enchant_with_levels",
-							"levels": 30,
-							"options": "#dnv.magnet_fishing:treasure"
-						}
-					],
+						]
+					},
 					"name": "iron_pickaxe"
 				},
 				{
 					"type": "item",
 					"weight": 10,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.5
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_damage",
+								"damage": {
+									"type": "uniform",
+									"min": 0,
+									"max": 0.5
+								}
+							},
+							{
+								"type": "enchant_with_levels",
+								"levels": 30,
+								"options": "#dnv.magnet_fishing:treasure"
 							}
-						},
-						{
-							"function": "enchant_with_levels",
-							"levels": 30,
-							"options": "#dnv.magnet_fishing:treasure"
-						}
-					],
+						]
+					},
 					"name": "iron_shovel"
 				},
 				{
 					"type": "item",
 					"weight": 10,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.5
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_damage",
+								"damage": {
+									"type": "uniform",
+									"min": 0,
+									"max": 0.5
+								}
+							},
+							{
+								"type": "enchant_with_levels",
+								"levels": 30,
+								"options": "#dnv.magnet_fishing:treasure"
 							}
-						},
-						{
-							"function": "enchant_with_levels",
-							"levels": 30,
-							"options": "#dnv.magnet_fishing:treasure"
-						}
-					],
+						]
+					},
 					"name": "iron_axe"
 				},
 				{
 					"type": "item",
 					"weight": 10,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.5
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_damage",
+								"damage": {
+									"type": "uniform",
+									"min": 0,
+									"max": 0.5
+								}
+							},
+							{
+								"type": "enchant_with_levels",
+								"levels": 30,
+								"options": "#dnv.magnet_fishing:treasure"
 							}
-						},
-						{
-							"function": "enchant_with_levels",
-							"levels": 30,
-							"options": "#dnv.magnet_fishing:treasure"
-						}
-					],
+						]
+					},
 					"name": "iron_hoe"
 				},
 				{
 					"type": "item",
 					"weight": 10,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.5
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_damage",
+								"damage": {
+									"type": "uniform",
+									"min": 0,
+									"max": 0.5
+								}
+							},
+							{
+								"type": "enchant_with_levels",
+								"levels": 30,
+								"options": "#dnv.magnet_fishing:treasure"
 							}
-						},
-						{
-							"function": "enchant_with_levels",
-							"levels": 30,
-							"options": "#dnv.magnet_fishing:treasure"
-						}
-					],
+						]
+					},
 					"name": "iron_sword"
 				},
 				{
 					"type": "item",
 					"weight": 25,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.5
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_damage",
+								"damage": {
+									"type": "uniform",
+									"min": 0,
+									"max": 0.5
+								}
+							},
+							{
+								"type": "enchant_with_levels",
+								"levels": 30,
+								"options": "#dnv.magnet_fishing:treasure"
 							}
-						},
-						{
-							"function": "enchant_with_levels",
-							"levels": 30,
-							"options": "#dnv.magnet_fishing:treasure"
-						}
-					],
+						]
+					},
 					"name": "shield"
 				},
 				{
 					"type": "item",
 					"weight": 10,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.4
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_damage",
+								"damage": {
+									"type": "uniform",
+									"min": 0,
+									"max": 0.4
+								}
+							},
+							{
+								"type": "enchant_with_levels",
+								"levels": 30,
+								"options": "#dnv.magnet_fishing:treasure"
 							}
-						},
-						{
-							"function": "enchant_with_levels",
-							"levels": 30,
-							"options": "#dnv.magnet_fishing:treasure"
-						}
-					],
+						]
+					},
 					"name": "crossbow"
 				},
 				{
 					"type": "item",
 					"weight": 25,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.25
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_damage",
+								"damage": {
+									"type": "uniform",
+									"min": 0,
+									"max": 0.25
+								}
+							},
+							{
+								"type": "enchant_with_levels",
+								"levels": 30,
+								"options": "#dnv.magnet_fishing:treasure"
 							}
-						},
-						{
-							"function": "enchant_with_levels",
-							"levels": 30,
-							"options": "#dnv.magnet_fishing:treasure"
-						}
-					],
+						]
+					},
 					"name": "bow"
 				},
 				{
 					"type": "item",
 					"weight": 40,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.25
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_damage",
+								"damage": {
+									"type": "uniform",
+									"min": 0,
+									"max": 0.25
+								}
+							},
+							{
+								"type": "enchant_with_levels",
+								"levels": 30,
+								"options": "#dnv.magnet_fishing:treasure"
+							},
+							{
+								"type": "set_components",
+								"components": {
+									"item_name": {
+										"translate": "dnv.magnet_fishing.item.magnet_fishing_rod",
+										"fallback": "Magnet Fishing Rod",
+										"italic": false
+									},
+									"lore": [
+										{
+											"text": "Daenvil's Magnet Fishing",
+											"color": "aqua",
+											"italic": true
+										}
+									],
+									"item_model": "dnv.magnet_fishing:magnet_fishing_rod"
+								}
 							}
-						},
-						{
-							"function": "enchant_with_levels",
-							"levels": 30,
-							"options": "#dnv.magnet_fishing:treasure"
-						},
-						{
-							"function": "set_components",
-							"components": {
-								"item_name": {
-									"translate": "dnv.magnet_fishing.item.magnet_fishing_rod",
-									"fallback": "Magnet Fishing Rod",
-									"italic": false
-								},
-								"lore": [
-									{
-										"text": "Daenvil's Magnet Fishing",
-										"color": "aqua",
-										"italic": true
-									}
-								],
-								"item_model": "dnv.magnet_fishing:magnet_fishing_rod"
-							}
-						}
-					],
+						]
+					},
 					"name": "fishing_rod"
 				},
 				{
 					"type": "item",
 					"weight": 100,
-					"functions": [
-						{
-							"function": "enchant_with_levels",
-							"levels": 30,
-							"options": "#dnv.magnet_fishing:treasure"
-						}
-					],
+					"modifier": {
+						"type": "enchant_with_levels",
+						"levels": 30,
+						"options": "#dnv.magnet_fishing:treasure"
+					},
 					"name": "book"
 				},
 				{
 					"type": "item",
 					"weight": 15,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.25
-							}
+					"modifier": {
+						"type": "set_damage",
+						"damage": {
+							"type": "uniform",
+							"min": 0,
+							"max": 0.25
 						}
-					],
+					},
 					"name": "trident"
 				}
 			]

@@ -24,7 +24,7 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegancraft:piglin_head"
+				"recipes": "dnv.vegancraft:piglin_head"
 			}
 		}
 	},

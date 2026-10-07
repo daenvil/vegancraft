@@ -21,12 +21,12 @@
 				]
 			}
 		},
-		"has_brown_mushroom": {
+		"has_item_tag_mushrooms": {
 			"trigger": "inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"items": "brown_mushroom"
+						"items": "#mushrooms"
 					}
 				]
 			}
@@ -44,14 +44,18 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegan_food:veggie_burger"
+				"recipes": "dnv.vegan_food:veggie_burger"
 			}
 		},
 		"interacted_with_cow": {
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "cow"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "cow"
+					}
 				}
 			}
 		},
@@ -59,7 +63,11 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "cow"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "cow"
+					}
 				}
 			}
 		},
@@ -67,7 +75,11 @@
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "pig"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "pig"
+					}
 				}
 			}
 		},
@@ -75,7 +87,11 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "pig"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "pig"
+					}
 				}
 			}
 		}
@@ -84,7 +100,7 @@
 		[
 			"has_bread",
 			"has_beetroot",
-			"has_brown_mushroom",
+			"has_item_tag_mushrooms",
 			"has_item_tag_dnv.vegan_food:nonhuman_mammal_meats",
 			"has_the_recipe",
 			"interacted_with_cow",

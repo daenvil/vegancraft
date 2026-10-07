@@ -1,0 +1,36 @@
+{
+	"type": "brewing",
+	"input": {
+		"item": "lingering_potion",
+		"potion_contents": {
+			"effects": {
+				"contains": [
+					{
+						"speed": {
+							"amplifier": 3,
+							"duration": 25600.0
+						}
+					}
+				]
+			}
+		}
+	},
+	"reagent": {
+		"item": "fermented_spider_eye"
+	},
+	"output": {
+		"id": "lingering_potion",
+		"components": {
+			"potion_contents": {
+				"custom_name": "dnv.vegancraft.sluggishness",
+				"custom_effects": [
+					{
+						"id": "slowness",
+						"amplifier": 3,
+						"duration": 25600.0
+					}
+				]
+			}
+		}
+	}
+}

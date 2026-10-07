@@ -14,7 +14,7 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegancraft:copper_horn_dream"
+				"recipes": "dnv.vegancraft:copper_horn_dream"
 			}
 		}
 	},

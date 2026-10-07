@@ -1,27 +1,16 @@
-# Daenvil's Vegancraft v1.7 (Full Datapack) for Minecraft 26.2+
-
-This datapack is a merged version of the following datapacks:
-
-- [Plant-based Foods v2.1.1](https://daenvil.github.io/MCDatapacks/plant-based_foods.html)
-- [Acacia Gum v1.4](https://daenvil.github.io/MCDatapacks/acacia_gum.html)
-- [Ethical Textiles v2.1.1](https://daenvil.github.io/MCDatapacks/ethical_Textiles.html)
-- [Plant Wax v2.2](https://daenvil.github.io/MCDatapacks/plant_wax.html)
-- [Magnet Fishing v2.2](https://daenvil.github.io/MCDatapacks/magnet_fishing.html)
-- [Hot Air Balloons v1.0](https://daenvil.github.io/MCDatapacks/balloons.html)
-
-And also contains additional content not present on those datapacks.
+# Daenvil's Vegancraft v1.8 (Full Datapack) for Minecraft 26.3+
 
 - This datapack was made by Daenvil, its official pages are:
 
   - On my website: https://daenvil.github.io/MCDatapacks/vegancraft.html
   - On GitHub: https://www.github.com/daenvil/vegancraft
 
-- This version was published on the 19th of July 2026. Check the webpages above for possible updates.
+- This version was published on the 7th of October 2026. Check the webpages above for possible updates.
 
 ## Installation
 
 - Drop the datapack zip file inside the "datapacks" folder of your world folder (<your minecraft folder>/saves/<your world>/datapacks/).
-- Drop the resourcepack zip file ("vegancraft-RP_v1.7.zip") inside the "resourcepacks" folder of your minecraft folder. If you don't have the resourcepack, download it from one of the webpages above.
+- Drop the resourcepack zip file ("vegancraft-RP_v1.8.zip") inside the "resourcepacks" folder of your minecraft folder. If you don't have the resourcepack, download it from one of the webpages above.
 
 ## Features
 

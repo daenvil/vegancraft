@@ -3,7 +3,7 @@
 		"crafted_copper_horn_vegan": {
 			"trigger": "recipe_crafted",
 			"conditions": {
-				"recipe_id": "dnv.vegancraft:copper_horn_dream",
+				"recipes": "dnv.vegancraft:copper_horn_dream",
 				"ingredients": [
 					{
 						"items": "goat_horn",

@@ -34,13 +34,13 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegan_food:vegan_cake"
+				"recipes": "dnv.vegan_food:vegan_cake"
 			}
 		},
 		"has_recipe_cake": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "cake"
+				"recipes": "cake"
 			}
 		}
 	},

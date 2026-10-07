@@ -2,115 +2,87 @@
 	"type": "fishing",
 	"pools": [
 		{
-			"conditions": [
-				{
-					"condition": "inverted",
-					"term": {
-						"condition": "any_of",
-						"terms": [
-							{
-								"condition": "match_tool",
-								"predicate": {
-									"components": {
-										"item_model": "dnv.magnet_fishing:magnet_fishing_rod"
-									}
-								}
-							},
-							{
-								"condition": "match_tool",
-								"predicate": {
-									"components": {
-										"item_model": "dnv.magnet_fishing:magnet_fishing_rod"
-									}
-								}
-							}
-						]
+			"condition": {
+				"type": "inverted",
+				"term": {
+					"type": "match_tool",
+					"predicate": {
+						"components": {
+							"item_model": "dnv.magnet_fishing:magnet_fishing_rod"
+						}
 					}
 				}
-			],
+			},
 			"rolls": 1,
 			"entries": [
 				{
 					"type": "loot_table",
 					"weight": 10,
-					"value": "minecraft:gameplay/fishing/junk"
+					"value": "minecraft:gameplay/fishing/junk",
+					"expand": false
 				},
 				{
 					"type": "loot_table",
-					"conditions": [
-						{
-							"condition": "entity_properties",
-							"entity": "this",
-							"predicate": {
-								"minecraft:type_specific/fishing_hook": {
-									"in_open_water": true
-								}
+					"condition": {
+						"type": "entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:type_specific/fishing_hook": {
+								"in_open_water": true
 							}
 						}
-					],
+					},
 					"weight": 5,
 					"quality": 2,
-					"value": "minecraft:gameplay/fishing/treasure"
+					"value": "minecraft:gameplay/fishing/treasure",
+					"expand": false
 				},
 				{
 					"type": "loot_table",
 					"weight": 85,
-					"value": "minecraft:gameplay/fishing/fish"
+					"value": "minecraft:gameplay/fishing/fish",
+					"expand": false
 				}
 			]
 		},
 		{
-			"conditions": [
-				{
-					"condition": "any_of",
-					"terms": [
-						{
-							"condition": "match_tool",
-							"predicate": {
-								"components": {
-									"item_model": "dnv.magnet_fishing:magnet_fishing_rod"
-								}
-							}
-						},
-						{
-							"condition": "match_tool",
-							"predicate": {
-								"components": {
-									"item_model": "dnv.magnet_fishing:magnet_fishing_rod"
-								}
-							}
-						}
-					]
+			"condition": {
+				"type": "match_tool",
+				"predicate": {
+					"components": {
+						"item_model": "dnv.magnet_fishing:magnet_fishing_rod"
+					}
 				}
-			],
+			},
 			"rolls": 1,
 			"entries": [
 				{
 					"type": "loot_table",
 					"weight": 10,
-					"value": "dnv.magnet_fishing:junk"
+					"value": "dnv.magnet_fishing:junk",
+					"expand": false
 				},
 				{
 					"type": "loot_table",
-					"conditions": [
-						{
-							"condition": "entity_properties",
-							"entity": "this",
-							"predicate": {
-								"minecraft:type_specific/fishing_hook": {
-									"in_open_water": true
-								}
+					"condition": {
+						"type": "entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:type_specific/fishing_hook": {
+								"in_open_water": true
 							}
 						}
-					],
+					},
 					"weight": 5,
 					"quality": 2,
-					"value": "dnv.magnet_fishing:treasure"
+					"value": "dnv.magnet_fishing:treasure",
+					"expand": false
 				},
 				{
 					"type": "loot_table",
 					"weight": 85,
-					"value": "dnv.magnet_fishing:pure_iron"
+					"value": "dnv.magnet_fishing:pure_iron",
+					"expand": false
 				}
 			]
 		}

@@ -22,17 +22,15 @@
 		"sulfur_cube_spawn_egg_used_on_block": {
 			"trigger": "item_used_on_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:match_tool",
-						"predicate": {
-							"items": "sulfur_cube_spawn_egg",
-							"components": {
-								"item_model": "dnv.sulfur_cubes:sulfur_cube"
-							}
+				"location": {
+					"type": "match_tool",
+					"predicate": {
+						"items": "sulfur_cube_spawn_egg",
+						"components": {
+							"item_model": "dnv.sulfur_cubes:sulfur_cube"
 						}
 					}
-				]
+				}
 			}
 		}
 	}

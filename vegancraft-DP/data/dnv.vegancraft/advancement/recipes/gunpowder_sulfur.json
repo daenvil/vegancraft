@@ -34,7 +34,7 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegancraft:gunpowder_sulfur"
+				"recipes": "dnv.vegancraft:gunpowder_sulfur"
 			}
 		},
 		"creeper_hurt_player": {

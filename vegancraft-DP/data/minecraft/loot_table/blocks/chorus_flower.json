@@ -6,18 +6,21 @@
 			"entries": [
 				{
 					"type": "item",
-					"conditions": [
-						{
-							"condition": "survives_explosion"
-						},
-						{
-							"condition": "entity_properties",
-							"entity": "this",
-							"predicate": {
+					"condition": {
+						"type": "all_of",
+						"terms": [
+							{
+								"type": "survives_explosion"
+							},
+							{
+								"type": "entity_properties",
+								"entity": "this",
+								"predicate": {
 
+								}
 							}
-						}
-					],
+						]
+					},
 					"weight": 1,
 					"name": "minecraft:chorus_flower"
 				}
@@ -28,94 +31,101 @@
 			"entries": [
 				{
 					"type": "item",
-					"conditions": [
-						{
-							"condition": "any_of",
-							"terms": [
-								{
-									"condition": "value_check",
-									"value": {
-										"type": "score",
-										"target": {
-											"type": "fixed",
-											"name": "#dnv"
+					"condition": {
+						"type": "all_of",
+						"terms": [
+							{
+								"type": "any_of",
+								"terms": [
+									{
+										"type": "int_value_check",
+										"value": {
+											"type": "score",
+											"target": {
+												"type": "fixed",
+												"name": "#dnv"
+											},
+											"score": "dnv.xp_from_crops_require_player"
 										},
-										"score": "dnv.xp_from_crops_require_player"
+										"test": 0
 									},
-									"range": 0
-								},
-								{
-									"condition": "all_of",
-									"terms": [
-										{
-											"condition": "entity_properties",
-											"entity": "this",
-											"predicate": {
+									{
+										"type": "all_of",
+										"terms": [
+											{
+												"type": "entity_properties",
+												"entity": "this",
+												"predicate": {
 
-											}
-										},
-										{
-											"condition": "entity_scores",
-											"entity": "this",
-											"scores": {
-												"dnv.xp_nerfer": {
-													"min": 0,
-													"max": {
-														"min": 200,
-														"max": 500
+												}
+											},
+											{
+												"type": "entity_scores",
+												"entity": "this",
+												"scores": {
+													"dnv.xp_nerfer": {
+														"min": 0,
+														"max": {
+															"type": "uniform",
+															"min": 200,
+															"max": 500
+														}
 													}
 												}
 											}
-										}
-									]
-								}
-							]
-						},
-						{
-							"condition": "value_check",
-							"value": {
-								"type": "score",
-								"target": {
-									"type": "fixed",
-									"name": "#dnv"
-								},
-								"score": "dnv.xp_from_crops_disabled"
+										]
+									}
+								]
 							},
-							"range": 0
-						},
-						{
-							"condition": "block_state_property",
-							"block": "chorus_flower",
-							"properties": {
-								"age": {
-									"min": "2"
-								}
-							}
-						}
-					],
-					"weight": 1,
-					"functions": [
-						{
-							"function": "set_components",
-							"components": {
-								"custom_data": {
-									"dnv.xp_orb": true
-								}
-							}
-						},
-						{
-							"function": "set_count",
-							"count": {
-								"type": "score",
-								"target": {
-									"type": "fixed",
-									"name": "#dnv"
+							{
+								"type": "int_value_check",
+								"value": {
+									"type": "score",
+									"target": {
+										"type": "fixed",
+										"name": "#dnv"
+									},
+									"score": "dnv.xp_from_crops_disabled"
 								},
-								"score": "dnv.xp_from_crops_multiplier",
-								"scale": 2.0
+								"test": 0
+							},
+							{
+								"type": "match_block",
+								"blocks": "chorus_flower",
+								"state": {
+									"age": {
+										"min": "2"
+									}
+								}
 							}
-						}
-					],
+						]
+					},
+					"weight": 1,
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_components",
+								"components": {
+									"custom_data": {
+										"dnv.xp_orb": true
+									}
+								}
+							},
+							{
+								"type": "set_count",
+								"count": {
+									"type": "score",
+									"target": {
+										"type": "fixed",
+										"name": "#dnv"
+									},
+									"score": "dnv.xp_from_crops_multiplier",
+									"scale": 2.0
+								}
+							}
+						]
+					},
 					"name": "emerald"
 				}
 			]
@@ -125,97 +135,104 @@
 			"entries": [
 				{
 					"type": "item",
-					"conditions": [
-						{
-							"condition": "any_of",
-							"terms": [
-								{
-									"condition": "value_check",
-									"value": {
-										"type": "score",
-										"target": {
-											"type": "fixed",
-											"name": "#dnv"
+					"condition": {
+						"type": "all_of",
+						"terms": [
+							{
+								"type": "any_of",
+								"terms": [
+									{
+										"type": "int_value_check",
+										"value": {
+											"type": "score",
+											"target": {
+												"type": "fixed",
+												"name": "#dnv"
+											},
+											"score": "dnv.xp_from_crops_require_player"
 										},
-										"score": "dnv.xp_from_crops_require_player"
+										"test": 0
 									},
-									"range": 0
-								},
-								{
-									"condition": "all_of",
-									"terms": [
-										{
-											"condition": "entity_properties",
-											"entity": "this",
-											"predicate": {
+									{
+										"type": "all_of",
+										"terms": [
+											{
+												"type": "entity_properties",
+												"entity": "this",
+												"predicate": {
 
-											}
-										},
-										{
-											"condition": "entity_scores",
-											"entity": "this",
-											"scores": {
-												"dnv.xp_nerfer": {
-													"min": 0,
-													"max": {
-														"min": 200,
-														"max": 500
+												}
+											},
+											{
+												"type": "entity_scores",
+												"entity": "this",
+												"scores": {
+													"dnv.xp_nerfer": {
+														"min": 0,
+														"max": {
+															"type": "uniform",
+															"min": 200,
+															"max": 500
+														}
 													}
 												}
 											}
-										}
-									]
-								}
-							]
-						},
-						{
-							"condition": "value_check",
-							"value": {
-								"type": "score",
-								"target": {
-									"type": "fixed",
-									"name": "#dnv"
-								},
-								"score": "dnv.xp_from_crops_disabled"
+										]
+									}
+								]
 							},
-							"range": 0
-						},
-						{
-							"condition": "random_chance",
-							"chance": 0.7
-						},
-						{
-							"condition": "block_state_property",
-							"block": "chorus_flower",
-							"properties": {
-								"age": {
-									"min": "2"
-								}
-							}
-						}
-					],
-					"weight": 1,
-					"functions": [
-						{
-							"function": "set_components",
-							"components": {
-								"custom_data": {
-									"dnv.xp_orb": true
-								}
-							}
-						},
-						{
-							"function": "set_count",
-							"count": {
-								"type": "score",
-								"target": {
-									"type": "fixed",
-									"name": "#dnv"
+							{
+								"type": "int_value_check",
+								"value": {
+									"type": "score",
+									"target": {
+										"type": "fixed",
+										"name": "#dnv"
+									},
+									"score": "dnv.xp_from_crops_disabled"
 								},
-								"score": "dnv.xp_from_crops_multiplier"
+								"test": 0
+							},
+							{
+								"type": "random_chance",
+								"chance": 0.7
+							},
+							{
+								"type": "match_block",
+								"blocks": "chorus_flower",
+								"state": {
+									"age": {
+										"min": "2"
+									}
+								}
 							}
-						}
-					],
+						]
+					},
+					"weight": 1,
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_components",
+								"components": {
+									"custom_data": {
+										"dnv.xp_orb": true
+									}
+								}
+							},
+							{
+								"type": "set_count",
+								"count": {
+									"type": "score",
+									"target": {
+										"type": "fixed",
+										"name": "#dnv"
+									},
+									"score": "dnv.xp_from_crops_multiplier"
+								}
+							}
+						]
+					},
 					"name": "emerald"
 				}
 			]

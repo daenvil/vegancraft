@@ -34,14 +34,18 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegan_food:seitan_steak_hay"
+				"recipes": "dnv.vegan_food:seitan_steak_hay"
 			}
 		},
 		"interacted_with_cow": {
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "cow"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "cow"
+					}
 				}
 			}
 		},
@@ -49,7 +53,11 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "cow"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "cow"
+					}
 				}
 			}
 		},
@@ -57,7 +65,11 @@
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "pig"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "pig"
+					}
 				}
 			}
 		},
@@ -65,7 +77,11 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "pig"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "pig"
+					}
 				}
 			}
 		}

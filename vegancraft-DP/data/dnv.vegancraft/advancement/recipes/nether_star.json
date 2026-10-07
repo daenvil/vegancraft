@@ -24,7 +24,7 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegancraft:nether_star"
+				"recipes": "dnv.vegancraft:nether_star"
 			}
 		},
 		"wither_hurt_player": {

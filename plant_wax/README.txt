@@ -1,18 +1,17 @@
-# Plant Wax (v2.4.1, for Minecraft 26.2+)
+# Plant Wax (v2.5, for Minecraft 26.3+)
 
 A datapack that adds Plant Wax (a retextured Honeycomb). Obtained by smelting dead bushes or jungle leaves.
 
 - This datapack was made by Daenvil, its official pages are:
 
-  - On PlanetMinecraft: https://www.planetminecraft.com/data-pack/plant-wax/
   - On my website: https://daenvil.github.io/MCDatapacks/plant_wax.html
 
-- This version was published on the 19th of July 2026. Check the webpages above for possible updates.
+- This version was published on the 7th of October 2026. Check the webpages above for possible updates.
 
 ## Installation
 
 - Drop the datapack zip file inside the "datapacks" folder of your world folder (<your minecraft folder>/saves/<your world>/datapacks/).
-- Drop the resourcepack zip file ("vegancraft-RP_v1.7.zip") inside the "resourcepacks" folder of your minecraft folder. If you don't have the resourcepack, download it from one of the webpages above.
+- Drop the resourcepack zip file ("vegancraft-RP_v1.8.zip") inside the "resourcepacks" folder of your minecraft folder. If you don't have the resourcepack, download it from one of the webpages above.
 
 ## Features
 
@@ -24,7 +23,7 @@ You are allowed to:
 
 - Download, use, and edit this datapack* for personal use.
 - Use this datapack or variations of it in a Minecraft server.
-- Publish audiovisual content that uses this datapack or variations of it (e.g. gameplay videos on online platforms), as long as you acknowledge me (Daenvil) as the author of this datapack and provide a link to its page on PlanetMinecraft (https://www.planetminecraft.com/data-pack/plant-wax/) or to its webpage (https://daenvil.github.io/MCDatapacks/plant_wax.html).
+- Publish audiovisual content that uses this datapack or variations of it (e.g. gameplay videos on online platforms), as long as you acknowledge me (Daenvil) as the author of this datapack and provide a link to its webpage (https://daenvil.github.io/MCDatapacks/plant_wax.html).
 - Share this datapack or variations of it privately (e.g. transferring the files to friends), as long as there is no financial profit involved, the files are not publicly available, and this text file is included with the files you share.
 
 You are not allowed to:

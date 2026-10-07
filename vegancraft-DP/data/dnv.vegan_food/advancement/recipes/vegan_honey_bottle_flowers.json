@@ -34,7 +34,7 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegan_food:vegan_honey_bottle_flowers"
+				"recipes": "dnv.vegan_food:vegan_honey_bottle_flowers"
 			}
 		},
 		"bee_hurt_player": {

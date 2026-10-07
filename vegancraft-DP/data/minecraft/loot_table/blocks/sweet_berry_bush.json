@@ -1,39 +1,38 @@
 {
 	"type": "block",
-	"functions": [
-		{
-			"function": "minecraft:explosion_decay"
-		}
-	],
+	"modifier": {
+		"type": "explosion_decay"
+	},
 	"pools": [
 		{
-			"conditions": [
-				{
-					"condition": "block_state_property",
-					"block": "minecraft:sweet_berry_bush",
-					"properties": {
-						"age": "3"
-					}
+			"condition": {
+				"type": "match_block",
+				"blocks": "minecraft:sweet_berry_bush",
+				"state": {
+					"age": "3"
 				}
-			],
-			"functions": [
-				{
-					"count": {
-						"type": "minecraft:uniform",
-						"max": 3.0,
-						"min": 2.0
+			},
+			"modifier": {
+				"type": "sequence",
+				"functions": [
+					{
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"min": 2,
+							"max": 3
+						}
 					},
-					"function": "minecraft:set_count"
-				},
-				{
-					"enchantment": "minecraft:fortune",
-					"formula": "minecraft:uniform_bonus_count",
-					"function": "minecraft:apply_bonus",
-					"parameters": {
-						"bonusMultiplier": 1.0
+					{
+						"type": "apply_bonus",
+						"enchantment": "minecraft:fortune",
+						"formula": "uniform_bonus_count",
+						"parameters": {
+							"bonusMultiplier": 1.0
+						}
 					}
-				}
-			],
+				]
+			},
 			"rolls": 1,
 			"entries": [
 				{
@@ -44,33 +43,34 @@
 			]
 		},
 		{
-			"conditions": [
-				{
-					"condition": "block_state_property",
-					"block": "minecraft:sweet_berry_bush",
-					"properties": {
-						"age": "2"
-					}
+			"condition": {
+				"type": "match_block",
+				"blocks": "minecraft:sweet_berry_bush",
+				"state": {
+					"age": "2"
 				}
-			],
-			"functions": [
-				{
-					"count": {
-						"type": "minecraft:uniform",
-						"max": 2.0,
-						"min": 1.0
+			},
+			"modifier": {
+				"type": "sequence",
+				"functions": [
+					{
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"min": 1,
+							"max": 2
+						}
 					},
-					"function": "minecraft:set_count"
-				},
-				{
-					"enchantment": "minecraft:fortune",
-					"formula": "minecraft:uniform_bonus_count",
-					"function": "minecraft:apply_bonus",
-					"parameters": {
-						"bonusMultiplier": 1.0
+					{
+						"type": "apply_bonus",
+						"enchantment": "minecraft:fortune",
+						"formula": "uniform_bonus_count",
+						"parameters": {
+							"bonusMultiplier": 1.0
+						}
 					}
-				}
-			],
+				]
+			},
 			"rolls": 1,
 			"entries": [
 				{
@@ -85,91 +85,98 @@
 			"entries": [
 				{
 					"type": "item",
-					"conditions": [
-						{
-							"condition": "any_of",
-							"terms": [
-								{
-									"condition": "value_check",
-									"value": {
-										"type": "score",
-										"target": {
-											"type": "fixed",
-											"name": "#dnv"
+					"condition": {
+						"type": "all_of",
+						"terms": [
+							{
+								"type": "any_of",
+								"terms": [
+									{
+										"type": "int_value_check",
+										"value": {
+											"type": "score",
+											"target": {
+												"type": "fixed",
+												"name": "#dnv"
+											},
+											"score": "dnv.xp_from_crops_require_player"
 										},
-										"score": "dnv.xp_from_crops_require_player"
+										"test": 0
 									},
-									"range": 0
-								},
-								{
-									"condition": "all_of",
-									"terms": [
-										{
-											"condition": "entity_properties",
-											"entity": "this",
-											"predicate": {
+									{
+										"type": "all_of",
+										"terms": [
+											{
+												"type": "entity_properties",
+												"entity": "this",
+												"predicate": {
 
-											}
-										},
-										{
-											"condition": "entity_scores",
-											"entity": "this",
-											"scores": {
-												"dnv.xp_nerfer": {
-													"min": 0,
-													"max": {
-														"min": 200,
-														"max": 500
+												}
+											},
+											{
+												"type": "entity_scores",
+												"entity": "this",
+												"scores": {
+													"dnv.xp_nerfer": {
+														"min": 0,
+														"max": {
+															"type": "uniform",
+															"min": 200,
+															"max": 500
+														}
 													}
 												}
 											}
-										}
-									]
-								}
-							]
-						},
-						{
-							"condition": "value_check",
-							"value": {
-								"type": "score",
-								"target": {
-									"type": "fixed",
-									"name": "#dnv"
-								},
-								"score": "dnv.xp_from_crops_disabled"
+										]
+									}
+								]
 							},
-							"range": 0
-						},
-						{
-							"condition": "block_state_property",
-							"block": "sweet_berry_bush",
-							"properties": {
-								"age": "1"
-							}
-						}
-					],
-					"weight": 1,
-					"functions": [
-						{
-							"function": "set_components",
-							"components": {
-								"custom_data": {
-									"dnv.xp_orb": true
+							{
+								"type": "int_value_check",
+								"value": {
+									"type": "score",
+									"target": {
+										"type": "fixed",
+										"name": "#dnv"
+									},
+									"score": "dnv.xp_from_crops_disabled"
+								},
+								"test": 0
+							},
+							{
+								"type": "match_block",
+								"blocks": "sweet_berry_bush",
+								"state": {
+									"age": "1"
 								}
 							}
-						},
-						{
-							"function": "set_count",
-							"count": {
-								"type": "score",
-								"target": {
-									"type": "fixed",
-									"name": "#dnv"
-								},
-								"score": "dnv.xp_from_crops_multiplier"
+						]
+					},
+					"weight": 1,
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_components",
+								"components": {
+									"custom_data": {
+										"dnv.xp_orb": true
+									}
+								}
+							},
+							{
+								"type": "set_count",
+								"count": {
+									"type": "score",
+									"target": {
+										"type": "fixed",
+										"name": "#dnv"
+									},
+									"score": "dnv.xp_from_crops_multiplier"
+								}
 							}
-						}
-					],
+						]
+					},
 					"name": "emerald"
 				}
 			]

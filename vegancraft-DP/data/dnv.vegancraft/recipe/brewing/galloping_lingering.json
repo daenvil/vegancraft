@@ -1,0 +1,27 @@
+{
+	"type": "brewing",
+	"input": {
+		"item": "lingering_potion",
+		"potion_contents": {
+			"potions": "awkward"
+		}
+	},
+	"reagent": {
+		"item": "apple"
+	},
+	"output": {
+		"id": "lingering_potion",
+		"components": {
+			"potion_contents": {
+				"custom_name": "dnv.vegancraft.galloping",
+				"custom_effects": [
+					{
+						"id": "speed",
+						"amplifier": 3,
+						"duration": 9600
+					}
+				]
+			}
+		}
+	}
+}

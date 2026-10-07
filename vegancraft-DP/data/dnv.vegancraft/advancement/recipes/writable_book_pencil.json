@@ -34,13 +34,13 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegancraft:writable_book_pencil"
+				"recipes": "dnv.vegancraft:writable_book_pencil"
 			}
 		},
 		"has_recipe_writable_book": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "writable_book"
+				"recipes": "writable_book"
 			}
 		}
 	},

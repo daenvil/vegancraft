@@ -1,0 +1,36 @@
+{
+	"type": "brewing",
+	"input": {
+		"item": "splash_potion",
+		"potion_contents": {
+			"effects": {
+				"contains": [
+					{
+						"speed": {
+							"amplifier": 4,
+							"duration": 4800.0
+						}
+					}
+				]
+			}
+		}
+	},
+	"reagent": {
+		"item": "fermented_spider_eye"
+	},
+	"output": {
+		"id": "splash_potion",
+		"components": {
+			"potion_contents": {
+				"custom_name": "dnv.vegancraft.sluggishness",
+				"custom_effects": [
+					{
+						"id": "slowness",
+						"amplifier": 4,
+						"duration": 4800.0
+					}
+				]
+			}
+		}
+	}
+}

@@ -19,7 +19,7 @@
 		"crafted_piglin_head": {
 			"trigger": "recipe_crafted",
 			"conditions": {
-				"recipe_id": "dnv.vegancraft:piglin_head"
+				"recipes": "dnv.vegancraft:piglin_head"
 			}
 		}
 	}

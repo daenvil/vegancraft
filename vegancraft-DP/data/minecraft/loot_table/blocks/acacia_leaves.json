@@ -9,54 +9,36 @@
 					"children": [
 						{
 							"type": "item",
-							"conditions": [
-								{
-									"condition": "any_of",
-									"terms": [
-										{
-											"condition": "match_tool",
-											"predicate": {
-												"items": "minecraft:shears"
-											}
-										},
-										{
-											"condition": "match_tool",
-											"predicate": {
-												"predicates": {
-													"minecraft:enchantments": [
-														{
-															"enchantments": "minecraft:silk_touch",
-															"levels": {
-																"min": 1.0
-															}
-														}
-													]
-												}
-											}
-										}
-									]
-								}
-							],
+							"condition": {
+								"type": "any_of",
+								"terms": [
+									"minecraft:tool/can_shear",
+									"minecraft:tool/can_silk_touch"
+								]
+							},
 							"weight": 1,
 							"name": "minecraft:acacia_leaves"
 						},
 						{
 							"type": "item",
-							"conditions": [
-								{
-									"condition": "survives_explosion"
-								},
-								{
-									"condition": "table_bonus",
-									"enchantment": "minecraft:fortune",
-									"chances": [
-										0.05,
-										0.0625,
-										0.083333336,
-										0.1
-									]
-								}
-							],
+							"condition": {
+								"type": "all_of",
+								"terms": [
+									{
+										"type": "survives_explosion"
+									},
+									{
+										"type": "table_bonus",
+										"enchantment": "minecraft:fortune",
+										"chances": [
+											0.05,
+											0.0625,
+											0.083333336,
+											0.1
+										]
+									}
+								]
+							},
 							"weight": 1,
 							"name": "minecraft:acacia_sapling"
 						}
@@ -65,67 +47,48 @@
 			]
 		},
 		{
-			"conditions": [
-				{
-					"condition": "inverted",
-					"term": {
-						"condition": "any_of",
-						"terms": [
-							{
-								"condition": "match_tool",
-								"predicate": {
-									"items": "minecraft:shears"
-								}
-							},
-							{
-								"condition": "match_tool",
-								"predicate": {
-									"predicates": {
-										"minecraft:enchantments": [
-											{
-												"enchantments": "minecraft:silk_touch",
-												"levels": {
-													"min": 1.0
-												}
-											}
-										]
-									}
-								}
-							}
-						]
-					}
+			"condition": {
+				"type": "inverted",
+				"term": {
+					"type": "any_of",
+					"terms": [
+						"minecraft:tool/can_shear",
+						"minecraft:tool/can_silk_touch"
+					]
 				}
-			],
+			},
 			"rolls": 1,
 			"entries": [
 				{
 					"type": "item",
-					"conditions": [
-						{
-							"condition": "table_bonus",
-							"enchantment": "minecraft:fortune",
-							"chances": [
-								0.02,
-								0.022222223,
-								0.025,
-								0.033333335,
-								0.1
-							]
-						}
-					],
+					"condition": {
+						"type": "table_bonus",
+						"enchantment": "minecraft:fortune",
+						"chances": [
+							0.02,
+							0.022222223,
+							0.025,
+							0.033333335,
+							0.1
+						]
+					},
 					"weight": 1,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 2
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_count",
+								"count": {
+									"type": "uniform",
+									"min": 1,
+									"max": 2
+								}
+							},
+							{
+								"type": "explosion_decay"
 							}
-						},
-						{
-							"function": "explosion_decay"
-						}
-					],
+						]
+					},
 					"name": "minecraft:stick"
 				}
 			]
@@ -135,95 +98,102 @@
 			"entries": [
 				{
 					"type": "item",
-					"conditions": [
-						{
-							"condition": "any_of",
-							"terms": [
-								{
-									"condition": "value_check",
-									"value": {
-										"type": "score",
-										"target": {
-											"type": "fixed",
-											"name": "#dnv"
+					"condition": {
+						"type": "all_of",
+						"terms": [
+							{
+								"type": "any_of",
+								"terms": [
+									{
+										"type": "int_value_check",
+										"value": {
+											"type": "score",
+											"target": {
+												"type": "fixed",
+												"name": "#dnv"
+											},
+											"score": "dnv.xp_from_crops_require_player"
 										},
-										"score": "dnv.xp_from_crops_require_player"
+										"test": 0
 									},
-									"range": 0
-								},
-								{
-									"condition": "all_of",
-									"terms": [
-										{
-											"condition": "entity_properties",
-											"entity": "this",
-											"predicate": {
+									{
+										"type": "all_of",
+										"terms": [
+											{
+												"type": "entity_properties",
+												"entity": "this",
+												"predicate": {
 
-											}
-										},
-										{
-											"condition": "entity_scores",
-											"entity": "this",
-											"scores": {
-												"dnv.xp_nerfer": {
-													"min": 0,
-													"max": {
-														"min": 200,
-														"max": 500
+												}
+											},
+											{
+												"type": "entity_scores",
+												"entity": "this",
+												"scores": {
+													"dnv.xp_nerfer": {
+														"min": 0,
+														"max": {
+															"type": "uniform",
+															"min": 200,
+															"max": 500
+														}
 													}
 												}
 											}
-										}
-									]
-								}
-							]
-						},
-						{
-							"condition": "value_check",
-							"value": {
-								"type": "score",
-								"target": {
-									"type": "fixed",
-									"name": "#dnv"
-								},
-								"score": "dnv.xp_from_crops_disabled"
+										]
+									}
+								]
 							},
-							"range": 0
-						},
-						{
-							"condition": "random_chance",
-							"chance": 0.11
-						},
-						{
-							"condition": "block_state_property",
-							"block": "acacia_leaves",
-							"properties": {
-								"persistent": "false"
-							}
-						}
-					],
-					"weight": 1,
-					"functions": [
-						{
-							"function": "set_components",
-							"components": {
-								"custom_data": {
-									"dnv.xp_orb": true
+							{
+								"type": "int_value_check",
+								"value": {
+									"type": "score",
+									"target": {
+										"type": "fixed",
+										"name": "#dnv"
+									},
+									"score": "dnv.xp_from_crops_disabled"
+								},
+								"test": 0
+							},
+							{
+								"type": "random_chance",
+								"chance": 0.11
+							},
+							{
+								"type": "match_block",
+								"blocks": "acacia_leaves",
+								"state": {
+									"persistent": "false"
 								}
 							}
-						},
-						{
-							"function": "set_count",
-							"count": {
-								"type": "score",
-								"target": {
-									"type": "fixed",
-									"name": "#dnv"
-								},
-								"score": "dnv.xp_from_crops_multiplier"
+						]
+					},
+					"weight": 1,
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_components",
+								"components": {
+									"custom_data": {
+										"dnv.xp_orb": true
+									}
+								}
+							},
+							{
+								"type": "set_count",
+								"count": {
+									"type": "score",
+									"target": {
+										"type": "fixed",
+										"name": "#dnv"
+									},
+									"score": "dnv.xp_from_crops_multiplier"
+								}
 							}
-						}
-					],
+						]
+					},
 					"name": "emerald"
 				}
 			]

@@ -14,14 +14,18 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.ethical_textiles:brush_string"
+				"recipes": "dnv.ethical_textiles:brush_string"
 			}
 		},
 		"player_hurt_chicken": {
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "chicken"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "chicken"
+					}
 				}
 			}
 		},
@@ -29,7 +33,11 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "parrot"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "parrot"
+					}
 				}
 			}
 		},
@@ -49,7 +57,7 @@
 		"has_recipe_brush": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "brush"
+				"recipes": "brush"
 			}
 		}
 	},

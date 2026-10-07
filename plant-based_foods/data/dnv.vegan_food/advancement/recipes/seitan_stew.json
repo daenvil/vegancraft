@@ -14,19 +14,17 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegan_food:seitan_stew"
+				"recipes": "dnv.vegan_food:seitan_stew"
 			}
 		},
 		"has_recipe_rabbit_stew_brown_mushroom": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "rabbit_stew_brown_mushroom"
-			}
-		},
-		"has_recipe_rabbit_stew_red_mushroom": {
-			"trigger": "recipe_unlocked",
-			"conditions": {
-				"recipe": "rabbit_stew_red_mushroom"
+				"recipes": [
+					"rabbit_stew_from_brown_mushroom",
+					"rabbit_stew_from_red_mushroom",
+					"rabbit_stew_from_shelf_mushroom"
+				]
 			}
 		},
 		"has_vegan_steak": {
@@ -46,7 +44,11 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "rabbit"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "rabbit"
+					}
 				}
 			}
 		}
@@ -56,7 +58,6 @@
 			"has_rabbit_stew",
 			"has_the_recipe",
 			"has_recipe_rabbit_stew_brown_mushroom",
-			"has_recipe_rabbit_stew_red_mushroom",
 			"has_vegan_steak",
 			"player_hurt_rabbit"
 		]

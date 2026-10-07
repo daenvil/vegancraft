@@ -20,31 +20,31 @@
 		"crafted_creeper_head": {
 			"trigger": "recipe_crafted",
 			"conditions": {
-				"recipe_id": "dnv.vegancraft:creeper_head"
+				"recipes": "dnv.vegancraft:creeper_head"
 			}
 		},
 		"crafted_skeleton_skull": {
 			"trigger": "recipe_crafted",
 			"conditions": {
-				"recipe_id": "dnv.vegancraft:skeleton_skull"
+				"recipes": "dnv.vegancraft:skeleton_skull"
 			}
 		},
 		"crafted_zombie_head": {
 			"trigger": "recipe_crafted",
 			"conditions": {
-				"recipe_id": "dnv.vegancraft:zombie_head"
+				"recipes": "dnv.vegancraft:zombie_head"
 			}
 		},
 		"crafted_wither_skeleton_skull": {
 			"trigger": "recipe_crafted",
 			"conditions": {
-				"recipe_id": "dnv.vegancraft:wither_skeleton_skull"
+				"recipes": "dnv.vegancraft:wither_skeleton_skull"
 			}
 		},
 		"crafted_piglin_head": {
 			"trigger": "recipe_crafted",
 			"conditions": {
-				"recipe_id": "dnv.vegancraft:piglin_head"
+				"recipes": "dnv.vegancraft:piglin_head"
 			}
 		}
 	},

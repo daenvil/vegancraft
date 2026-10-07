@@ -34,13 +34,13 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.balloons:pink_balloon"
+				"recipes": "dnv.balloons:pink_balloon"
 			}
 		},
 		"has_recipe_dried_ghast": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dried_ghast"
+				"recipes": "dried_ghast"
 			}
 		},
 		"ghast_hurt_player": {
@@ -57,7 +57,11 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "ghast"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "ghast"
+					}
 				}
 			}
 		},
@@ -65,37 +69,33 @@
 			"trigger": "using_item",
 			"conditions": {
 				"item": {
-					"items": "spyglass",
-					"player": [
-						{
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"type_specific/player": {
-									"looking_at": {
-										"type": "minecraft:ghast"
-									}
-								}
+					"items": "spyglass"
+				},
+				"player": {
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific/player": {
+							"looking_at": {
+								"entity_type": "ghast"
 							}
 						}
-					]
+					}
 				}
 			}
 		},
 		"started_riding_happy_ghast": {
 			"trigger": "started_riding",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"vehicle": {
-								"entity_type": "happy_ghast"
-							}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"vehicle": {
+							"entity_type": "happy_ghast"
 						}
 					}
-				]
+				}
 			}
 		}
 	},

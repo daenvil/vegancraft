@@ -19,7 +19,7 @@
 		"crafted_bow": {
 			"trigger": "recipe_crafted",
 			"conditions": {
-				"recipe_id": "bow",
+				"recipes": "bow",
 				"ingredients": [
 					{
 						"items": "string",

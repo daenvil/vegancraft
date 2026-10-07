@@ -44,20 +44,24 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.ethical_textiles:jungle_bed"
+				"recipes": "dnv.ethical_textiles:jungle_bed"
 			}
 		},
 		"has_recipe_white_bed": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "white_bed"
+				"recipes": "white_bed"
 			}
 		},
 		"interacted_with_sheep": {
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "sheep"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "sheep"
+					}
 				}
 			}
 		},
@@ -65,7 +69,11 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "sheep"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "sheep"
+					}
 				}
 			}
 		}

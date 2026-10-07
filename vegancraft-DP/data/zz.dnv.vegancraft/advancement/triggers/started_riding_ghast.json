@@ -3,17 +3,15 @@
 		"started_riding_happy_ghast": {
 			"trigger": "started_riding",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"vehicle": {
-								"entity_type": "happy_ghast"
-							}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"vehicle": {
+							"entity_type": "happy_ghast"
 						}
 					}
-				]
+				}
 			}
 		}
 	},

@@ -1,0 +1,32 @@
+name: Add data and resource pack zip files to release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create zip files for top-level folders
+        run: |
+          while IFS= read -r -d '' folder; do
+            folder_name="${folder#./}"
+            if [[ "$folder_name" == "vegancraft-DP" || "$folder_name" == "vegancraft-RP" ]]; then
+              version="$GITHUB_REF_NAME"
+            else
+              version=$(jq -er '[.pack.description.text, (.pack.description.extra[]?.text // empty)] | join("") | capture("(?<version>v[0-9]+([.][0-9]+)*)").version' "$folder/pack.mcmeta")
+            fi
+            file="$RUNNER_TEMP/${folder_name}_${version}.zip"
+            (cd "$folder" && zip -qr "$file" .)
+          done < <(find . -mindepth 1 -maxdepth 1 -type d ! -name '.*' -print0)
+
+      - name: Upload zip files to release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "$GITHUB_REF_NAME" "$RUNNER_TEMP"/*.zip --clobber

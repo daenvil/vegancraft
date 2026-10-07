@@ -4,7 +4,11 @@
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "happy_ghast"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "happy_ghast"
+					}
 				},
 				"item": {
 					"items": "happy_ghast_spawn_egg",

@@ -34,7 +34,7 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegancraft:breezy_rod"
+				"recipes": "dnv.vegancraft:breezy_rod"
 			}
 		},
 		"breeze_hurt_player": {

@@ -4,17 +4,15 @@
 		"visited_mangrove_swamp": {
 			"trigger": "location",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"location": {
-								"biomes": "minecraft:mangrove_swamp"
-							}
+				"player": {
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "minecraft:mangrove_swamp"
 						}
 					}
-				]
+				}
 			}
 		},
 		"has_shroomlight": {
@@ -61,7 +59,11 @@
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "frog"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "frog"
+					}
 				}
 			}
 		}

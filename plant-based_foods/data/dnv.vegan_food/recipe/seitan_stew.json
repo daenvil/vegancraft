@@ -6,7 +6,7 @@
 		"cooked_beef",
 		"bowl",
 		"carrot",
-		"#zz.dnv.core:mushrooms"
+		"#mushrooms"
 	],
 	"result": {
 		"id": "rabbit_stew",

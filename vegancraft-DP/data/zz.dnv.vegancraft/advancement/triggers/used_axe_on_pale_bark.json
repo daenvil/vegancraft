@@ -3,22 +3,25 @@
 		"#axes_used_on_#zz.dnv.core:pale_oak_bark": {
 			"trigger": "item_used_on_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:match_tool",
-						"predicate": {
-							"items": "#axes"
-						}
-					},
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": "#zz.dnv.core:pale_oak_bark"
+				"location": {
+					"type": "all_of",
+					"terms": [
+						{
+							"type": "match_tool",
+							"predicate": {
+								"items": "#axes"
+							}
+						},
+						{
+							"type": "location_check",
+							"predicate": {
+								"block": {
+									"blocks": "#zz.dnv.core:pale_oak_bark"
+								}
 							}
 						}
-					}
-				]
+					]
+				}
 			}
 		}
 	},

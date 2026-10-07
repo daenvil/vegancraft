@@ -14,7 +14,7 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegancraft:feathery_membrane"
+				"recipes": "dnv.vegancraft:feathery_membrane"
 			}
 		},
 		"phantom_hurt_player": {
@@ -31,7 +31,11 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "phantom"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "phantom"
+					}
 				}
 			}
 		},

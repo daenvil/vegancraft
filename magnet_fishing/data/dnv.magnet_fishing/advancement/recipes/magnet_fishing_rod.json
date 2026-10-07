@@ -24,7 +24,7 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.magnet_fishing:magnet_fishing_rod"
+				"recipes": "dnv.magnet_fishing:magnet_fishing_rod"
 			}
 		}
 	},

@@ -1,10 +1,8 @@
 {
 	"type": "block",
-	"functions": [
-		{
-			"function": "minecraft:explosion_decay"
-		}
-	],
+	"modifier": {
+		"type": "explosion_decay"
+	},
 	"pools": [
 		{
 			"rolls": 1,
@@ -17,55 +15,47 @@
 			]
 		},
 		{
-			"conditions": [
-				{
-					"condition": "block_state_property",
-					"block": "minecraft:potatoes",
-					"properties": {
-						"age": "7"
-					}
+			"condition": {
+				"type": "match_block",
+				"blocks": "minecraft:potatoes",
+				"state": {
+					"age": "7"
 				}
-			],
+			},
 			"rolls": 1,
 			"entries": [
 				{
 					"type": "item",
 					"weight": 1,
-					"functions": [
-						{
-							"function": "apply_bonus",
-							"enchantment": "minecraft:fortune",
-							"formula": "binomial_with_bonus_count",
-							"parameters": {
-								"extra": 3,
-								"probability": 0.5714286
-							}
+					"modifier": {
+						"type": "apply_bonus",
+						"enchantment": "minecraft:fortune",
+						"formula": "binomial_with_bonus_count",
+						"parameters": {
+							"extra": 3,
+							"probability": 0.5714286
 						}
-					],
+					},
 					"name": "minecraft:potato"
 				}
 			]
 		},
 		{
-			"conditions": [
-				{
-					"condition": "block_state_property",
-					"block": "minecraft:potatoes",
-					"properties": {
-						"age": "7"
-					}
+			"condition": {
+				"type": "match_block",
+				"blocks": "minecraft:potatoes",
+				"state": {
+					"age": "7"
 				}
-			],
+			},
 			"rolls": 1,
 			"entries": [
 				{
 					"type": "item",
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.02
-						}
-					],
+					"condition": {
+						"type": "random_chance",
+						"chance": 0.02
+					},
 					"weight": 1,
 					"name": "minecraft:poisonous_potato"
 				}
@@ -76,91 +66,98 @@
 			"entries": [
 				{
 					"type": "item",
-					"conditions": [
-						{
-							"condition": "any_of",
-							"terms": [
-								{
-									"condition": "value_check",
-									"value": {
-										"type": "score",
-										"target": {
-											"type": "fixed",
-											"name": "#dnv"
+					"condition": {
+						"type": "all_of",
+						"terms": [
+							{
+								"type": "any_of",
+								"terms": [
+									{
+										"type": "int_value_check",
+										"value": {
+											"type": "score",
+											"target": {
+												"type": "fixed",
+												"name": "#dnv"
+											},
+											"score": "dnv.xp_from_crops_require_player"
 										},
-										"score": "dnv.xp_from_crops_require_player"
+										"test": 0
 									},
-									"range": 0
-								},
-								{
-									"condition": "all_of",
-									"terms": [
-										{
-											"condition": "entity_properties",
-											"entity": "this",
-											"predicate": {
+									{
+										"type": "all_of",
+										"terms": [
+											{
+												"type": "entity_properties",
+												"entity": "this",
+												"predicate": {
 
-											}
-										},
-										{
-											"condition": "entity_scores",
-											"entity": "this",
-											"scores": {
-												"dnv.xp_nerfer": {
-													"min": 0,
-													"max": {
-														"min": 200,
-														"max": 500
+												}
+											},
+											{
+												"type": "entity_scores",
+												"entity": "this",
+												"scores": {
+													"dnv.xp_nerfer": {
+														"min": 0,
+														"max": {
+															"type": "uniform",
+															"min": 200,
+															"max": 500
+														}
 													}
 												}
 											}
-										}
-									]
-								}
-							]
-						},
-						{
-							"condition": "value_check",
-							"value": {
-								"type": "score",
-								"target": {
-									"type": "fixed",
-									"name": "#dnv"
-								},
-								"score": "dnv.xp_from_crops_disabled"
+										]
+									}
+								]
 							},
-							"range": 0
-						},
-						{
-							"condition": "block_state_property",
-							"block": "potatoes",
-							"properties": {
-								"age": "7"
-							}
-						}
-					],
-					"weight": 1,
-					"functions": [
-						{
-							"function": "set_components",
-							"components": {
-								"custom_data": {
-									"dnv.xp_orb": true
+							{
+								"type": "int_value_check",
+								"value": {
+									"type": "score",
+									"target": {
+										"type": "fixed",
+										"name": "#dnv"
+									},
+									"score": "dnv.xp_from_crops_disabled"
+								},
+								"test": 0
+							},
+							{
+								"type": "match_block",
+								"blocks": "potatoes",
+								"state": {
+									"age": "7"
 								}
 							}
-						},
-						{
-							"function": "set_count",
-							"count": {
-								"type": "score",
-								"target": {
-									"type": "fixed",
-									"name": "#dnv"
-								},
-								"score": "dnv.xp_from_crops_multiplier"
+						]
+					},
+					"weight": 1,
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_components",
+								"components": {
+									"custom_data": {
+										"dnv.xp_orb": true
+									}
+								}
+							},
+							{
+								"type": "set_count",
+								"count": {
+									"type": "score",
+									"target": {
+										"type": "fixed",
+										"name": "#dnv"
+									},
+									"score": "dnv.xp_from_crops_multiplier"
+								}
 							}
-						}
-					],
+						]
+					},
 					"name": "emerald"
 				}
 			]
@@ -170,95 +167,102 @@
 			"entries": [
 				{
 					"type": "item",
-					"conditions": [
-						{
-							"condition": "any_of",
-							"terms": [
-								{
-									"condition": "value_check",
-									"value": {
-										"type": "score",
-										"target": {
-											"type": "fixed",
-											"name": "#dnv"
+					"condition": {
+						"type": "all_of",
+						"terms": [
+							{
+								"type": "any_of",
+								"terms": [
+									{
+										"type": "int_value_check",
+										"value": {
+											"type": "score",
+											"target": {
+												"type": "fixed",
+												"name": "#dnv"
+											},
+											"score": "dnv.xp_from_crops_require_player"
 										},
-										"score": "dnv.xp_from_crops_require_player"
+										"test": 0
 									},
-									"range": 0
-								},
-								{
-									"condition": "all_of",
-									"terms": [
-										{
-											"condition": "entity_properties",
-											"entity": "this",
-											"predicate": {
+									{
+										"type": "all_of",
+										"terms": [
+											{
+												"type": "entity_properties",
+												"entity": "this",
+												"predicate": {
 
-											}
-										},
-										{
-											"condition": "entity_scores",
-											"entity": "this",
-											"scores": {
-												"dnv.xp_nerfer": {
-													"min": 0,
-													"max": {
-														"min": 200,
-														"max": 500
+												}
+											},
+											{
+												"type": "entity_scores",
+												"entity": "this",
+												"scores": {
+													"dnv.xp_nerfer": {
+														"min": 0,
+														"max": {
+															"type": "uniform",
+															"min": 200,
+															"max": 500
+														}
 													}
 												}
 											}
-										}
-									]
-								}
-							]
-						},
-						{
-							"condition": "value_check",
-							"value": {
-								"type": "score",
-								"target": {
-									"type": "fixed",
-									"name": "#dnv"
-								},
-								"score": "dnv.xp_from_crops_disabled"
+										]
+									}
+								]
 							},
-							"range": 0
-						},
-						{
-							"condition": "random_chance",
-							"chance": 0.1
-						},
-						{
-							"condition": "block_state_property",
-							"block": "potatoes",
-							"properties": {
-								"age": "7"
-							}
-						}
-					],
-					"weight": 1,
-					"functions": [
-						{
-							"function": "set_components",
-							"components": {
-								"custom_data": {
-									"dnv.xp_orb": true
+							{
+								"type": "int_value_check",
+								"value": {
+									"type": "score",
+									"target": {
+										"type": "fixed",
+										"name": "#dnv"
+									},
+									"score": "dnv.xp_from_crops_disabled"
+								},
+								"test": 0
+							},
+							{
+								"type": "random_chance",
+								"chance": 0.1
+							},
+							{
+								"type": "match_block",
+								"blocks": "potatoes",
+								"state": {
+									"age": "7"
 								}
 							}
-						},
-						{
-							"function": "set_count",
-							"count": {
-								"type": "score",
-								"target": {
-									"type": "fixed",
-									"name": "#dnv"
-								},
-								"score": "dnv.xp_from_crops_multiplier"
+						]
+					},
+					"weight": 1,
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_components",
+								"components": {
+									"custom_data": {
+										"dnv.xp_orb": true
+									}
+								}
+							},
+							{
+								"type": "set_count",
+								"count": {
+									"type": "score",
+									"target": {
+										"type": "fixed",
+										"name": "#dnv"
+									},
+									"score": "dnv.xp_from_crops_multiplier"
+								}
 							}
-						}
-					],
+						]
+					},
 					"name": "emerald"
 				}
 			]

@@ -3,7 +3,7 @@
 		"crafted_fermented_sprout": {
 			"trigger": "recipe_crafted",
 			"conditions": {
-				"recipe_id": "fermented_spider_eye",
+				"recipes": "fermented_spider_eye",
 				"ingredients": [
 					{
 						"items": "spider_eye",

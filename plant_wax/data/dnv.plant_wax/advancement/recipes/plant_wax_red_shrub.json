@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_red_shrub": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "red_shrub"
+					}
+				]
+			}
+		},
+		"has_honeycomb": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "honeycomb"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipes": "dnv.plant_wax:plant_wax_red_shrub"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_red_shrub",
+			"has_honeycomb",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dnv.plant_wax:plant_wax_red_shrub"
+		]
+	}
+}

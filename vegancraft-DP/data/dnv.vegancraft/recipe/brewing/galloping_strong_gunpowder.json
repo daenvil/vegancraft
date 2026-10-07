@@ -1,0 +1,36 @@
+{
+	"type": "brewing",
+	"input": {
+		"item": "potion",
+		"potion_contents": {
+			"effects": {
+				"contains": [
+					{
+						"speed": {
+							"amplifier": 4,
+							"duration": 4800.0
+						}
+					}
+				]
+			}
+		}
+	},
+	"reagent": {
+		"item": "gunpowder"
+	},
+	"output": {
+		"id": "splash_potion",
+		"components": {
+			"potion_contents": {
+				"custom_name": "dnv.vegancraft.galloping",
+				"custom_effects": [
+					{
+						"id": "speed",
+						"amplifier": 4,
+						"duration": 4800.0
+					}
+				]
+			}
+		}
+	}
+}

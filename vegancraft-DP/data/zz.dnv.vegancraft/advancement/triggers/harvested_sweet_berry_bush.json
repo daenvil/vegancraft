@@ -3,19 +3,17 @@
 		"used_sweet_berry_bush": {
 			"trigger": "default_block_use",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"state": {
-									"age": "1"
-								},
-								"blocks": "sweet_berry_bush"
+				"location": {
+					"type": "location_check",
+					"predicate": {
+						"block": {
+							"blocks": "sweet_berry_bush",
+							"state": {
+								"age": "1"
 							}
 						}
 					}
-				]
+				}
 			}
 		}
 	},

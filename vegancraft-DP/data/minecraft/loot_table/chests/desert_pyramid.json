@@ -3,6 +3,7 @@
 	"pools": [
 		{
 			"rolls": {
+				"type": "uniform",
 				"min": 2,
 				"max": 4
 			},
@@ -10,113 +11,105 @@
 				{
 					"type": "item",
 					"weight": 5,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							}
+					"modifier": {
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"min": 1,
+							"max": 3
 						}
-					],
+					},
 					"name": "minecraft:diamond"
 				},
 				{
 					"type": "item",
 					"weight": 15,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							}
+					"modifier": {
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"min": 1,
+							"max": 5
 						}
-					],
+					},
 					"name": "minecraft:iron_ingot"
 				},
 				{
 					"type": "item",
 					"weight": 15,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 2,
-								"max": 7
-							}
+					"modifier": {
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"min": 2,
+							"max": 7
 						}
-					],
+					},
 					"name": "minecraft:gold_ingot"
 				},
 				{
 					"type": "item",
 					"weight": 15,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							}
+					"modifier": {
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"min": 1,
+							"max": 3
 						}
-					],
+					},
 					"name": "minecraft:emerald"
 				},
 				{
 					"type": "item",
 					"weight": 25,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 4,
-								"max": 6
-							}
+					"modifier": {
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"min": 4,
+							"max": 6
 						}
-					],
+					},
 					"name": "minecraft:bone"
 				},
 				{
 					"type": "item",
 					"weight": 25,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							}
+					"modifier": {
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"min": 1,
+							"max": 3
 						}
-					],
+					},
 					"name": "minecraft:spider_eye"
 				},
 				{
 					"type": "item",
 					"weight": 25,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 3,
-								"max": 7
-							}
+					"modifier": {
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"min": 3,
+							"max": 7
 						}
-					],
+					},
 					"name": "minecraft:rotten_flesh"
 				},
 				{
 					"type": "item",
 					"weight": 20,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							}
+					"modifier": {
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"min": 1,
+							"max": 5
 						}
-					],
+					},
 					"name": "minecraft:leather"
 				},
 				{
@@ -142,12 +135,10 @@
 				{
 					"type": "item",
 					"weight": 20,
-					"functions": [
-						{
-							"function": "enchant_randomly",
-							"options": "#minecraft:on_random_loot"
-						}
-					],
+					"modifier": {
+						"type": "enchant_randomly",
+						"options": "#minecraft:on_random_loot"
+					},
 					"name": "minecraft:book"
 				},
 				{
@@ -172,71 +163,66 @@
 				{
 					"type": "item",
 					"weight": 10,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 8
-							}
+					"modifier": {
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"min": 1,
+							"max": 8
 						}
-					],
+					},
 					"name": "minecraft:bone"
 				},
 				{
 					"type": "item",
 					"weight": 10,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 8
-							}
+					"modifier": {
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"min": 1,
+							"max": 8
 						}
-					],
+					},
 					"name": "minecraft:gunpowder"
 				},
 				{
 					"type": "item",
 					"weight": 10,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 8
-							}
+					"modifier": {
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"min": 1,
+							"max": 8
 						}
-					],
+					},
 					"name": "minecraft:rotten_flesh"
 				},
 				{
 					"type": "item",
 					"weight": 10,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 8
-							}
+					"modifier": {
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"min": 1,
+							"max": 8
 						}
-					],
+					},
 					"name": "minecraft:string"
 				},
 				{
 					"type": "item",
 					"weight": 10,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 8
-							}
+					"modifier": {
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"min": 1,
+							"max": 8
 						}
-					],
+					},
 					"name": "minecraft:sand"
 				}
 			]
@@ -251,23 +237,19 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": 2
-						}
-					],
+					"modifier": {
+						"type": "set_count",
+						"count": 2
+					},
 					"name": "minecraft:dune_armor_trim_smithing_template"
 				}
 			]
 		},
 		{
-			"conditions": [
-				{
-					"condition": "random_chance",
-					"chance": 0.25
-				}
-			],
+			"condition": {
+				"type": "random_chance",
+				"chance": 0.25
+			},
 			"rolls": 1,
 			"entries": [
 				{

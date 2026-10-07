@@ -44,7 +44,7 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegancraft:glow_item_frame"
+				"recipes": "dnv.vegancraft:glow_item_frame"
 			}
 		}
 	},

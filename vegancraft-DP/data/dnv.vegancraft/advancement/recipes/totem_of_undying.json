@@ -24,7 +24,7 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegancraft:totem_of_undying"
+				"recipes": "dnv.vegancraft:totem_of_undying"
 			}
 		},
 		"evoker_hurt_player": {
@@ -51,7 +51,11 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "evoker"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "evoker"
+					}
 				}
 			}
 		},
@@ -69,7 +73,11 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "vex"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "vex"
+					}
 				}
 			}
 		}

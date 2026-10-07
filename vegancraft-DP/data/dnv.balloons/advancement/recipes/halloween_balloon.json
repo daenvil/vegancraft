@@ -24,13 +24,13 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.balloons:halloween_balloon"
+				"recipes": "dnv.balloons:halloween_balloon"
 			}
 		},
-		"has_recipe_orange_balloon": {
+		"has_recipe_dnv.balloons:orange_balloon": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "orange_balloon"
+				"recipes": "dnv.balloons:orange_balloon"
 			}
 		}
 	},
@@ -45,7 +45,7 @@
 			"has_the_recipe"
 		],
 		[
-			"has_recipe_orange_balloon"
+			"has_recipe_dnv.balloons:orange_balloon"
 		]
 	],
 	"rewards": {

@@ -15,7 +15,7 @@
 					"underlined": true
 				},
 				{
-					"text": "\nv2.2.5, for MC26.2+",
+					"text": "\nv2.2.6, for MC26.3+",
 					"color": "gray",
 					"italic": false
 				}
@@ -24,9 +24,9 @@
 			"italic": false
 		},
 		"min_format": [
-			107,
-			1
+			121,
+			0
 		],
-		"max_format": 127
+		"max_format": 141
 	}
 }

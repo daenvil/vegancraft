@@ -1,4 +1,6 @@
 
+scoreboard objectives add dnv.vegancraft.is_loaded dummy
+scoreboard players set #dnv dnv.vegancraft.is_loaded 1
 scoreboard objectives add dnv.vxp dummy
 scoreboard objectives add dnv.vxp_int dummy
 scoreboard objectives add dnv.100 dummy

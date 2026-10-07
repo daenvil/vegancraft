@@ -3,7 +3,7 @@
 		"crafted_notsalmon_fillet_vegan": {
 			"trigger": "recipe_crafted",
 			"conditions": {
-				"recipe_id": "dnv.vegan_food:notsalmon_fillet",
+				"recipes": "dnv.vegan_food:notsalmon_fillet",
 				"ingredients": [
 					{
 						"items": "honey_bottle",

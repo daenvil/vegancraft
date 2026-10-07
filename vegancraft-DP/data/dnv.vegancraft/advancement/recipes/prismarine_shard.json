@@ -54,7 +54,7 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegancraft:prismarine_shard"
+				"recipes": "dnv.vegancraft:prismarine_shard"
 			}
 		}
 	},

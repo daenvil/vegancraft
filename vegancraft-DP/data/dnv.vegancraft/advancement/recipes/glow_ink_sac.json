@@ -24,7 +24,7 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegancraft:glow_ink_sac"
+				"recipes": "dnv.vegancraft:glow_ink_sac"
 			}
 		}
 	},

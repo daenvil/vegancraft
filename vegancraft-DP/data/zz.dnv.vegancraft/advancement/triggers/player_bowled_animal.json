@@ -4,7 +4,11 @@
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "#dnv.vegancraft:bowlable_animals"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "#dnv.vegancraft:bowlable_animals"
+					}
 				},
 				"item": {
 					"items": "bowl"

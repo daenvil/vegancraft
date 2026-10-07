@@ -34,14 +34,18 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegan_food:notfish_fillet"
+				"recipes": "dnv.vegan_food:notfish_fillet"
 			}
 		},
 		"player_hurt_cod": {
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "cod"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "cod"
+					}
 				}
 			}
 		},
@@ -49,7 +53,11 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "salmon"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "salmon"
+					}
 				}
 			}
 		}

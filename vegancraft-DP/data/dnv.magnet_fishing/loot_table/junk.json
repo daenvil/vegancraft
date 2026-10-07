@@ -7,147 +7,137 @@
 				{
 					"type": "item",
 					"weight": 3,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.9
-							}
+					"modifier": {
+						"type": "set_damage",
+						"damage": {
+							"type": "uniform",
+							"min": 0,
+							"max": 0.9
 						}
-					],
+					},
 					"name": "iron_pickaxe"
 				},
 				{
 					"type": "item",
 					"weight": 3,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.9
-							}
+					"modifier": {
+						"type": "set_damage",
+						"damage": {
+							"type": "uniform",
+							"min": 0,
+							"max": 0.9
 						}
-					],
+					},
 					"name": "iron_shovel"
 				},
 				{
 					"type": "item",
 					"weight": 3,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.9
-							}
+					"modifier": {
+						"type": "set_damage",
+						"damage": {
+							"type": "uniform",
+							"min": 0,
+							"max": 0.9
 						}
-					],
+					},
 					"name": "iron_axe"
 				},
 				{
 					"type": "item",
 					"weight": 3,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.9
-							}
+					"modifier": {
+						"type": "set_damage",
+						"damage": {
+							"type": "uniform",
+							"min": 0,
+							"max": 0.9
 						}
-					],
+					},
 					"name": "iron_hoe"
 				},
 				{
 					"type": "item",
 					"weight": 3,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.9
-							}
+					"modifier": {
+						"type": "set_damage",
+						"damage": {
+							"type": "uniform",
+							"min": 0,
+							"max": 0.9
 						}
-					],
+					},
 					"name": "shears"
 				},
 				{
 					"type": "item",
 					"weight": 3,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.9
-							}
+					"modifier": {
+						"type": "set_damage",
+						"damage": {
+							"type": "uniform",
+							"min": 0,
+							"max": 0.9
 						}
-					],
+					},
 					"name": "chainmail_helmet"
 				},
 				{
 					"type": "item",
 					"weight": 3,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.9
-							}
+					"modifier": {
+						"type": "set_damage",
+						"damage": {
+							"type": "uniform",
+							"min": 0,
+							"max": 0.9
 						}
-					],
+					},
 					"name": "chainmail_chestplate"
 				},
 				{
 					"type": "item",
 					"weight": 3,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.9
-							}
+					"modifier": {
+						"type": "set_damage",
+						"damage": {
+							"type": "uniform",
+							"min": 0,
+							"max": 0.9
 						}
-					],
+					},
 					"name": "chainmail_leggings"
 				},
 				{
 					"type": "item",
 					"weight": 3,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.9
-							}
+					"modifier": {
+						"type": "set_damage",
+						"damage": {
+							"type": "uniform",
+							"min": 0,
+							"max": 0.9
 						}
-					],
+					},
 					"name": "chainmail_boots"
 				},
 				{
 					"type": "tag",
 					"weight": 5,
-					"name": "dnv.magnet_fishing:junk",
+					"items": "#dnv.magnet_fishing:junk",
 					"expand": true
 				},
 				{
 					"type": "item",
 					"weight": 2,
-					"functions": [
-						{
-							"function": "set_damage",
-							"damage": {
-								"min": 0,
-								"max": 0.9
-							}
+					"modifier": {
+						"type": "set_damage",
+						"damage": {
+							"type": "uniform",
+							"min": 0,
+							"max": 0.9
 						}
-					],
+					},
 					"name": "fishing_rod"
 				}
 			]

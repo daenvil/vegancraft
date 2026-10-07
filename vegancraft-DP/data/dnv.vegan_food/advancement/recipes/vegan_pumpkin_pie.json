@@ -24,13 +24,13 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegan_food:vegan_pumpkin_pie"
+				"recipes": "dnv.vegan_food:vegan_pumpkin_pie"
 			}
 		},
 		"has_recipe_pumpkin_pie": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "pumpkin_pie"
+				"recipes": "pumpkin_pie"
 			}
 		}
 	},

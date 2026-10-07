@@ -44,14 +44,18 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.ethical_textiles:faux_leather_6to1"
+				"recipes": "dnv.ethical_textiles:faux_leather_6to1"
 			}
 		},
 		"interacted_with_cow": {
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "cow"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "cow"
+					}
 				}
 			}
 		},
@@ -59,7 +63,11 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "cow"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "cow"
+					}
 				}
 			}
 		}

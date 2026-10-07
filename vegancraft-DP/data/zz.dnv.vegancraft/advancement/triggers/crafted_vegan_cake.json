@@ -3,7 +3,7 @@
 		"crafted_vegan_cake": {
 			"trigger": "recipe_crafted",
 			"conditions": {
-				"recipe_id": "dnv.vegan_food:vegan_cake"
+				"recipes": "dnv.vegan_food:vegan_cake"
 			}
 		}
 	},

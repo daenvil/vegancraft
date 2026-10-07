@@ -1,0 +1,36 @@
+{
+	"type": "brewing",
+	"input": {
+		"item": "potion",
+		"potion_contents": {
+			"effects": {
+				"contains": [
+					{
+						"speed": {
+							"amplifier": 3,
+							"duration": 9600
+						}
+					}
+				]
+			}
+		}
+	},
+	"reagent": {
+		"item": "glowstone_dust"
+	},
+	"output": {
+		"id": "potion",
+		"components": {
+			"potion_contents": {
+				"custom_name": "dnv.vegancraft.galloping",
+				"custom_effects": [
+					{
+						"id": "speed",
+						"amplifier": 4,
+						"duration": 4800.0
+					}
+				]
+			}
+		}
+	}
+}

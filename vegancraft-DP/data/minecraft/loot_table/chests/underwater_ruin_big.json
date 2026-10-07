@@ -3,6 +3,7 @@
 	"pools": [
 		{
 			"rolls": {
+				"type": "uniform",
 				"min": 2,
 				"max": 8
 			},
@@ -10,29 +11,27 @@
 				{
 					"type": "item",
 					"weight": 10,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 4
-							}
+					"modifier": {
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"min": 1,
+							"max": 4
 						}
-					],
+					},
 					"name": "minecraft:coal"
 				},
 				{
 					"type": "item",
 					"weight": 10,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							}
+					"modifier": {
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"min": 1,
+							"max": 3
 						}
-					],
+					},
 					"name": "minecraft:gold_nugget"
 				},
 				{
@@ -48,15 +47,14 @@
 				{
 					"type": "item",
 					"weight": 10,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 2,
-								"max": 3
-							}
+					"modifier": {
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"min": 2,
+							"max": 3
 						}
-					],
+					},
 					"name": "minecraft:wheat"
 				}
 			]
@@ -72,12 +70,10 @@
 				{
 					"type": "item",
 					"weight": 5,
-					"functions": [
-						{
-							"function": "enchant_randomly",
-							"options": "#minecraft:on_random_loot"
-						}
-					],
+					"modifier": {
+						"type": "enchant_randomly",
+						"options": "#minecraft:on_random_loot"
+					},
 					"name": "minecraft:book"
 				},
 				{
@@ -93,26 +89,41 @@
 				{
 					"type": "item",
 					"weight": 5,
-					"functions": [
-						{
-							"function": "enchant_randomly",
-							"options": "#minecraft:on_random_loot"
-						}
-					],
+					"modifier": {
+						"type": "enchant_randomly",
+						"options": "#minecraft:on_random_loot"
+					},
 					"name": "minecraft:fishing_rod"
 				},
 				{
 					"type": "item",
 					"weight": 10,
-					"functions": [
-						{
-							"function": "exploration_map"
-						},
-						{
-							"function": "set_name"
-						}
-					],
-					"name": "minecraft:map"
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "exploration_map",
+								"destination": "#minecraft:on_treasure_maps",
+								"decoration": "minecraft:red_x",
+								"zoom": 1,
+								"skip_existing_chunks": false
+							},
+							{
+								"type": "filtered",
+								"item_filter": {
+									"predicates": {
+										"minecraft:map_id": {
+
+										}
+									}
+								},
+								"on_fail": {
+									"type": "discard"
+								}
+							}
+						]
+					},
+					"name": "minecraft:buried_treasure_map"
 				}
 			]
 		},
@@ -126,45 +137,37 @@
 				{
 					"type": "item",
 					"weight": 20,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": 1
-						}
-					],
+					"modifier": {
+						"type": "set_count",
+						"count": 1
+					},
 					"name": "minecraft:copper_nautilus_armor"
 				},
 				{
 					"type": "item",
 					"weight": 10,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": 1
-						}
-					],
+					"modifier": {
+						"type": "set_count",
+						"count": 1
+					},
 					"name": "minecraft:iron_nautilus_armor"
 				},
 				{
 					"type": "item",
 					"weight": 5,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": 1
-						}
-					],
+					"modifier": {
+						"type": "set_count",
+						"count": 1
+					},
 					"name": "minecraft:golden_nautilus_armor"
 				},
 				{
 					"type": "item",
 					"weight": 2,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": 1
-						}
-					],
+					"modifier": {
+						"type": "set_count",
+						"count": 1
+					},
 					"name": "minecraft:diamond_nautilus_armor"
 				}
 			]
@@ -175,15 +178,14 @@
 				{
 					"type": "item",
 					"weight": 9,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 0,
-								"max": 4
-							}
+					"modifier": {
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"min": 0,
+							"max": 4
 						}
-					],
+					},
 					"name": "nautilus_shell"
 				},
 				{

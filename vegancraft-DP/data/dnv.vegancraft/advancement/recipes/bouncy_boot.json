@@ -14,14 +14,18 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegancraft:bouncy_boot"
+				"recipes": "dnv.vegancraft:bouncy_boot"
 			}
 		},
 		"interacted_with_rabbit": {
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "rabbit"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "rabbit"
+					}
 				}
 			}
 		},
@@ -29,7 +33,11 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "minecraft:rabbit"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:rabbit"
+					}
 				}
 			}
 		},

@@ -24,14 +24,18 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.ethical_textiles:faux_feather"
+				"recipes": "dnv.ethical_textiles:faux_feather"
 			}
 		},
 		"interacted_with_chicken": {
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "chicken"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "chicken"
+					}
 				}
 			}
 		},
@@ -39,7 +43,11 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "chicken"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "chicken"
+					}
 				}
 			}
 		},
@@ -47,7 +55,11 @@
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "parrot"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "parrot"
+					}
 				}
 			}
 		},
@@ -55,7 +67,11 @@
 			"trigger": "player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "parrot"
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "parrot"
+					}
 				}
 			}
 		},

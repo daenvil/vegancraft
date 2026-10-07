@@ -6,34 +6,13 @@
 			"entries": [
 				{
 					"type": "item",
-					"conditions": [
-						{
-							"condition": "any_of",
-							"terms": [
-								{
-									"condition": "match_tool",
-									"predicate": {
-										"items": "shears"
-									}
-								},
-								{
-									"condition": "match_tool",
-									"predicate": {
-										"predicates": {
-											"minecraft:enchantments": [
-												{
-													"enchantments": "minecraft:silk_touch",
-													"levels": {
-														"min": 1
-													}
-												}
-											]
-										}
-									}
-								}
-							]
-						}
-					],
+					"condition": {
+						"type": "any_of",
+						"terms": [
+							"minecraft:tool/can_shear",
+							"minecraft:tool/can_silk_touch"
+						]
+					},
 					"weight": 1,
 					"name": "torchflower"
 				}
@@ -44,52 +23,34 @@
 			"entries": [
 				{
 					"type": "item",
-					"conditions": [
-						{
-							"condition": "inverted",
-							"term": {
-								"condition": "any_of",
-								"terms": [
-									{
-										"condition": "match_tool",
-										"predicate": {
-											"items": "shears"
-										}
-									},
-									{
-										"condition": "match_tool",
-										"predicate": {
-											"predicates": {
-												"minecraft:enchantments": [
-													{
-														"enchantments": "minecraft:silk_touch",
-														"levels": {
-															"min": 1
-														}
-													}
-												]
-											}
-										}
-									}
-								]
+					"condition": {
+						"type": "all_of",
+						"terms": [
+							{
+								"type": "inverted",
+								"term": {
+									"type": "any_of",
+									"terms": [
+										"minecraft:tool/can_shear",
+										"minecraft:tool/can_silk_touch"
+									]
+								}
+							},
+							{
+								"type": "survives_explosion"
 							}
-						},
-						{
-							"condition": "survives_explosion"
-						}
-					],
+						]
+					},
 					"weight": 1,
-					"functions": [
-						{
-							"function": "apply_bonus",
-							"enchantment": "minecraft:fortune",
-							"formula": "binomial_with_bonus_count",
-							"parameters": {
-								"extra": 1,
-								"probability": 0.428571
-							}
+					"modifier": {
+						"type": "apply_bonus",
+						"enchantment": "minecraft:fortune",
+						"formula": "binomial_with_bonus_count",
+						"parameters": {
+							"extra": 1,
+							"probability": 0.428571
 						}
-					],
+					},
 					"name": "torchflower_seeds"
 				}
 			]
@@ -99,77 +60,64 @@
 			"entries": [
 				{
 					"type": "item",
-					"conditions": [
-						{
-							"condition": "inverted",
-							"term": {
-								"condition": "any_of",
-								"terms": [
-									{
-										"condition": "match_tool",
-										"predicate": {
-											"items": "shears"
-										}
-									},
-									{
-										"condition": "match_tool",
-										"predicate": {
-											"predicates": {
-												"minecraft:enchantments": [
-													{
-														"enchantments": "minecraft:silk_touch",
-														"levels": {
-															"min": 1
-														}
-													}
-												]
-											}
-										}
-									}
-								]
+					"condition": {
+						"type": "all_of",
+						"terms": [
+							{
+								"type": "inverted",
+								"term": {
+									"type": "any_of",
+									"terms": [
+										"minecraft:tool/can_shear",
+										"minecraft:tool/can_silk_touch"
+									]
+								}
+							},
+							{
+								"type": "random_chance",
+								"chance": 0.25
+							},
+							{
+								"type": "survives_explosion"
 							}
-						},
-						{
-							"condition": "random_chance",
-							"chance": 0.25
-						},
-						{
-							"condition": "survives_explosion"
-						}
-					],
+						]
+					},
 					"weight": 1,
-					"functions": [
-						{
-							"function": "set_components",
-							"components": {
-								"item_name": {
-									"translate": "dnv.vegancraft.item.blazing_powder",
-									"fallback": "Blazing Powder",
-									"italic": false
-								},
-								"lore": [
-									{
-										"text": "Daenvil's Vegancraft",
-										"color": "green",
-										"italic": true
-									}
-								],
-								"custom_data": {
-									"dnv.vegan": true
-								},
-								"item_model": "dnv.vegancraft:blazing_powder"
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_components",
+								"components": {
+									"item_name": {
+										"translate": "dnv.vegancraft.item.blazing_powder",
+										"fallback": "Blazing Powder",
+										"italic": false
+									},
+									"lore": [
+										{
+											"text": "Daenvil's Vegancraft",
+											"color": "green",
+											"italic": true
+										}
+									],
+									"custom_data": {
+										"dnv.vegan": true
+									},
+									"item_model": "dnv.vegancraft:blazing_powder"
+								}
+							},
+							{
+								"type": "apply_bonus",
+								"enchantment": "minecraft:fortune",
+								"formula": "binomial_with_bonus_count",
+								"parameters": {
+									"extra": 1,
+									"probability": 0.333333
+								}
 							}
-						},
-						{
-							"function": "apply_bonus",
-							"enchantment": "minecraft:fortune",
-							"formula": "binomial_with_bonus_count",
-							"parameters": {
-								"extra": 1,
-								"probability": 0.333333
-							}
-						}
-					],
+						]
+					},
 					"name": "blaze_powder"
 				}
 			]
@@ -179,114 +127,102 @@
 			"entries": [
 				{
 					"type": "item",
-					"conditions": [
-						{
-							"condition": "inverted",
-							"term": {
-								"condition": "any_of",
+					"condition": {
+						"type": "all_of",
+						"terms": [
+							{
+								"type": "inverted",
+								"term": {
+									"type": "any_of",
+									"terms": [
+										"minecraft:tool/can_shear",
+										"minecraft:tool/can_silk_touch"
+									]
+								}
+							},
+							{
+								"type": "any_of",
 								"terms": [
 									{
-										"condition": "match_tool",
-										"predicate": {
-											"items": "shears"
-										}
+										"type": "int_value_check",
+										"value": {
+											"type": "score",
+											"target": {
+												"type": "fixed",
+												"name": "#dnv"
+											},
+											"score": "dnv.xp_from_crops_require_player"
+										},
+										"test": 0
 									},
 									{
-										"condition": "match_tool",
-										"predicate": {
-											"predicates": {
-												"minecraft:enchantments": [
-													{
-														"enchantments": "minecraft:silk_touch",
-														"levels": {
-															"min": 1
-														}
-													}
-												]
-											}
-										}
-									}
-								]
-							}
-						},
-						{
-							"condition": "any_of",
-							"terms": [
-								{
-									"condition": "value_check",
-									"value": {
-										"type": "score",
-										"target": {
-											"type": "fixed",
-											"name": "#dnv"
-										},
-										"score": "dnv.xp_from_crops_require_player"
-									},
-									"range": 0
-								},
-								{
-									"condition": "all_of",
-									"terms": [
-										{
-											"condition": "entity_properties",
-											"entity": "this",
-											"predicate": {
+										"type": "all_of",
+										"terms": [
+											{
+												"type": "entity_properties",
+												"entity": "this",
+												"predicate": {
 
-											}
-										},
-										{
-											"condition": "entity_scores",
-											"entity": "this",
-											"scores": {
-												"dnv.xp_nerfer": {
-													"min": 0,
-													"max": {
-														"min": 200,
-														"max": 500
+												}
+											},
+											{
+												"type": "entity_scores",
+												"entity": "this",
+												"scores": {
+													"dnv.xp_nerfer": {
+														"min": 0,
+														"max": {
+															"type": "uniform",
+															"min": 200,
+															"max": 500
+														}
 													}
 												}
 											}
-										}
-									]
-								}
-							]
-						},
-						{
-							"condition": "value_check",
-							"value": {
-								"type": "score",
-								"target": {
-									"type": "fixed",
-									"name": "#dnv"
-								},
-								"score": "dnv.xp_from_crops_disabled"
+										]
+									}
+								]
 							},
-							"range": 0
-						}
-					],
+							{
+								"type": "int_value_check",
+								"value": {
+									"type": "score",
+									"target": {
+										"type": "fixed",
+										"name": "#dnv"
+									},
+									"score": "dnv.xp_from_crops_disabled"
+								},
+								"test": 0
+							}
+						]
+					},
 					"weight": 1,
-					"functions": [
-						{
-							"function": "set_components",
-							"components": {
-								"custom_data": {
-									"dnv.xp_orb": true
+					"modifier": {
+						"type": "sequence",
+						"functions": [
+							{
+								"type": "set_components",
+								"components": {
+									"custom_data": {
+										"dnv.xp_orb": true
+									}
+								}
+							},
+							{
+								"type": "set_count",
+								"count": {
+									"type": "score",
+									"target": {
+										"type": "fixed",
+										"name": "#dnv"
+									},
+									"score": "dnv.xp_from_crops_multiplier",
+									"scale": 2.0
 								}
 							}
-						},
-						{
-							"function": "set_count",
-							"count": {
-								"type": "score",
-								"target": {
-									"type": "fixed",
-									"name": "#dnv"
-								},
-								"score": "dnv.xp_from_crops_multiplier",
-								"scale": 2.0
-							}
-						}
-					],
+						]
+					},
 					"name": "emerald"
 				}
 			]

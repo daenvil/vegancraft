@@ -4,7 +4,7 @@
 	"ingredients": [
 		"bread",
 		"beetroot",
-		"brown_mushroom"
+		"#mushrooms"
 	],
 	"result": {
 		"id": "cooked_porkchop",

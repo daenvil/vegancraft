@@ -24,7 +24,7 @@
 		"has_the_recipe": {
 			"trigger": "recipe_unlocked",
 			"conditions": {
-				"recipe": "dnv.vegancraft:blazing_rod"
+				"recipes": "dnv.vegancraft:blazing_rod"
 			}
 		},
 		"blaze_hurt_player": {
